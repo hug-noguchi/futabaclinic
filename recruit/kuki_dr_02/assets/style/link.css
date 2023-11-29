@@ -1,0 +1,91 @@
+.mainv {
+  height: auto;
+  margin: 30px 0;
+}
+
+.mainv h1 {
+  text-align: center;
+}
+
+.mainv h1 img {
+  padding: 0;
+  margin-left: 0;
+  width: 40%;
+}
+
+@media all and (max-width: 600px) {
+  .mainv h1 img {
+    width: 70%;
+  }
+}
+
+.mainv > img {
+  margin-top: 4%;
+  width: 19%;
+  right: 41%;
+  transform: translate(172%, -39px);
+  z-index: 1;
+}
+
+@media all and (max-width: 600px) {
+  .mainv > img {
+    display: block;
+  }
+}
+
+main section.cta {
+  margin-top: 0px;
+  padding: 20px 0;
+  position: relative;
+}
+
+main section.cta a {
+  text-align: center;
+  width: 310px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  margin: 30px auto 20px;
+  background-color: #F48A9D;
+  display: block;
+  background: #f48a9d;
+  background: linear-gradient(to bottom, #f48a9d 72%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f48a9d', endColorstr='#ffffff',GradientType=0 );
+  border-radius: 30px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  position: relative;
+  text-decoration: none;
+  transition: opacity 0.4s ease-out;
+}
+
+@media all and (max-width: 420px) {
+  main section.cta a {
+    width: 80%;
+  }
+}
+
+main section.cta a:hover {
+  opacity: 0.7;
+}
+
+main section.cta a:after {
+  content: "";
+  background: url(../../../../common/images/arrow_01.svg);
+  background-repeat: repeat;
+  width: 13px;
+  height: 16px;
+  position: absolute;
+  top: 21px;
+  right: 10px;
+  border: none;
+  background-repeat: no-repeat;
+}
+
+main section.cta .fluffy {
+  width: 15%;
+  left: -5%;
+  position: absolute;
+  top: 65%;
+}
+/*# sourceMappingURL=link.css.map */

@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+#main section#sec_02 .lead {
+  margin: 30px 0 60px !important;
+  position: relative;
+}
+section#open_box .txt_04:before,
+section#open_box .txt_05:before {
+  background: url(/common/images/icon_check_02.svg) no-repeat 0 0;
+}
+@media (max-width: 480px) {
+  #main section#sec_03 div:last-child ul {
+    background: url(/common/images/fukidashi.svg) no-repeat 0 26%/70% auto;
+    height: 179px;
+    padding: 42px 5%;
+  }
+  #main section#sec_03 div:last-child ul li {
+    font-size: 14px;
+    padding-left: 25px;
+  }
+  section#open_box .txt_box_00 p:last-child {
+    letter-spacing: -0.8px;
+  }
+  section#open_box .txt_box_00 p:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
+@media all and (max-width: 414px) {
+  #main section#sec_02 .lead {
+    margin-bottom: 40px !important;
+  }
+  #main section#sec_02 .lead p:first-child {
+    font-size: 16px;
+    width: 184px;
+  }
+  #main section#sec_02 div:nth-child(4) span {
+    line-height: 1.2 !important;
+  }
+}
+
+@media all and (max-width: 480px) {
+  #main section#sec_06 ul li {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 481px) {
+  #main section#sec_06 .sec_06_list {
+    display: inline-block;
+    width: 25em;
+  }
+  #main section#sec_06 li:nth-child(6) {
+    width: 16em;
+  }
+}
+
+@media all and (min-width: 481px) {
+  #main section#sec_06 .sec_06_list:nth-child(2) {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+}
+
+#open_box .txt_08 {
+  display: inline-block;
+  width: 213px;
+  height: 30px;
+  border-radius: 14.5px/ 14.5px;
+  background-color: #8bc33f;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  clear: both;
+}
+
+@media all and (max-width: 480px) {
+  #open_box .txt_08 {
+    margin-top: 0;
+  }
+}
+
+#open_box .photo_kukiin {
+  padding: 5px;
+  background: #fff;
+  width: 213px;
+  box-shadow: 0 0 4px #d4cdc4;
+  margin: 13px;
+  height: 213px;
+  text-align: center;
+}
+
+#open_box .photo_kukiin img {
+  width: 203px;
+  height: 203px;
+}
+
+#open_box .txt_box_01 ul,
+#open_box .txt_box_02 ul {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media all and (max-width: 480px) {
+  #open_box .txt_box_03 ul {
+    flex-wrap: nowrap;
+  }
+}
+
+#open_box .txt_box_02 ul {
+  width: 240px;
+}
+
+#open_box .txt_box_02 ul > li {
+  width: 49px;
+  height: 27px;
+  text-align: center;
+  color: #8bc33f;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 2px;
+  margin: 3px;
+  border: 2px solid #8bc33f;
+}
+
+#open_box .txt_box_02 ul li:nth-child(4) {
+  width: 61px;
+}
+
+#open_box .txt_box_02 ul > li:last-child {
+  width: 61px;
+}
+
+#open_box .txt_box_03 ul {
+  width: auto;
+  flex-wrap: unset;
+}
+
+#open_box .txt_box_03 ul li:nth-child(2) {
+  width: 70px;
+}
+
+#open_box .shiny-btn-kukiin {
+  display: inline-block;
+  width: 170px;
+  height: 30px;
+  border-radius: 5px / 5px;
+  background-color: #8bc33f;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+}
+
+a.shiny-btn-kukiin span:after {
+  content: "▶︎";
+  position: absolute;
+  right: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+
+#main section#open_box .txt_box_sakura ul li:nth-child(2) {
+  width: auto;
+}
+
+#main section#open_box .txt_box_sakura ul li:nth-child(3),
+#main section#open_box .txt_box_sakura ul li:nth-child(4) {
+  width: 61px;
+}
+
+@media (min-width: 481px) {
+  .txt_box_01 {
+    justify-content: unset;
+  }
+  .txt_box_01 .line_right,
+  .txt_box_01 .txt_box_03,
+  .txt_box_01 .txt_box_sakura,
+  .txt_box_01 .txt_box_yachiyo {
+    width: 50% !important;
+  }
+  #open_box .txt_box_02 {
+    width: auto;
+  }
+  .txt_box_01 .txt_box_03 .txt_13 {
+    line-height: 3.9 !important;
+  }
+  .txt_box_01 .txt_box_yachiyo {
+    margin-top: 35px;
+  }
+  #main section#open_box .txt_box_sakura {
+    margin-right: 0;
+  }
+}
+
+#open_box .yachiyo_toho .txt_12 {
+  display: inline-block;
+  width: 213px;
+  height: 30px;
+  border-radius: 14.5px / 14.5px;
+  background-color: #c7b2d6;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  clear: both;
+}
+#open_box .kukiin_toho,
+#open_box .yachiyo_toho {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#open_box .photo_kitasenju,
+#open_box .photo_shinkoiwa,
+#open_box .photo_kukiin,
+#open_box .photo_sakura,
+#open_box .photo_yachiyo {
+  margin: 13px auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#open_box .photo_yachiyo {
+  padding: 5px;
+  background: #fff;
+  width: 213px;
+  box-shadow: 0 0 4px #d4cdc4;
+  height: 213px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#open_box .photo_yachiyo img {
+  width: 203px;
+  height: 203px;
+}
+.txt_box_01 ul {
+  margin: 0 auto;
+}
+.txt_box_yachiyo ul li {
+  width: 49px;
+  height: 27px;
+  text-align: center;
+  color: #c7b2d6;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 2px;
+  margin: 3px;
+  border: 2px solid #c7b2d6;
+}
+.txt_box_yachiyo ul li:nth-child(1) {
+  width: 61px;
+}
+#open_box .shiny-btn-yachiyo {
+  display: inline-block;
+  width: 170px;
+  height: 30px;
+  border-radius: 5px / 5px;
+  background-color: #c7b2d6;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  .txt_box_01 .txt_box_yachiyo {
+    margin: 15px auto;
+  }
+}

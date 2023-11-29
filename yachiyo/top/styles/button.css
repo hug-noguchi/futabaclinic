@@ -1,0 +1,671 @@
+.origfadeInRight {
+  -webkit-animation-name: origfadeInRight;
+  animation-name: origfadeInRight;
+}
+
+@media all and (max-width: 600px) {
+  .origfadeInRight {
+    -webkit-animation-name: origfadeInRight;
+    animation-name: origfadeInRight;
+  }
+}
+li {
+  list-style: none;
+}
+
+@media all and (min-width: 600px) {
+  .sp {
+    display: none;
+  }
+}
+
+.mainv {
+  height: auto;
+  margin: 30px 0;
+}
+
+.mainv h1 {
+  text-align: center;
+}
+@media all and (max-width: 600px) {
+  .mainv h1 {
+    margin-top: 65px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+}
+
+.h_contact_link_01 {
+  right: 139px;
+}
+
+.mainv h1 img {
+  padding: 0;
+  margin-left: 0;
+  width: 30%;
+}
+@media all and (max-width: 600px) {
+  .mainv h1 img {
+    width: 65%;
+  }
+}
+
+.mainv > img {
+  margin-top: 4%;
+  width: 19%;
+  right: 41%;
+  transform: translate(172%, -39px);
+  z-index: 1;
+}
+@media all and (max-width: 600px) {
+  .mainv > img {
+    display: block;
+  }
+}
+
+main section.bosyu {
+  margin-bottom: 50px;
+}
+main section.bosyu h3.tit {
+  background: url(/common/images/icon_futaba.svg) no-repeat 6px 5px/37px auto, #8bc33e;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  height: 46px;
+  line-height: 39px;
+  padding: 5px 0 5px 48px;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto 30px;
+}
+@media all and (max-width: 600px) {
+  main section.bosyu h3.tit {
+    font-size: 4.8vw;
+    width: 100%;
+  }
+}
+main section.bosyu .txt_box {
+  max-width: 80%;
+  margin: 20px auto 0;
+  text-align: left;
+  padding-left: 100px;
+}
+main section.bosyu .txt_box p + p {
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 959px) {
+  main section.bosyu .txt_box {
+    padding-left: 50px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  main section.bosyu .txt_box {
+    max-width: 95%;
+    padding: 0 10px 0 10px;
+  }
+}
+
+main section.conditions {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 330px;
+  background-position: 95% 90%;
+}
+@media all and (max-width: 600px) {
+  main section.conditions {
+    background-size: 150px;
+  }
+}
+main section.conditions h3.tit {
+  background: url(/common/images/icon_futaba.svg) no-repeat 6px 5px/37px auto, #8bc33e;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  height: 46px;
+  line-height: 39px;
+  padding: 5px 0 5px 48px;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+@media all and (max-width: 600px) {
+  main section.conditions h3.tit {
+    font-size: 4.8vw;
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  main section.conditions > div > div .serif {
+    top: -70px;
+    left: 20px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  main section.conditions > div > div .serif_3 {
+    top: -30px;
+    left: 60px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  main section.conditions > div > div .serif_5 {
+    left: 20px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  main section.conditions > div > div .serif_5-2 {
+    left: 150px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  main section.conditions > div {
+    max-width: 95%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  main section.conditions > div {
+    margin-top: 20px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .h_contact_link {
+    right: 5px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .h_contact_link_01 {
+    right: 78px;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
+
+#tit_box {
+  width: 80%;
+  margin: 40px 10% 50px;
+  padding: 0px 0 10px;
+  text-align: center;
+}
+@media all and (max-width: 600px) {
+  #tit_box {
+    margin-top: 20px;
+  }
+}
+#tit_box h2#tit_01 {
+  font-size: 2.2vw;
+  font-weight: normal;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+@media all and (max-width: 600px) {
+  #tit_box h2#tit_01 {
+    font-size: 5.6vw;
+    margin: 20px 10% 10px;
+  }
+}
+#tit_box .slider {
+  margin: 0 auto;
+  width: 40%;
+}
+@media all and (max-width: 600px) {
+  #tit_box .slider {
+    width: 100%;
+  }
+}
+#tit_box img {
+  width: 100%;
+  margin-bottom: 40px;
+  height: auto;
+}
+@media all and (max-width: 600px) {
+  #tit_box img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+#tit_box p {
+  font-size: 2.2vw;
+}
+
+main section.sec_01 {
+  margin-top: 0px;
+  padding: 0 0 20px;
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  border-top: 5px solid #89c13f;
+}
+main section.sec_01 .txt_box_01 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-radius: 0;
+  border: none;
+  position: relative;
+}
+main section.sec_01 .txt_box_01 .tit_01 {
+  font-size: 2.2vw;
+  font-weight: normal;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+@media all and (max-width: 600px) {
+  main section.sec_01 .txt_box_01 .tit_01 {
+    font-size: 5.6vw;
+    margin: 0 10% 10px;
+  }
+}
+main section.sec_01 .txt_box_01 ul {
+  text-align: left;
+  width: 39%;
+  margin: 0 auto 20px;
+}
+@media all and (max-width: 600px) {
+  main section.sec_01 .txt_box_01 ul {
+    width: 90%;
+  }
+}
+main section.sec_01 .txt_box_01 ul li {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  font-weight: bold;
+  position: relative;
+  color: #f48a9d;
+  padding-left: 5px;
+}
+@media all and (max-width: 600px) {
+  main section.sec_01 .txt_box_01 ul li {
+    font-size: 4.2vw;
+  }
+}
+main section.sec_01 .txt_box_01 ul li + li {
+  margin-top: 8px;
+}
+main section.sec_01 .txt_box_01 ul li:before {
+  background: url(/common/images/icon_check_02.svg) no-repeat 0 0;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 31px;
+  height: 27px;
+  left: -32px;
+  top: 1px;
+}
+main section.sec_01 .txt_box_01 p {
+  width: auto;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+main section.sec_01 .txt_box_01 p::before {
+  display: none;
+}
+@media all and (max-width: 600px) {
+  main section.sec_01 .txt_box_01 p {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+}
+main section.sec_01 .txt_box_01 .lead {
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #f48a9d;
+}
+@media all and (max-width: 600px) {
+  main section.sec_01 .txt_box_01 .lead {
+    width: 97%;
+    font-size: 1.6rem;
+  }
+}
+main section.sec_01 .txt_box_01 .tyusyaku {
+  font-size: 1.4rem;
+  margin-top: 10px;
+  line-height: 1.6;
+  color: #4d4d4d;
+  font-weight: normal;
+}
+@media all and (max-width: 600px) {
+  main section.sec_01 .txt_box_01 .tyusyaku {
+    font-size: 1.4rem;
+    padding-left: 2em;
+    text-indent: -1em;
+  }
+}
+main section.sec_01 .fluffy {
+  width: 15%;
+  left: -5%;
+  position: absolute;
+  top: 65%;
+}
+
+main section.sec_02 {
+  width: 80%;
+  margin: 0 auto;
+}
+@media all and (max-width: 600px) {
+  main section.sec_02 {
+    width: 100%;
+  }
+}
+main section.sec_02 .map {
+  background-image: url(../images/bg.svg);
+  background-size: 20px;
+  margin-top: 40px;
+  padding: 0 0 40px;
+}
+@media all and (max-width: 600px) {
+  main section.sec_02 .map {
+    margin-top: 40px;
+  }
+}
+main section.sec_02 .map h3 {
+  background: url(/common/images/icon_futaba.svg) no-repeat 6px 5px/37px auto, #8bc33e;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  height: 46px;
+  line-height: 39px;
+  padding: 5px 0 5px 48px;
+  text-align: left;
+}
+@media all and (max-width: 600px) {
+  main section.sec_02 .map h3 {
+    font-size: 4.8vw;
+  }
+}
+main section.sec_02 .map .address {
+  font-size: 1.6rem;
+  width: 90%;
+  text-align: left;
+  margin: 0 auto 10px;
+  color: #4d4d4d;
+}
+@media all and (max-width: 600px) {
+  main section.sec_02 .map .address {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+}
+main section.sec_02 .map h4 {
+  text-align: left;
+  font-size: 1.7rem;
+  color: #f48a9d;
+  font-weight: bold;
+  border-left: 5px solid #f48a9d;
+  border-bottom: 3px solid #f48a9d;
+  margin: 0 0 10px 5%;
+  padding-left: 5px;
+  width: 44%;
+}
+@media all and (max-width: 600px) {
+  main section.sec_02 .map h4 {
+    font-size: 1.7rem;
+    width: 90%;
+  }
+}
+main section.sec_02 .map ul {
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+}
+main section.sec_02 .map ul li {
+  float: left;
+  width: 49%;
+}
+@media all and (max-width: 600px) {
+  main section.sec_02 .map ul li {
+    float: none;
+    width: auto;
+  }
+}
+main section.sec_02 .map ul li + li {
+  float: right;
+  width: 48%;
+}
+@media all and (max-width: 600px) {
+  main section.sec_02 .map ul li + li {
+    float: none;
+    width: auto;
+  }
+}
+main section.sec_02 .map ul img {
+  width: 100%;
+}
+main section.sec_02 .map ul:nth-child(1) img {
+  width: 49.4%;
+}
+main section.sec_02 .map .g_map {
+  width: 90%;
+  margin: 20px auto 0;
+}
+@media all and (max-width: 600px) {
+  main section.sec_02 .map .g_map {
+    position: relative;
+    padding-bottom: 58.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin: 15px 20px 0;
+  }
+}
+main section.sec_02 .map .g_map iframe {
+  width: 100%;
+}
+@media all and (max-width: 600px) {
+  main section.sec_02 .map .g_map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+main section.cta {
+  margin-top: 80px;
+}
+
+.btn_01 {
+  width: 40%;
+  margin: 50px auto 60px;
+}
+@media all and (max-width: 600px) {
+  .btn_01 {
+    width: 90%;
+  }
+}
+.btn_01 p {
+  font-size: 26px;
+  color: #f48a9d;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.btn_01 a {
+  position: relative;
+  width: 90%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #f48a9d;
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+}
+@media all and (max-width: 600px) {
+  .btn_01 a {
+    width: 100%;
+  }
+}
+.btn_01 a:hover {
+  opacity: 0.8;
+}
+.btn_01 a span {
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  position: relative;
+  font-size: 24px;
+}
+@media all and (max-width: 600px) {
+  .btn_01 a span {
+    line-height: 60px;
+    font-size: 4.6vw;
+  }
+}
+.btn_01 a span:after {
+  content: "\025b6";
+  position: absolute;
+  right: 28px;
+}
+@media all and (max-width: 600px) {
+  .btn_01 a span:after {
+    right: 1.2vw;
+  }
+}
+
+.btn_01 a {
+  animation: blink 1s linear infinite normal;
+  -webkit-animation: blink 1s linear infinite normal;
+  -moz-animation: blink 1s linear infinite normal;
+  -o-animation: blink 1s linear infinite normal;
+}
+
+.btn_01 a:hover {
+  animation: none;
+  -webkit-animation: none;
+}
+
+@keyframes blink {
+  0% {
+    background-color: #f48a9d;
+  }
+  10% {
+    background-color: #ffaab9;
+  }
+  100% {
+    background-color: #ff8399;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    background-color: #f48a9d;
+  }
+  10% {
+    background-color: #ffaab9;
+  }
+  100% {
+    background-color: #ff8399;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    background-color: #f48a9d;
+  }
+  10% {
+    background-color: #ffaab9;
+  }
+  100% {
+    background-color: #ff8399;
+  }
+}
+@-o-keyframes blink {
+  0% {
+    background-color: #f48a9d;
+  }
+  10% {
+    background-color: #ffaab9;
+  }
+  100% {
+    background-color: #ff8399;
+  }
+}
+footer {
+  margin-top: 50px;
+}
+@media all and (min-width: 601px) {
+  footer img {
+    width: 30%;
+  }
+}
+
+a.button_contact {
+  max-width: 300px;
+  min-width: 200px;
+  width: 30%;
+}
+
+a.button_contact {
+  position: relative;
+  width: 23%;
+  height: 72px;
+  line-height: 72px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #f48a9d;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+@media all and (max-width: 600px) {
+  a.button_contact {
+    width: 100% !important;
+    height: 15vw;
+    line-height: 15vw;
+  }
+}
+a.button_contact:after {
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(100deg, rgba(255, 255, 255, 0) 10%, white 100%, rgba(255, 255, 255, 0) 0%);
+  animation-name: shiny;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+a.button_contact span {
+  height: 72px;
+  line-height: 72px;
+  position: relative;
+  font-size: 18px;
+}
+@media all and (max-width: 600px) {
+  a.button_contact span {
+    font-size: 4vw;
+    height: 15vw;
+    line-height: 15vw;
+  }
+}
+a.button_contact span:after {
+  content: "\025b6";
+  position: absolute;
+  right: -19px;
+}
+
+/*# sourceMappingURL=kitasenjyu.css.map */

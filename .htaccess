@@ -1,0 +1,80 @@
+ErrorDocument 404 /404.php
+
+AddType video/ogg .ogg .ogv
+AddType audio/ogg .ogg
+AddType application/ogg .ogg .ogv
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^futabaclinic\.jp$
+RewriteRule ^(.*)$ http://www.futabaclinic.jp/$1 [R=301,L]
+
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/index.(html|php)
+RewriteRule ^(.*)index.(html|php)$ http://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.futabaclinic.jp/$1 [R=301,L]
+RewriteRule ^edogawa(.*)$ /shinkoiwa$1 [L,R=301]
+RewriteRule ^recruit/02/edogawa.html$ /recruit/02/shinkoiwa.html [R=301,L]
+
+# ページをリダイレクト
+RewriteEngine on
+RewriteRule ^recruit/02/sakura.html$ https://www.futabaclinic.jp/sakura/ [L,R=301]
+RewriteRule ^message/$ https://www.futabaclinic.jp/kuki/message/ [L,R=301]
+RewriteRule ^guide/$ https://www.futabaclinic.jp/kuki/guide/ [L,R=301]
+RewriteRule ^about/$ https://www.futabaclinic.jp/kuki/about/ [L,R=301]
+RewriteRule ^area/$ https://www.futabaclinic.jp/kuki/area/ [L,R=301]
+RewriteRule ^recruit/$ https://www.futabaclinic.jp/kuki/recruit/ [L,R=301]
+RewriteRule ^all/$ https://www.futabaclinic.jp/ [L,R=301]
+RewriteRule ^kuki/guide/qa/02.php$ https://www.futabaclinic.jp/kuki/faq/ [L,R=301]
+RewriteRule ^kuki/about/qa/02.php$ https://www.futabaclinic.jp/kuki/faq/ [L,R=301]
+RewriteRule ^kitasenju/guide/qa/02.php$ https://www.futabaclinic.jp/kitasenju/faq/ [L,R=301]
+RewriteRule ^kitasenju/about/qa/02.php$ https://www.futabaclinic.jp/kitasenju/faq/ [L,R=301]
+RewriteRule ^shinkoiwa/guide/qa/02.php$ https://www.futabaclinic.jp/shinkoiwa/faq/ [L,R=301]
+RewriteRule ^shinkoiwa/about/qa/02.php$ https://www.futabaclinic.jp/shinkoiwa/faq/ [L,R=301]
+RewriteRule ^sakura/guide/qa/02.php$ https://www.futabaclinic.jp/sakura/faq/ [L,R=301]
+RewriteRule ^sakura/about/qa/02.php$ https://www.futabaclinic.jp/sakura/faq/ [L,R=301]
+RewriteRule ^kuki/guide/qa/01.php$ https://www.futabaclinic.jp/kuki/faq/ [L,R=301]
+RewriteRule ^kuki/about/qa/01.php$ https://www.futabaclinic.jp/kuki/faq/ [L,R=301]
+RewriteRule ^kitasenju/guide/qa/01.php$ https://www.futabaclinic.jp/kitasenju/faq/ [L,R=301]
+RewriteRule ^kitasenju/about/qa/01.php$ https://www.futabaclinic.jp/kitasenju/faq/ [L,R=301]
+RewriteRule ^shinkoiwa/guide/qa/01.php$ https://www.futabaclinic.jp/shinkoiwa/faq/ [L,R=301]
+RewriteRule ^shinkoiwa/about/qa/01.php$ https://www.futabaclinic.jp/shinkoiwa/faq/ [L,R=301]
+RewriteRule ^sakura/guide/qa/01.php$ https://www.futabaclinic.jp/sakura/faq/ [L,R=301]
+RewriteRule ^sakura/about/qa/01.php$ https://www.futabaclinic.jp/sakura/faq/ [L,R=301]
+RewriteRule ^kuki/guide/qa/03.php$ https://www.futabaclinic.jp/kuki/faq/ [L,R=301]
+RewriteRule ^kuki/about/qa/03.php$ https://www.futabaclinic.jp/kuki/faq/ [L,R=301]
+RewriteRule ^sakura/guide/qa/03.php$ https://www.futabaclinic.jp/sakura/faq/ [L,R=301]
+RewriteRule ^sakura/about/qa/03.php$ https://www.futabaclinic.jp/sakura/faq/ [L,R=301]
+RewriteRule ^kitasenju/guide/qa/03.php$ https://www.futabaclinic.jp/kitasenju/faq/ [L,R=301]
+RewriteRule ^kitasenju/about/qa/03.php$ https://www.futabaclinic.jp/kitasenju/faq/ [L,R=301]
+RewriteRule ^shinkoiwa/guide/qa/03.php$ https://www.futabaclinic.jp/shinkoiwa/faq/ [L,R=301]
+RewriteRule ^shinkoiwa/about/qa/03.php$ https://www.futabaclinic.jp/shinkoiwa/faq/ [L,R=301]
+RewriteRule ^kuki/guide/qa/04.php$ https://www.futabaclinic.jp/kuki/faq/ [L,R=301]
+RewriteRule ^kuki/about/qa/04.php$ https://www.futabaclinic.jp/kuki/faq/ [L,R=301]
+RewriteRule ^kitasenju/guide/qa/04.php$ https://www.futabaclinic.jp/kitasenju/faq/ [L,R=301]
+RewriteRule ^kitasenju/about/qa/04.php$ https://www.futabaclinic.jp/kitasenju/faq/ [L,R=301]
+RewriteRule ^shinkoiwa/guide/qa/04.php$ https://www.futabaclinic.jp/shinkoiwa/faq/ [L,R=301]
+RewriteRule ^shinkoiwa/about/qa/04.php$ https://www.futabaclinic.jp/shinkoiwa/faq/ [L,R=301]
+RewriteRule ^sakura/guide/qa/04.php$ https://www.futabaclinic.jp/sakura/faq/ [L,R=301]
+RewriteRule ^sakura/about/qa/04.php$ https://www.futabaclinic.jp/sakura/faq/ [L,R=301]
+RewriteRule ^kuki/guide/qa/05.php$ https://www.futabaclinic.jp/kuki/faq/ [L,R=301]
+RewriteRule ^kuki/about/qa/05.php$ https://www.futabaclinic.jp/kuki/faq/ [L,R=301]
+RewriteRule ^kitasenju/guide/qa/05.php$ https://www.futabaclinic.jp/kitasenju/faq/ [L,R=301]
+RewriteRule ^kitasenju/about/qa/05.php$ https://www.futabaclinic.jp/kitasenju/faq/ [L,R=301]
+RewriteRule ^shinkoiwa/guide/qa/05.php$ https://www.futabaclinic.jp/shinkoiwa/faq/ [L,R=301]
+RewriteRule ^shinkoiwa/about/qa/05.php$ https://www.futabaclinic.jp/shinkoiwa/faq/ [L,R=301]
+RewriteRule ^sakura/guide/qa/05.php$ https://www.futabaclinic.jp/sakura/faq/ [L,R=301]
+RewriteRule ^sakura/about/qa/05.php$ https://www.futabaclinic.jp/sakura/faq/ [L,R=301]
+RewriteRule ^kuki/guide/qa/06.php$ https://www.futabaclinic.jp/kuki/faq/ [L,R=301]
+RewriteRule ^kuki/about/qa/06.php$ https://www.futabaclinic.jp/kuki/faq/ [L,R=301]
+RewriteRule ^kitasenju/guide/qa/06.php$ https://www.futabaclinic.jp/kitasenju/faq/ [L,R=301]
+RewriteRule ^kitasenju/about/qa/06.php$ https://www.futabaclinic.jp/kitasenju/faq/ [L,R=301]
+RewriteRule ^shinkoiwa/guide/qa/06.php$ https://www.futabaclinic.jp/shinkoiwa/faq/ [L,R=301]
+RewriteRule ^shinkoiwa/about/qa/06.php$ https://www.futabaclinic.jp/shinkoiwa/faq/ [L,R=301]
+RewriteRule ^sakura/guide/qa/06.php$ https://www.futabaclinic.jp/sakura/faq/ [L,R=301]
+RewriteRule ^sakura/about/qa/06.php$ https://www.futabaclinic.jp/sakura/faq/ [L,R=301]

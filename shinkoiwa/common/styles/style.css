@@ -1,0 +1,13 @@
+#main section#sec_02 div:nth-child(3) h3 {
+  background: url(/shinkoiwa/guide/images/icon_map.svg) no-repeat center 1px/55px 55px;
+  margin-bottom: 15px;
+}
+#main section#sec_02 div:nth-child(4) h3 {
+  background: url(/shinkoiwa/guide/images/icon_car.svg) no-repeat center 1px/55px 55px;
+}
+#main section#sec_02 div:nth-child(5) h3 {
+  background: url(/shinkoiwa/guide/images/icon_hotyouki.svg) no-repeat center 1px/55px 55px;
+}
+#main section#sec_02 div:nth-child(6) h3 {
+  background: url(/shinkoiwa/guide/images/icon_run.svg) no-repeat center 1px/55px 55px;
+}

@@ -1,0 +1,83 @@
+/* Scss Document */
+#main section h3 {
+  color: #f48a9d;
+  margin-top: 15px;
+  font-weight: bold;
+  padding: 4px 0 4px 1px;
+}
+#main section h3 span {
+  background-image: none;
+  padding: 0;
+}
+#main section h3 .f_normal {
+  font-size: 18px;
+  font-weight: normal;
+}
+#main section h3 .border {
+  border-left: 5px solid #f48a9d;
+  padding-left: 5px;
+  padding-top: 3px;
+}
+#main section p {
+  margin-bottom: 10px;
+}
+#main section p.txt_00 {
+  color: #f48a9d;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+#main section div p:nth-child(1) {
+  border: 1px solid #f48a9d;
+  border-radius: 10px;
+  padding: 20px 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+#main section div .txt_01 {
+  color: #f48a9d;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#main section div .txt_02 {
+  margin-bottom: 10px;
+}
+#main section div img {
+  width: 540px;
+  padding: 25px 15px 15px 15px;
+}
+#main section div #area_txt div {
+  margin-bottom: 10px;
+}
+#main section div #area_txt h4 {
+  margin-bottom: 2px;
+}
+#main section div #area_txt dl {
+  overflow: hidden;
+  clear: both;
+}
+#main section div #area_txt dl dt,
+#main section div #area_txt dl dd {
+  float: left;
+}
+#main section div #area_txt dl dt {
+  margin-right: 0.5em;
+}
+#main section div #area_txt ul {
+  overflow: hidden;
+}
+#main section div #area_txt ul li {
+  float: left;
+}
+
+@media all and (max-width: 480px) {
+  #main section div img {
+    width: 100%;
+  }
+  #main section h3 {
+    margin: 15px 20px;
+  }
+}

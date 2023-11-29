@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+.faq h2 {
+  background: url(/common/images/icon_futaba.svg) no-repeat 6px 5px/37px auto, #8bc33e;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  height: 46px;
+  line-height: 44px;
+  padding: 5px 0 5px 48px;
+}
+.faq .faq_title {
+  margin-top: 2rem;
+}
+.faq .faq_title li {
+  font-weight: bold;
+  border-bottom: 1px solid #d6d6d2;
+}
+.faq .faq_title a::after {
+  content: "＞";
+  color: #f48a9d;
+  float: right;
+  padding-top: 10px;
+  display: block;
+}
+.faq .faq_title span {
+  font-size: 24px;
+  color: #f48a9d;
+  padding-right: 14px;
+}
+.faq .faq_list {
+  margin-top: 5rem;
+}
+.faq .faq_list .answer_list:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.faq .faq_list dl {
+  background: #fff0f3;
+  border: solid #f48a9d 1px;
+  width: 100%;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.faq .faq_list dt {
+  color: #f48a9d;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 18px;
+  padding-bottom: 16px;
+  padding-left: 5px;
+  border-bottom: 1px solid #d6d6d2;
+}
+.faq .faq_list dt span {
+  font-size: 30px;
+  padding-right: 15px;
+}
+.faq .faq_list dd {
+  padding-left: 4em;
+  text-indent: -4em;
+  padding-top: 16px;
+  padding-bottom: 22px;
+  line-height: 1.6;
+}
+.faq .faq_list dd span.answer {
+  font-size: 30px;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+  line-height: 1;
+}
+.faq .faq_list dd span.letter {
+  font-size: 14px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+@media all and (min-width: 481px) {
+  .faq .faq_list .answer_list {
+    margin-top: -100px;
+    padding-top: 100px;
+  }
+  .faq ul.title_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .faq ul.title_list li {
+    width: 48%;
+    padding-bottom: 12px;
+    margin-bottom: 18px;
+    position: relative;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .faq section {
+    width: 90%;
+    margin: 2rem auto 0;
+  }
+  .faq h2 {
+    font-size: 16px;
+  }
+  .faq .faq_title li {
+    font-size: 0.9rem;
+    position: relative;
+  }
+  .faq .faq_title a {
+    padding: 20px 50px 20px 0;
+    display: block;
+    text-indent: -2.18em;
+    padding-left: 2em;
+  }
+  .faq .faq_title a::after {
+    position: absolute;
+    top: 46%;
+    right: 0;
+    translate: -50% -50%;
+  }
+  .faq .faq_title span {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+  .faq .faq_list .answer_list {
+    padding-top: 10px;
+    margin-top: -10px;
+  }
+  .faq .faq_list dl {
+    padding: 0 15px;
+  }
+  .faq .faq_list dt {
+    font-size: 18px;
+  }
+  .faq .faq_list dt span {
+    font-size: 22px;
+  }
+  .faq .faq_list dd {
+    padding-left: 3em;
+    text-indent: -3em;
+  }
+  .faq .faq_list dd span.answer {
+    font-size: 22px;
+    padding-right: 0.65rem;
+    padding-left: 0.4rem;
+  }
+  .faq .faq_list #faq_03 dt,
+  .faq .faq_list #faq_05 dt,
+  .faq .faq_list #faq_06 dt,
+  .faq .faq_list #faq_08 dt,
+  .faq .faq_list #faq_10 dt {
+    padding-left: 2.4em;
+    text-indent: -2.1em;
+  }
+  .faq .faq_list .answer_list {
+    scroll-margin-top: 10px;
+    scroll-padding-top: 10px;
+  }
+}
+
+.faq .title:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.toggle {
+  display: none;
+}
+.option {
+  position: relative;
+}
+.title,
+.content {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: all 0.3s;
+}
+.title {
+  font-size: 18px;
+  display: block;
+}
+.title::after,
+.title::before {
+  content: "";
+  position: absolute;
+  right: 0.45em;
+  top: 0.5em;
+  width: 2px;
+  height: 0.75em;
+  background-color: #f48a9d;
+  transition: all 0.3s;
+}
+.title::after {
+  transform: rotate(90deg);
+}
+.content {
+  max-height: 0;
+  overflow: hidden;
+}
+.content p {
+  margin: 0;
+  padding: 0.5em 1em 1.6em;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: normal;
+  padding-left: 2.5em;
+  text-indent: -2.5em;
+}
+.toggle:checked + .title + .content {
+  max-height: 500px;
+  transition: all 1.5s;
+}
+.toggle:checked + .title::before {
+  transform: rotate(90deg) !important;
+}
+.faq .faq_title span {
+  font-size: 20px;
+}
+@media (min-width: 481px) {
+  .faq ul.title_list li {
+    width: 100%;
+    padding-bottom: 22px;
+    margin-bottom: 28px;
+  }
+}
+@media (max-width: 480px) {
+  .title {
+    font-size: 16px;
+    padding: 20px 50px 20px 0;
+    padding-left: 2em;
+    text-indent: -2em;
+  }
+  .title::after,
+  .title::before {
+    top: 1.8em;
+  }
+  .content p {
+    padding-left: 2.3em;
+    text-indent: -2.3em;
+  }
+}
+
+/*# sourceMappingURL=faq.css.map */

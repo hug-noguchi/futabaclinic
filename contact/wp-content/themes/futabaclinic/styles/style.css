@@ -1,0 +1,426 @@
+body {
+  -webkit-text-size-adjust: 100%;
+}
+
+#main section:not(:first-child) {
+  margin-top: 40px;
+}
+#main section#form {
+  margin-top: -120px;
+  padding-top: 120px;
+}
+
+.f_pink {
+  color: #f48a9d;
+}
+
+#main p:nth-child(1) {
+  text-align: center;
+}
+#main .tel_box {
+  margin-top: 20px;
+}
+#main .tel_box .tel a {
+  background: url(/common/images/icon_tel.svg) no-repeat 0 center/40px 40px;
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 64px;
+}
+#main .tel_box .txt_01 {
+  margin-top: 5px;
+}
+#main .mail_box {
+  margin-top: 20px;
+}
+#main .mail_box a {
+  background: url(/common/images/icon_mail.svg) no-repeat 0 center/30px 30px;
+  height: 30px;
+  line-height: 33px;
+  padding-left: 52px;
+  display: inline-block;
+}
+#main .pdf_box {
+  margin-top: 20px;
+}
+#main .pdf_box a {
+  background: url(/common/images/pdf.svg) no-repeat 0 center/30px 36px;
+  height: 46px;
+  line-height: 49px;
+  padding-left: 52px;
+  display: inline-block;
+}
+#main section:nth-child(2) {
+  margin-top: 20px;
+}
+#main section:nth-child(2) p {
+  padding-left: 1em;
+  text-indent: -1em;
+  text-align: left;
+}
+#main section:nth-child(2) .txt_box_01 p.txt_01 {
+  line-height: 1.6 !important;
+}
+#main section:nth-child(2) .txt_box_01 p.txt_01 span {
+  margin-bottom: 15px !important;
+}
+#main section:nth-child(2) .txt_box_02 p:not(:last-child) {
+  margin-bottom: 5px;
+}
+#main section.detail p a,
+#main section.detail .mail_box a,
+#main section.detail .pdf_box a,
+#main .mail_box a,
+#main .tel_box .tel a,
+#main .tel_line {
+  color: #f48a9d;
+  text-decoration: underline;
+}
+#main section:nth-child(2) p a:hover {
+  text-decoration: none;
+}
+#main section:nth-child(3) p {
+  text-align: left;
+}
+#main form {
+  margin-top: 70px;
+}
+#main form table {
+  border-top: 1px solid #d1d1d1;
+  border-left: 1px solid #d1d1d1;
+  border-collapse: separate;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#main form table tr:first-child th {
+  border-radius: 13px 0 0 0;
+}
+#main form table tr:first-child td {
+  border-radius: 0 13px 0 0;
+}
+#main form table tr:last-child th {
+  border-radius: 0 0 0 13px;
+}
+#main form table tr:last-child td {
+  border-radius: 0 0 13px 0;
+}
+#main form table tr th,
+#main form table tr td {
+  border-right: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 15px 10px;
+  vertical-align: middle;
+  font-size: 14px;
+  text-align: left;
+}
+#main form table tr th {
+  background: #fff5f7;
+  font-weight: normal;
+}
+#main form table tr th span {
+  background-color: #ff0004;
+  color: #fff;
+  padding: 3px 10px 2px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 5px;
+}
+#main form table #content label {
+  margin-right: 10px;
+}
+#main form table input[type="text"],
+#main form table input[type="tel"],
+#main form table input[type="email"] {
+  height: 40px;
+  font-size: 16px;
+}
+#main form table .tel {
+  width: 100px;
+}
+#main form table #mail div {
+  margin-bottom: 10px;
+}
+#main form table #mail div input {
+  margin-bottom: 5px;
+}
+#main form table #adress div {
+  margin-bottom: 5px;
+}
+
+@media all and (-ms-high-contrast: none) {
+  #main .tel_box .tel a {
+    padding-left: 76px !important;
+  }
+}
+p#button_buck,
+p#button_move {
+  text-align: center !important;
+}
+p#button_buck input,
+p#button_move input {
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  border-style: none;
+  padding: 13px 50px;
+  background-color: #f48a9d;
+  background-image: url(/contact/images/arrow.svg);
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: 197px center;
+  -webkit-transition: opacity 0.4s ease-out;
+  -moz-transition: opacity 0.4s ease-out;
+  -o-transition: opacity 0.4s ease-out;
+  transition: opacity 0.4s ease-out;
+  cursor: pointer;
+}
+p#button_buck input:hover,
+p#button_move input:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+}
+
+.mw_wp_form_input #button_box {
+  display: none;
+}
+
+.mw_wp_form_confirm .input_txt {
+  display: none;
+}
+.mw_wp_form_confirm #button_box {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 428px;
+}
+.mw_wp_form_confirm #button_box p#button_buck {
+  float: left;
+}
+.mw_wp_form_confirm #button_box p#button_buck input {
+  background-color: #c3c3c3;
+  background-position: 141px center;
+}
+.mw_wp_form_confirm #button_box p#button_move {
+  float: right;
+}
+.mw_wp_form_confirm td {
+  width: 82%;
+}
+.mw_wp_form_confirm th span {
+  display: none !important;
+}
+
+.mw_wp_form_complete {
+  display: none;
+}
+
+.thanks #main section p {
+  padding-left: 0em;
+  text-indent: 0em;
+}
+.thanks #main section p a {
+  text-decoration: none;
+}
+.thanks #main section p:nth-child(2) {
+  margin-bottom: 10px;
+}
+
+.txt_box_01 {
+  border: solid 3px #f48a9d;
+  background: #fff0f3;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+.txt_box_01 .tit {
+  color: #f48a9d;
+  font-size: 20px;
+  margin: 15px 0;
+  font-weight: bold;
+  text-align: center !important;
+}
+.txt_box_01 .txt_01 {
+  line-height: 1.8 !important;
+  padding-left: 0 !important;
+  text-indent: 0 !important;
+}
+.txt_box_01 .txt_01 span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.txt_box_01 .tit {
+  position: relative;
+}
+.txt_box_01 .tit:before {
+  background: url(/common/images/icon_check_02.svg) no-repeat 0 0;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 26px;
+  height: 22px;
+  left: 188px;
+}
+
+@media all and (max-width: 480px) {
+  .txt_box_01 .tit:before {
+    width: 5vw;
+    height: 5vw;
+    left: 10px;
+    background-size: 100%;
+    top: 6px;
+  }
+}
+@media all and (max-width: 376px) {
+  #main p.flow {
+    width: 100%;
+    padding: 0 20px;
+  }
+  #main p.flow img {
+    width: 100%;
+  }
+  #main div p {
+    text-align: left !important;
+  }
+  #main form table {
+    width: 100%;
+  }
+  #main form table tr:first-child th {
+    border-radius: 13px 13px 0 0;
+  }
+  #main form table tr:first-child td {
+    border-radius: 0 0 0 0;
+  }
+  #main form table tr:last-child th {
+    border-radius: 0 0 0 0;
+  }
+  #main form table tr:last-child td {
+    border-radius: 0 0 13px 13px;
+  }
+  #main form table th,
+  #main form table td {
+    display: block;
+  }
+  #main form table textarea,
+  #main form table .name input,
+  #main form table .address2 input {
+    width: 90%;
+  }
+  #main form table .form-control {
+    margin-bottom: 5px;
+  }
+  #main form p {
+    text-align: center !important;
+  }
+  .mw_wp_form_confirm #button_box {
+    width: 100%;
+  }
+  .mw_wp_form_confirm #button_box p#button_buck {
+    float: none;
+  }
+  .mw_wp_form_confirm #button_box p#button_move {
+    float: none;
+    margin-bottom: 10px;
+  }
+  #main form p.input_txt,
+  #main form div.input_txt p {
+    text-align: left !important;
+  }
+  #main form table .tel {
+    width: 30%;
+  }
+  div .txt_box_01 {
+    width: 90%;
+    margin: 0 auto 20px;
+    padding: 10px !important;
+  }
+  div .txt_box_01 .tit {
+    text-align: center !important;
+    padding-left: 0 !important;
+    text-indent: 0 !important;
+  }
+}
+@media all and (max-width: 376px) {
+  #main section#form {
+    margin-top: -90px;
+    padding-top: 90px;
+  }
+  #main form table {
+    margin: 0 auto 15px;
+    width: 90%;
+  }
+  .mw_wp_form_confirm td {
+    width: auto;
+  }
+}
+@media all and (max-width: 376px) {
+  input[type="email"] {
+    width: 90%;
+  }
+  .form-control {
+    width: 50% !important;
+  }
+  .mwform-tel-field input[type="text"],
+  .mwform-zip-field input[type="text"] {
+    display: inline-block !important;
+    width: 30% !important;
+  }
+}
+@media all and (max-width: 376px) {
+  #main section:nth-child(3) ul li dl dt {
+    font-size: 18px;
+  }
+}
+#main section.flow ul {
+  margin-top: 15px;
+}
+#main section.flow ul li:not(:last-child) {
+  background: url(/common/images/arrow.svg) no-repeat center bottom/83px 61px;
+  margin-bottom: 10px;
+  padding-bottom: 53px;
+}
+#main section.flow ul li dl {
+  border: solid 3px #f48a9d;
+  background-color: #fff0f3;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+#main section.flow ul li dl dt {
+  color: #f48a9d;
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+#main section.flow ul li dl dd a {
+  color: #f48a9d;
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: bold;
+}
+#main section.flow ul li dl dd a.tel-link {
+  font-size: 22px;
+  text-decoration: underline 1px;
+}
+#main section.flow ul li dl dd a:hover {
+  text-decoration: none;
+}
+
+#main section.flow ul li dl dd p:nth-child(1) {
+  text-align: start;
+  line-height: 1.3;
+}
+@media (max-width: 376px) {
+  section.flow ul dl dd p:nth-child(1) {
+    line-height: 1.1 !important;
+  }
+  section.flow ul dl dd p:nth-child(3) {
+    padding-left: 0 !important;
+    text-indent: 0 !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,96 @@
+/* Scss Document */
+#main .tel_box {
+  margin-top: 20px;
+}
+#main .tel_box .tel a {
+  background: url(/common/images/icon_tel.svg) no-repeat 0 center/40px 40px;
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 64px;
+}
+#main .tel_box .txt_01 {
+  margin-top: 5px;
+}
+#main .mail_box {
+  margin-top: 20px;
+}
+#main .mail_box a {
+  background: url(/common/images/icon_mail.svg) no-repeat 0 center/30px 30px;
+  height: 30px;
+  line-height: 33px;
+  padding-left: 52px;
+  display: inline-block;
+}
+#main .pdf_box {
+  margin-top: 20px;
+}
+#main .pdf_box a {
+  background: url(/common/images/pdf.svg) no-repeat 0 center/30px 30px;
+  height: 46px;
+  line-height: 49px;
+  padding-left: 50px;
+  display: inline-block;
+}
+#main p:nth-child(1) {
+  text-align: left;
+}
+#main section:nth-child(1) {
+  margin-top: 20px;
+}
+#main section:nth-child(1) p {
+  padding-left: 1em;
+  text-indent: -1em;
+  text-align: left;
+}
+#main section:nth-child(1) p a {
+  color: #f48a9d;
+  text-decoration: underline;
+}
+#main section:nth-child(1) p a:hover {
+  text-decoration: none;
+}
+#main section.flow ul {
+  margin-top: 15px;
+}
+#main section.flow ul li:not(:last-child) {
+  background: url(/common/images/arrow.svg) no-repeat center bottom/83px 61px;
+  margin-bottom: 10px;
+  padding-bottom: 53px;
+}
+#main section.flow ul li dl {
+  border: solid 3px #f48a9d;
+  background-color: #fff0f3;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+#main section.flow ul li dl dt {
+  color: #f48a9d;
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+#main section.flow ul li dl dd a {
+  color: #f48a9d;
+  text-decoration: underline;
+  font-size: 18px;
+}
+#main section.flow ul li dl dd a:hover {
+  text-decoration: none;
+}
+#main section:nth-child(2) ul li dl dd p {
+  text-indent: 0em;
+  padding-left: 0;
+}
+#main section:nth-child(2) ul li dl dd p:not(:first-child) {
+  margin-top: 10px;
+}
+
+@media all and (max-width: 376px) {
+  #main section:nth-child(3) ul li dl dt {
+    font-size: 18px;
+  }
+} /*# sourceMappingURL=top.css.map */

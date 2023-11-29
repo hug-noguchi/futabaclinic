@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+/* 個人情報保護方針 */
+#contents {
+  margin: 11px 0 50px;
+}
+
+.privacy_title {
+  background: url(/common/images/icon_futaba.svg) no-repeat 6px 5px/37px auto, #8bc33e;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  height: 46px;
+  line-height: 44px;
+  margin-bottom: 10px;
+  padding: 5px 0 5px 48px;
+}
+
+.privacy_lead {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.privacy_contents {
+  padding: 0 20px;
+}
+
+.privacy_contents:first-of-type {
+  margin-bottom: 5%;
+}
+
+.privacy_heading {
+  border-bottom: 1px solid #f48a9d;
+  color: #f8aacc;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding: 4px 0 4px 1px;
+}
+
+.privacy_heading span {
+  border-left: 5px solid #f48a9d;
+  display: inline-block;
+  padding-top: 3px;
+  padding-left: 5px;
+}
+
+.privacy_definition:not(:last-of-type) {
+  margin-bottom: 5%;
+}
+
+.privacy_subheading {
+  font-weight: bold;
+}
+
+.privacy_text {
+  line-height: 1.6;
+}
+
+.privacyDetail {
+  margin-top: 5%;
+  padding-left: 5%;
+}
+
+.privacyDetail_smallheading {
+  font-weight: normal;
+  line-height: 1.6;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.privacyDetail_list {
+  padding-right: 20px;
+}
+
+.privacyDetail_text {
+  line-height: 1.6;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.privacyDetail_text--indent {
+  padding-left: 0;
+  text-indent: 0;
+}
+
+.privacyDetail_text--day {
+  text-align: right;
+}
+
+.privacyDetail_list--margin {
+  margin-bottom: 5%;
+}
+
+.privacyDetail--padding {
+  margin-top: 0 !important;
+}
+
+.privacy_purpose {
+  margin-top: 50px;
+}
+
+/* .privacy_purpose h4 {
+  text-align: center;
+  margin-bottom: 20px;
+} */
+
+.privacy_purpose .purpose_heading {
+  border-bottom: 1px solid #f48a9d;
+  color: #f8aacc;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding: 4px 0 4px 1px;
+}
+
+.privacy_purpose .purpose_heading span {
+  border-left: 5px solid #f48a9d;
+  display: inline-block;
+  padding-top: 3px;
+  padding-left: 5px;
+}
+
+.privacy_purpose .purpose_title {
+  font-weight: bold;
+}
+
+.privacy_purpose div:nth-child(2),
+.privacy_purpose div:nth-child(3) {
+  margin-bottom: 15px;
+}
+
+.privacy_purpose ul li {
+  margin-left: 20px;
+  line-height: 1.6;
+}
+
+.privacy_purpose .attention {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.privacy_purpose .attention p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.privacy_purpose p.seiteibi {
+  text-align: right;
+  margin-top: 20px;
+}
+
+@media all and (min-width: 481px) {
+  .privacy {
+    width: 710px;
+    margin-left: 10px;
+    float: left;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .privacy_title {
+    font-size: 20px;
+  }
+
+  .privacy_lead {
+    margin-bottom: 40px;
+    padding: 0;
+  }
+
+  .privacy_contents {
+    padding: 0;
+  }
+
+  .privacy_contents:first-of-type {
+    margin-bottom: 40px;
+  }
+
+  .privacy_heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .privacy_heading br {
+    display: none;
+  }
+
+  .privacy_definition {
+    padding: 0;
+  }
+
+  .privacy_definition:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+
+  .privacy_text {
+    margin-bottom: 20px;
+  }
+
+  .privacyDetail {
+    margin-top: 15px;
+    padding-left: 2%;
+  }
+
+  .privacyDetail--padding {
+    padding-left: 0;
+  }
+
+  .privacyDetail_smallheading {
+    margin-bottom: 5px;
+  }
+
+  .privacyDetail_list {
+    padding-right: 0;
+  }
+
+  .privacyDetail_list--margin {
+    padding-left: 2%;
+  }
+
+  .purpose_heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (min-width: 1130px) {
+  .privacy_heading span,
+  .purpose_heading span {
+    font-size: 18px;
+  }
+
+  .privacyDetail_list--margin {
+    margin-bottom: 15px;
+    padding-left: 20px;
+  }
+}

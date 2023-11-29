@@ -1,0 +1,628 @@
+@charset "UTF-8";
+
+a:hover {
+  opacity: 0.7;
+}
+
+#main section .mb_1em {
+  margin-bottom: 1em;
+}
+#main section .name {
+  display: block;
+  text-align: right;
+  margin-top: 15px;
+}
+#main section .fb {
+  font-weight: bold;
+}
+#main section p.txt_00 {
+  margin-bottom: 30px;
+}
+
+#main .recruit {
+  margin-bottom: 60px;
+}
+#main .recruit a {
+  margin: 0 auto 40px;
+}
+#main section a.button_contact {
+  position: relative;
+  width: 23%;
+  height: 72px;
+  line-height: 72px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #f48a9d;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px;
+  min-width: 200px;
+}
+#main section a.button_contact span {
+  font-size: 20px;
+  height: 72px;
+  line-height: 72px;
+  position: relative;
+}
+#main section a.button_contact span:after {
+  content: "▶︎";
+  position: absolute;
+  right: -19px;
+}
+@media all and (max-width: 481px) {
+  #main section.recruit {
+    margin-bottom: 50px;
+  }
+  #main section.recruit a {
+    margin: 0 auto 20px;
+  }
+  #main section a.button_contact span {
+    font-size: 18px;
+  }
+}
+
+#main section p.txt_01 {
+  margin-bottom: 10px;
+}
+#main section p.txt_02 {
+  margin-bottom: 30px;
+}
+#main section div.box {
+  overflow: hidden;
+}
+#main section div.box div {
+  width: 325px;
+}
+#main section div.box div h2 {
+  background: none;
+  color: #f8aacc;
+  font-size: 18px;
+  border-bottom: 1px solid #f48a9d;
+  height: 35px;
+  line-height: 35px;
+  margin-bottom: 15px;
+  padding: 2px 0 5px;
+}
+#main section div.box div h2 .border {
+  border-left: 5px solid #f48a9d;
+  padding: 7px 5px 6px;
+}
+#main section div.box div:nth-child(1) {
+  float: left;
+}
+#main section div.box div:nth-child(3),
+#main section div.box div:nth-child(5),
+#main section div.box div:nth-child(7) {
+  float: left;
+  clear: both;
+}
+#main section div.box div:nth-child(2),
+#main section div.box div:nth-child(4),
+#main section div.box div:nth-child(6),
+#main section div.box div:nth-child(8) {
+  float: right;
+}
+#main section div.box div:nth-child(1),
+#main section div.box div:nth-child(2),
+#main section div.box div:nth-child(3),
+#main section div.box div:nth-child(4),
+#main section div.box div:nth-child(5),
+#main section div.box div:nth-child(6) {
+  margin-bottom: 20px;
+}
+#main section div.box div table {
+  border-top: 1px solid #d1d1d1;
+  border-left: 1px solid #d1d1d1;
+  border-collapse: separate;
+  border-radius: 15px;
+  text-align: center;
+  margin: 0 0 5px 0;
+}
+#main section div.box div table tr:first-child th {
+  border-radius: 13px 0 0 0;
+}
+#main section div.box div table tr:first-child td {
+  border-radius: 0 13px 0 0;
+}
+#main section div.box div table tr:last-child th {
+  border-radius: 0 0 0 13px;
+}
+#main section div.box div table tr:last-child td {
+  border-radius: 0 0 13px 0;
+}
+#main section div.box div table tr th {
+  border-right: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 15px 10px;
+  vertical-align: middle;
+  font-size: 14px;
+  text-align: left;
+}
+#main section div.box div table tr td {
+  border-right: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 15px 10px;
+  vertical-align: middle;
+  font-size: 14px;
+  text-align: left;
+  width: auto;
+  width: 76%;
+}
+#main section div.box div table tr th {
+  background: #fff5f7;
+  font-weight: normal;
+  width: 24%;
+}
+#main section div.box div p {
+  font-size: 14px;
+}
+#main section div.box div p a {
+  color: #f48a9d;
+  text-decoration: underline;
+}
+#main section div.box div p a:hover {
+  text-decoration: none;
+}
+
+#main section div.box div .btn a {
+  text-align: center;
+  width: 310px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  margin: 30px auto 20px;
+  background-color: #f48a9d;
+  display: block;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f48a9d+72,ffffff+100 */
+  background: #f48a9d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f48a9d 72%, #ffffff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f48a9d 72%, #ffffff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f48a9d 72%, #ffffff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f48a9d', endColorstr='#ffffff',GradientType=0 );
+  /* IE6-9 */
+  border-radius: 30px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  position: relative;
+  text-decoration: none;
+}
+#main section div.box div .btn a:after {
+  content: "";
+  background: url(/common/images/arrow_01.svg);
+  width: 13px;
+  height: 16px;
+  position: absolute;
+  top: 21px;
+  right: 10px;
+  border: none;
+  background-repeat: no-repeat;
+}
+#main section div.box div .btn a span {
+  line-height: 1.4;
+  display: block;
+  padding-top: 7px;
+}
+#main section div.box div .btn_green a {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f48a9d+72,ffffff+100 */
+  background: #98cf36;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #98cf36 72%, #ffffff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #98cf36 72%, #ffffff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #98cf36 72%, #ffffff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#98cf36', endColorstr='#ffffff',GradientType=0 );
+  /* IE6-9 */
+}
+
+.detail_02 .txt_01 {
+  color: #ff0000;
+}
+
+@media all and (min-width: 481px) {
+  #main section div.box div table tr td.height_2em {
+    padding: 25px 10px;
+  }
+
+  .detail_01 .td_01 {
+    height: 7.8em;
+  }
+  .detail_01 .td_02 {
+    height: 8.7em;
+  }
+  .detail_01 .td_03 {
+    height: 7.8em;
+  }
+  .detail_01 .td_04 {
+    height: 4.9em;
+  }
+  .detail_01 .td_05 {
+    height: 7.8em;
+  }
+  .detail_01 .td_06 {
+    height: 4.8em;
+  }
+  .detail_01 .td_07 {
+    height: 5em;
+  }
+  .detail_01 .td_10 {
+    height: 10.6em;
+  }
+
+  .detail_02 .td_08 {
+    height: 6.5em;
+  }
+  .detail_02 .td_09 {
+    height: 9.2em;
+  }
+
+  .detail_03 .td_16 {
+    height: 7.6em;
+  }
+
+  .detail_05 .td_11 {
+    height: 4.8em;
+  }
+  .detail_05 .td_15 {
+    height: 8.6em;
+  }
+
+  .detail_06 .td_12 {
+    height: 4.5em;
+  }
+  .detail_06 .td_13 {
+    height: 6.65em;
+  }
+
+  .detail_08 .td_14 {
+    height: 4.9em;
+  }
+}
+@media all and (max-width: 480px) {
+  #main section .mb_1em {
+    margin: 0 20px 1em;
+  }
+  #main section p.txt_00 {
+    margin: 0 20px 25px;
+  }
+  #main section p.txt_01 {
+    margin: 0 20px 15px;
+  }
+  #main section p.txt_02 {
+    margin: 0 20px 30px;
+  }
+  #main section div.box {
+    padding: 0 20px;
+  }
+  #main section div.box div {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+  #main section div.box table {
+    width: 100%;
+  }
+  #main section div.box table + p {
+    padding: 0;
+  }
+
+  .btn a {
+    font-weight: bold;
+  }
+  .btn a:after {
+    top: 22px;
+    right: 27px;
+  }
+
+  .detail_02 .txt_01 {
+    margin: 0 10px 15px 0 !important;
+  }
+}
+@media all and (max-width: 320px) {
+  #main section div.box div table tr th {
+    width: 28%;
+  }
+}
+
+.docter_fee {
+  height: 145px;
+}
+@media all and (max-width: 1024px) {
+  .docter_fee {
+    height: initial;
+  }
+}
+.docter_work {
+  height: 126px;
+}
+@media all and (max-width: 1024px) {
+  .docter_work {
+    height: initial;
+  }
+}
+.remarks {
+  height: 69px;
+}
+@media all and (max-width: 1024px) {
+  .remarks {
+    height: initial;
+  }
+}
+
+.form_txt {
+  padding-top: 20px;
+}
+
+/* 一日の業務スケジュール */
+main section.schedule ul li:nth-child(9) img {
+  border-radius: 0 30px 30px 0;
+}
+@media all and (max-width: 600px) {
+  main section.schedule ul li:nth-child(9) img {
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+/* 先輩インタビュー */
+#shain .wave-bg:after {
+  position: absolute;
+  content: "";
+  bottom: -60px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 160px;
+  background-image: url(/recruit/images/wave-top.svg);
+  background-repeat: no-repeat;
+}
+#shain .interview_box {
+  margin: 0 auto;
+}
+#shain .interview_box ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#shain .interview_box ul li {
+  width: 32%;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #ffc7d2;
+}
+
+@media (min-width: 481px) {
+  #shain .mv_interview {
+    background: url(/recruit/images/mv_interview.jpg) no-repeat;
+    width: 80%;
+    height: 540px;
+    background-size: cover;
+    background-position: center;
+    margin: 50px auto 0;
+    position: relative;
+  }
+  #shain .interview_box {
+    width: 80%;
+  }
+  #shain .interview_box ul li:nth-child(1),
+  #shain .interview_box ul li:nth-child(2),
+  #shain .interview_box ul li:nth-child(4),
+  #shain .interview_box ul li:nth-child(5),
+  #shain .interview_box ul li:nth-child(7) {
+    margin-right: 18px;
+  }
+  #shain .interview_box ul li:nth-child(1),
+  #shain .interview_box ul li:nth-child(2),
+  #shain .interview_box ul li:nth-child(3) {
+    margin-bottom: 30px;
+  }
+  #shain .interview_box ul .jimubu {
+    width: 164px;
+  }
+}
+
+@media (max-width: 480px) {
+  #shain .mv_interview {
+    background-image: url(/recruit/images/mv_interview.jpg);
+    width: 88%;
+    height: 184px;
+    margin: 50px auto 20px;
+    background-size: cover;
+    position: relative;
+    background-position: top;
+  }
+  #shain .wave-bg:after {
+    bottom: -128px;
+  }
+}
+
+#shain .interview_box ul li a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 9px 9px 0 0;
+}
+#shain .interview_box ul li .thum {
+  height: 200px;
+  background-size: cover;
+  display: block;
+  overflow: hidden;
+  border-radius: 9px 9px 0 0;
+}
+#shain .interview_box ul li .thum::before {
+  content: "";
+  width: 100%;
+  height: 200px;
+  display: block;
+  position: absolute;
+  background-image: url(/recruit/images/thum_filter.png);
+  background-size: cover;
+  top: 0;
+  left: 0;
+}
+#shain .all {
+  transition: all 0.2s;
+}
+#shain .interview_box ul li .img_nakayama {
+  background-image: url(/recruit/images/interview/interview_nakayama_01.jpg);
+}
+#shain .interview_box ul li .img_ishiduka {
+  background-image: url(/recruit/images/interview/interview_ishiduka_01.jpg);
+  background-position-x: -16px;
+}
+#shain .interview_box ul li .img_enoki {
+  background-image: url(/recruit/images/interview/interview_enoki_01.jpg);
+  background-position-x: -6px;
+}
+#shain .interview_box ul li .img_nakano {
+  background-image: url(/recruit/images/interview/interview_nakano_01.jpg);
+  background-position-x: -20px;
+}
+#shain .interview_box ul li .img_okutsu {
+  background-image: url(/recruit/images/interview/interview_okutsu_01.jpg);
+}
+#shain .interview_box ul li .img_akiya {
+  background-image: url(/recruit/images/interview/interview_akiya_01.jpg);
+}
+#shain .interview_box .department {
+  font-size: 14px;
+  color: #202020;
+  background: #ffc7d2;
+  padding: 3px 10px;
+  width: 90px;
+  position: absolute;
+  top: 166px;
+  left: 0;
+  text-align: center;
+}
+#shain .interview_box .interview_name {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.6;
+  background: linear-gradient(45deg, #f48a9d 30%, #ffc7d2 100%);
+  letter-spacing: 2px;
+  border-radius: 0 0 9px 9px;
+  text-align: left;
+}
+#shain .interview_box .green_line {
+  border: 1px solid #c1dc9e;
+}
+#shain .interview_box .green {
+  background: #c1dc9e;
+}
+#shain .interview_box .green_name {
+  background: linear-gradient(45deg, #6eb92b 30%, #c1dc9e 100%);
+}
+#shain .all:hover {
+  transform: scale(1.3, 1.3);
+}
+#shain .interview_box .interview_name a {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  bottom: 12px;
+  right: 20px;
+}
+#shain .interview_box .interview_name a:after {
+  content: "";
+  width: 22px;
+  height: 22px;
+  display: block;
+  position: absolute;
+  background-image: url(/common/images/btn_interview_pink.svg);
+  background-size: cover;
+}
+#shain .interview_box .green_name a:after {
+  content: "";
+  width: 22px;
+  height: 22px;
+  display: block;
+  position: absolute;
+  background-image: url(/common/images/btn_interview_green.svg);
+  background-size: cover;
+}
+#shain .interview_box .interview_name a:hover {
+  text-decoration: none !important;
+}
+
+@media (min-width: 481px) {
+  #shain .interview_box .interview_name {
+    padding: 14px 10px;
+    padding-left: 1.6rem;
+    text-indent: -1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #shain .interview_box {
+    padding: 0 20px;
+  }
+  #shain .interview_box ul {
+    justify-content: space-between;
+  }
+  #shain .interview_box ul li {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  #shain .interview_box ul .jimubu {
+    width: 132px;
+  }
+  #shain .interview_box ul li .thum {
+    height: 100px;
+    background-size: cover;
+  }
+  #shain .interview_box ul li .thum::before {
+    height: 100px;
+  }
+  #shain .interview_box ul li .img_ishiduka {
+    background-position-x: -6px;
+  }
+  #shain .interview_box ul li .img_enoki {
+    background-position-x: -2px;
+  }
+  #shain .interview_box ul li .img_nakano {
+    background-position-x: -10px;
+  }
+  #shain .interview_box .department {
+    font-size: 10px;
+    width: 70px;
+    padding: 4px 0;
+    top: 76px;
+  }
+  #shain .interview_box .interview_name {
+    height: 74px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 1rem;
+    text-indent: -1rem;
+    letter-spacing: 1.2px;
+  }
+  #shain .interview_box .interview_name p {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  #shain .interview_box .interview_name a {
+    bottom: 7px;
+  }
+}
+
+main video {
+  display: block;
+  width: 55%;
+  margin: 100px auto;
+  border: solid 1px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+@media (max-width: 600px) {
+  main video {
+    width: 80%;
+    margin: 30px auto;
+  }
+}

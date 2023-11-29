@@ -1,0 +1,32 @@
+<?php
+/**
+ * Template Name: single-yachiyo
+ * Template Post Type: post, page, news
+ */
+?>
+	<?php get_header(4); ?>
+		<div id="contents">
+			<div id="main" class="single">
+				<section>
+					<?php
+					if (have_posts()) :
+					  while (have_posts()) :
+						the_post();
+						get_template_part('content');
+					  endwhile;
+					endif;
+					?>
+
+				</section>
+				<div class="navigation">
+					<span class="previous"><?php previous_post_link(' %link', '&lt;&nbsp;前の記事へ'); ?></span>
+					<span class="next"><?php next_post_link('%link ', '次の記事へ&nbsp;&gt;'); ?></span>
+				</div>
+			</div>
+			<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/side_yachiyo.php'); ?>
+			</div>
+  </article>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/footer_yachiyo.php'); ?>
+	<?php wp_footer(); ?>
+</body>
+</html>

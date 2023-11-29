@@ -1,0 +1,727 @@
+@charset "UTF-8";
+
+#main section#kanren_sec02 .kanren {
+  display: flex;
+  margin-top: 48px;
+}
+#main section#kanren_sec02 .kanren li {
+  display: inline-block;
+  border-radius: 10px/10px;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #f48a9d;
+  display: flex;
+  background: #fef9fa;
+  position: relative;
+}
+#main section#kanren_sec02 .kanren .kanren_00,
+#main section#kanren_sec02 .kanren .kanren_01 {
+  line-height: 1.1;
+}
+#main section#kanren_sec02 .kanren .kanren_00 span:before,
+#main section#kanren_sec02 .kanren .kanren_01 span:before {
+  background-image: url(/top/images/health.png);
+  bottom: -5px;
+}
+#main section#kanren_sec02 .kanren .kanren_00 span:after,
+#main section#kanren_sec02 .kanren .kanren_01 span:after {
+  margin-left: 30px;
+  bottom: 10px;
+}
+#main section#kanren_sec02 .kanren .kanren_02 span:before {
+  background-image: url(/top/images/kyujin.png);
+  top: -10px;
+}
+#main section#kanren_sec02 .kanren .kanren_02 span:before span:after {
+  margin-left: 20px;
+  bottom: 1px;
+}
+#main section#kanren_sec02 .kanren .kanren_03 span:before {
+  background-image: url(/top/images/handshake.png);
+  top: -10px;
+}
+#main section#kanren_sec02 .kanren span:after {
+  margin-left: 15px;
+  bottom: 1px;
+}
+#main section#kanren_sec02 .kanren a {
+  font-weight: bold;
+  width: 214px;
+  height: 75px;
+}
+#main section#kanren_sec02 .kanren span {
+  color: #f48a9d;
+  position: absolute;
+  font-size: 13px;
+  width: 214px;
+  display: block;
+  text-align: center;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+#main section#kanren_sec02 .kanren span:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  left: 0;
+}
+#main section#kanren_sec02 .kanren span:after {
+  content: ">";
+  position: absolute;
+  color: #f48a9d;
+}
+@media all and (min-width: 481px) {
+  #main section#kanren_sec02 .kanren li.kanren_02 span:before {
+    left: 2%;
+  }
+  #main section#kanren_sec02 .kanren {
+    flex-wrap: wrap;
+  }
+  #main section#kanren_sec02 .kanren li {
+    width: 36%;
+  }
+  #main section#kanren_sec02 .kanren li:first-child {
+    margin-right: 30px;
+  }
+}
+@media all and (max-width: 480px) {
+  #main section#kanren_sec02 .kanren {
+    flex-direction: column;
+  }
+  #main section#kanren_sec02 .kanren a {
+    width: 100%;
+  }
+  #main section#kanren_sec02 .kanren span {
+    font-size: 16px;
+    width: 300px;
+    left: 50%;
+  }
+  #main section#kanren_sec02 .kanren span:before {
+    left: 6%;
+    width: 43px;
+    height: 43px;
+  }
+  #main section#kanren_sec02 .kanren .kanren_00 span:after,
+  #main section#kanren_sec02 .kanren .kanren_01 span:after {
+    margin-left: 55px;
+  }
+  #main section#kanren_sec02 .kanren .kanren_02 span:before {
+    top: -8px;
+  }
+  #main section#kanren_sec02 .kanren .kanren_02 span:after {
+    margin-left: 55px;
+  }
+  #main section#kanren_sec02 .kanren .kanren_03 span {
+    left: 51%;
+  }
+  #main section#kanren_sec02 .kanren .kanren_03 span:before {
+    top: -8px;
+    left: 5%;
+  }
+  #main section#kanren_sec02 .kanren .kanren_03 span:after {
+    margin-left: 36px;
+  }
+  #main section#kanren_sec02 ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+#main section#kanren_sec02 .kanren .tmi {
+  background-color: #fff;
+}
+#main section#kanren_sec02 .kanren .tmi span:before {
+  background-image: url(/top/images/logo_tmi.png);
+  top: -10px;
+}
+#main section#kanren_sec02 p:last-child {
+  margin-top: 50px;
+}
+
+/* 先輩インタビュー */
+#shain {
+  margin: 20px 0 50px !important;
+}
+#shain .shain_mv_box {
+  padding-top: 60px;
+}
+#shain .shain_title {
+  background: #8bc33e;
+  border-radius: 30px;
+  font-size: 18px;
+  width: 240px;
+  height: 38px;
+  text-align: center;
+  padding: 0;
+  line-height: 2.2;
+}
+#shain .wave-bg:after {
+  position: absolute;
+  content: "";
+  bottom: -80px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 160px;
+  background-image: url(/common/images/interview/wave-top.svg);
+  background-repeat: no-repeat;
+}
+#shain .interview_box {
+  margin: 0 auto;
+}
+
+#shain .interview_box ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#shain .interview_box ul li {
+  width: 31%;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #ffc7d2;
+}
+
+#shain .interview_box ul .jimubu {
+  width: 164px;
+}
+
+#shain .interview_box ul li a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 9px 9px 0 0;
+  color: #fff;
+}
+
+#shain .interview_box ul li .thum {
+  height: 140px;
+  background-size: cover;
+  display: block;
+  overflow: hidden;
+  border-radius: 9px 9px 0 0;
+}
+
+#shain .interview_box ul li .thum::before {
+  content: "";
+  width: 100%;
+  height: 140px;
+  display: block;
+  position: absolute;
+  background-image: url(/common/images/interview/thum_filter.png);
+  background-size: cover;
+  top: 0;
+  left: 0;
+}
+
+#shain .all {
+  transition: all 0.2s;
+}
+
+#shain .interview_box ul li .img_nakayama {
+  background-image: url(/common/images/interview/interview_nakayama_01.jpg);
+}
+#shain .interview_box ul li .img_ishiduka {
+  background-image: url(/common/images/interview/interview_ishiduka_01.jpg);
+  background-position-x: -16px;
+}
+#shain .interview_box ul li .img_enoki {
+  background-image: url(/common/images/interview/interview_enoki_01.jpg);
+  background-position-x: -6px;
+}
+#shain .interview_box ul li .img_nakano {
+  background-image: url(/common/images/interview/interview_nakano_01.jpg);
+  background-position-x: -20px;
+}
+#shain .interview_box ul li .img_okutsu {
+  background-image: url(/common/images/interview/interview_okutsu_01.jpg);
+}
+#shain .interview_box ul li .img_akiya {
+  background-image: url(/common/images/interview/interview_akiya_01.jpg);
+}
+#shain .interview_box .department {
+  font-size: 14px;
+  color: #202020;
+  background: #ffc7d2;
+  padding: 3px 10px;
+  width: 90px;
+  position: absolute;
+  top: 112px;
+  left: 0;
+  text-align: center;
+}
+
+#shain .interview_box .interview_name {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.6;
+  background: linear-gradient(45deg, #f48a9d 30%, #ffc7d2 100%);
+  letter-spacing: 2px;
+  border-radius: 0 0 9px 9px;
+  text-align: left;
+  height: 94px;
+}
+#shain .interview_box .interview_name p:last-child {
+  position: relative;
+}
+#shain .interview_box .interview_name a {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
+}
+#shain .interview_box .interview_name a:after {
+  content: "";
+  width: 22px;
+  height: 22px;
+  display: block;
+  position: absolute;
+  background-image: url(/common/images/btn_interview_pink.svg);
+  background-size: cover;
+}
+#shain .interview_box .green_name a:after {
+  content: "";
+  width: 22px;
+  height: 22px;
+  display: block;
+  position: absolute;
+  background-image: url(/common/images/btn_interview_green.svg);
+  background-size: cover;
+}
+
+#shain .interview_box .green_line {
+  border: 1px solid #c1dc9e;
+}
+
+#shain .interview_box .green {
+  background: #c1dc9e;
+}
+
+#shain .interview_box .green_name {
+  background: linear-gradient(45deg, #6eb92b 30%, #c1dc9e 100%);
+}
+
+#shain .all:hover {
+  transform: scale(1.3, 1.3);
+}
+
+@media (min-width: 481px) {
+  article {
+    margin-bottom: 100px;
+  }
+  #shain .mv_interview {
+    background: url(/common/images/interview/mv_interview.jpg) no-repeat;
+    width: 100%;
+    height: 424px;
+    background-size: cover;
+    background-position: center;
+    margin: 50px auto 0;
+    position: relative;
+  }
+  #shain .interview_box {
+    width: 100%;
+  }
+  #shain .interview_box ul li:nth-child(1),
+  #shain .interview_box ul li:nth-child(2),
+  #shain .interview_box ul li:nth-child(4),
+  #shain .interview_box ul li:nth-child(5),
+  #shain .interview_box ul li:nth-child(7) {
+    margin-right: 24px;
+  }
+  #shain .interview_box ul li:nth-child(1),
+  #shain .interview_box ul li:nth-child(2),
+  #shain .interview_box ul li:nth-child(3) {
+    margin-bottom: 30px;
+  }
+  #shain .interview_box .interview_name {
+    padding: 14px 10px;
+  }
+  #shain .interview_box .interview_name p {
+    padding-left: 0.7rem;
+    text-indent: -0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #shain {
+    margin: 0 20px;
+  }
+  #shain .shain_mv_box {
+    padding-top: 30px;
+  }
+  #shain .shain_title {
+    width: 46%;
+    font-size: 14px;
+    line-height: 2.8;
+  }
+  #shain .mv_interview {
+    background-image: url(/common/images/interview/mv_interview.jpg);
+    width: 100%;
+    height: 180px;
+    margin: 50px auto 20px;
+    background-size: cover;
+    position: relative;
+    background-position: top;
+  }
+  #shain .interview_box {
+    padding: 0 20px;
+  }
+  #shain .wave-bg:after {
+    bottom: -136px;
+  }
+  #shain .interview_box ul {
+    justify-content: space-between;
+  }
+  #shain .interview_box ul li {
+    width: 48%;
+  }
+  #shain .interview_box ul li {
+    margin-bottom: 20px;
+  }
+  #shain .interview_box ul .jimubu {
+    width: 132px;
+  }
+  #shain .interview_box ul li .thum {
+    height: 100px;
+    background-size: cover;
+  }
+  #shain .interview_box ul li .thum::before {
+    height: 100px;
+  }
+  #shain .interview_box ul li .img_ishiduka {
+    background-position-x: -6px;
+  }
+  #shain .interview_box ul li .img_enoki {
+    background-position-x: -2px;
+  }
+  #shain .interview_box ul li .img_nakano {
+    background-position-x: -10px;
+  }
+  #shain .interview_box .department {
+    font-size: 10px;
+    width: 70px;
+    padding: 4px 0;
+    top: 76px;
+  }
+  #shain .interview_box .interview_name {
+    height: 80px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    letter-spacing: 1.2px;
+    position: relative;
+  }
+  #shain .interview_box .interview_name a:hover {
+    text-decoration: none !important;
+  }
+  #shain .interview_box .interview_name p:first-child {
+    color: #fff;
+    font-size: 0.75rem;
+  }
+  #shain .interview_box .interview_name .btn_interview {
+    color: #f48a9d;
+    font-weight: bold;
+  }
+  #shain .interview_box .interview_name .btn_interview::after {
+    content: "▶︎";
+    position: absolute;
+    right: 5px;
+    color: #f48a9d;
+  }
+  #shain .interview_box .green_name .btn_interview {
+    color: #6eb92b !important;
+  }
+  #shain .interview_box .green_name .btn_interview::after {
+    color: #6eb92b !important;
+  }
+}
+
+/* 個人インタビュー */
+.mv_box {
+  display: block;
+  position: relative;
+  background-size: cover;
+}
+
+.mv_box ul#breadcrumb {
+  position: absolute;
+  top: 10px;
+  left: 80px;
+}
+
+.mv_box ul#breadcrumb li {
+  display: inline;
+}
+
+.mv_box h1 {
+  font-size: 42px;
+  color: #fff;
+  position: absolute;
+  bottom: 130px;
+  right: 20px;
+  line-height: 1.3;
+  text-shadow: 2px 2px 3px #000;
+}
+
+.mv_box .name {
+  width: 38%;
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  color: #ffffff;
+  line-height: 1.3;
+  background: linear-gradient(45deg, #f48a9d 30%, #ffc7d2 100%);
+  padding: 18px 0 18px 20px;
+}
+
+.mv_box .name p:nth-child(1) {
+  font-size: 14px;
+}
+
+.mv_box .name p:nth-child(2) {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2.4px;
+}
+
+.interview > div:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.interview h2 {
+  font-size: 22px;
+  color: #8bc33e;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.interview p {
+  line-height: 1.6;
+}
+
+.interview .interview_02,
+.interview .interview_04,
+.interview .interview_05,
+.interview .interview_06 {
+  display: flex;
+}
+
+.nakayama .interview > div:not(:first-child),
+.okutsu .interview > div:not(:first-child) {
+  display: flex;
+}
+
+.green {
+  background: #c1dc9e !important;
+}
+
+.green_name {
+  background: linear-gradient(45deg, #6eb92b 30%, #c1dc9e 100%) !important;
+}
+
+.interview .txt_box {
+  width: 60%;
+}
+
+.enoki .interview .txt_box {
+  width: 100%;
+}
+
+.interview img {
+  width: 39%;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 4px solid #fff;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+.interview_04 {
+  display: block;
+}
+
+.interview_04 .txt_box {
+  width: 100%;
+}
+
+.ichiran a {
+  color: #f48a9d;
+  float: right;
+}
+
+@media (min-width: 481px) {
+  .mv_box .mv {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+  }
+  .nakayama .mv {
+    background-image: url(/common/images/interview/interview_nakayama_01.jpg);
+  }
+  .ishiduka .mv {
+    background-image: url(/common/images/interview/interview_ishiduka_01.jpg);
+  }
+  .enoki .mv {
+    background-image: url(/common/images/interview/interview_enoki_01.jpg);
+  }
+  .nakano .mv {
+    background-image: url(/common/images/interview/interview_nakano_01.jpg);
+  }
+  .okutsu .mv {
+    background-image: url(/common/images/interview/interview_okutsu_01.jpg);
+  }
+  .akiya .mv {
+    background-image: url(/common/images/interview/interview_akiya_01.jpg);
+  }
+  .interview {
+    margin: 80px auto 0 !important;
+    width: 1000px;
+  }
+  .nakayama .interview_02 .txt_box,
+  .enoki .interview_02 .txt_box,
+  .nakano .interview_02 .txt_box,
+  .okutsu .interview_02 .txt_box,
+  .akiya .interview_02 .txt_box,
+  .akiya .interview_06 .txt_box {
+    padding-right: 25px;
+  }
+  .interview_02 .txt_box span {
+    letter-spacing: -0.2px;
+  }
+  .nakayama .interview_03 .txt_box,
+  .nakayama .interview_05 .txt_box,
+  .ishiduka .interview_04 .txt_box,
+  .enoki .interview_04 .txt_box,
+  .enoki .interview_06 .txt_box,
+  .nakano .interview_04 .txt_box,
+  .nakano .interview_06 .txt_box,
+  .okutsu .interview_03 .txt_box,
+  .okutsu .interview_05 .txt_box,
+  .akiya .interview_04 .txt_box {
+    padding-left: 25px;
+  }
+  .ishiduka .interview_03 .txt_box,
+  .enoki .interview_03 .txt_box,
+  .nakano .interview_03 .txt_box,
+  .nakano .interview_05 .txt_box,
+  .akiya .interview_03 .txt_box,
+  .akiya .interview_05 .txt_box {
+    width: 100%;
+  }
+  .ishiduka .interview_05 .txt_box,
+  .enoki .interview_05 .txt_box,
+  .nakano .interview_05 .txt_box {
+    padding-right: 25px;
+  }
+  .interview_03 h2 {
+    height: 66px;
+    line-height: 30px;
+  }
+  .okutsu .interview_05 h2 {
+    letter-spacing: -1.5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mv_box #breadcrumb {
+    left: 0 !important;
+  }
+  .mv_box .mv {
+    width: 100%;
+    height: 330px;
+    background-size: cover;
+  }
+  .nakayama .mv {
+    background-image: url(/common/images/interview/interview_nakayama_01_sp.jpg);
+  }
+  .ishiduka .mv {
+    background-image: url(/common/images/interview/interview_ishiduka_01_sp.jpg);
+  }
+  .enoki .mv {
+    background-image: url(/common/images/interview/interview_enoki_01_sp.jpg);
+  }
+  .nakano .mv {
+    background-image: url(/common/images/interview/interview_nakano_01_sp.jpg);
+  }
+  .okutsu .mv {
+    background-image: url(/common/images/interview/interview_okutsu_01_sp.jpg);
+  }
+  .akiya .mv {
+    background-image: url(/common/images/interview/interview_akiya_01_sp.jpg);
+  }
+  .interview {
+    padding: 0 20px;
+    margin: 20px 0 50px 0 !important;
+  }
+  .interview > div:not(:last-child) {
+    margin-bottom: 60px;
+  }
+  .interview h2 {
+    font-size: 16px;
+  }
+  .mv_box h1 {
+    font-size: 18px !important;
+    bottom: 90px !important;
+    left: 20px;
+  }
+  .mv_box .name {
+    width: 87%;
+    bottom: 16px;
+    right: 0;
+    padding: 10px 0 10px 10px;
+  }
+  .mv_box .name p:nth-child(1) {
+    font-size: 10px;
+  }
+  .mv_box .name p:nth-child(2) {
+    font-size: 20px;
+  }
+  .interview_01 h2,
+  .interview_05 h2 {
+    letter-spacing: -0.1px;
+  }
+  .interview_02 {
+    flex-direction: column;
+  }
+  .nakayama .interview_03,
+  .nakayama .interview_04,
+  .nakayama .interview_05,
+  .ishiduka .interview_04,
+  .enoki .interview_04,
+  .enoki .interview_06,
+  .nakano .interview_04,
+  .nakano .interview_06,
+  .okutsu .interview_03,
+  .okutsu .interview_04,
+  .okutsu .interview_05 {
+    flex-direction: column-reverse;
+  }
+  .ishiduka .interview_05,
+  .enoki .interview_05 {
+    flex-direction: column;
+  }
+  .interview .txt_box {
+    width: 100%;
+  }
+  .interview img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .enoki .interview_02 h2,
+  .enoki .interview_05 h2 {
+    letter-spacing: -0.9px;
+  }
+  .nakano .interview_04 h2,
+  .nakano .interview_06 h2 {
+    letter-spacing: -1.7px;
+  }
+  .okutsu .interview_02 h2,
+  .okutsu .interview_03 h2 {
+    letter-spacing: -0.1px;
+  }
+  footer {
+    margin-top: 30px;
+  }
+}

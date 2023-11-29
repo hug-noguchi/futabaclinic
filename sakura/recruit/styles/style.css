@@ -1,0 +1,271 @@
+@charset "UTF-8";
+#main section .mb_1em {
+  margin-bottom: 1em;
+}
+#main section .name {
+  display: block;
+  text-align: right;
+  margin-top: 15px;
+}
+#main section .fb {
+  font-weight: bold;
+}
+#main section p.txt_00 {
+  margin-bottom: 30px;
+}
+#main section p.txt_01 {
+  margin-bottom: 10px;
+}
+#main section p.txt_02 {
+  margin-bottom: 30px;
+}
+#main section div.box {
+  overflow: hidden;
+}
+#main section div.box div {
+  width: 325px;
+}
+#main section div.box div h2 {
+  background: none;
+  color: #f8aacc;
+  font-size: 18px;
+  border-bottom: 1px solid #f48a9d;
+  height: 35px;
+  line-height: 35px;
+  margin-bottom: 15px;
+  padding: 2px 0 5px;
+}
+#main section div.box div h2 .border {
+  border-left: 5px solid #f48a9d;
+  padding: 7px 5px 6px;
+}
+#main section div.box div:nth-child(1) {
+  float: left;
+}
+#main section div.box div:nth-child(3),
+#main section div.box div:nth-child(5),
+#main section div.box div:nth-child(7) {
+  float: left;
+  clear: both;
+}
+#main section div.box div:nth-child(2),
+#main section div.box div:nth-child(4),
+#main section div.box div:nth-child(6),
+#main section div.box div:nth-child(8) {
+  float: right;
+}
+#main section div.box div:nth-child(1),
+#main section div.box div:nth-child(2),
+#main section div.box div:nth-child(3),
+#main section div.box div:nth-child(4),
+#main section div.box div:nth-child(5),
+#main section div.box div:nth-child(6) {
+  margin-bottom: 20px;
+}
+#main section div.box div table {
+  border-top: 1px solid #d1d1d1;
+  border-left: 1px solid #d1d1d1;
+  border-collapse: separate;
+  border-radius: 15px;
+  text-align: center;
+  margin: 0 0 5px 0;
+}
+#main section div.box div table tr:first-child th {
+  border-radius: 13px 0 0 0;
+}
+#main section div.box div table tr:first-child td {
+  border-radius: 0 13px 0 0;
+}
+#main section div.box div table tr:last-child th {
+  border-radius: 0 0 0 13px;
+}
+#main section div.box div table tr:last-child td {
+  border-radius: 0 0 13px 0;
+}
+#main section div.box div table tr th {
+  border-right: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 15px 10px;
+  vertical-align: middle;
+  font-size: 14px;
+  text-align: left;
+}
+#main section div.box div table tr td {
+  border-right: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 15px 10px;
+  vertical-align: middle;
+  font-size: 14px;
+  text-align: left;
+  width: auto;
+  width: 76%;
+}
+#main section div.box div table tr th {
+  background: #fff5f7;
+  font-weight: normal;
+  width: 24%;
+}
+#main section div.box div p {
+  font-size: 14px;
+}
+#main section div.box div p a {
+  color: #f48a9d;
+  text-decoration: underline;
+}
+#main section div.box div p a:hover {
+  text-decoration: none;
+}
+
+#main section div.box div .btn a {
+  text-align: center;
+  width: 310px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  margin: 30px auto 20px;
+  background-color: #f48a9d;
+  display: block;
+  background: #f48a9d;
+  background: -moz-linear-gradient(top, #f48a9d 72%, #ffffff 100%);
+  background: -webkit-linear-gradient(top, #f48a9d 72%, #ffffff 100%);
+  background: linear-gradient(to bottom, #f48a9d 72%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f48a9d", endColorstr="#ffffff",GradientType=0 );
+  border-radius: 30px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  position: relative;
+  text-decoration: none;
+}
+#main section div.box div .btn a:after {
+  content: "";
+  background: url(/common/images/arrow_01.svg);
+  width: 13px;
+  height: 16px;
+  position: absolute;
+  top: 21px;
+  right: 10px;
+  border: none;
+  background-repeat: no-repeat;
+}
+#main section div.box div .btn a span {
+  line-height: 1.4;
+  display: block;
+  padding-top: 7px;
+}
+#main section div.box div .btn_green a {
+  background: #98cf36;
+  background: -moz-linear-gradient(top, #98cf36 72%, #ffffff 100%);
+  background: -webkit-linear-gradient(top, #98cf36 72%, #ffffff 100%);
+  background: linear-gradient(to bottom, #98cf36 72%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#98cf36", endColorstr="#ffffff",GradientType=0 );
+}
+
+.detail_02 .txt_01 {
+  color: #ff0000;
+}
+
+@media all and (min-width: 481px) {
+  #main section div.box div table tr td.height_2em {
+    padding: 25px 10px;
+  }
+
+  .detail_01 .td_01 {
+    height: 7.8em;
+  }
+  .detail_01 .td_02 {
+    height: 8.7em;
+  }
+  .detail_01 .td_03 {
+    height: 7.8em;
+  }
+  .detail_01 .td_04 {
+    height: 4.9em;
+  }
+  .detail_01 .td_05 {
+    height: 7.8em;
+  }
+  .detail_01 .td_06 {
+    height: 4.8em;
+  }
+  .detail_01 .td_07 {
+    height: 5em;
+  }
+  .detail_01 .td_10 {
+    height: 10.6em;
+  }
+
+  .detail_02 .td_08 {
+    height: 6.5em;
+  }
+  .detail_02 .td_09 {
+    height: 9.2em;
+  }
+
+  .detail_03 .td_16 {
+    height: 7.6em;
+  }
+
+  .detail_05 .td_11 {
+    height: 4.8em;
+  }
+  .detail_05 .td_15 {
+    height: 8.6em;
+  }
+
+  .detail_06 .td_12 {
+    height: 4.5em;
+  }
+  .detail_06 .td_13 {
+    height: 6.65em;
+  }
+
+  .detail_08 .td_14 {
+    height: 4.9em;
+  }
+}
+@media all and (max-width: 480px) {
+  #main section .mb_1em {
+    margin: 0 20px 1em;
+  }
+  #main section p.txt_00 {
+    margin: 0 20px 25px;
+  }
+  #main section p.txt_01 {
+    margin: 0 20px 15px;
+  }
+  #main section p.txt_02 {
+    margin: 0 20px 30px;
+  }
+  #main section div.box {
+    padding: 0 20px;
+  }
+  #main section div.box div {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+  #main section div.box table {
+    width: 100%;
+  }
+  #main section div.box table + p {
+    padding: 0;
+  }
+
+  .btn a {
+    font-weight: bold;
+  }
+  .btn a:after {
+    top: 22px;
+    right: 27px;
+  }
+
+  .detail_02 .txt_01 {
+    margin: 0 10px 15px 0 !important;
+  }
+}
+@media all and (max-width: 320px) {
+  #main section div.box div table tr th {
+    width: 28%;
+  }
+}
+/*# sourceMappingURL=style.css.map */ /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+RewriteRule ^/?(.*) https://www.futabaclinic.jp/contact/$1 [R,L]
+</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /contact/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /contact/index.php [L]
+</IfModule>
+
+# END WordPress

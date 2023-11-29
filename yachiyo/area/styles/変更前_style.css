@@ -1,0 +1,151 @@
+@charset "UTF-8";
+#main section h3 {
+  color: #f48a9d;
+  margin-top: 15px;
+  font-weight: bold;
+  padding: 4px 0 4px 1px;
+}
+#main section h3 span {
+  background-image: none;
+  padding: 0;
+}
+#main section h3 .f_normal {
+  font-size: 18px;
+  font-weight: normal;
+}
+#main section h3 .border {
+  border-left: 5px solid #f48a9d;
+  padding-left: 5px;
+  padding-top: 3px;
+}
+#main section p {
+  margin-bottom: 10px;
+}
+#main section p.txt_00 {
+  color: #f48a9d;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+#main section div p:nth-child(1) {
+  border-radius: 10px;
+  padding: 30px 15px;
+  margin-bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding-left: 0;
+  text-align: left;
+}
+#main section div .txt_01 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#main section div .txt_02 {
+  margin-bottom: 10px;
+}
+#main section div img {
+  width: 540px;
+  padding: 25px 15px 15px 15px;
+}
+#main section div #area_txt div {
+  margin-bottom: 10px;
+}
+#main section div #area_txt h4 {
+  margin-bottom: 2px;
+}
+#main section div #area_txt dl {
+  overflow: hidden;
+  clear: both;
+}
+#main section div #area_txt dl dt,
+#main section div #area_txt dl dd {
+  float: left;
+}
+#main section div #area_txt dl dt {
+  margin-right: 0.5em;
+}
+#main section div #area_txt ul {
+  overflow: hidden;
+}
+#main section div #area_txt ul li {
+  float: left;
+}
+
+#main section .desc,
+#main section .desc + p {
+  color: #6c5834;
+  margin-left: 84px;
+}
+#main section .desc li {
+  align-items: center;
+  display: flex;
+  margin-bottom: 5px;
+  padding-left: 30px;
+}
+#main section li h4 {
+  color: #6c5834 !important;
+  font-size: 15px !important;
+  margin-right: 10px;
+  padding-top: 2px;
+  position: relative;
+  text-align: center;
+  width: 60px;
+}
+#main section .desc li h4::before {
+  background-size: cover;
+  content: "";
+  height: 20px;
+  width: 22px;
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  transform: translateY(-50%);
+}
+#main section .desc li:first-child h4 {
+  border: 1px solid #e798a2;
+}
+#main section .desc li:first-child h4::before {
+  background: url(/yachiyo/area/images/h_pink.png) no-repeat;
+  background-size: cover;
+}
+#main section .desc li:last-child h4 {
+  border: 1px solid #f0bd58;
+}
+#main section .desc li:last-child h4::before {
+  background: url(/yachiyo/area/images/h_orange.png) no-repeat;
+  background-size: cover;
+}
+#main section .txt_last {
+  margin-top: 10px;
+}
+
+@media all and (max-width: 480px) {
+  #main section div img {
+    width: 100%;
+  }
+  #main section h3 {
+    margin: 15px 20px;
+  }
+  #main section .desc,
+  #main section .desc + p {
+    margin-left: 5px;
+  }
+  #main section div .txt_02 {
+    letter-spacing: -1px;
+  }
+  footer #footer_in_02 img {
+    width: 100%;
+  }
+  footer .address_01 {
+    white-space: nowrap;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 376px) {
+  header h1 .txt_00 span {
+    font-size: 10px !important;
+  }
+}
