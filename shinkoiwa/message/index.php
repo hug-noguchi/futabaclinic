@@ -180,20 +180,6 @@
 						</li>
 						<li>
 							<dl>
-								<dt>藤井 勇士</dt>
-								<dd>
-									<img src="/shinkoiwa/message/images/person_fujii.jpg" alt="藤井 勇士,医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院,葛飾区 江戸川区 墨田区 江東区 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
-									<ul class="txt">
-										<li>総合診療科</li>
-										<li>日本専門医機構認定 総合診療専門医</li>
-										<li>がん緩和ケア研修会修了医</li>
-										<li>心不全緩和ケアトレーニングコースHEPT</li>
-									</ul>
-								</dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
 								<dt>井上 浩樹</dt>
 								<dd>
 									<ul>
