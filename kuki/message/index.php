@@ -272,6 +272,16 @@
 								</dd>
 							</dl>
 						</li>
+						<li>
+							<dl>
+								<dt>高岡</dt>
+								<dd>
+									<ul>
+										<li>日本神経科学学会専門医・指導医</li>
+									</ul>
+								</dd>
+							</dl>
+						</li>
 					</ul>
 					<p class="department">整形外科</p>
 					<ul class="docter-lists">
