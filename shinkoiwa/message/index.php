@@ -205,6 +205,17 @@
 								</dd>
 							</dl>
 						</li>
+						<li>
+							<dl>
+								<dt>星 茉弥</dt>
+								<dd>
+									<ul>
+										<li>一般内科</li>
+										<li>血液内科</li>
+									</ul>
+								</dd>
+							</dl>
+						</li>
 					</ul>
 
 					<p class="department">内科・リハビリテーション科</p>
