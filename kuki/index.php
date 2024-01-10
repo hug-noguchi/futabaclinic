@@ -184,7 +184,10 @@
 
 					<div class="banner_article">
 						<a href="/link.html" target="_blank">
-							<img src="/common/images/banner_v3.gif" alt="理事長インタビュー記事バナー">
+							<img src="/recruit/images/banner_v3.gif" alt="理事長インタビュー記事バナー" class="bnr_riji">
+						</a>
+						<a href="https://dot.asahi.com/articles/-/206434?page=2" target="_blank">
+							<img src="/common/images/banner_v5.gif" alt="理事長AREA誌バナー">
 						</a>
 					</div>
 
