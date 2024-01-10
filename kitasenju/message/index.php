@@ -358,14 +358,6 @@
 								</dd>
 							</dl>
 						</li>
-						<li class="pink">
-							<dl>
-								<dt>地域連携看護師 坪井 花重</dt>
-								<dd>
-									<img src="/kitasenju/message/images/person_tsuboi.jpg" alt="地域連携看護師 坪井 花重" class="img">
-								</dd>
-							</dl>
-						</li>
 					</ul>
 
 					<span class="ishi_saiyou">
