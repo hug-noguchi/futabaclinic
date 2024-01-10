@@ -403,6 +403,12 @@ td.off {
   transform: matrix(1, -0.925, 0, 1, 0, 14);
 }
 
+@media all and (min-width: 481px) {
+  .banner_article .bnr_riji {
+    margin-bottom: 40px;
+  }
+}
+
 #main section#sec_07 {
   position: relative;
 }

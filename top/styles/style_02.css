@@ -840,14 +840,12 @@
   }
 }
 
-.bnr_riji {
-  width: 100%;
-  margin-bottom: 80px;
-}
-@media all and (max-width: 480px) {
-  .bnr_riji {
-    padding: 0 20px;
-    margin-bottom: 0;
+@media all and (min-width: 481px) {
+  .banner_article {
+    margin-bottom: 80px;
+  }
+  .banner_article .bnr_riji {
+    margin-bottom: 40px;
   }
 }
 
@@ -859,7 +857,6 @@
   float: left;
   margin-right: 10px;
   width: 300px;
-  /* width: 400px; */
   border-radius: 5px;
 }
 #main section#message .box_wrap .box .txt_box {
