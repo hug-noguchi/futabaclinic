@@ -308,14 +308,6 @@
 								</dd>
 							</dl>
 						</li>
-						<li>
-							<dl>
-								<dt>事務次長 元吉 健司</dt>
-								<dd>
-									<img src="/sakura/message/images/person_motoyoshi.jpg" loading=”lazy” alt="ふたば在宅クリニック 事務次長 元吉 健司" class="img" >
-								</dd>
-							</dl>
-						</li>
 					</ul>
 
 					<span class="ishi_saiyou">
