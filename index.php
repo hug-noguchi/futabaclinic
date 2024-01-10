@@ -229,7 +229,14 @@
 				</div>
 			</section>
 
-			<a href="/link.html" target="_blank"><img src="/recruit/images/banner_v3.gif" alt="理事長インタビュー記事バナー" class="bnr_riji"></a>
+			<div class="banner_article">
+				<a href="/link.html" target="_blank">
+					<img src="/recruit/images/banner_v3.gif" alt="理事長インタビュー記事バナー" class="bnr_riji">
+				</a>
+				<a href="https://dot.asahi.com/articles/-/206434?page=2" target="_blank">
+					<img src="/common/images/banner_v5.gif" alt="理事長AREA誌バナー">
+				</a>
+			</div>
 
 			<section id="sec_07" class="top">
 				<h2>お知らせ</h2>
@@ -243,7 +250,21 @@
 					?>
 					<tr>
 						<th><?php the_time('Y/m/d'); ?></th>
-						<td class="title tag_title"><p><?php echo $content = preg_replace('/<a .*?>(.*?)<\/a>/', "<span>$1</span>", get_the_tag_list()); ?></p></td>
+						<td class="title tag_title">
+							<?php
+								$tag_list = get_the_tag_list('', ', ');
+								$tags = explode(', ', $tag_list);
+
+								foreach ($tags as $tag) {
+								$pattern = '/<a .*?>(.*?)<\/a>/';
+									if (preg_match($pattern, $tag, $matches)) {
+									$tag_text = $matches[1];
+									$formatted_tag = "<p><span>$tag_text</span></p>";
+									echo $formatted_tag . ' ';
+									}
+								}
+							?>
+						</td>
 						<td id="post-<?php the_ID(); ?>" class="post_title">
 							<a href="<?php the_permalink(); ?>">
 							<?php
@@ -276,7 +297,19 @@
 					<tr>
 						<th>
 							<?php the_time('Y/m/d'); ?>
-							<p class="title tag_title"><?php echo $content = preg_replace('/<a .*?>(.*?)<\/a>/', "<span>$1</span>", get_the_tag_list()); ?></p>
+							<?php
+								$tag_list = get_the_tag_list('', ', ');
+								$tags = explode(', ', $tag_list);
+
+								foreach ($tags as $tag) {
+								$pattern = '/<a .*?>(.*?)<\/a>/';
+									if (preg_match($pattern, $tag, $matches)) {
+									$tag_text = $matches[1];
+									$formatted_tag = "<p class='title tag_title'><span>$tag_text</span></p>";
+									echo $formatted_tag . ' ';
+									}
+								}
+							?>
 							<?php
 								$days=7;
 								$today=date('U'); $entry=get_the_time('U');
@@ -963,14 +996,6 @@
 								</dd>
 							</dl>
 						</li>
-						<li>
-							<dl>
-								<dt>次長 元吉 健司</dt>
-								<dd>
-									<img src="/top/images/person_motoyoshi.jpg" loading=”lazy” alt="ふたば在宅クリニック 次長 元吉 健司" class="img" >
-								</dd>
-							</dl>
-						</li>
 					</ul>
 
 					<p class="department">地域連携室</p>
@@ -988,14 +1013,6 @@
 								<dt>地域連携看護師 萩原 尚子</dt>
 								<dd>
 									<img src="/top/images/person_hagiwara.jpg" alt="地域連携看護師 萩原 尚子,医療法人社団 爽緑会・千葉爽緑会 ふたば在宅クリニック 埼玉院（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、伊奈町、五霞町）" class="img">
-								</dd>
-							</dl>
-						</li>
-						<li class="pink">
-							<dl>
-								<dt>地域連携看護師 坪井 花重</dt>
-								<dd>
-									<img src="/top/images/person_tsuboi.jpg" alt="地域連携看護師 坪井 花重,医療法人社団 爽緑会・千葉爽緑会 ふたば在宅クリニック 東京 北千住院（足立区、荒川区、台東区）" class="img">
 								</dd>
 							</dl>
 						</li>
