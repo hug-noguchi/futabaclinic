@@ -6,17 +6,14 @@
 <title>採用・求人 | ふたば在宅クリニック - 久喜市、加須市、幸手市の訪問診療</title>
 <meta name="description" content="ふたば在宅クリニック 埼玉院（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、伊奈町、五霞町）埼玉県・利根地域の訪問診療・往診・在宅医療">
 <meta name="keywords" content="求人情報,ふたば在宅クリニック,在宅療養支援診療所,埼玉県,利根地域">
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 <link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
 <link rel="stylesheet" type="text/css" href="/kuki/recruit/styles/style.css" media="all">
 <link rel="stylesheet" type="text/css" href="/common/styles/recruit.css" media="all">
 <link rel="SHORTCUT ICON" href="/icon.ico">
-<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />
-
+<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png">
 <link rel="SHORTCUT ICON" href="/icon.ico">
-<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />
-
+<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png">
 <style>
 	@media (max-width: 480px) {
 	  #main .recruit p {
@@ -33,7 +30,6 @@
 		}
 	}
 </style>
-
 <?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header_tag.php'); ?>
 </head>
 
@@ -80,8 +76,9 @@
 							</a>
 						</li>
 					</ul>
-					<p>紹介会社を介さず、直接採用に至った方には、<strong>お祝い金</strong>（基本給の1ヶ月分相当）を6カ月以上勤務後に賞与とあわせて贈呈致します。<br>
-					※看護師、医師に限る<br><br>
+					<p>紹介を介さず、直接採用に至った方には、<strong>お祝い金</strong>（基本給の1ヶ月分相当）を6カ月以上勤務後に賞与とあわせて贈呈致します。<br>
+					※賞与支給時期にご退職の場合は無効となります。<br>
+					※看護師、医師、経営企画室（管理職)、広報部に限る<br><br>
 					「ふたばで働きたい！」とご自身で直接応募していただいた方が優先採用になります。<br>
 					まずはお気軽にメール・お電話下さい。</p>
 				</section>
@@ -93,7 +90,7 @@
 					<div class="mv_interview sp wave-bg"></div>
 					<div class="interview_box">
 						<ul>
-							<li class="interview_list green_line">
+							<!-- <li class="interview_list green_line">
 								<a href="/kuki/recruit/interview_ishiduka/">
 									<div class="thum all img_ishiduka"></div>
 								</a>
@@ -104,7 +101,7 @@
 									</p>
 									<a href="/kuki/recruit/interview_ishiduka/"></a>
 								</div>
-							</li>
+							</li> -->
 							<li class="interview_list">
 								<a href="/kuki/recruit/interview_nakayama/">
 									<div class="thum all img_nakayama"></div>
@@ -117,7 +114,7 @@
 									<a href="/kuki/recruit/interview_nakayama/"></a>
 								</div>
 							</li>
-							<li class="interview_list">
+							<!-- <li class="interview_list">
 								<a href="/kuki/recruit/interview_enoki/">
 									<div class="thum all img_enoki"></div>
 								</a>
@@ -152,7 +149,7 @@
 									</p>
 									<a href="/kuki/recruit/interview_okutsu/"></a>
 								</div>
-							</li>
+							</li> -->
 							<li class="interview_list green_line">
 								<a href="/kuki/recruit/interview_akiya/">
 									<div class="thum all img_akiya"></div>

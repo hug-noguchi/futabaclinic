@@ -5,24 +5,21 @@
 <meta charset="UTF-8">
 <meta name="format-detection" content="telephone=no">
 <meta content="width=375,user-scalable=no" name="viewport">
-
 <meta property="og:url" content="https://www.futabaclinic.jp/" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="ふたば在宅クリニック 北千住院" />
 <meta property="og:description" content="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 東京都・城東エリアの在宅療養支援診療所 在宅医療・訪問診療・訪問看護・往診（足立区、荒川区、台東区など）" />
 <meta property="og:site_name" content="ふたば在宅クリニック 北千住院" />
 <meta property="og:image" content="https://www.futabaclinic.jp/top/images/teacher_01.jpg" />
-
-<title>ふたば在宅クリニック - 足立区、荒川区、台東区の訪問診療</title>
+<title>ふたば在宅クリニック - 足立区、荒川区の訪問診療</title>
 <meta name="description" content="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 東京都・城東エリアの在宅療養支援診療所 在宅医療・訪問診療・訪問看護・往診（足立区、荒川区、台東区など）">
 <meta name="keywords" content="医療法人社団 爽緑会 ふたば在宅クリニック,北千住院,東京都,足立区,荒川区,台東区,在宅療養支援診療所,在宅医療,訪問診療,訪問看護,往診">
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 <link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
 <link rel="stylesheet" type="text/css" href="/kitasenju/common/styles/base.css" media="all">
 <link rel="stylesheet" href="/top/styles/style.css" media="all">
 <link rel="stylesheet" href="/kitasenju/common/styles/style.css" media="all">
-<link rel="stylesheet" href="/kitasenju/top/styles/style.css" media="all">
+<link rel="stylesheet" type="text/css" href="/common/styles/top_new.css" media="all">
 <link rel="SHORTCUT ICON" href="/icon.ico">
 <link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />
 <!--
@@ -38,8 +35,8 @@
 <?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header_tag.php'); ?>
 </head>
 <body id="top" class="preload drawer drawer--top">
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/analyticstracking.php'); ?>
-	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header_kitasenju.php'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/analyticstracking.php'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/header.php'); ?>
 	<article id="wrap">
 		<div id="contents_wrap">
 			<div id="visual">
@@ -68,10 +65,10 @@
 			<div id="contents">
 				<div id="main">
 					<section id="open_box">
-						<video controls poster="/common/images/video_thum.jpg">
+						<!-- <video controls poster="/common/images/video_thum.jpg">
 							<source src="/common/media/movie_shuukan.mp4" type="video/mp4">
 							<a href="/common/media/movie_shuukan.mp4">MP4</a>
-						</video>
+						</video> -->
 						<div class="title_box">
 							<div id="open_box_title">
 								<p class="txt_01">「動く総合病院」<br class="sp">を目指しています！！</p>
@@ -82,102 +79,217 @@
 							<p class="txt_05">泌尿器科・麻酔科・整形外科まで複数科の専門医が在籍</p>
 							<p class="txt_05">精神科専門医による認知症、精神科往診</p>
 							<p class="txt_05">皮膚科・形成外科専門医による皮膚、褥瘡往診</p>
+							<p class="txt_05">全国9拠点展開中・安心のグループ組織力</p>
 						</div>
+
 						<div class="txt_box">
 							<p class="txt_03 pc"><img src="/common/images/logo_v2_top.svg" alt="医療法人社団 千葉爽緑会 ふたば在宅クリニック"></p>
 							<p class="txt_03 sp"><img src="/common/images/logo_v2_top_sp.svg" alt="医療法人社団 千葉爽緑会 ふたば在宅クリニック"></p>
 						</div>
 
-						<div class="buin">
-						<p class="txt_06">
-							<span>グループ分院案内</span>
-						</p>
+						<div class="top_map">
+							<img src="/common/images/recruit_map5.png" alt="医療法人社団 爽緑会・千葉爽緑会 ふたば在宅クリニック 六本木本部 埼玉院 北千住院 新小岩院 錦糸町院 佐倉院 八千代院 本八幡院 北習志野院 船橋院" class="pc">
+							<img src="/common/images/recruit_map5_sp.png" alt="医療法人社団 爽緑会・千葉爽緑会 ふたば在宅クリニック 六本木本部 埼玉院 北千住院 新小岩院 錦糸町院 佐倉院 八千代院 本八幡院 北習志野院 船橋院" class="sp">
 						</div>
-						<div class="txt_box_01">
-							<div class="txt_box_03">
-								<div class="shinkoiwa_toho">
-									<p class="txt_12">新小岩院｜<span>新小岩駅 徒歩1分</span></p>
-								</div>
-									<div class="photo_shinkoiwa">
-										<img src="/top/images/shinkoiwa_picture_02_v2.jpg" srcset="/top/images/shinkoiwa_picture_02_v2_2x.jpg" alt="新小岩院">
+
+						<div class="buin">
+							<p class="txt_06">
+								<span>グループ分院案内</span>
+							</p>
+						</div>
+						<div class="news_list">
+							<ul class="tab tab_area">
+								<li class="active">東京</li>
+								<li class="">千葉</li>
+								<li class="">埼玉</li>
+							</ul>
+
+							<div class="news_show">
+								<div class="txt_box_kakuin tab_tokyo show active">
+									<div class="panel_area content_area">
+										<div class="panel_inner">
+											<div class="txt_box_05">
+												<div class="roppongi_toho">
+														<p class="txt_18">六本木本部｜<span>東京ミッドタウン前</span></p>
+												</div>
+												<div class="photo_roppongi">
+													<img src="/top/images/roppongi_picture.jpg" srcset="/top/images/roppongi_picture_2x.jpg" alt="医療法人社団 爽緑会・千葉爽緑会 ふたば在宅クリニック 六本木本部" />
+												</div>
+												<div class="roppongi_adress">
+													<p class="txt_19">
+														〒106-0032<br>
+														東京都港区六本木7-8-7<br>
+														ハイホーム六本木ビル3階
+													</p>
+												</div>
+												<p class="txt_20">取材、営業、求人は本部へ</p>
+												<p class="txt_21">
+													<a class="shiny-btn-roppongi" href="tel:0358430151">
+														<span>03-5843-0151</span>
+													</a>
+												</p>
+												<p class="btn_roppongi_box">
+													<a class="shiny-btn-roppongi" href="mailto:recruit@futabaclinic.jp">
+														<span class="btn_roppongi_box_txt">お問い合わせ</span>
+													</a>
+												</p>
+												<p class="txt_22">※患者様についてのお問い合わせは<br>各クリニックにご連絡ください</p>
+											</div>
+											<div class="kitasenju_box kinshichou_box">
+												<div class="kitasenju_toho kinshichou_toho">
+													<p class="txt_12 txt_kinshichou">錦糸町院｜<span>錦糸町駅 徒歩2分</span></p>
+												</div>
+												<div class="photo_kitasenju">
+													<img src="/top/images/kinshichou_picture_02.jpg" srcset="/top/images/kinshichou_picture_02_2x.jpg" alt="ふたば在宅クリニック 錦糸町院" loading="lazy">
+												</div>
+												<ul>
+													<li>墨田区</li>
+													<li>江東区</li>
+													<li>台東区</li>
+												</ul>
+												<p class="txt_13">の患者様はこちら</p>
+												<p class="txt_14">
+													<a class="shiny-btn-kinshichou" href="/kinshichou/">
+														<span>錦糸町院</span>
+													</a>
+												</p>
+											</div>
+											<div class="txt_box_03">
+												<div class="shinkoiwa_toho">
+													<p class="txt_12">新小岩院｜<span>新小岩駅 徒歩1分</span></p>
+												</div>
+												<div class="photo_shinkoiwa">
+													<img src="/top/images/shinkoiwa_picture_02_v2.jpg" srcset="/top/images/shinkoiwa_picture_02_v2_2x.jpg" alt="新小岩院">
+												</div>
+												<ul>
+													<li>葛飾区</li>
+													<li>江戸川区</li>
+												</ul>
+												<p class="txt_13">の患者様はこちら</p>
+												<p class="txt_14">
+													<a class="shiny-btn-edogawa" href="/shinkoiwa/">
+														<span>新小岩院</span>
+													</a>
+												</p>
+											</div>
+											<div class="kitasenju_box">
+												<div class="kitasenju_toho">
+													<p class="txt_08">北千住院｜<span>北千住駅 徒歩3分</span></p>
+												</div>
+												<div class="photo_kitasenju">
+													<img src="/top/images/kitasenju_picture_02_v2.jpg" srcset="/top/images/kitasenju_picture_02_v2_2x.jpg" alt="ふたば在宅クリニック 北千住院" loading="lazy">
+												</div>
+												<ul>
+													<li>足立区</li>
+													<li>荒川区</li>
+												</ul>
+												<p class="txt_09">の患者様はこちら</p>
+												<p class="txt_10">
+													<a class="shiny-btn-kitasenju" href="/kitasenju/">
+														<span>北千住院</span>
+													</a>
+												</p>
+											</div>
+										</div>
 									</div>
-									<ul>
-										<li>葛飾区</li>
-										<li>江戸川区</li>
-										<li>墨田区</li>
-										<li>江東区</li>
-									</ul>
-									<p class="txt_13">の患者様はこちら</p>
-									<p class="txt_14">
-										<a class="shiny-btn-edogawa" href="/shinkoiwa/">
-											<span>新小岩院</span>
-										</a>
-									</p>
-							</div>
-							<div class="line_right">
-								<div class="txt_box_02">
-									<div class="kukiin_toho">
-										<p class="txt_08">埼玉院 ｜<span>久喜駅 徒歩30秒</span></p>
+								</div>
+
+								<div class="txt_box_kakuin tab_chiba show">
+									<div class="panel_area content_area">
+										<div class="panel_inner">
+											<div class="txt_box_sakura">
+												<div class="sakura_toho">
+														<p class="txt_12">佐倉院｜<span>京成臼井駅 徒歩30秒</span></p>
+												</div>
+												<div class="photo_sakura">
+													<img src="/top/images/sakura_picture.jpg" srcset="/top/images/sakura_picture_2x.jpg" alt="佐倉院">
+												</div>
+												<ul>
+													<li>佐倉市</li>
+													<li>印西市</li>
+													<li>四街道市</li>
+													<li>酒々井町</li>
+												</ul>
+												<p class="txt_13">の患者様はこちら</p>
+												<p class="txt_14">
+													<a class="shiny-btn-sakura" href="/sakura/">
+														<span>佐倉院</span>
+													</a>
+												</p>
+											</div>
+											<div class="txt_box_yachiyo">
+												<div class="yachiyo_toho">
+													<p class="txt_12">八千代院｜<span>勝田台駅 徒歩30秒</span></p>
+												</div>
+												<div class="photo_yachiyo">
+													<img src="/top/images/yachiyo_picture.jpg" srcset="/top/images/yachiyo_picture_2x.jpg" alt="ふたば在宅クリニック 八千代院" loading="lazy">
+												</div>
+												<ul>
+													<li>八千代市</li>
+													<li>千葉市</li>
+												</ul>
+												<p class="txt_13">の患者様はこちら</p>
+												<p class="txt_14">
+													<a class="shiny-btn-yachiyo" href="/yachiyo/">
+														<span>八千代院</span>
+													</a>
+												</p>
+											</div>
+											<div class="txt_box_kitanarashino">
+												<div class="toho">
+													<p class="txt_12">北習志野院｜<span>北習志野駅前 徒歩1分</span></p>
+												</div>
+												<div class="photo_yachiyo">
+													<img src="/common/images/top_kitanarashino_picture.jpg" srcset="/common/images/top_kitanarashino_picture_2x.jpg" alt="ふたば在宅クリニック 北習志野院" loading="lazy">
+												</div>
+												<ul>
+													<li>船橋市</li>
+													<li>習志野市</li>
+												</ul>
+												<p class="txt_13">の患者様はこちら</p>
+												<p class="txt_14">
+													<a class="shiny-btn-kitanarashino" href="/kitanarashino/">
+														<span>北習志野院</span>
+													</a>
+												</p>
+											</div>
+										</div>
 									</div>
-									<div class="photo_kukiin">
-										<img src="/kitasenju/common/images/kukiin_picture_v2.jpg" srcset="/kitasenju/common/images/kukiin_picture_2x_v2.jpg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院">
+								</div>
+
+								<div class="txt_box_kakuin show">
+									<div class="panel_area content_area">
+										<div class="panel_inner">
+											<div class="line_right">
+												<div class="txt_box_02">
+													<div class="kukiin_toho">
+														<p class="txt_08">埼玉院 ｜<span>久喜駅 徒歩30秒</span></p>
+													</div>
+													<div class="photo_kukiin">
+														<img src="/kitasenju/common/images/kukiin_picture_v2.jpg" srcset="/kitasenju/common/images/kukiin_picture_2x_v2.jpg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院">
+													</div>
+													<ul>
+														<li>久喜市</li>
+														<li>加須市</li>
+														<li>幸手市</li>
+														<li>杉戸町</li>
+														<li>宮代町</li>
+														<li>白岡市</li>
+														<li>蓮田市</li>
+														<li>春日部市</li>
+													</ul>
+													<p class="txt_09">の患者様はこちら</p>
+													<p class="txt_10">
+														<a class="shiny-btn-kukiin" href="/kuki/">
+															<span>埼玉院</span>
+														</a>
+													</p>
+												</div>
+											</div>
+										</div>
 									</div>
-									<ul>
-										<li>久喜市</li>
-										<li>加須市</li>
-										<li>幸手市</li>
-										<li>杉戸町</li>
-										<li>宮代町</li>
-										<li>白岡市</li>
-										<li>蓮田市</li>
-										<li>春日部市</li>
-									</ul>
-									<p class="txt_09">の患者様はこちら</p>
-									<p class="txt_10">
-										<a class="shiny-btn-kukiin" href="/kuki/">
-											<span>埼玉院</span>
-										</a>
-									</p>
 								</div>
-							</div>
-							<div class="txt_box_sakura">
-								<div class="sakura_toho">
-										<p class="txt_12">佐倉院｜<span>京成臼井駅 徒歩30秒</span></p>
-								</div>
-								<div class="photo_sakura">
-									<img src="/top/images/sakura_picture.jpg" srcset="/top/images/sakura_picture_2x.jpg" alt="佐倉院">
-								</div>
-								<ul>
-									<li>佐倉市</li>
-									<li>印西市</li>
-									<li>四街道市</li>
-									<li>酒々井町</li>
-								</ul>
-								<p class="txt_13">の患者様はこちら</p>
-								<p class="txt_14">
-									<a class="shiny-btn-sakura" href="/sakura/">
-										<span>佐倉院</span>
-									</a>
-								</p>
-							</div>
-							<div class="txt_box_yachiyo">
-								<div class="yachiyo_toho">
-									<p class="txt_12">八千代院｜<span>勝田台駅 徒歩30秒</span></p>
-								</div>
-								<div class="photo_yachiyo">
-									<img src="/top/images/yachiyo_picture.jpg" srcset="/top/images/yachiyo_picture_2x.jpg" alt="ふたば在宅クリニック 八千代院" loading="lazy">
-								</div>
-								<ul>
-									<li>八千代市</li>
-									<li>千葉市</li>
-								</ul>
-								<p class="txt_13">の患者様はこちら</p>
-								<p class="txt_14">
-									<a class="shiny-btn-yachiyo" href="/yachiyo/">
-										<span>八千代院</span>
-									</a>
-								</p>
-							</div>
+
 						</div>
 
 						<div class="teacher_box">
@@ -192,13 +304,14 @@
 							<p><a href="/kitasenju/about/">「在宅医療とは？」</a></p>
 						</div>
 					</section>
-
 					<div class="banner_article">
 						<a href="/link.html" target="_blank">
-							<img src="/common/images/banner_v3.gif" alt="理事長インタビュー記事バナー">
+							<img src="/common/images/banner_v3.gif" alt="理事長インタビュー記事バナー" class="bnr_riji">
+						</a>
+						<a href="https://zaita9iryou.com/22780/" target="_blank">
+							<img src="/common/images/banner_v6.gif" alt="統括院長がおうちde医療に特集されました！">
 						</a>
 					</div>
-
 					<?php
 						$posts = get_posts("numberposts=5&orderby=post_date&offset=0&post_type=kitasenju");
 						if (!empty($posts)) {
@@ -206,6 +319,7 @@
 					<section id="sec_07">
 						<h2>お知らせ</h2>
 						<p><a href="/news/kitasenju/">一覧はこちら</a></p>
+
 						<table>
 							<?php
 								foreach ($posts as $post):
@@ -215,13 +329,13 @@
 								<th><?php the_time('Y/m/d'); ?></th>
 								<td id="post-<?php the_ID(); ?>">
 									<a href="<?php the_permalink(); ?>">
-										<?php
-											$days=7;
-											$today=date('U'); $entry=get_the_time('U');
-											$diff1=date('U',($today - $entry))/86400;
-											if ($days > $diff1) {
-												echo '<span class="new">NEW</span><br class="sp">';
-											}
+									<?php
+										$days=7;
+										$today=date('U'); $entry=get_the_time('U');
+										$diff1=date('U',($today - $entry))/86400;
+										if ($days > $diff1) {
+									  echo '<span class="new">NEW</span><br class="sp">';
+									  }
 									  ?>
 										<?php the_title(); ?>
 									</a>
@@ -235,16 +349,15 @@
 					<section id="sec_02" class="tokushoku">
 						<h2>当院の特色</h2>
 						<div class="lead">
-							<p>「ふたば式」在宅医療</p>
-							<p class="lead_txt pc">
-								年間看取り500人を超える全国有数の在宅医療専門クリニックに成長させた、<br>
+							<div class="futaba-style">
+								<div class="label">FUTABA STYLE</div>
+								<h3>「ふたば式」在宅医療</h3>
+							</div>
+							<p class="lead_txt">
+								年間看取り500人を超える全国有数の在宅医療専門クリニックに成長させた、<br class="pc">
 								独自のシステムを活かし、地域貢献を目指します。<br>
-								医師＋看護師のダブルオンコール体制、複数科体制、地域連携室の設置など、<br>
+								医師＋看護師のダブルオンコール体制、複数科のチーム医療、地域連携室の設置など、<br class="pc">
 								当院ならではのシステムがあります。
-							</p>
-							<p class="lead_txt sp">
-								年間看取り500人を超える全国有数の在宅医療専門クリニックに成長させた、独自のシステムを活かし、地域貢献を目指します。<br>
-								医師＋看護師のダブルオンコール体制、複数科体制、地域連携室の設置など、当院ならではのシステムがあります。
 							</p>
 						</div>
 						<div>
@@ -265,6 +378,8 @@
 									<br><br>
 									夜間・休日も医師＋看護部のダブルオンコール体制をしいており、<br>
 									24時間365日、2名体制で訪問しています。
+									<br><br>
+									レントゲン、エコー、輸血も対応可能です。
 								</p>
 							</div>
 						</div>
@@ -313,7 +428,7 @@
 								</ul>
 							</div>
 							<div>
-								<img src="/common/images/about_image.jpg" alt="訪問診療とは">
+								<img src="/common/images/teacher_04.jpg" alt="訪問診療とは">
 							</div>
 						</div>
 					</section>
@@ -433,13 +548,70 @@
 						</ul>
 					</section>
 
+					<section id="renkei_jigyou">
+						<h2>連携事業所</h2>
+						<p>訪問看護ステーション</p>
+						<ul>
+							<li>・ぱれっと訪問看護リハビリステーション綾瀬</li>
+							<li>・まつり訪問看護ステーション</li>
+							<li>・ハレノヒ訪問看護リハビリステーション</li>
+							<li>・おうちのカンゴ東京</li>
+							<li><span>・LE在宅・施設 訪問看護リハビリステーション北千住</span></li>
+							<li><span>・LE在宅・施設 訪問看護リハビリステーション・南千住</span></li>
+							<li>・エール訪問看護ステーション</li>
+							<li>・日介訪問看護ステーション</li>
+							<li>・訪問看護ステーションはな</li>
+							<li>・訪問看護リハビリステーション白樺</li>
+							<li>・指定訪問看護アットリハ梅島</li>
+							<li>・ガイア訪問看護ステーション</li>
+							<li>・かもめ訪問看護ステーション</li>
+							<li>・訪問看護ステーションちゅーりっぷ</li>
+							<li>・輝　訪問看護ステーション</li>
+							<li>・フローレンス訪問看護たけのつか</li>
+							<li>・ミルカ訪問看護ステーション</li>
+							<li>・訪問看護ステーションはなもも</li>
+							<li>・綾瀬訪問看護ステーション</li>
+							<li>・北千住訪問看護ステーション</li>
+							<li>・ゆい訪問看護リハビリステーション葛飾</li>
+							<li>・ベストリハ訪問看護ステーション</li>
+							<li>・かきつばた訪問看護ステーション</li>
+							<li>・トライケア訪問看護ステーション</li>
+							<li>・わかくさ薬局</li>
+							<li>・やまびこ訪問看護ステーション</li>
+							<li><span>・ケアプロ訪問看護ステーション東京足立ステーション</span></li>
+							<li>・スマイル優 訪問看護ステーション</li>
+						</ul>
+						<p>居宅支援事務所</p>
+						<ul>
+							<li>・わかばケアセンター大谷田</li>
+							<li>・わかばケアセンター鹿浜</li>
+							<li>・城北介護センター</li>
+							<li class="jigyou_long">・医療法人財団 竹栄会 けんちの苑すみだ川指定居宅介護支援事業所</li>
+							<li>・SOMPOケア北綾瀬居宅介護支援事業所</li>
+							<li>・北千住訪問看護ステーション(居宅)</li>
+							<li>・ケアサポーター・もやい</li>
+							<li>・ケア21台東</li>
+							<li>・宅ろう所ひらの</li>
+							<li>・ゆいま〜るつばさ</li>
+							<li>・日介センター足立西</li>
+						</ul>
+						<p>薬局</p>
+						<ul>
+							<li>・桜木薬局</li>
+							<li>・つなぐ薬局足立</li>
+							<li>・すず薬局</li>
+							<li>・ほうもん薬局江東店</li>
+							<li>・すばる薬局</li>
+							<li>・かばさん薬局綾瀬店</li>
+							<li>・なの花薬局東伊興店</li>
+						</ul>
+					</section>
 				</div>
 				<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/side_kitasenju.php'); ?>
 			</div>
 		</div>
 	</article>
-	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/footer_kitasenju.php'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/footer.php'); ?>
 	<script type="text/javascript" src="../top/fade.js"></script>
-
 </body>
 </html>

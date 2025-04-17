@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 @media (max-width: 480px) {
+  #main section h2 {
+    margin: 0;
+  }
   #main section h2 ~ div,
   #main section h2 ~ p,
   #main section h2 ~ ul {
@@ -62,29 +65,29 @@
 }
 
 #main .map_top {
-  max-width: 710px;
   margin: 0 auto 80px;
 }
 @media screen and (max-width: 480px) {
   #main .map_top {
+    margin-top: 30px;
     margin-bottom: 0;
   }
 }
 @media screen and (max-width: 900px) {
   #main .map_top {
-    width: 80%;
+    width: 90%;
   }
 }
 #main .map_top img {
   width: 100%;
 }
 
-@media screen and (min-width: 813px) {
+/* @media screen and (min-width: 813px) {
   #main section {
     margin: -100px auto 80px !important;
     padding-top: 100px;
   }
-}
+} */
 
 #main section h2 + div,
 #main section h2 + table {
@@ -140,14 +143,12 @@
 #main section#bunin_box {
   font-family: "小塚ゴシック Pro", "KozGoPro-Light", "小塚ゴシック Pro L", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
 }
-@media screen and (max-width: 480px) {
-  /* #main section#bunin_box {
-    padding-top: 80px;
-  } */
+/* @media screen and (max-width: 480px) {
   #main section:not(:first-child) {
-    margin-top: 60px !important;
+    margin-top: -40px;
+    padding-top: 84px;
   }
-}
+} */
 #main section#bunin_box .txt_box_01 {
   width: 100%;
   margin: 0 auto;
@@ -208,6 +209,19 @@
   font-weight: bold;
   padding-left: 22px;
 }
+#main section#bunin_box .shiny-btn-roppongi span.btn_roppongi_box_txt {
+  background: url(/common/images/icon_mail_white.svg) no-repeat 0 center / 18px 18px;
+  font-weight: bold;
+  padding-left: 26px;
+  padding-right: 4px;
+}
+@media (max-width: 480px) {
+  #main section#bunin_box .shiny-btn-roppongi span.btn_roppongi_box_txt {
+    padding-left: 36px;
+    padding-right: 12px;
+    letter-spacing: 1px;
+  }
+}
 #main section#bunin_box .txt_08 > span,
 #main section#bunin_box .txt_12 > span,
 #main section#bunin_box .txt_15 > span,
@@ -262,10 +276,14 @@
   margin-top: 2px;
   margin-bottom: 5px;
 }
+#main section#bunin_box .btn_roppongi_box {
+  margin-top: 6px;
+}
 #main section#bunin_box .txt_10,
 #main section#bunin_box .txt_17,
 #main section#bunin_box .txt_14,
-#main section#bunin_box .txt_21 {
+#main section#bunin_box .txt_21,
+#main section#bunin_box .btn_roppongi_box {
   text-align: center;
 }
 #main section#bunin_box a.shiny-btn-kitasenju:hover,
@@ -296,11 +314,17 @@
   color: #fff;
   font-size: 14px;
 }
-#main section#bunin_box .txt_box_02,
-#main section#bunin_box .txt_box_04,
-#main section#bunin_box .txt_box_sakura,
-#main section#bunin_box .txt_box_yachiyo {
+#main section#bunin_box .tab_tokyo .panel_inner > div:nth-child(3),
+#main section#bunin_box .tab_tokyo .panel_inner > div:nth-child(4) {
   padding-top: 63px;
+}
+@media (max-width: 480px) {
+  #main section#bunin_box .tab_tokyo .panel_inner > div:nth-child(2),
+  #main section#bunin_box .tab_tokyo .panel_inner > div:nth-child(3),
+  #main section#bunin_box .tab_tokyo .panel_inner > div:nth-child(4),
+  #main section#bunin_box .txt_box_yachiyo {
+    padding-top: 40px !important;
+  }
 }
 #main section#bunin_box .txt_box_sakura .txt_08 {
   background-color: #58b7ed;
@@ -350,7 +374,8 @@
 #main section#bunin_box .kukiin_toho,
 #main section#bunin_box .roppongi_toho,
 #main section#bunin_box .sakura_toho,
-#main section#bunin_box .yachiyo_toho {
+#main section#bunin_box .yachiyo_toho,
+#main section#bunin_box .kinshichou_toho {
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -463,7 +488,8 @@
   #main section#bunin_box .photo_shinkoiwa,
   #main section#bunin_box .photo_roppongi,
   #main section#bunin_box .photo_sakura,
-  #main section#bunin_box .photo_yachiyo {
+  #main section#bunin_box .photo_yachiyo,
+  #main section#bunin_box .photo_kinshichou {
     padding: 5px;
     background: #fff;
     width: 330px;
@@ -476,7 +502,8 @@
   #main section#bunin_box .photo_shinkoiwa img,
   #main section#bunin_box .photo_roppongi img,
   #main section#bunin_box .photo_sakura img,
-  #main section#bunin_box .photo_yachiyo img {
+  #main section#bunin_box .photo_yachiyo img,
+  #main section#bunin_box .photo_kinshichou img {
     width: 320px;
     height: 320px;
   }
@@ -638,7 +665,8 @@
   #main section#bunin_box .photo_shinkoiwa,
   #main section#bunin_box .photo_roppongi,
   #main section#bunin_box .photo_sakura,
-  #main section#bunin_box .photo_yachiyo {
+  #main section#bunin_box .photo_yachiyo,
+  #main section#bunin_box .photo_kinshichou {
     padding: 5px;
     background: #fff;
     width: 90%;
@@ -651,7 +679,8 @@
   #main section#bunin_box .photo_shinkoiwa img,
   #main section#bunin_box .photo_roppongi img,
   #main section#bunin_box .photo_sakura img,
-  #main section#bunin_box .photo_yachiyo img {
+  #main section#bunin_box .photo_yachiyo img,
+  #main section#bunin_box .photo_kinshichou img {
     width: 100%;
   }
   #main section#bunin_box .shiny-btn-kukiin {
@@ -752,11 +781,11 @@
     transition: 0.3s;
   }
 }
-@media screen and (min-width: 813px) {
+/* @media screen and (min-width: 813px) {
   #main section#bunin_box {
     margin: -100px auto 100px !important;
   }
-}
+} */
 @media screen and (min-width: 813px) and (max-width: 960px) {
   #main section#bunin_box {
     width: 100%;
@@ -785,37 +814,19 @@
     max-width: 300px;
   }
 }
-@media all and (min-width: 481px) {
-  #main section#bunin_box .txt_box_00 {
-    overflow: hidden;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  }
-  #main section#bunin_box .txt_09,
-  #main section#bunin_box .txt_13 {
-    padding: 18px 0;
-  }
-}
 @media all and (max-width: 480px) {
   #main section#bunin_box {
     margin-bottom: 50px;
-  }
-  #main section#bunin_box .txt_box_00 {
-    display: flex;
-    flex-direction: column;
   }
   #main section#bunin_box .kitasenju_toho,
   #main section#bunin_box .shinkoiwa_toho,
   #main section#bunin_box .kukiin_toho,
   #main section#bunin_box .roppongi_toho,
   #main section#bunin_box .sakura_toho,
-  #main section#bunin_box .yachiyo_toho {
+  #main section#bunin_box .yachiyo_toho,
+  #main section#bunin_box .kinshichou_toho {
     width: 90%;
     margin: 0 auto;
-  }
-  #main section#bunin_box .txt_box_00 div:last-child {
-    padding-bottom: 30px;
   }
   #main section#bunin_box .txt_box_yachiyo {
     margin: 10px auto;
@@ -901,13 +912,23 @@
 #main section#message .clinic_lists {
   padding-top: 60px;
 }
-#main section#message .clinic_lists ul {
+#main section .clinic_lists ul {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
 }
-#main section#message .clinic_lists a {
+#main section .clinic_lists a {
   position: relative;
   color: #f48a9d;
+}
+@media all and (min-width: 481px) {
+  #main section .clinic_lists ul li {
+    font-size: 13px;
+    text-align: left;
+    width: calc(100% / 4);
+    box-sizing: border-box;
+  }
 }
 @media all and (max-width: 480px) {
   #main section#message .box_wrap .box img.sp {
@@ -921,16 +942,15 @@
     margin-top: 10px;
   }
   #main section#message .clinic_lists {
-    justify-content: flex-end;
-    padding-top: 0;
+    padding-top: 0px;
   }
   #main section#message .clinic_lists ul {
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
   }
-  #main section#message .clinic_lists ul li {
+  #main section .clinic_lists ul li {
     text-align: left;
-    width: 50%;
+    width: 48%;
+    letter-spacing: -0.8px;
   }
   #main section#message .clinic_lists ul li:not(:last-child) {
     margin-bottom: 10px;
@@ -979,7 +999,7 @@
   border: 2px solid #fff;
   box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  bottom: 38px;
+  bottom: 48px;
   right: 4px;
 }
 #main section#about > ul {
@@ -1041,7 +1061,7 @@
   }
   #main section#about .about_image img {
     width: 98%;
-    bottom: -250px;
+    bottom: -230px;
   }
   #main section#about p.about_pink {
     margin-top: 280px;
@@ -1104,26 +1124,9 @@
 #main section#sec_02 .clinic_lists {
   padding-top: 30px;
 }
-#main section#sec_02 .clinic_lists ul {
-  display: flex;
-  justify-content: space-around;
-}
-#main section#sec_02 .clinic_lists a {
-  position: relative;
-  color: #f48a9d;
-}
 @media all and (max-width: 480px) {
   #main section#sec_02 .clinic_lists {
-    justify-content: flex-end;
     padding-top: 0;
-  }
-  #main section#sec_02 .clinic_lists ul {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  #main section#sec_02 .clinic_lists ul li {
-    text-align: left;
-    width: 50%;
   }
   #main section#sec_02 .clinic_lists ul li:not(:last-child) {
     margin-bottom: 10px;
@@ -1162,6 +1165,11 @@
   bottom: 380px;
   left: 0;
 }
+/* @media screen and (min-width: 813px) {
+  #main section#sec_04 {
+    padding-top: 80px;
+  }
+} */
 @media all and (max-width: 480px) {
   #main section#sec_04 img {
     width: 90%;
@@ -1278,14 +1286,6 @@
 #main section#graf .clinic_lists {
   padding-top: 70px;
 }
-#main section#graf .clinic_lists ul {
-  display: flex;
-  justify-content: space-around;
-}
-#main section#graf .clinic_lists a {
-  position: relative;
-  color: #f48a9d;
-}
 @media all and (max-width: 480px) {
   #main section#graf {
     background-position: 50% 100px;
@@ -1295,21 +1295,13 @@
   }
   #main section#graf .graf_list {
     margin-top: 0;
+    margin-bottom: 30px;
   }
   #main section#graf .graf_list li {
     width: 100%;
   }
   #main section#graf .clinic_lists {
-    justify-content: flex-end;
-    padding-top: 30px;
-  }
-  #main section#graf .clinic_lists ul {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  #main section#graf .clinic_lists ul li {
-    text-align: left;
-    width: 50%;
+    padding-top: 0;
   }
   #main section#graf .clinic_lists ul li:not(:last-child) {
     margin-bottom: 10px;
@@ -1380,6 +1372,17 @@
 #main section#ishi .docter-lists > li.pink dt {
   border-bottom: 1px solid #f48a9d;
   border-left: 5px solid #f48a9d;
+}
+#main section#ishi .hijoukin li {
+  padding: 5px 15px 20px !important;
+}
+@media (min-width: 481px) {
+  #main section#ishi .hijoukin li {
+    margin-bottom: 0;
+  }
+}
+#main section#ishi .hijoukin li dt {
+  margin-bottom: 20px;
 }
 #main section#ishi .ishi_saiyou {
   display: block;
@@ -1550,16 +1553,22 @@
   }
 }
 @media (max-width: 480px) {
-  #main section#staff {
+  /* #main section#staff {
     margin-top: 90px !important;
-  }
+  } */
   #main section#staff .ishi_saiyou {
     margin-top: 15px;
   }
+  #main section#staff .docter-lists .none_image {
+    width: 100%;
+  }
 }
 @media all and (max-width: 480px) {
-  #main section#kanren_sec,
+  /* #main section#kanren_sec,
   #main section#kanren_sec02 {
+    margin-top: 60px;
+  } */
+  #main section#kanren_sec {
     margin-top: 60px;
   }
 }
@@ -1624,6 +1633,9 @@
   font-weight: bold;
   width: 214px;
   height: 75px;
+}
+#main section#kanren_sec .kanren span {
+  line-height: 1.2;
 }
 #main section#kanren_sec .kanren span,
 #main section#kanren_sec02 .kanren span {
@@ -1716,12 +1728,13 @@
   padding: 3px 0 1px 7px;
 }
 
-@media all and (max-width: 480px) {
+/* @media all and (max-width: 480px) {
   #main section.ishi_shoukai,
   #main section#houjin {
+    padding: 100px 20px 0;
     padding: 0 20px;
   }
-}
+} */
 
 #main section#kanren_sec .kanren .tmi,
 #main section#kanren_sec02 .kanren .tmi {
@@ -1769,13 +1782,13 @@ td.off {
     margin-left: 0;
   }
   nav {
-    width: 1320px;
+    width: 1340px;
   }
   .nav ul li a {
-    width: 120px;
+    width: 110px;
   }
   .fixed nav {
-    width: 1062px;
+    width: 1172px;
   }
   .fixed nav ul {
     justify-content: center;
@@ -2415,6 +2428,7 @@ section.sec_01 .fluffy {
   #side {
     width: 100%;
     float: none;
+    margin-top: 80px;
   }
   #side ul {
     display: flex;
@@ -2476,7 +2490,7 @@ footer .right ul li {
 }
 @media all and (max-width: 480px) {
   footer {
-    margin-top: 100px;
+    margin-top: 50px;
     padding-top: 0;
   }
   footer #footer_in_02 .left img {
@@ -2562,7 +2576,7 @@ footer .right ul li {
   line-height: 1;
   position: absolute;
   right: 10px;
-  top: 107px;
+  top: 7px;
 }
 
 #main table td.tag_title span {
@@ -2595,7 +2609,7 @@ footer .right ul li {
   }
   #main section#sec_07 p.ichiran {
     padding: 0;
-    right: 24px;
+    right: 30px;
     top: -15px;
   }
   #main .top table th,
@@ -2620,7 +2634,8 @@ footer .right ul li {
     font-weight: normal;
   }
   #main .top table td.post_title {
-    width: 90%;
+    width: 100%;
+    /* width: 90%; */
   }
   #main .top table span.new {
     border: 2px solid #f48a9d;
@@ -2924,5 +2939,339 @@ footer .right ul li {
   }
   #shain .interview_box .green_name .btn_interview::after {
     color: #6eb92b !important;
+  }
+}
+
+@media all and (min-width: 481px) {
+  .message_box .name_sign::after {
+    width: 16%;
+  }
+}
+
+/* 0614追加 */
+#main section#sec_07 table .icon {
+  width: 13%;
+}
+#main section#sec_07 table .icon span {
+  background-color: #f48a9d;
+  color: #fff;
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 3px 10px;
+}
+#main section#sec_07 table .title {
+  width: 60%;
+}
+#main section#sec_07 table td a {
+  text-decoration: underline;
+}
+#main section#sec_07 table td a:hover {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 813px) {
+  #main #news section:last-child {
+    margin: -100px 0 80px !important;
+  }
+}
+
+@media all and (max-width: 480px) {
+  #main section#sec_07 table td a {
+    line-height: 1.4;
+  }
+  #main section#sec_07 p a {
+    padding: 3px 17px 2px 9px;
+  }
+  #main span.new {
+    margin-bottom: 5px;
+  }
+  #main section#sec_07 li {
+    padding-right: 16px;
+  }
+  #main .top table .tag_title a {
+    text-align: center;
+    color: #fff;
+    padding: 8px;
+    border: none !important;
+    padding: 2px 0 2px 9px !important;
+    background: none;
+  }
+  #main .top table td.post_title {
+    width: 100% !important;
+  }
+}
+
+@media all and (max-width: 375px) {
+  #main section#sec_07 p a {
+    padding: 4px 17px 2px 9px;
+  }
+}
+
+@media all and (max-width: 360px) {
+  #main section#sec_07 table th {
+    padding-left: 6px;
+    width: 158px;
+  }
+  #main section#sec_07 table span.new {
+    padding: 3px 8px 1px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  #main section#sec_07 table th {
+    padding-left: 0;
+    width: 153px;
+  }
+}
+
+/* 錦糸町院 */
+.kinshichou_box .txt_kinshichou {
+  background-color: #61c1be !important;
+}
+.kinshichou_box ul > li {
+  color: #61c1be !important;
+  border: 2px solid #61c1be !important;
+}
+#main section#bunin_box .kinshichou_box .clinic_contact a {
+  color: #61c1be;
+}
+@media (min-width: 961px) {
+  #main section#bunin_box .shiny-btn-kinshichou {
+    display: inline-block;
+    width: 280px;
+    height: 30px;
+    border-radius: 5px / 5px;
+    background-color: #61c1be;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+}
+@media (max-width: 960px) {
+  #main section#bunin_box .shiny-btn-kinshichou {
+    display: inline-block;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px / 5px;
+    background-color: #61c1be;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+}
+
+@media (min-width: 481px) {
+  #main section#bunin_box .kinshichou_box .txt_09 {
+    padding: 18px 0;
+  }
+}
+
+/* 「ふたば式」在宅医療 */
+.futaba-style {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto 30px !important;
+}
+.futaba-style .label {
+  display: inline-block;
+  background-color: #8bc33e;
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 2px 15px 0;
+  margin-bottom: 0 !important;
+  border-radius: 20px;
+  line-height: unset;
+  letter-spacing: 1.5px;
+  position: relative;
+  z-index: -1;
+}
+.futaba-style h3 {
+  background: unset !important;
+  font-size: 32px !important;
+  color: #28ac4b !important;
+  position: relative;
+  padding: 20px 0 15px !important;
+  line-height: 1;
+  letter-spacing: 4.5px;
+}
+.futaba-style h3::before,
+.futaba-style h3::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-image: radial-gradient(circle, #8bc33e 1.5px, transparent 1.5px), radial-gradient(circle, #8bc33e 1.5px, transparent 1.5px);
+  background-position: left top, left bottom;
+  background-repeat: repeat-x, repeat-x;
+  background-size: 10px 3px, 10px 3px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: -2;
+}
+.futaba-style h3::before {
+  top: -10px;
+}
+.futaba-style h3::after {
+  bottom: -10px;
+}
+
+@media (max-width: 480px) {
+  .futaba-style {
+    width: 100%;
+    padding: 0;
+  }
+  .futaba-style .label {
+    font-size: 11px;
+  }
+  .futaba-style h3 {
+    font-size: 22px !important;
+  }
+  .futaba-style h3::before,
+  .futaba-style h3::after {
+    background-size: 8px 3px, 8px 3px;
+  }
+}
+
+/* グループ沿革 */
+#houjin table {
+  margin: 0 0 5px;
+}
+a.history_link {
+  color: #f48a9d;
+}
+@media (max-width: 480px) {
+  #houjin table {
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  #main section:not(:first-child) {
+    margin-top: 24px;
+    margin-bottom: 44px;
+  }
+}
+
+/* グループ分院案内 北習志野院 */
+#main section#bunin_box .txt_box_kitanarashino {
+  padding-top: 40px;
+}
+#main section#bunin_box .kitanarashino_toho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#main section#bunin_box .kitanarashino_toho .txt_08 {
+  display: inline-block;
+  width: 320px;
+  height: 30px;
+  background-color: #b85e5e;
+  border-radius: 14.5px / 14.5px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+}
+#main section#bunin_box .photo_bunin {
+  padding: 5px;
+  background: #fff;
+  width: 330px;
+  height: 330px;
+  box-shadow: 0 0 4px #d4cdc4;
+  margin: 13px auto;
+}
+#main section#bunin_box .photo_bunin img {
+  width: 320px;
+  height: 320px;
+}
+#main section#bunin_box .txt_box_kitanarashino ul li {
+  width: 49px;
+  height: 27px;
+  text-align: center;
+  color: #b85e5e;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 2px;
+  margin: 3px;
+  border: 2px solid #b85e5e;
+}
+#main section#bunin_box .txt_box_kitanarashino ul li:nth-child(2) {
+  width: 61px;
+}
+#main section#bunin_box .txt_box_kitanarashino a.shiny-btn-kitanarashino {
+  display: inline-block;
+  width: 280px;
+  height: 30px;
+  border-radius: 5px / 5px;
+  background-color: #b85e5e;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+#main section#bunin_box .txt_box_kitanarashino a.shiny-btn-kitanarashino span:after {
+  content: "▶︎";
+  position: absolute;
+  right: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+#main section#bunin_box .txt_box_kitanarashino .clinic_contact {
+  text-align: center;
+  margin-top: 30px;
+}
+#main section#bunin_box .txt_box_kitanarashino .clinic_contact a {
+  color: #b85e5e;
+  position: relative;
+  padding-bottom: 1px;
+  border-bottom: 1px solid;
+}
+@media (min-width: 481px) {
+  #main section#bunin_box .txt_box_kitanarashino {
+    width: 40%;
+    margin-right: auto;
+    margin-left: calc((100% - (40% * 2 + 20px)) / 2);
+  }
+}
+@media (max-width: 960px) {
+  #main section#bunin_box .kitanarashino_toho .txt_08 {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  #main section#bunin_box .kitanarashino_toho {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #main section#bunin_box .txt_box_kitanarashino .photo_bunin {
+    width: 90%;
+    padding: 5px 5px 0px;
+  }
+  #main section#bunin_box .txt_box_kitanarashino .photo_bunin img {
+    width: 100%;
+  }
+}
+
+/* 医師紹介 空欄 */
+.sp_none {
+  border: none;
+  background-color: unset;
+}
+@media (max-width: 480px) {
+  .sp_none {
+    display: none;
   }
 }

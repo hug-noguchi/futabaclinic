@@ -8,13 +8,13 @@
 			<div class="logo_box">
 				<p id="header_logo">
 					<a href="/shinkoiwa/">
-						<img src="/common/images/logo_e_k.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院（葛飾区、江戸川区、墨田区、江東区など）東京都・城東エリアの在宅医療 訪問診療 往診">
+						<img src="/common/images/logo_tokyo_s.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院（葛飾区、江戸川区、墨田区、江東区、足立区、荒川区、台東区）東京都・城東エリアの在宅医療 訪問診療 往診">
 					</a>
 				</p>
 				<ul class="icon_box pc">
-					<li><img src="/common/images/header_icon_03.svg" alt="在宅医療(24時間365日),医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院 葛飾区 江戸川区 墨田区 江東区　在宅医療・訪問診療・訪問看護・往診"></li>
-					<li><img src="/common/images/header_icon_02.svg" alt="内科 心・肺・脳,医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院 葛飾区 江戸川区 墨田区 江東区　在宅医療・訪問診療・訪問看護・往診"></li>
-					<li><img src="/common/images/header_icon_01.svg" alt="がん・緩和ケア,医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院 葛飾区 江戸川区 墨田区 江東区　在宅医療・訪問診療・訪問看護・往診"></li>
+					<li><img src="/common/images/header_icon_03.svg" alt="在宅医療(24時間365日),医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院 墨田区 江東区 台東区 葛飾区 江戸川区 足立区 荒川区 在宅医療・訪問診療・訪問看護・往診"></li>
+					<li><img src="/common/images/header_icon_02.svg" alt="内科 心・肺・脳,医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院 墨田区 江東区 台東区 葛飾区 江戸川区 足立区 荒川区 在宅医療・訪問診療・訪問看護・往診"></li>
+					<li><img src="/common/images/header_icon_01.svg" alt="がん・緩和ケア,医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院 墨田区 江東区 台東区 葛飾区 江戸川区 足立区 荒川区 在宅医療・訪問診療・訪問看護・往診"></li>
 				</ul>
 			</div>
 
@@ -56,7 +56,7 @@
 						<li><a href="/shinkoiwa/recruit/">採用・求人</a></li>
 						<li><a href="/contact/input_shinkoiwa/">お問い合わせ・お申し込み</a></li>
 						<li><a href="/news/shinkoiwa/">お知らせ</a></li>
-						<li><a href="/shinkoiwa/privacy/">個人情報保護方針</a></li>
+						<li><a href="/shinkoiwa/privacy/">プライバシーポリシー</a></li>
 						<li class="fax"><span class="fax_txt">03-5879-3531</span></li>
 					</ul>
 				</nav>

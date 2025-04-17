@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/*ふたばクリニック*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+#wrap {
+  min-height: 80vh;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#side li a span.last + .arrow {
+  margin-right: 8px;
+}
+
+footer #footer_in #footer_in_02 .left {
+  margin-right: 15px;
+}
+
+footer #footer_in #footer_in_02 .right {
+  margin-right: 10px;
+}
+
+header h1 .txt_00 span {
+  color: #f48a9d;
+}
+
+@media all and (min-width: 481px) {
+  #main {
+    width: 710px;
+    margin: auto;
+    float: left;
+  }
+
+  footer #footer_in {
+    width: 1230px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .sp_nav .tel {
+    float: right;
+    text-align: center;
+    position: absolute;
+    right: 64px;
+    top: 32px;
+    width: 10%;
+  }
+
+  .drawer-nav ul.drawer-menu li.fax .fax_txt {
+    border: none !important;
+  }
+}
+
+@media all and (max-width: 376px) {
+  header h1 .txt_00 span {
+    font-size: 10px;
+  }
+
+  .sp_nav button::after {
+    font-size: 12px;
+  }
+}
+
+@media all and (min-width: 601px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  footer {
+    margin-top: auto;
+  }
+}
+
+/* 追加20201113 */
+
+a.button_contact {
+  max-width: 300px;
+  min-width: 200px;
+  width: 30%;
+}
+
+a.button_contact {
+  position: relative;
+  width: 23%;
+  height: 72px;
+  line-height: 72px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #f48a9d;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+@media all and (max-width: 600px) {
+  a.button_contact {
+    width: 100% !important;
+    height: 15vw;
+    line-height: 15vw;
+  }
+}
+a.button_contact:after {
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(100deg, rgba(255, 255, 255, 0) 10%, white 100%, rgba(255, 255, 255, 0) 0%);
+  animation-name: shiny;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+a.button_contact span {
+  height: 72px;
+  line-height: 72px;
+  position: relative;
+  font-size: 18px;
+}
+@media all and (max-width: 600px) {
+  a.button_contact span {
+    font-size: 4vw;
+    height: 15vw;
+    line-height: 16vw;
+  }
+}
+
+a.button_contact span:after {
+  content: "▶︎";
+  position: absolute;
+  right: -19px;
+}
+
+/*# sourceMappingURL=kitasenjyu.css.map */
+
+/*追加20201114*/
+
+a.disabled {
+  pointer-events: none;
+}
+
+a.abled {
+  pointer-events: auto;
+}
+
+@media (max-width: 480px) {
+  .sp_nav .mail span {
+    color: #8bc33e;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 1px;
+  }
+}
+
+/*追加20220511*/
+
+.fixed__cv {
+  background-color: #f2ffe7;
+  padding-top: 0.625rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+
+@media all and (min-width: 481px) {
+  .fixed__cv {
+    display: none !important;
+  }
+}
+
+.fixed__cv__contact {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.fixed__cv__contact .mail {
+  background: url(/common/images/footer_mail.svg) no-repeat center;
+  background-size: cover;
+  width: 155px;
+  height: 50px;
+  position: relative;
+  right: 0;
+  top: 4px;
+  margin-right: 1.5rem;
+}
+
+.fixed__cv__contact .tel {
+  background: url(/common/images/footer_tel.svg) no-repeat center;
+  background-size: cover;
+  width: 155px;
+  height: 50px;
+  position: relative;
+  right: 0;
+  top: 4px;
+}
+
+.fixed__cv__contact a {
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px grey;
+}
+
+.fixed__cv__contact a:hover {
+  opacity: 0.9;
+}

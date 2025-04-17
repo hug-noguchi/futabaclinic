@@ -12,7 +12,7 @@ Template Name: header-3
         $url = $_SERVER['REQUEST_URI'];
         if(strstr($url,'input')==true):
       ?>
-    <li>お問い合わせ 入力</li>
+    <li>お問い合わせ・お申し込み 入力</li>
     <?php endif; ?>
     <?php
       $url = $_SERVER['REQUEST_URI'];

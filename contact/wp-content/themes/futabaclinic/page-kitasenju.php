@@ -7,7 +7,7 @@ Template Name: header-1
 
 <?php get_header(1); ?>
     <ul id="breadcrumb">
-      <li><a href="/">ホーム</a>&nbsp;&gt;</li>
+      <li><a href="/kitasenju/">ホーム</a>&nbsp;&gt;</li>
       <li>お問い合わせ・お申し込み 入力</li>
     </ul>
     <div id="visual">

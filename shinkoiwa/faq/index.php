@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="format-detection" content="telephone=no">
 <meta content="width=375,user-scalable=no" name="viewport">
-<title>よくあるご質問 | ふたば在宅クリニック -  葛飾区、江戸川区、墨田区の訪問診療</title>
-<meta name="description" content="ふたば在宅クリニック 新小岩院（葛飾区、江戸川区、墨田区、江東区など）東京都・城東エリアの訪問診療・往診・在宅医療">
-<meta name="keywords" content="ふたば在宅クリニック 新小岩院,東京都,葛飾区,江戸川区,墨田区,江東区,在宅医療,訪問診療,往診">
+<title>よくあるご質問 | ふたば在宅クリニック -  葛飾区、江戸川区の訪問診療</title>
+<meta name="description" content="ふたば在宅クリニック 新小岩院（葛飾区、江戸川区など）東京都・城東エリアの訪問診療・往診・在宅医療">
+<meta name="keywords" content="ふたば在宅クリニック 新小岩院,東京都,葛飾区,江戸川区,在宅医療,訪問診療,往診">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 <link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
 <link rel="stylesheet" type="text/css" href="/shinkoiwa/common/styles/base.css" media="all">

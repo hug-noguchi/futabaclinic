@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta content="width=375,user-scalable=no" name="viewport">
-	<title>先輩インタビュー 中山 恵美 | 求人 | ふたば在宅クリニック - 足立区、荒川区、台東区の訪問診療</title>
-	<meta name="description" content="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 東京都・城東エリアの在宅療養支援診療所 在宅医療・訪問診療・訪問看護・往診（足立区 荒川区 台東区など）の求人情報になります。">
-	<meta name="keywords" content="求人情報,医療法人社団 爽緑会 ふたば在宅クリニック 北千住院,東京都,足立区,荒川区,台東区,在宅医療,訪問診療,訪問看護,往診,在宅療養支援診療所">
+	<title>先輩インタビュー 中山 恵美 | 求人 | ふたば在宅クリニック - 足立区、荒川区の訪問診療</title>
+	<meta name="description" content="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 東京都・城東エリアの在宅療養支援診療所 在宅医療・訪問診療・訪問看護・往診（足立区 荒川区など）の求人情報になります。">
+	<meta name="keywords" content="求人情報,医療法人社団 爽緑会 ふたば在宅クリニック 北千住院,東京都,足立区,荒川区,在宅医療,訪問診療,訪問看護,往診,在宅療養支援診療所">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 	<link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/kitasenju/common/styles/base.css" media="all">

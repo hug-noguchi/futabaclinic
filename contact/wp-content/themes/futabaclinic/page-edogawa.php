@@ -7,7 +7,7 @@ Template Name: header-2
 
 <?php get_header(2); ?>
     <ul id="breadcrumb">
-      <li><a href="/">ホーム</a>&nbsp;&gt;</li>
+      <li><a href="/shinkoiwa/">ホーム</a>&nbsp;&gt;</li>
       <li>お問い合わせ・お申し込み 入力</li>
     </ul>
     <div id="visual">

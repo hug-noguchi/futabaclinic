@@ -5,13 +5,13 @@
   <meta content="width=375,user-scalable=no" name="viewport">
   <meta name="format-detection" content="telephone=no">
   <?php if(is_single()): ?>
-    <title><?php the_title_attribute(); ?> | お知らせ一覧 | ふたば在宅クリニック - 足立区、荒川区、台東区の訪問診療</title>
+    <title><?php the_title_attribute(); ?> | お知らせ一覧 | ふたば在宅クリニック - 足立区、荒川区の訪問診療</title>
     <meta name="description" content="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 東京都・城東エリアの在宅療養支援診療所 在宅医療・訪問診療・訪問看護・往診（足立区、荒川区、台東区、墨田区、葛飾区、江戸川区、江東区など）のお知らせ「<?php the_title_attribute(); ?> 」になります。">
-    <meta name="keywords" content="<?php the_title_attribute(); ?> ,お知らせ一覧,医療法人社団 爽緑会 ふたば在宅クリニック 北千住院,在宅療養支援診療所,東京都,足立区 江戸川区">
+    <meta name="keywords" content="<?php the_title_attribute(); ?> ,お知らせ一覧,医療法人社団 爽緑会 ふたば在宅クリニック 北千住院,在宅療養支援診療所,東京都,墨田区,江東区,台東区,葛飾区,江戸川区,足立区,荒川区">
   <?php else: ?>
-    <title>お知らせ一覧 | ふたば在宅クリニック - 足立区、荒川区、台東区の訪問診療</title>
+    <title>お知らせ一覧 | ふたば在宅クリニック - 足立区、荒川区の訪問診療</title>
     <meta name="description" content="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 東京都・城東エリアの在宅療養支援診療所 在宅医療・訪問診療・訪問看護・往診（足立区、荒川区、台東区、墨田区、葛飾区、江戸川区、江東区など）のお知らせ一覧になります。">
-    <meta name="keywords" content="お知らせ一覧,医療法人社団 爽緑会 ふたば在宅クリニック 北千住院,在宅療養支援診療所,東京都,足立区 江戸川区,荒川区,在宅医療,訪問診療">
+    <meta name="keywords" content="お知らせ一覧,医療法人社団 爽緑会 ふたば在宅クリニック 北千住院,在宅療養支援診療所,東京都,墨田区,江東区,台東区,葛飾区,江戸川区,足立区,荒川区,在宅医療,訪問診療">
   <?php endif; ?>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
@@ -73,31 +73,31 @@
       <div>
         <h1 class="pc">
           <span class="txt_00">東京都・城東エリアの <span>訪問診療・往診・在宅医療</span></span><br>
-          <span class="txt_01">（足立区、荒川区、台東区、墨田区、葛飾区、江戸川区、江東区）</span>
+          <span class="txt_01">（足立区、荒川区、墨田区、葛飾区、江戸川区、台東区、江東区）</span>
         </h1>
         <div class="logo_box">
           <p class="pc" id="header_logo">
             <a href="/kitasenju/">
-              <img src="/common/images/logo_k_e.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック,北千住院 荒川区 在宅医療 訪問診療">
+              <img src="/common/images/logo_tokyo_kita.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック,北千住院 墨田区 江東区 台東区 葛飾区 江戸川区 足立区 荒川区 在宅医療 訪問診療">
             </a>
           </p>
           <ul class="pc icon_box">
-            <li><img src="/common/images/header_icon_03.svg" alt="在宅医療(24時間365日),北千住院 荒川区 在宅医療 訪問診療"></li>
-            <li><img src="/common/images/header_icon_02.svg" alt="内科 心・肺・脳,北千住院 荒川区 在宅医療 訪問診療"></li>
-            <li><img src="/common/images/header_icon_01.svg" alt="がん・緩和ケア,北千住院 荒川区 在宅医療 訪問診療"></li>
+            <li><img src="/common/images/header_icon_03.svg" alt="在宅医療(24時間365日),北千住院 墨田区 江東区 台東区 葛飾区 江戸川区 足立区 荒川区 在宅医療 訪問診療"></li>
+            <li><img src="/common/images/header_icon_02.svg" alt="内科 心・肺・脳,北千住院 墨田区 江東区 台東区 葛飾区 江戸川区 足立区 荒川区 在宅医療 訪問診療"></li>
+            <li><img src="/common/images/header_icon_01.svg" alt="がん・緩和ケア,北千住院 墨田区 江東区 台東区 葛飾区 江戸川区 足立区 荒川区 在宅医療 訪問診療"></li>
           </ul>
         </div>
 
         <div class="sp" style="overflow: hidden;">
           <?php if (stristr($_SERVER['HTTP_USER_AGENT'], "android")) { ?>
             <h1>
-              <span class="txt_00">東京都・城東エリアの在宅療養支援診療所</span>
-              <span class="txt_01">（足立区、荒川区、台東区、墨田区、葛飾区、江戸川区、江東区）</span>
+              <span class="txt_00">東京都・城東エリアの在宅療養支援診療所</span><br>
+              <span class="txt_01">（足立区、荒川区、墨田区、葛飾区、江戸川区、台東区、江東区）</span>
             </h1>
           <?php } else { ?>
             <h1>
               <span class="txt_00">東京都・城東エリアの <span>訪問診療・往診・在宅医療</span></span><br>
-              <span class="txt_01">（足立区、荒川区、台東区、墨田区、葛飾区、江戸川区、江東区）</span>
+              <span class="txt_01">（足立区、荒川区、墨田区、葛飾区、江戸川区、台東区、江東区）</span>
             </h1>
           <?php } ?>
 
@@ -132,15 +132,17 @@
             <div class="android_logo_box">
               <p class="logo">
                 <a href="/kitasenju/">
-                  <img src="/common/images/logo_k_e.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック,北千住院 荒川区 在宅医療 訪問診療">
+                  <img src="/common/images/logo_tokyo_kita.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック,北千住院 墨田区 江東区 台東区 葛飾区 江戸川区 足立区 荒川区 在宅医療 訪問診療">
                 </a>
               </p>
               <p class="txt_01">在宅医療・訪問診療・訪問看護・往診</p>
             </div>
           <?php } else { ?>
-            <p class="logo">
-              <a href="/kitasenju/"><img src="/common/images/logo_k_e.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック,北千住院 荒川区 在宅医療 訪問診療"></a>
-            </p>
+            <div class="logo_box">
+              <p id="header_logo">
+                <a href="/kitasenju/"><img src="/common/images/logo_tokyo_kita.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック,北千住院 墨田区 江東区 台東区 葛飾区 江戸川区 足立区 荒川区 在宅医療 訪問診療"></a>
+              </p>
+            </div>
           <?php } ?>
           <div class="sp_nav" role="banner">
             <button type="button" class="drawer-toggle drawer-hamburger">
@@ -159,7 +161,7 @@
                 <li><a href="/kitasenju/recruit/">採用・求人</a></li>
                 <li><a href="/contact/input_kitasenju/">お問い合わせ・お申し込み</a></li>
                 <li><a href="/news/kitasenju/">お知らせ</a></li>
-                <li><a href="/kitasenju/privacy/">個人情報保護方針</a></li>
+                <li><a href="/kitasenju/privacy/">プライバシーポリシー</a></li>
                 <li class="fax"><span class="fax_txt">03-6806-2591</span></li>
               </ul>
             </nav>

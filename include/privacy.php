@@ -1,6 +1,13 @@
-<div class="privacy">
-	<h2 class="privacy_title">個人情報保護方針</h2>
+<style>
+	@media all and (max-width: 468px) {
+		.privacy > h2 {
+			margin: 0 20px 10px;
+		}
+	}
+</style>
 
+<div class="privacy">
+	<h2 class="privacy_title">プライバシーポリシー</h2>
 
 		<p class="privacy_lead">
 		<?php if($url == "/sakura/privacy/" || $url == "/yachiyo/privacy/") { ?>
@@ -161,5 +168,241 @@
 		なお、ご本人のお申し出により同意及び保留はいつでも変更できます</p>
 
 		<p class="seiteibi">制定日2022年9月8日</p>
+
+		<div class="privacy2">
+			<h2 class="privacy_title">施設基準</h2>
+			<p class="privacy_lead">
+				当院は、厚生労働大臣の定める基準に基づいて診療を行っている保険医療機関です当院は、厚生労働大臣の定める基準に基づいて診療を行っている保険医療機関です
+			</p>
+			<section class="privacy_contents">
+				<dl class="privacy_definition">
+					<dt class="privacy_subheading">機能強化加算</dt>
+					<dd class="privacy_text">
+						当院は地域において包括的な診療を担う医療機関です。
+					</dd>
+				</dl>
+
+				<dl class="privacy_definition">
+					<dt class="privacy_subheading">明細書発行体制</dt>
+					<dd class="privacy_text">
+						当院は療担規則に則り明細書については無償で交付します。
+					</dd>
+				</dl>
+
+				<dl class="privacy_definition">
+					<dt class="privacy_subheading">医療情報取得加算</dt>
+					<dd class="privacy_text">
+						当院は電子資格確認を行う体制を有して質の高い診療を実施するための十分な情報を取得し、及び活用して診療を行っています。
+					</dd>
+				</dl>
+
+				<dl class="privacy_definition">
+					<dt class="privacy_subheading">一般名処方加算</dt>
+					<dd class="privacy_text">
+						当院は後発医薬品があるお薬について、患者様へご説明の上、商品名ではなく一般名（有効成分の名称）で処方する場合があります。
+					</dd>
+				</dl>
+
+				<dl class="privacy_definition">
+					<dt class="privacy_subheading">通院・在宅精神療法</dt>
+					<dd class="privacy_text">
+						(イ) 患者ごとの相談内容に応じたケースマネジメントを行っていること。<br>
+						(ロ) 障害福祉サービス等の利用に係る相談を行っていること。<br>
+						(ハ) 介護保険に係る相談を行っていること。<br>
+						(ニ) 当該保険医療機関に通院する患者について、介護支援専門員からの相談に適切に対応すること。<br>
+						(ホ) 市町村、保健所等の行政機関、地域生活支援拠点等との連携を行っていること。<br>
+						(ヘ) 精神科病院等に入院していた患者の退院後支援を行っていること。<br>
+						(ト) 身体疾患に関する診療又は他の診療科との連携を行っていること。<br>
+						(チ) 健康相談、予防接種に係る相談を行っていること。<br>
+						(リ) 可能な限り向精神薬の多剤投与、大量投与、長期処方を控えていること。
+					</dd>
+				</dl>
+
+				<dl class="privacy_definition">
+					<dt class="privacy_subheading">時間外対応加算</dt>
+					<dd class="privacy_text">
+						当院は当院を継続的に受診している患者からの電話等による問い合わせに対し、原則として当該診療所において、常時対応できる体制を取っています。
+					</dd>
+				</dl>
+
+				<dl class="privacy_definition">
+					<dt class="privacy_subheading">情報通信機器を用いた診療</dt>
+					<dd class="privacy_text">
+						当院は情報通信機器を用いた診療の初診の場合には向精神薬の処方を行っていません。
+					</dd>
+				</dl>
+
+				<dl class="privacy_definition">
+					<dt class="privacy_subheading">医療DX推進体制整備加算</dt>
+					<dd class="privacy_text">
+						当院は医療DX推進の体制に関する事項及び質の高い診療を実施するための十分な情報を取得し、及び活用して診療を行っています。
+					</dd>
+				</dl>
+
+				<dl class="privacy_definition">
+					<dt class="privacy_subheading">在宅医療DX情報活用加算</dt>
+					<dd class="privacy_text">
+						当院は在宅医療DX推進の体制に関する事項及び質の高い診察を実施するための十分な情報を取得し、及び活用して診察を行っています。
+					</dd>
+				</dl>
+
+				<dl class="privacy_definition">
+					<dt class="privacy_subheading">在宅医療情報連携加算（在医総管・施医総管・在宅がん医療総合診療所）</dt>
+					<dd class="privacy_text">
+						当院は通院が困難なものの診療情報等について、ICTを用いて常時確認できる体制を有しています。
+					</dd>
+				</dl>
+
+				<dl class="privacy_definition">
+					<dt class="privacy_subheading">特掲診療料の施設基準に係る院内掲示</dt>
+					<dd class="privacy_text">
+						がん性疼痛緩和指導管理料<br>
+						在宅療養支援診療所<br>
+						在宅緩和ケア充実診療所・病院加算<br>
+						在宅時医学総合管理料及び施設入居時等医学総合管理料<br>
+						在宅がん医療総合診療料<br>
+						在宅データ提出加算<br>
+						下肢創傷処置管理料
+					</dd>
+				</dl>
+
+				<div class="privacy_definition privacy_price">
+					<p class="privacy_subheading">診断書・証明書及保険外負担に係る費用</p>
+					<table class="table_box">
+						<tbody>
+							<tr>
+								<th scope="col" class="table_box_title1">種別</th>
+								<th scope="col" class="table_box_title2">金額（税込）</th>
+							</tr>
+							<tr>
+								<td>死亡診断書</td>
+								<td class="table_box_price">8,800</td>
+							</tr>
+							<tr>
+								<td>死体検案書</td>
+								<td class="table_box_price">8,800</td>
+							</tr>
+							<tr>
+								<td>原本証明（死亡診断書）</td>
+								<td class="table_box_price">4,400</td>
+							</tr>
+							<tr>
+								<td>診断書</td>
+								<td class="table_box_price">3,300</td>
+							</tr>
+							<tr>
+								<td>英文診断書（当院書式）</td>
+								<td class="table_box_price">5,500</td>
+							</tr>
+							<tr>
+								<td>入所時健康診断書</td>
+								<td class="table_box_price">5,500</td>
+							</tr>
+							<tr>
+								<td>丸山ワクチン</td>
+								<td class="table_box_price">5,500</td>
+							</tr>
+							<tr>
+								<td>保険会社宛診断書</td>
+								<td class="table_box_price">7,700</td>
+							</tr>
+							<tr>
+								<td>成年後見制度用診断書</td>
+								<td class="table_box_price">3,300</td>
+							</tr>
+							<tr>
+								<td>国民・厚生年金診断書</td>
+								<td class="table_box_price">11,000</td>
+							</tr>
+							<tr>
+								<td>身体障害者診断書</td>
+								<td class="table_box_price">11,000</td>
+							</tr>
+							<tr>
+								<td>保険会社宛英文診断書</td>
+								<td class="table_box_price">11,000</td>
+							</tr>
+							<tr>
+								<td>自立支援診断書（更新のみ）</td>
+								<td class="table_box_price">3,300</td>
+							</tr>
+							<tr>
+								<td>自立支援手帳用診断書（更新のみ）</td>
+								<td class="table_box_price">3,300</td>
+							</tr>
+							<tr>
+								<td>通院証明書</td>
+								<td class="table_box_price">3,300</td>
+							</tr>
+							<tr>
+								<td>証明書（ご家族が介護休暇を取る旨）</td>
+								<td class="table_box_price">5,500</td>
+							</tr>
+							<tr>
+								<td>特定疾病（難病）臨床調査個人票（更新）</td>
+								<td class="table_box_price">3,300</td>
+							</tr>
+							<tr>
+								<td>特定疾病（難病）臨床調査個人票（新規）</td>
+								<td class="table_box_price">5,500</td>
+							</tr>
+							<tr>
+								<td>保険会社宛通院証明書</td>
+								<td class="table_box_price">7,700</td>
+							</tr>
+							<tr>
+								<td>保険会社宛死亡証明書</td>
+								<td class="table_box_price">7,700</td>
+							</tr>
+							<tr>
+								<td>特別障害手当認定証</td>
+								<td class="table_box_price">11,000</td>
+							</tr>
+							<tr>
+								<td>結核医療費公費負担申請書</td>
+								<td class="table_box_price">3,300</td>
+							</tr>
+							<tr>
+								<td>日常生活用具費支給意見書</td>
+								<td class="table_box_price">3,300</td>
+							</tr>
+							<tr>
+								<td>寝たきり証明書</td>
+								<td class="table_box_price">0</td>
+							</tr>
+							<tr>
+								<td>入浴可否指示書</td>
+								<td class="table_box_price">0</td>
+							</tr>
+							<tr>
+								<td>オムツ証明書</td>
+								<td class="table_box_price">0</td>
+							</tr>
+							<tr>
+								<td>装具装着証明書</td>
+								<td class="table_box_price">0</td>
+							</tr>
+							<tr>
+								<td>印鑑登録申請用証明書</td>
+								<td class="table_box_price">0</td>
+							</tr>
+							<tr>
+								<td>雇用保険受給資格に係る病状証明書（公共職業安定書）</td>
+								<td class="table_box_price">0</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="privacy2">
+					<h2 class="privacy_title">マイナ保険証に関して</h2>
+					<p class="privacy_lead">
+						当院は診療情報を取得・活用することにより、質の高い医療の提供に努めております。<br>
+						正確な情報を取得・活用するため、マイナ保険証の利用にご協力をお願いいたします。
+					</p>
+				</div>
+
+			</section>
+		</div>
 	</section>
 </div>

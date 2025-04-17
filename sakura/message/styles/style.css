@@ -10,10 +10,6 @@
   width: 250px;
   border-radius: 5px;
 }
-#main section:nth-child(1) .box_wrap .box .txt_box {
-  float: left;
-  width: 360px;
-}
 #main section:nth-child(1) .box_wrap .box .txt_box dl:last-child {
   margin-top: 20px;
 }
@@ -32,6 +28,7 @@
 }
 #main section:nth-child(1) .box_wrap .box .txt_box h3 .txt_01 {
   color: #f48a9d;
+  padding-right: 9px;
 }
 #main section:nth-child(1) .box_wrap .box .txt_box h3 .txt_02 {
   font-size: 14px;
@@ -307,12 +304,12 @@
   width: 40px;
   height: 40px;
   background-size: contain;
-  left: 0;
+  left: -20px;
 }
 
 @media all and (max-width: 480px) {
   #main section .kanren span:before {
-    left: 6%;
+    left: 0;
     width: 43px;
     height: 43px;
   }
@@ -330,7 +327,7 @@
 }
 
 #main section .kanren .kanren_01 span:after {
-  margin-left: 30px;
+  margin-left: 50px;
   bottom: 10px;
 }
 
@@ -339,14 +336,8 @@
   top: -10px;
 }
 
-@media all and (min-width: 481px) {
-  #main section .kanren .kanren_02 span:before {
-    left: 2%;
-  }
-}
-
 #main section .kanren .kanren_02 span:after {
-  margin-left: 20px;
+  margin-left: 50px;
   bottom: 1px;
 }
 
@@ -362,13 +353,13 @@
 }
 
 #main section .kanren .kanren_03 span:after {
-  margin-left: 15px;
+  margin-left: 34px;
   bottom: 1px;
 }
 
 @media all and (max-width: 480px) {
   #main section .kanren .kanren_01 span:after {
-    margin-left: 55px;
+    margin-left: 75px;
   }
 
   #main section .kanren .kanren_02 span:before {
@@ -376,16 +367,16 @@
   }
 
   #main section .kanren .kanren_02 span:after {
-    margin-left: 55px;
+    margin-left: 75px;
   }
 
   #main section .kanren .kanren_03 span:before {
     top: -8px;
-    left: 5%;
+    left: 0;
   }
 
   #main section .kanren .kanren_03 span:after {
-    margin-left: 36px;
+    margin-left: 52px;
   }
 }
 
@@ -400,7 +391,7 @@
 }
 #main section:nth-child(1) .box_wrap .box .txt_box {
   float: left;
-  width: 360px;
+  width: 370px;
 }
 #main section:nth-child(1) .box_wrap .box .txt_box dl:last-child {
   margin-top: 20px;
@@ -417,9 +408,6 @@
 #main section:nth-child(1) .box_wrap .box .txt_box h3 .border {
   border-left: 5px solid #f48a9d;
   padding: 3px 0 1px 7px;
-}
-#main section:nth-child(1) .box_wrap .box .txt_box h3 .txt_01 {
-  color: #f48a9d;
 }
 #main section:nth-child(1) .box_wrap .box .txt_box h3 .txt_02 {
   font-size: 14px;
@@ -597,4 +585,79 @@
 }
 #main section h2 + .department {
   margin-top: 20px !important;
+}
+
+/* 理事長 石井 英世 （いしい ひでよ） */
+#main section .riji {
+  margin-top: 80px;
+}
+#main section .riji h3 {
+  color: #4b4b4b;
+  padding-left: 0px;
+  margin-bottom: 10px;
+}
+#main section .riji h3 span {
+  background-image: none;
+  padding: 0;
+}
+#main section .riji .border {
+  border-left: 5px solid #f48a9d;
+  padding: 3px 0 1px 7px;
+}
+#main section .riji .border .txt_01 {
+  color: #f48a9d;
+  padding-right: 14px;
+}
+#main section .riji .border .txt_02 {
+  font-size: 14px;
+}
+#main section .riji_txt {
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff0f3;
+  border: solid #f48a9d 1px;
+}
+@media all and (max-width: 480px) {
+  #main section .riji {
+    margin-top: 30px;
+  }
+}
+
+#main section .riji .riji_box {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+#main section:nth-child(1) .riji .riji_box img {
+  height: auto;
+  float: left;
+  margin-right: 10px;
+  width: 250px;
+  border-radius: 5px;
+}
+#main section:nth-child(1) .riji .riji_box h3,
+#main section:nth-child(1) .riji .riji_box .riji_txt {
+  float: left;
+  width: 450px;
+}
+
+@media (min-width: 481px) {
+  #main section:nth-child(1) .riji .riji_box img {
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  #main section:nth-child(1) .riji {
+    padding: 0 20px;
+  }
+  #main section:nth-child(1) .riji .riji_box img {
+    margin-right: 2%;
+    width: 100%;
+    float: none;
+  }
+  #main section:nth-child(1) .riji .riji_box h3,
+  #main section:nth-child(1) .riji .riji_box .riji_txt {
+    width: 100%;
+    float: none;
+    margin-top: 10px;
+  }
 }

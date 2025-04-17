@@ -11,17 +11,17 @@
 <link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
 <link rel="stylesheet" type="text/css" href="/kuki/about/styles/style.css" media="all">
 <link rel="SHORTCUT ICON" href="/icon.ico">
-<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />
+<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png">
 <!--
 <PageMap>
-    <DataObject type="thumbnail">
-        <Attribute name="src" value="https://www.futabaclinic.jp/common/images/point_2_1_100.jpg"/>
-        <Attribute name="width" value="100" />
-        <Attribute name="height" value=“100” />
-    </DataObject>
+	<DataObject type="thumbnail">
+		<Attribute name="src" value="https://www.futabaclinic.jp/common/images/point_2_1_100.jpg">
+		<Attribute name="width" value="100">
+		<Attribute name="height" value=“100”>
+	</DataObject>
 </PageMap>
 -->
-<meta name="thumbnail" content="https://www.futabaclinic.jp/common/images/point_2_1_100.jpg"/>
+<meta name="thumbnail" content="https://www.futabaclinic.jp/common/images/point_2_1_100.jpg">
 <style>
 	@media (max-width: 376px) {
 		header h1 .txt_00 span {
@@ -62,7 +62,7 @@
 							</ul>
 						</div>
 						<div>
-							<img src="/common/images/about_image.jpg" alt="訪問診療とは">
+							<img src="/common/images/teacher_04.jpg" alt="訪問診療とは">
 						</div>
 					</div>
 				</section>
@@ -71,14 +71,14 @@
 					<p>ひとりで通院ができなくなった方であれば誰でも対象となります。</p>
 					<p>ご自宅でのんびり静養したい方はもちろん、グループホームや高齢者施設に入院中の方もお気軽にお問い合わせください。</p>
 					<ul>
-						<li><span class="check"><img src="/common/images/icon_check_02.svg" loading="lazy"></span><span class="border">通院が大変、外来の待ち時間が長くて大変な方</span></li>
-						<li><span class="check"><img src="/common/images/icon_check_02.svg" loading="lazy"></span><span class="border">ご家族の通院付き添いが大変な方</span></li>
-						<li><span class="check"><img src="/common/images/icon_check_02.svg" loading="lazy"></span><span class="border">入院せずに、ご自宅で治療を受けたい方</span></li>
-						<li><span class="check"><img src="/common/images/icon_check_02.svg" loading="lazy"></span><span class="border">ご自宅での終末期医療、緩和ケアを望む方</span></li>
-						<li><span class="check"><img src="/common/images/icon_check_02.svg" loading="lazy"></span><span class="border">退院後のご自宅での療養が不安な方</span></li>
-						<li><span class="check"><img src="/common/images/icon_check_02.svg" loading="lazy"></span><span class="border">いつでも気軽に相談できるかかりつけ医をお探<span class="border_02">しの方</span></span></li>
-						<li><span class="check"><img src="/common/images/icon_check_02.svg" loading="lazy"></span><span class="border">独居高齢者の安否確認が必要な方</span></li>
-						<li><span class="check"><img src="/common/images/icon_check_02.svg" loading="lazy"></span><span class="border">主治医意見書が必要な方</span></li>
+						<li><span class="check"><img src="/common/images/icon_check_02.svg" loading="lazy" alt="チェックマーク"></span><span class="border">通院が大変、外来の待ち時間が長くて大変な方</span></li>
+						<li><span class="check"><img src="/common/images/icon_check_02.svg" loading="lazy" alt="チェックマーク"></span><span class="border">ご家族の通院付き添いが大変な方</span></li>
+						<li><span class="check"><img src="/common/images/icon_check_02.svg" loading="lazy" alt="チェックマーク"></span><span class="border">入院せずに、ご自宅で治療を受けたい方</span></li>
+						<li><span class="check"><img src="/common/images/icon_check_02.svg" loading="lazy" alt="チェックマーク"></span><span class="border">ご自宅での終末期医療、緩和ケアを望む方</span></li>
+						<li><span class="check"><img src="/common/images/icon_check_02.svg" loading="lazy" alt="チェックマーク"></span><span class="border">退院後のご自宅での療養が不安な方</span></li>
+						<li><span class="check"><img src="/common/images/icon_check_02.svg" loading="lazy" alt="チェックマーク"></span><span class="border">いつでも気軽に相談できるかかりつけ医をお探<span class="border_02">しの方</span></span></li>
+						<li><span class="check"><img src="/common/images/icon_check_02.svg" loading="lazy" alt="チェックマーク"></span><span class="border">独居高齢者の安否確認が必要な方</span></li>
+						<li><span class="check"><img src="/common/images/icon_check_02.svg" loading="lazy" alt="チェックマーク"></span><span class="border">主治医意見書が必要な方</span></li>
 					</ul>
 				</section>
 				<section id="shinryou_box">
@@ -119,7 +119,6 @@
 				</section>
 				<section>
 					<h2>料金</h2>
-
 					<p>
 						自己負担金は保険種別により異なりますが、<br>
 						<span class="fb">１割負担の方で、</span>
@@ -141,7 +140,6 @@
 							<span class="txt_01">4,976円</span> ～/月です。<br class="sp">自己負担上限金額は18,000円です。
 						</p>
 						<p>
-
 							その施設に患者様が<span class="fb">2～9人</span>の場合、<br>
 							<span class="txt_01">2,126円</span> ～/月です。<br class="sp">自己負担上限金額は18,000円です。
 						</p>

@@ -95,10 +95,14 @@
 @media all and (max-width: 480px) {
   .faq section {
     width: 90%;
-    margin: 2rem auto 0;
+    margin: 0 auto;
   }
   .faq h2 {
     font-size: 16px;
+    margin: 0 20px;
+  }
+  .faq .faq_title {
+    margin-top: 0;
   }
   .faq .faq_title li {
     font-size: 0.9rem;

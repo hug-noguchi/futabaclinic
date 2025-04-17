@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta content="width=375,user-scalable=no" name="viewport">
-	<title>採用・求人 | ふたば在宅クリニック - 足立区、荒川区、台東区の訪問診療</title>
-	<meta name="description" content="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 東京都・城東エリアの在宅療養支援診療所 在宅医療・訪問診療・訪問看護・往診（足立区 荒川区 台東区など）の求人情報になります。">
-	<meta name="keywords" content="求人情報,医療法人社団 爽緑会 ふたば在宅クリニック 北千住院,東京都,足立区,荒川区,台東区,在宅医療,訪問診療,訪問看護,往診,在宅療養支援診療所">
+	<title>採用・求人 | ふたば在宅クリニック - 足立区、荒川区の訪問診療</title>
+	<meta name="description" content="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 東京都・城東エリアの在宅療養支援診療所 在宅医療・訪問診療・訪問看護・往診（足立区 荒川区など）の求人情報になります。">
+	<meta name="keywords" content="求人情報,医療法人社団 爽緑会 ふたば在宅クリニック 北千住院,東京都,足立区,荒川区,在宅医療,訪問診療,訪問看護,往診,在宅療養支援診療所">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 	<link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/kitasenju/common/styles/base.css" media="all">
@@ -102,8 +102,9 @@
 							</a>
 						</li>
 					</ul>
-					<p>紹介会社を介さず、直接採用に至った方には、<strong>お祝い金</strong>（基本給の1ヶ月分相当）を6カ月以上勤務後に賞与とあわせて贈呈致します。<br>
-					※看護師、医師に限る<br><br>
+					<p>紹介を介さず、直接採用に至った方には、<strong>お祝い金</strong>（基本給の1ヶ月分相当）を6カ月以上勤務後に賞与とあわせて贈呈致します。<br>
+					※賞与支給時期にご退職の場合は無効となります。<br>
+					※看護師、医師、経営企画室（管理職)、広報部に限る<br><br>
 					「ふたばで働きたい！」とご自身で直接応募していただいた方が優先採用になります。<br>
 					まずはお気軽にメール・お電話下さい。</p>
 				</section>
@@ -115,7 +116,7 @@
 					<div class="mv_interview sp wave-bg"></div>
 					<div class="interview_box">
 						<ul>
-							<li class="interview_list green_line">
+							<!-- <li class="interview_list green_line">
 								<a href="/kitasenju/recruit/interview_ishiduka/">
 									<div class="thum all img_ishiduka"></div>
 								</a>
@@ -126,7 +127,7 @@
 									</p>
 									<a href="/kitasenju/recruit/interview_ishiduka/"></a>
 								</div>
-							</li>
+							</li> -->
 							<li class="interview_list">
 								<a href="/kitasenju/recruit/interview_nakayama/">
 									<div class="thum all img_nakayama"></div>
@@ -139,7 +140,7 @@
 									<a href="/kitasenju/recruit/interview_nakayama/"></a>
 								</div>
 							</li>
-							<li class="interview_list">
+							<!-- <li class="interview_list">
 								<a href="/kitasenju/recruit/interview_enoki/">
 									<div class="thum all img_enoki"></div>
 								</a>
@@ -174,7 +175,7 @@
 									</p>
 									<a href="/kitasenju/recruit/interview_okutsu/"></a>
 								</div>
-							</li>
+							</li> -->
 							<li class="interview_list green_line">
 								<a href="/kitasenju/recruit/interview_akiya/">
 									<div class="thum all img_akiya"></div>

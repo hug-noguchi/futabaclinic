@@ -105,7 +105,7 @@
   left: -30px;
   transform: translateY(-50%);
 }
-#main section .desc li:first-child h4 {
+/* #main section .desc li:first-child h4 {
   border: 1px solid #e798a2;
 }
 #main section .desc li:first-child h4::before {
@@ -117,6 +117,27 @@
 }
 #main section .desc li:last-child h4::before {
   background: url(/kitasenju/area/images/h_orange.png) no-repeat;
+  background-size: cover;
+} */
+#main section .desc li.desc_shinkoiwa h4 {
+  border: 1px solid #f0bd58;
+}
+#main section .desc li.desc_shinkoiwa h4::before {
+  background: url(/kitasenju/area/images/h_orange.png) no-repeat;
+  background-size: cover;
+}
+#main section .desc li.desc_kitasenju h4 {
+  border: 1px solid #e798a2;
+}
+#main section .desc li.desc_kitasenju h4::before {
+  background: url(/kitasenju/area/images/h_pink.png) no-repeat;
+  background-size: cover;
+}
+#main section .desc li.desc_kinshichou h4 {
+  border: 1px solid #90d4d1;
+}
+#main section .desc li.desc_kinshichou h4::before {
+  background: url(/kitasenju/area/images/h_green.png) no-repeat;
   background-size: cover;
 }
 #main section .desc li p {

@@ -1,0 +1,57 @@
+<?php
+  $url = $_SERVER['REQUEST_URI'];
+  if (strpos($url, 'kinshichou') !== false) :
+?>
+
+<?php elseif (strpos($url, 'shinkoiwa') !== false) : ?>
+
+<?php elseif (strpos($url, 'kitasenju') !== false) : ?>
+
+<?php elseif (strpos($url, 'kitanarashino') !== false) : ?>
+
+<?php elseif (strpos($url, 'sakura') !== false) : ?>
+
+<?php elseif (strpos($url, 'yachiyo') !== false) : ?>
+
+<?php else : ?>
+
+<?php endif; ?>
+
+
+
+
+<?php $url = $_SERVER['REQUEST_URI'];
+  if (strpos($url, 'kinshichou') !== false || strpos($url, 'kitasenju') !== false || strpos($url, 'shinkoiwa') !== false) :
+?>
+
+<?php elseif (strpos($url, 'kitanarashino') !== false || strpos($url, 'sakura') !== false || strpos($url, 'yachiyo') !== false) : ?>
+
+<?php else : ?>
+
+<?php endif; ?>
+
+
+
+
+<?php
+  $url = $_SERVER['REQUEST_URI'];
+  $base_path = '/yachiyo';
+
+  if (strpos($url, 'kinshichou') !== false) {
+    $base_path = '/kinshichou';
+  } elseif (strpos($url, 'shinkoiwa') !== false) {
+    $base_path = '/shinkoiwa';
+  } elseif (strpos($url, 'kitasenju') !== false) {
+    $base_path = '/kitasenju';
+  } elseif (strpos($url, 'kitanarashino') !== false) {
+    $base_path = '/kitanarashino';
+  } elseif (strpos($url, 'sakura') !== false) {
+    $base_path = '/sakura';
+  } elseif (strpos($url, 'yachiyo') !== false) {
+    $base_path = '/yachiyo';
+  } elseif (strpos($url, 'kuki') !== false) {
+    $base_path = '/kuki';
+  }
+?>
+
+<?php echo $base_path; ?>

@@ -4,18 +4,18 @@
 		<div>
 			<h1>
 				<span class="txt_00">千葉県・北西部・印旛地域の  <span>訪問診療・往診・在宅医療</span></span><br>
-				<span class="txt_01">（佐倉市、印西市、四街道市、八千代市、千葉市、酒々井町）</span>
+				<span class="txt_01">（佐倉市、印西市、四街道市、八千代市、千葉市、酒々井町、習志野市、船橋市）</span>
 			</h1>
 			<div class="logo_box">
 				<p id="header_logo">
 					<a href="/sakura/">
-						<img src="/common/images/logo_sakura.svg" alt="医療法人社団 千葉爽緑会 ふたば在宅クリニック 佐倉院,千葉県・印旛地域（佐倉市、印西市、四街道市、八千代市、千葉市、酒々井町）の在宅医療 訪問診療 訪問看護 往診">
+						<img src="/common/images/logo_sakura.svg" alt="医療法人社団 千葉爽緑会 ふたば在宅クリニック 佐倉院,千葉県・印旛地域（佐倉市、印西市、四街道市、八千代市、千葉市、酒々井町、習志野市、船橋市）の在宅医療 訪問診療 訪問看護 往診">
 					</a>
 				</p>
 				<ul class="icon_box pc">
-					<li><img src="/common/images/header_icon_03.svg" alt="在宅医療(24時間365日),ふたば在宅クリニック 佐倉院,千葉県・印旛地域（佐倉市、印西市、四街道市、八千代市、千葉市、酒々井町）の訪問診療・往診・在宅医療"></li>
-					<li><img src="/common/images/header_icon_02.svg" alt="内科 心・肺・脳,ふたば在宅クリニック 佐倉院,千葉県・印旛地域（佐倉市、印西市、四街道市、八千代市、千葉市、酒々井町）の訪問診療・往診・在宅医療"></li>
-					<li><img src="/common/images/header_icon_01.svg" alt="がん・緩和ケア,ふたば在宅クリニック 佐倉院,千葉県・印旛地域（佐倉市、印西市、四街道市、八千代市、千葉市、酒々井町）の訪問診療・往診・在宅医療"></li>
+					<li><img src="/common/images/header_icon_03.svg" alt="在宅医療(24時間365日),ふたば在宅クリニック 佐倉院,千葉県・印旛地域（佐倉市、印西市、四街道市、八千代市、千葉市、酒々井町、習志野市、船橋市）の訪問診療・往診・在宅医療"></li>
+					<li><img src="/common/images/header_icon_02.svg" alt="内科 心・肺・脳,ふたば在宅クリニック 佐倉院,千葉県・印旛地域（佐倉市、印西市、四街道市、八千代市、千葉市、酒々井町、習志野市、船橋市）の訪問診療・往診・在宅医療"></li>
+					<li><img src="/common/images/header_icon_01.svg" alt="がん・緩和ケア,ふたば在宅クリニック 佐倉院,千葉県・印旛地域（佐倉市、印西市、四街道市、八千代市、千葉市、酒々井町、習志野市、船橋市）の訪問診療・往診・在宅医療"></li>
 				</ul>
 			</div>
 
@@ -57,7 +57,7 @@
 						<li><a href="/sakura/recruit/">採用・求人</a></li>
 						<li><a href="/contact/input_sakura/">お問い合わせ・お申し込み</a></li>
 						<li><a href="/news/sakura/">お知らせ</a></li>
-						<li><a href="/sakura/privacy/">個人情報保護方針</a></li>
+						<li><a href="/sakura/privacy/">プライバシーポリシー</a></li>
 						<li class="fax"><span class="fax_txt">043-290-9708</span></li>
 					</ul>
 				</nav>

@@ -88,6 +88,7 @@ body {
   margin-top: 70px;
 }
 #main form table {
+  width: 100%;
   border-top: 1px solid #d1d1d1;
   border-left: 1px solid #d1d1d1;
   border-collapse: separate;
@@ -273,6 +274,14 @@ p#button_move input:hover {
     background-size: 100%;
     top: 6px;
   }
+  #main form table {
+    margin: 0 auto 15px;
+    width: 90%;
+  }
+  #main form table input[type="text"],
+  #main form table input[type="email"] {
+    width: 100%;
+  }
 }
 @media all and (max-width: 376px) {
   #main p.flow {
@@ -284,9 +293,6 @@ p#button_move input:hover {
   }
   #main div p {
     text-align: left !important;
-  }
-  #main form table {
-    width: 100%;
   }
   #main form table tr:first-child th {
     border-radius: 13px 13px 0 0;
@@ -307,7 +313,7 @@ p#button_move input:hover {
   #main form table textarea,
   #main form table .name input,
   #main form table .address2 input {
-    width: 90%;
+    width: 100%;
   }
   #main form table .form-control {
     margin-bottom: 5px;
@@ -347,10 +353,6 @@ p#button_move input:hover {
   #main section#form {
     margin-top: -90px;
     padding-top: 90px;
-  }
-  #main form table {
-    margin: 0 auto 15px;
-    width: 90%;
   }
   .mw_wp_form_confirm td {
     width: auto;
@@ -421,6 +423,30 @@ p#button_move input:hover {
     padding-left: 0 !important;
     text-indent: 0 !important;
   }
+}
+
+.relationship_box td > label:nth-of-type(1),
+.relationship_box td > label:nth-of-type(2),
+.relationship_box td > label:nth-of-type(3),
+.relationship_box td > label:nth-of-type(4) {
+  margin-right: 10px;
+}
+.relationship_box td > label:nth-of-type(6),
+.relationship_box td > label:nth-of-type(7) {
+  margin-right: 24px;
+}
+
+@media (max-width: 480px) {
+  .relationship_box td > label:nth-of-type(3) {
+    margin-right: 0;
+  }
+  .relationship_box td > label:nth-of-type(4) {
+    margin-right: 23.5px;
+  }
+}
+
+.sex_box td > label:first-child {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

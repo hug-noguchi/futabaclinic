@@ -48,7 +48,7 @@
 					$entry = get_the_time('U');
 					$kiji = date('U',($today - $entry)) / 86400 ;
 					if( $days > $kiji ){
-					echo '<span class="pc_new">NEW</span>';
+					echo '<span class="new">NEW</span><br class="sp">';
 					}
 				?>
 				<a href="<?php the_permalink(); ?>"><?php the_title_attribute(); ?></a>

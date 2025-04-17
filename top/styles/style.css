@@ -37,12 +37,7 @@ section#open_box {
   border: 1px solid #98cf36;
   border-radius: 10px;
   padding: 17px 10px 10px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(1, #f5f8ee), color-stop(0, #ffffff));
-  background: -webkit-linear-gradient(top, #ffffff 80%, #f5f8ee 100%);
-  background: -moz-linear-gradient(top, #ffffff 80%, #f5f8ee 100%);
-  background: -o-linear-gradient(top, #ffffff 80%, #f5f8ee 100%);
-  background: -ms-linear-gradient(top, #ffffff 80%, #f5f8ee 100%);
-  background: linear-gradient(top, #ffffff 80%, #f5f8ee 100%);
+  background: #f6fef0;
 }
 section#open_box .box {
   overflow: hidden;
@@ -431,9 +426,16 @@ td.off {
   transform: matrix(1, -0.925, 0, 1, 0, 14);
 }
 
+@media (max-width: 480px) {
+  #main section h2 h2 {
+    margin: 0;
+  }
+}
+
 #main section#sec_07 {
   position: relative;
 }
+
 #main section#sec_07 p {
   line-height: 1;
   position: absolute;
@@ -708,7 +710,7 @@ td.off {
   }
   #main section#sec_07 p {
     padding: 0;
-    right: 10px;
+    right: 30px;
     top: -3px;
   }
   #main section#sec_07 p a {
@@ -748,8 +750,7 @@ td.off {
     line-height: 0.7 !important;
   }
   #main section#sec_07 p {
-    padding: 0;
-    right: 10px;
+    right: 30px;
     top: 1px;
   }
   #main section#sec_07 p a {
@@ -893,7 +894,7 @@ td.off {
 #open_box .txt_08 > span,
 .txt_12 > span {
   background: url(/top/images/people_icon.svg) no-repeat left 0/8px 14px;
-  font-size: 12px;
+  font-size: 11px;
   padding-left: 13px;
   position: relative;
   top: -2px;
@@ -960,12 +961,35 @@ td.off {
   font-weight: bold;
 }
 
+#open_box .shiny-btn-kinshichou {
+  display: inline-block;
+  width: 170px;
+  height: 30px;
+  border-radius: 5px / 5px;
+  background-color: #61c1be;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 a.shiny-btn-kitasenju,
-.shiny-btn-edogawa {
+.shiny-btn-edogawa,
+.shiny-btn-kinshichou,
+a.shiny-btn-yachiyo {
   position: relative;
 }
 
 a.shiny-btn-kitasenju span:after {
+  content: "▶︎";
+  position: absolute;
+  right: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+
+a.shiny-btn-kinshichou span:after {
   content: "▶︎";
   position: absolute;
   right: 5px;
@@ -986,6 +1010,18 @@ a.shiny-btn-kitasenju span:after {
   align-items: center;
 }
 
+#open_box .photo_kitasenju,
+#open_box .photo_shinkoiwa,
+#open_box .photo_kinshichou,
+#open_box .photo_kukiin,
+#open_box .photo_sakura,
+#open_box .photo_yachiyo {
+  margin: 13px auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #open_box .txt_12 {
   display: inline-block;
   width: 213px;
@@ -998,6 +1034,10 @@ a.shiny-btn-kitasenju span:after {
   font-size: 16px;
   font-weight: bold;
   clear: both;
+}
+
+#open_box .txt_kinshichou {
+  background-color: #61c1be;
 }
 
 #open_box .photo_shinkoiwa {
@@ -1051,4 +1091,31 @@ a.shiny-btn-edogawa span:after {
   right: 5px;
   color: #fff;
   font-size: 14px;
+}
+
+a.shiny-btn-yachiyo span:after {
+  content: "▶︎";
+  position: absolute;
+  right: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* 錦糸町院 */
+#open_box .kinshichou_box ul > li {
+  width: 53px;
+  height: 27px;
+  text-align: center;
+  color: #61c1be;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 2px;
+  margin: 3px;
+  border: 2px solid #61c1be;
+}
+
+@media (max-width: 480px) {
+  #open_box .kinshichou_box {
+    margin: 15px auto;
+  }
 }

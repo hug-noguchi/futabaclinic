@@ -1,6 +1,5 @@
 <?php
 
-
 remove_action('wp_head','wp_generator');
 
 $url = $_SERVER['REQUEST_URI'];
@@ -17,7 +16,6 @@ function custom_attribute( $html ){
 remove_action('wp_head', 'print_emoji_detection_script', 7);
 remove_action('wp_print_styles', 'print_emoji_styles');
 
-
 //更新日が投稿日より後なら返す
 function get_mtime($format) {
     $mtime = get_the_modified_time('Ymd');
@@ -28,8 +26,6 @@ function get_mtime($format) {
         return get_the_modified_time($format);
     }
 }
-
-
 
 // パンくずリスト
 function breadcrumb(){
@@ -254,11 +250,59 @@ function custom_post_type() {
 		)
 	);
 
+	register_post_type( 'kitanarashino',
+	array(
+		'labels' => array(
+			'name' => __( '北習志野お知らせ' ),
+			'singular_name' => __( '北習志野お知らせ' ),
+			'add_new' => _x('新規追加', 'news'),
+			'add_new_item' => __('新規追加')
+		),
+		'public' => true,
+		'has_archive' => true,
+		'hierarchical' => false,
+		'menu_position' => 5,
+		'supports' => array('title','editor','thumbnail','revisions')
+		)
+	);
+
+	register_post_type( 'motoyawata',
+	array(
+		'labels' => array(
+			'name' => __( '本八幡お知らせ' ),
+			'singular_name' => __( '本八幡お知らせ' ),
+			'add_new' => _x('新規追加', 'news'),
+			'add_new_item' => __('新規追加')
+		),
+		'public' => true,
+		'has_archive' => true,
+		'hierarchical' => false,
+		'menu_position' => 5,
+		'supports' => array('title','editor','thumbnail','revisions')
+		)
+	);
+
 	register_post_type( 'all',
 	array(
 		'labels' => array(
 			'name' => __( 'オールお知らせ' ),
 			'singular_name' => __( 'オールお知らせ' ),
+			'add_new' => _x('新規追加', 'news'),
+			'add_new_item' => __('新規追加')
+		),
+		'public' => true,
+		'has_archive' => true,
+		'hierarchical' => false,
+		'menu_position' => 5,
+		'supports' => array('title','editor','thumbnail','revisions')
+		)
+	);
+
+	register_post_type( 'kinshichou',
+	array(
+		'labels' => array(
+			'name' => __( '錦糸町お知らせ' ),
+			'singular_name' => __( '錦糸町お知らせ' ),
 			'add_new' => _x('新規追加', 'news'),
 			'add_new_item' => __('新規追加')
 		),
@@ -325,37 +369,51 @@ add_action('init', 'my_unregister_taxonomies');
 function add_admin_css_hidden_customize() {
 	if (current_user_can('administrator')) {
 		echo '<style type="text/css">
-			#menu-posts-shinkoiwa, #menu-posts-kitasenju,#menu-posts-sakura,#menu-posts-yachiyo,#menu-posts-all { display:none; }
+			#menu-posts-shinkoiwa, #menu-posts-kitasenju,#menu-posts-sakura,#menu-posts-yachiyo,#menu-posts-kinshichou,#menu-posts-kitanarashino,#menu-posts-motoyawata,#menu-posts-all { display:none; }
 		</style>';
 	}
 	if (current_user_can('editor_shinkoiwa')) {
 		echo '<style type="text/css">
-			#menu-posts-kitasenju,#menu-posts-sakura,#menu-posts-yachiyo,#menu-posts-all { display:none; }
+			#menu-posts-kitasenju,#menu-posts-sakura,#menu-posts-yachiyo,#menu-posts-kinshichou,#menu-posts-kitanarashino,#menu-posts-motoyawata,#menu-posts-all { display:none; }
 		</style>';
 	}
 	if (current_user_can('editor_kitasenju')) {
 		echo '<style type="text/css">
-			#menu-posts-shinkoiwa,#menu-posts-sakura,#menu-posts-yachiyo,#menu-posts-all { display:none; }
+			#menu-posts-shinkoiwa,#menu-posts-sakura,#menu-posts-yachiyo,#menu-posts-kinshichou,#menu-posts-kitanarashino,#menu-posts-motoyawata,#menu-posts-all { display:none; }
 		</style>';
 	}
 	if (current_user_can('sakura')) {
 		echo '<style type="text/css">
-			#menu-posts-shinkoiwa,#menu-posts-kitasenju,#menu-posts-yachiyo,#menu-posts-all { display:none; }
+			#menu-posts-shinkoiwa,#menu-posts-kitasenju,#menu-posts-yachiyo,#menu-posts-kinshichou,#menu-posts-kitanarashino,#menu-posts-motoyawata,#menu-posts-all { display:none; }
 		</style>';
 	}
 	if (current_user_can('yachiyo')) {
 		echo '<style type="text/css">
-			#menu-posts-shinkoiwa,#menu-posts-kitasenju,#menu-posts-sakura,#menu-posts-all { display:none; }
+			#menu-posts-shinkoiwa,#menu-posts-kitasenju,#menu-posts-sakura,#menu-posts-kinshichou,#menu-posts-kitanarashino,#menu-posts-motoyawata,#menu-posts-all { display:none; }
+		</style>';
+	}
+	if (current_user_can('kitanarashino')) {
+		echo '<style type="text/css">
+			#menu-posts-shinkoiwa,#menu-posts-kitasenju,#menu-posts-sakura,#menu-posts-kinshichou,#menu-posts-yachiyo,#menu-posts-motoyawata,#menu-posts-all { display:none; }
 		</style>';
 	}
 	if (current_user_can('all')) {
 		echo '<style type="text/css">
-			#menu-posts-shinkoiwa,#menu-posts-kitasenju,#menu-posts-sakura,#menu-posts-yachiyo { display:none; }
+			#menu-posts-shinkoiwa,#menu-posts-kitasenju,#menu-posts-sakura,#menu-posts-yachiyo,#menu-posts-kitanarashino,#menu-posts-motoyawata,#menu-posts-kinshichou { display:none; }
+		</style>';
+	}
+	if (current_user_can('kinshichou')) {
+		echo '<style type="text/css">
+			#menu-posts-shinkoiwa,#menu-posts-kitasenju,#menu-posts-sakura,#menu-posts-yachiyo,#menu-posts-kitanarashino,#menu-posts-motoyawata,#menu-posts-all { display:none; }
+		</style>';
+	}
+	if (current_user_can('motoyawata')) {
+		echo '<style type="text/css">
+			#menu-posts-shinkoiwa,#menu-posts-kitasenju,#menu-posts-kinshichou,#menu-posts-sakura,#menu-posts-yachiyo,#menu-posts-kitanarashino,#menu-posts-all { display:none; }
 		</style>';
 	}
 }
 add_action('admin_head', 'add_admin_css_hidden_customize', 100);
-
 
 
 //カスタム投稿タイプにタグ付け機能を追加
@@ -393,5 +451,29 @@ function add_tag_post_column( $column_name, $post_id ) {
 }
 add_filter( 'manage_top_posts_columns', 'add_tag_post_column_title' );
 add_action( 'manage_top_posts_custom_column', 'add_tag_post_column', 10, 2 );
+
+// 店舗別と全体のお知らせを取得する共通関数
+function get_store_and_global_posts($store_name, $posts_per_page = 10) {
+	$args = array(
+			'post_type' => array($store_name, 'all'), // 店舗専用 + 全体投稿
+			'posts_per_page' => $posts_per_page,
+			'orderby' => 'date',
+			'order' => 'DESC',
+			'paged' => (get_query_var('paged')) ? get_query_var('paged') : 1,
+			'meta_query' => array(
+					'relation' => 'OR',
+					array( // 店舗専用投稿タイプはそのまま表示
+							'post_type' => $store_name,
+					),
+					array( // 全体投稿タイプで店舗にチェックがあるもの
+							'key' => 'display_stores', // SCFフィールド名
+							'value' => $store_name,    // 現在の店舗名
+							'compare' => 'LIKE',       // チェックマークが付いている投稿を取得
+					),
+			),
+	);
+
+	return new WP_Query($args);
+}
 
 ?>

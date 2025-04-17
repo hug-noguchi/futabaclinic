@@ -5,7 +5,7 @@
 <meta name="format-detection" content="telephone=no">
 <meta content="width=375,user-scalable=no" name="viewport">
 <title>よくあるご質問 | ふたば在宅クリニック - 佐倉市、印西市、四街道市の訪問診療</title>
-<meta name="description" content="ふたば在宅クリニック 佐倉院（佐倉市、四街道市、八千代市、印西市、千葉市、酒々井町）千葉県・北西部・印旛地域の訪問診療・往診・在宅医療">
+<meta name="description" content="ふたば在宅クリニック 佐倉院（佐倉市、印西市、四街道市、八千代市、千葉市、酒々井町、習志野市、船橋市）千葉県・北西部・印旛地域の訪問診療・往診・在宅医療">
 <meta name="keywords" content="在宅診療とは、ふたば在宅クリニック,在宅療養支援診療所,千葉県,印旛地域">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 <link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
@@ -13,19 +13,17 @@
 <link rel="SHORTCUT ICON" href="/icon.ico">
 <link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />
 <?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header_tag.php'); ?>
-<style>
+  <style>
     @media (max-width: 480px) {
       footer  #footer_in #footer_in_02 img {
         width: 100%;
       }
     }
-</style>
+  </style>
 </head>
-
 <body id="faq" class="preload drawer drawer--top qa_01">
   <?php include($_SERVER['DOCUMENT_ROOT'] . '/include/analyticstracking.php'); ?>
-	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header_sakura.php'); ?>
-
+	<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/header.php'); ?>
   <article id="wrap">
     <ul id="breadcrumb">
       <li><a href="/sakura/">ホーム</a>&nbsp;&gt;&nbsp;</li>
@@ -39,17 +37,14 @@
 		</div>
     <div id="contents_wrap">
       <div id="contents">
-        <?php include($_SERVER['DOCUMENT_ROOT'] . '/include/faq.php'); ?>
+        <?php include($_SERVER['DOCUMENT_ROOT'] . '/template/faq.php'); ?>
         <div class="sp">
-          <?php include($_SERVER['DOCUMENT_ROOT'] . '/include/side_sakura.php'); ?>
+          <?php include($_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.php'); ?>
         </div>
       </div>
     </div>
   </article>
-
-	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/footer_sakura.php'); ?>
-
-  <script type="text/javascript" src="/sakura/top/fade.js"></script>
-
+	<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/footer.php'); ?>
+  <!-- <script type="text/javascript" src="/sakura/top/fade.js"></script> -->
 </body>
 </html>

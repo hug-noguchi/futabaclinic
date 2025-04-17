@@ -56,7 +56,7 @@
 	<link rel="stylesheet" href="/recruit/02/assets/style/normalize.css">
 
 	<link rel="stylesheet" href="/recruit/02/assets/style/animate.css">
-	<link rel="stylesheet" href="/recruit/02/assets/style/style.css">
+	<link rel="stylesheet" href="/recruit/styles/interview.css">
 
   <link rel="stylesheet" type="text/css" href="/recruit/02/assets/style/interview.css" media="all">
 
@@ -116,7 +116,7 @@
 		<nav class="l-drawer__menu">
 			<ul>
 				<li class="l-drawer__item"><a class="l-drawer__item-inner" href="/recruit/02#top" onclick="myfunc()"><span><img src="/recruit/02/assets/images/hutaba.svg" alt="双葉アイコン"></span>トップ</a></li>
-				<li class="l-drawer__item"><a class="l-drawer__item-inner" href="/recruit/02#support" onclick="myfunc()"><span><img src="/recruit/02/assets/images/hutaba.svg" alt="双葉アイコン"></span>4つの約束</a></li>
+				<li class="l-drawer__item"><a class="l-drawer__item-inner" href="/recruit/02#support" onclick="myfunc()"><span><img src="/recruit/02/assets/images/hutaba.svg" alt="双葉アイコン"></span>5つの強み</a></li>
 				<li class="l-drawer__item"><a class="l-drawer__item-inner" href="/recruit/02#conditions" onclick="myfunc()"><span><img src="/recruit/02/assets/images/hutaba.svg" alt="双葉アイコン"></span>条件・福利厚生</a></li>
 				<li class="l-drawer__item"><a class="l-drawer__item-inner" href="/recruit/02#special" onclick="myfunc()"><span><img src="/recruit/02/assets/images/hutaba.svg" alt="双葉アイコン"></span>特色</a></li>
 				<li class="l-drawer__item"><a class="l-drawer__item-inner" href="/recruit/02#schedule" onclick="myfunc()"><span><img src="/recruit/02/assets/images/hutaba.svg" alt="双葉アイコン"></span>業務スケジュール</a></li>

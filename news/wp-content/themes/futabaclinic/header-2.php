@@ -5,13 +5,13 @@
   <meta content="width=375,user-scalable=no" name="viewport">
   <meta name="format-detection" content="telephone=no">
   <?php if(is_single()): ?>
-    <title><?php the_title_attribute(); ?> | お知らせ一覧 | ふたば在宅クリニック -  葛飾区、江戸川区、墨田区の訪問診療</title>
-    <meta name="description" content="ふたば在宅クリニック 新小岩院（葛飾区、江戸川区、墨田区、江東区など）東京都・城東エリアの訪問診療・往診・在宅医療のお知らせ「<?php the_title_attribute(); ?> 」になります。">
-    <meta name="keywords" content="<?php the_title_attribute(); ?> ,ふたば在宅クリニック 新小岩院,東京都,葛飾区,江戸川区,墨田区,江東区,在宅医療,訪問診療,往診">
+    <title><?php the_title_attribute(); ?> | お知らせ一覧 | ふたば在宅クリニック -  葛飾区、江戸川区の訪問診療</title>
+    <meta name="description" content="ふたば在宅クリニック 新小岩院（葛飾区、江戸川区、墨田区、江東区、足立区、荒川区、台東区）東京都・城東エリアの訪問診療・往診・在宅医療のお知らせ「<?php the_title_attribute(); ?> 」になります。">
+    <meta name="keywords" content="<?php the_title_attribute(); ?> ,ふたば在宅クリニック 新小岩院,東京都,葛飾区,江戸川区,在宅医療,訪問診療,往診">
   <?php else: ?>
-    <title>お知らせ一覧 | ふたば在宅クリニック -  葛飾区、江戸川区、墨田区の訪問診療</title>
-    <meta name="description" content="ふたば在宅クリニック 新小岩院（葛飾区、江戸川区、墨田区、江東区など）東京都・城東エリアの訪問診療・往診・在宅医療のお知らせ一覧になります。">
-    <meta name="keywords" content="ふたば在宅クリニック 新小岩院,東京都,葛飾区,江戸川区,墨田区,江東区,在宅医療,訪問診療,往診">
+    <title>お知らせ一覧 | ふたば在宅クリニック -  葛飾区、江戸川区の訪問診療</title>
+    <meta name="description" content="ふたば在宅クリニック 新小岩院（葛飾区、江戸川区、墨田区、江東区、足立区、荒川区、台東区）東京都・城東エリアの訪問診療・往診・在宅医療のお知らせ一覧になります。">
+    <meta name="keywords" content="ふたば在宅クリニック 新小岩院,東京都,葛飾区,江戸川区,在宅医療,訪問診療,往診">
   <?php endif; ?>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
   <link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
@@ -77,13 +77,13 @@
         <div class="logo_box">
           <p id="header_logo">
             <a href="/shinkoiwa/">
-              <img src="/common/images/logo_e_k.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院（葛飾区、江戸川区、墨田区、江東区など）東京都・城東エリアの在宅医療 訪問診療 往診">
+              <img src="/common/images/logo_tokyo_s.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院（葛飾区、江戸川区、墨田区、江東区、足立区、荒川区、台東区）東京都・城東エリアの在宅医療 訪問診療 往診">
             </a>
           </p>
           <ul class="icon_box pc">
-            <li><img src="/common/images/header_icon_03.svg" alt="在宅医療(24時間365日),ふたば在宅クリニック 新小岩院,東京都・城東エリア（葛飾区、江戸川区、墨田区、江東区など）の訪問診療・往診・在宅医療"></li>
-            <li><img src="/common/images/header_icon_02.svg" alt="内科 心・肺・脳,ふたば在宅クリニック 新小岩院,東京都・城東エリア（葛飾区、江戸川区、墨田区、江東区など）の訪問診療・往診・在宅医療"></li>
-            <li><img src="/common/images/header_icon_01.svg" alt="がん・緩和ケア,ふたば在宅クリニック 新小岩院,東京都・城東エリア（葛飾区、江戸川区、墨田区、江東区など）の訪問診療・往診・在宅医療"></li>
+            <li><img src="/common/images/header_icon_03.svg" alt="在宅医療(24時間365日),ふたば在宅クリニック 新小岩院,東京都・城東エリア（葛飾区、江戸川区、墨田区、江東区、足立区、荒川区、台東区）の訪問診療・往診・在宅医療"></li>
+            <li><img src="/common/images/header_icon_02.svg" alt="内科 心・肺・脳,ふたば在宅クリニック 新小岩院,東京都・城東エリア（葛飾区、江戸川区、墨田区、江東区、足立区、荒川区、台東区）の訪問診療・往診・在宅医療"></li>
+            <li><img src="/common/images/header_icon_01.svg" alt="がん・緩和ケア,ふたば在宅クリニック 新小岩院,東京都・城東エリア（葛飾区、江戸川区、墨田区、江東区、足立区、荒川区、台東区）の訪問診療・往診・在宅医療"></li>
           </ul>
         </div>
 
@@ -125,7 +125,7 @@
               <li><a href="/shinkoiwa/recruit/">採用・求人</a></li>
               <li><a href="/contact/input_shinkoiwa/">お問い合わせ・お申し込み</a></li>
               <li><a href="/news/shinkoiwa/">お知らせ</a></li>
-              <li><a href="/shinkoiwa/privacy/">個人情報保護方針</a></li>
+              <li><a href="/shinkoiwa/privacy/">プライバシーポリシー</a></li>
               <li class="fax"><span class="fax_txt">03-5879-3531</span></li>
             </ul>
           </nav>

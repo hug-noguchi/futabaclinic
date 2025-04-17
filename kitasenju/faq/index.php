@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="format-detection" content="telephone=no">
 <meta content="width=375,user-scalable=no" name="viewport">
-<title>よくあるご質問 | ふたば在宅クリニック - 足立区、荒川区、台東区の訪問診療</title>
-<meta name="description" content="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 東京都・城東エリアのの在宅療養支援診療所。在宅診療の説明になります。">
-<meta name="keywords" content="当院について,医療法人社団 爽緑会 ふたば在宅クリニック 北千住院,在宅療養支援診療所,東京都,足立区 江戸川区">
+<title>よくあるご質問 | ふたば在宅クリニック - 足立区、荒川区の訪問診療</title>
+<meta name="description" content="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 東京都・城東エリアの在宅療養支援診療所。在宅診療の説明になります。">
+<meta name="keywords" content="当院について,医療法人社団 爽緑会 ふたば在宅クリニック 北千住院,在宅療養支援診療所,東京都,足立区 荒川区">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 <link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
 <link rel="stylesheet" type="text/css" href="/common/styles/faq.css" media="all">

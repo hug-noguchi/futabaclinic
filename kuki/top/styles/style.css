@@ -5,40 +5,6 @@
     font-size: 10px !important;
   }
 }
-
-#slideshow {
-  position: relative;
-  width: 1000px;
-  height: 300px;
-  margin-top: 15px;
-}
-#slideshow li {
-  width: 1000px;
-}
-
-#sp_slideshow {
-  position: relative;
-  width: 100%;
-}
-
-#slideshow li,
-#sp_slideshow li {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
-
-#slideshow li.active,
-#sp_slideshow li.active {
-  z-index: 10;
-}
-
-#slideshow li.last-active,
-#sp_slideshow li.last-active {
-  z-index: 9;
-}
-
 section#open_box {
   border: 1px solid #98cf36;
   border-radius: 10px;
@@ -49,24 +15,6 @@ section#open_box {
   background: -o-linear-gradient(top, #ffffff 80%, #f5f8ee 100%);
   background: -ms-linear-gradient(top, #ffffff 80%, #f5f8ee 100%);
   background: linear-gradient(top, #ffffff 80%, #f5f8ee 100%);
-}
-section#open_box .box {
-  overflow: hidden;
-  width: 573px;
-  margin: 0 auto;
-}
-section#open_box .tit_01 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #f48a9d;
-  text-align: center;
-  padding: 6px 0 2px 7px;
-  line-height: 1;
-}
-section#open_box .txt_box_00 {
-  border-radius: 20px;
-  background: #fff0f3;
-  margin-top: 15px;
 }
 section#open_box .txt_04,
 section#open_box .txt_05 {
@@ -97,7 +45,7 @@ section#open_box .txt_box .txt_02 {
 }
 section#open_box .txt_box .txt_03 {
   width: 220px;
-  margin: 15px auto 0;
+  margin: 30px auto 0;
   text-align: center;
 }
 
@@ -171,104 +119,12 @@ section#open_box .txt_box .txt_03 {
   color: #fff;
   font-size: 14px;
 }
-
-@media all and (min-width: 481px) {
-  #main section#open_box .txt_box_sakura {
-    width: 240px;
-    /* margin-right: 294px; */
-    margin-top: 35px;
-  }
-}
-
 @media all and (max-width: 480px) {
   #main section#open_box .txt_box_sakura {
     margin: 15px auto;
   }
 }
-
-section#open_box .teacher_box {
-  overflow: hidden;
-  padding: 20px 22px;
-  text-align: center;
-}
-section#open_box .teacher_box img {
-  border: 2px solid #fff;
-  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-}
-section#open_box .teacher_box figure {
-  text-align: center;
-}
-section#open_box .teacher_box figure:nth-child(1) {
-  float: left;
-}
-section#open_box .teacher_box figure:nth-child(2) {
-  float: right;
-}
-section#open_box .teacher_box figure:nth-child(1) img,
-section#open_box .teacher_box figure:nth-child(2) img {
-  width: 300px;
-  height: 350px;
-}
-section#open_box .link {
-  width: 22em;
-  margin: 0 auto 10px;
-}
-section#open_box .link a {
-  background: #f48a9d;
-  color: #fff;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 20px;
-  padding: 13px 15px 10px;
-  line-height: 1;
-  display: block;
-  position: relative;
-}
-section#open_box .link a::before {
-  width: 0;
-  height: 0;
-  border: 9px solid transparent;
-  border-left: 9px solid #fff;
-  display: inline-block;
-  content: "";
-  position: absolute;
-  right: 21%;
-  top: 26%;
-}
-
-#main section#sec_01 div {
-  width: 80%;
-  margin: 0 auto;
-}
-#main section#sec_01 p {
-  font-size: 16px;
-  margin-bottom: 15px;
-  background: #edf1ba;
-  text-align: center;
-  border-radius: 10px;
-  padding: 10px 15px 8px;
-}
-#main section#sec_01 p:nth-child(3) {
-  font-size: 18px;
-  color: #705a36;
-  background: none;
-  padding: 0;
-}
-#main section#sec_01 p:last-child {
-  color: #f48a9d;
-  margin-bottom: 0;
-  border-left: none;
-  text-align: right;
-  background: none;
-  display: block;
-  padding: 0;
-}
 #main section#sec_01 p:last-child a {
-  border-bottom: 1px solid #f48a9d;
-  padding-bottom: 1px;
-  color: #f48a9d;
   position: relative;
 }
 #main section#sec_01 p:last-child a::before {
@@ -278,36 +134,6 @@ section#open_box .link a::before {
   left: -10px;
   transform: translateY(-50%);
 }
-#main section#sec_01 p:last-child a:hover {
-  border-bottom: none;
-}
-#main section#sec_02 div:not(:last-child) {
-  margin-bottom: 40px;
-}
-#main section#sec_02 div h3,
-#main section#sec_02 div p {
-  text-align: center;
-  background-position: 300px;
-}
-#main section#sec_02 div h3 {
-  border: none;
-  margin-bottom: 0;
-  font-weight: bold;
-  padding: 30px 0 0 0;
-}
-#main section#sec_02 div h3 span {
-  font-size: 20px;
-  background-position: center top;
-  background-image: none;
-  color: #f48a9d;
-}
-#main section#sec_02 div h3 .sp_375 {
-  font-size: 18px;
-}
-#main section#sec_02 div:nth-child(3) h3 {
-  background: url(/common/images/icon_map.svg) no-repeat center 1px/55px 55px;
-}
-
 #main section#sec_02 .lead {
   margin: 30px 0 60px !important;
   position: relative;
@@ -334,81 +160,28 @@ section#open_box .link a::before {
     width: 184px;
   }
 }
-
-#main section#sec_02 div:nth-child(4) h3 {
-  background: url(/common/images/icon_car.svg) no-repeat center 1px/55px 55px;
-}
-#main section#sec_02 div:nth-child(5) h3 {
-  background: url(/common/images/icon_hotyouki.svg) no-repeat center 1px/55px 55px;
-}
-#main section#sec_02 div:nth-child(6) h3 {
-  background: url(/common/images/icon_run.svg) no-repeat center 1px/55px 55px;
-}
 #main section#sec_02 div div.pink {
-  border-radius: 10px;
-  padding: 15px;
-  background: #fff0f3;
-  border: solid #f48a9d 1px;
-  margin-top: 10px;
   text-align: center;
   display: block;
 }
 #main section#sec_02 div div.pink p {
   text-align: left !important;
   display: inline-block;
+  width: 86%;
 }
-#main section#sec_03 p {
-  margin-top: 10px;
-}
-#main section#sec_03 h2 {
-  background: url(/common/images/icon_futaba.svg) no-repeat 6px 5px/37px auto, #8bc33e;
-}
-#main section#sec_03 .f_s_01 {
-  font-size: 16px;
-}
-#main section#sec_04 li {
-  display: inline-block;
-  padding-right: 2.5em;
-  width: 9em;
-}
-#main section#sec_04 p {
-  margin-top: 17px;
-}
-#main section#sec_05 table.cel_01 {
-  margin-bottom: 9px;
-}
-#main section#sec_05 p {
-  padding-left: 0.2em;
-}
-
-@media all and (-ms-high-contrast: none) {
-  #main section#sec_03 h2 {
-    background: url(/common/images/icon_futaba.svg) no-repeat 6px 5px/37px 37px, #8bc33e;
+@media all and (max-width: 480px) {
+  #main section#sec_02 div div.pink p {
+    width: 100%;
   }
 }
-
-td.off {
-  height: 30px;
-  width: 40px;
-  padding: 0 !important;
+#main section#sec_02 div div.pink p:not(:last-child) {
+  margin-bottom: 14px;
 }
-
-.diagonal {
-  height: 100%;
-  width: 100%;
-  border-top: solid gray 1px;
-}
-
-.rightUp {
-  transform: matrix(1, -0.925, 0, 1, 0, 14);
-}
-
 @media all and (min-width: 481px) {
   .banner_article .bnr_riji {
     margin-bottom: 40px;
   }
 }
-
 #main section#sec_07 {
   position: relative;
 }
@@ -427,74 +200,23 @@ td.off {
   padding: 5px 17px 2px 9px;
   display: block;
 }
-#main section#sec_07 table {
-  margin-top: 15px;
-}
-#main section#sec_07 table th,
-#main section#sec_07 table td {
-  padding-bottom: 13px;
-  border-bottom: 1px dotted #ccc;
-  line-height: 1;
-  text-align: left;
-}
-#main section#sec_07 table th {
-  width: 206px;
-  padding-left: 20px;
-}
-#main section#sec_07 table td {
-  width: 794px;
-}
-#main section#sec_07 table td a {
-  text-decoration: underline;
-}
-#main section#sec_07 table td a:hover {
-  text-decoration: none;
-}
-#main section#sec_07 table tr:not(:first-child) th,
-#main section#sec_07 table tr:not(:first-child) td {
-  padding-top: 13px;
-}
-#main section#sec_07 table span.new {
-  border: 2px solid #f48a9d;
-  border-radius: 5px;
-  color: #f48a9d;
-  display: inline-block;
-  margin-right: 10px;
-  padding: 2px 5px 0;
-}
-#main section#sec_06 p {
-  color: #f48a9d;
-  font-size: 16px;
-  font-weight: bold;
-}
-#main section#sec_06 ul {
-  margin-top: 10px;
-}
-
 @media all and (min-width: 481px) {
   #main section#sec_06 li {
-    display: inline-block;
     width: 14em;
     margin-bottom: 10px;
   }
-
   section#sec_07 p {
     margin-top: 3px !important;
   }
-
-  @media all and (min-width: 481px) {
-    section#open_box .txt_box_01 br {
-      display: none;
-    }
+  section#open_box .txt_box_01 br {
+    display: none;
   }
-
   section#open_box .txt_box {
     width: 500px;
   }
   section#open_box .txt_box .txt_03 {
     width: 270px;
   }
-
   section#open_box .txt_box_00 {
     width: 500px;
     margin: 15px auto 0;
@@ -502,295 +224,66 @@ td.off {
     font-size: 16px;
     border-radius: 36px;
   }
-
-  section#open_box .txt_04,
-  section#open_box .txt_05 {
-    position: relative;
-    padding-left: 48px;
-  }
-  section#open_box .txt_04:before,
-  section#open_box .txt_05:before {
-    left: 13px;
-  }
   section#open_box .txt_05 {
     padding-top: 3px;
   }
 }
 @media all and (max-width: 480px) {
-  section#open_box {
-    padding: 17px 0 10px;
-    margin: 0 20px;
-  }
-  section#open_box .box {
-    overflow: hidden;
-    margin: 0 auto;
-    width: auto;
-  }
   section#open_box .txt_box_00 {
     margin: 0 10px;
     padding: 2vw;
   }
-  section#open_box .txt_04,
-  section#open_box .txt_05 {
-    font-size: 3.7vw;
-    position: relative;
-    padding-left: 4.5vw;
-  }
-  section#open_box .txt_04:before,
-  section#open_box .txt_05:before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 3vw;
-    height: 3vw;
-    left: 0;
-    background-size: 100%;
-    top: 1.4vw;
-  }
-  section#open_box .txt_box_00 p:not(:last-child) {
-    margin-bottom: 5px;
-  }
-  section#open_box .txt_box {
-    float: none;
-    margin: 0 auto;
-    width: 100%;
-    padding: 0 10px;
-  }
-  section#open_box .txt_box p .txt_02 {
-    font-size: 16px;
-    background: #ebf4e0;
-    border-radius: 20px;
-    color: #62b972;
-    padding: 10px 15px;
-    margin-top: 15px;
-    text-align: center;
-    line-height: 1;
-  }
-  section#open_box .txt_box p .txt_03 {
-    width: 220px;
-    margin: 15px auto 0;
-    text-align: center;
-  }
-  section#open_box .teacher_box {
-    padding: 20px 10px;
-  }
-  section#open_box .teacher_box img {
-    width: 100%;
-  }
-  section#open_box .tit_01 {
-    font-size: 20px;
-  }
-  section#open_box .teacher_box figure {
-    padding: 0px 0 10px;
-    width: 49%;
-  }
-  section#open_box .teacher_box figcaption {
-    font-size: 12px;
-  }
-  section#open_box .teacher_box figure:nth-child(1) img,
-  section#open_box .teacher_box figure:nth-child(2) img {
-    width: 100%;
-    height: auto;
-  }
-  section#open_box .link {
-    width: 96%;
-  }
-  section#open_box .link a::before {
-    right: 20%;
-    top: 30%;
-  }
-
-  #contents {
-    margin: 47% 0 50px;
-  }
-
-  #main section#sec_01 {
-    padding: 0 20px;
-  }
-  #main section#sec_01 div {
-    width: 100%;
-  }
-  #main section#sec_01 div p {
-    padding: 10px 10px 8px;
-  }
-  #main section#sec_03 h2 span {
-    font-size: 14px;
-  }
-  #main section#sec_03 p:last-child {
-    padding-left: 0;
-    text-indent: 0;
-  }
-  #main section#sec_02 div h3 {
-    background-size: 51px auto !important;
-    background-position: center 0 !important;
-    padding-top: 30px;
-  }
-  #main section#sec_02 div h3 span {
-    background-size: 24px auto;
-    font-size: 16px;
-  }
   #main section#sec_02 div:nth-child(4) span {
-    line-height: 1.2 !important;
     display: block;
     background-position: center 4px;
   }
-  #main section#sec_04 li {
-    width: 7em;
-    display: inline-block;
-    padding: 0;
-  }
-  #main section#sec_04 li:nth-child(6) {
-    white-space: nowrap;
-  }
-  #main section#sec_05 p {
-    width: 91.75%;
-    margin: 0px auto;
-  }
-
-  .rightUp {
-    transform: matrix(1, -2, 0, 1, 0, 14);
-    /*
-        0.75 = 30 / 40 (height / width)
-        15 = 30 / 2
-    */
-  }
   #main section#sec_06 ul {
-    overflow: hidden;
     padding-left: 2em;
     text-indent: -1em;
   }
   #main section#sec_06 ul li {
-    float: left;
     width: 50%;
-  }
-  #main section#sec_06 ul li:not(:last-child) {
-    margin-bottom: 10px;
-  }
-  #main section#sec_07 table th {
-    padding-left: 10px;
-    width: 190px;
-  }
-  #main section#sec_07 table td a {
-    line-height: 1.4;
   }
   #main section#sec_07 p {
     padding: 0;
-    right: 10px;
+    right: 30px;
     top: -3px;
   }
   #main section#sec_07 p a {
     padding: 3px 17px 2px 9px;
   }
-  #main span.new {
-    margin-bottom: 5px;
-  }
-  #main section#sec_07 li {
-    padding-right: 16px;
-  }
-
-  #main section#sec_02 div p {
-    text-align: left;
-  }
-}
-@media all and (max-width: 414px) {
-  #main section#sec_02 div h3 span {
-    background-size: 24px auto;
-    font-size: 16px;
-  }
-  #main section#sec_05 p {
-    margin-left: 23px;
-    padding-left: 1em !important;
-    text-indent: -0.9em !important;
-  }
-  #main section#sec_06 li:nth-child(3) {
-    display: block;
-  }
 }
 @media all and (max-width: 375px) {
-  #main section#sec_02 div h3 {
-    background-size: 49px auto !important;
-    background-position: center 0 !important;
-  }
-  #main section#sec_02 div h3 span {
-    line-height: 0.7 !important;
-  }
   #main section#sec_07 p {
     padding: 0;
-    right: 10px;
+    right: 30px;
     top: 1px;
   }
   #main section#sec_07 p a {
     padding: 4px 17px 2px 9px;
   }
 }
-@media all and (max-width: 360px) {
-  section#open_box .teacher_box figcaption {
-    font-size: 10px;
-  }
-  section#open_box .link a::before {
-    right: 17%;
-  }
-
-  #main section#sec_02 div h3 {
-    background-size: 45px auto !important;
-  }
-  #main section#sec_07 table th {
-    padding-left: 6px;
-    width: 158px;
-  }
-  #main section#sec_07 table span.new {
-    padding: 3px 8px 1px;
-  }
-  #main section#sec_06 li {
-    padding-right: 46px;
-  }
-}
-
-@media all and (max-width: 320px) {
-  section#open_box .tit_01 {
-    font-size: 18px;
-  }
-  section#open_box .link a {
-    font-size: 16px;
-  }
-  section#open_box .link a::before {
-    top: 27%;
-  }
-
-  #main section#sec_07 table th {
-    padding-left: 0;
-    width: 153px;
-  }
-  #main section#sec_06 li {
-    padding-right: 42px;
-  }
-}
-
 #open_box .buin {
   margin-top: 27px;
 }
-
 #open_box .txt_06 {
   background: url(/top/images/clinic_icon.svg) no-repeat center 1px/55px 55px;
   font-weight: bold;
   text-align: center;
   padding: 30px 0 0 0;
 }
-
 @media all and (max-width: 480px) {
   #open_box .txt_06 {
     background-size: 51px auto !important;
     background-position: center 0 !important;
   }
 }
-
 @media (max-width: 375px) {
   #open_box .txt_06 {
     background-size: 49px auto !important;
     background-position: center 0 !important;
   }
 }
-
 #open_box .txt_06 span {
   font-size: 20px;
   background-position: center top;
@@ -798,27 +291,23 @@ td.off {
   display: inline-block;
   padding: 31px 0 0;
 }
-
 @media (max-width: 480px) {
   #open_box .txt_06 span {
     background-size: 24px auto;
     font-size: 16px;
   }
 }
-
 @media (max-width: 414px) {
   #open_box .txt_06 span {
     background-size: 24px auto;
     font-size: 16px;
   }
 }
-
 @media (max-width: 375px) {
   #open_box .txt_06 span {
     line-height: 0.7 !important;
   }
 }
-
 @media all and (min-width: 481px) {
   .txt_box_01 {
     margin: 15px 25px 15px 25px;
@@ -828,20 +317,17 @@ td.off {
     flex-wrap: wrap;
   }
 }
-
 @media all and (max-width: 480px) {
   .txt_box_01 {
     display: flex;
     flex-direction: column;
   }
 }
-
 @media all and (max-width: 480px) {
   .line_right {
-    margin: 10px auto;
+    margin: 15px auto;
   }
 }
-
 #open_box .txt_08 {
   display: inline-block;
   width: 213px;
@@ -855,16 +341,17 @@ td.off {
   font-weight: bold;
   clear: both;
 }
-
+#open_box .kitasenju_toho .txt_08 {
+  background-color: #f48a9d !important;
+}
 #open_box .txt_08 > span,
 .txt_12 > span {
   background: url(/top/images/people_icon.svg) no-repeat left 0/8px 14px;
-  font-size: 12px;
+  font-size: 11px;
   padding-left: 13px;
   position: relative;
   top: -2px;
 }
-
 #open_box .txt_09,
 .txt_13 {
   font-size: 14px;
@@ -872,7 +359,6 @@ td.off {
   margin-top: 2px;
   margin-bottom: 2px;
 }
-
 #open_box .photo_kitasenju {
   padding: 5px;
   background: #fff;
@@ -882,33 +368,21 @@ td.off {
   height: 213px;
   text-align: center;
 }
-
 #open_box .photo_kitasenju img {
   width: 203px;
   height: 203px;
 }
-
 #open_box .txt_box_01 ul {
   overflow: hidden;
   display: flex;
   justify-content: center;
 }
-
-/* @media all and (min-width: 481px) {
-  #open_box .txt_box_02,
-  .txt_box_03 {
-    width: 240px;
-  }
-} */
-
 @media all and (max-width: 480px) {
-  #open_box .txt_box_02,
-  .txt_box_03 {
-    margin: 10px auto;
+  #open_box .txt_box_03 {
+    margin: 15px auto;
   }
 }
-
-#open_box .txt_box_02 ul > li {
+#open_box .txt_box_02 ul.chiiki_kitasenju > li {
   width: 53px;
   height: 27px;
   text-align: center;
@@ -919,26 +393,11 @@ td.off {
   margin: 3px;
   border: 2px solid #ff8599;
 }
-
-#open_box .shiny-btn-kitasenju {
-  display: inline-block;
-  width: 170px;
-  height: 30px;
-  border-radius: 5px / 5px;
-  background-color: #f48a9d;
-  text-align: center;
-  line-height: 30px;
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
-}
-
 a.shiny-btn-kitasenju,
 .shiny-btn-edogawa,
 .shiny-btn-yachiyo {
   position: relative;
 }
-
 a.shiny-btn-kitasenju span:after,
 a.shiny-btn-yachiyo span:after {
   content: "▶︎";
@@ -947,12 +406,10 @@ a.shiny-btn-yachiyo span:after {
   color: #fff;
   font-size: 14px;
 }
-
 #open_box .txt_10,
 .txt_14 {
   text-align: center;
 }
-
 #open_box .kitasenju_toho,
 .shinkoiwa_toho {
   overflow: hidden;
@@ -960,7 +417,6 @@ a.shiny-btn-yachiyo span:after {
   justify-content: center;
   align-items: center;
 }
-
 #open_box .txt_12 {
   display: inline-block;
   width: 213px;
@@ -973,7 +429,6 @@ a.shiny-btn-yachiyo span:after {
   font-weight: bold;
   clear: both;
 }
-
 #open_box .photo_shinkoiwa {
   padding: 5px;
   background: #fff;
@@ -983,12 +438,10 @@ a.shiny-btn-yachiyo span:after {
   height: 213px;
   text-align: center;
 }
-
 #open_box .photo_shinkoiwa img {
   width: 203px;
   height: 203px;
 }
-
 #open_box .txt_box_03 ul > li {
   width: 49px;
   height: 27px;
@@ -1000,12 +453,10 @@ a.shiny-btn-yachiyo span:after {
   margin: 3px;
   border: 2px solid #e7b055;
 }
-
 #open_box .txt_box_03 ul > li:nth-child(2) {
   width: 61px;
   height: 27px;
 }
-
 #open_box .shiny-btn-edogawa {
   display: inline-block;
   width: 170px;
@@ -1018,7 +469,6 @@ a.shiny-btn-yachiyo span:after {
   font-size: 16px;
   font-weight: bold;
 }
-
 a.shiny-btn-edogawa span:after {
   content: "▶︎";
   position: absolute;
@@ -1026,7 +476,6 @@ a.shiny-btn-edogawa span:after {
   color: #fff;
   font-size: 14px;
 }
-
 @media (min-width: 481px) {
   .txt_box_01 {
     justify-content: unset;
@@ -1041,77 +490,164 @@ a.shiny-btn-edogawa span:after {
     margin-top: 35px;
   }
 }
-
 #open_box .shinkoiwa_toho .txt_12 {
   background-color: #e7b055;
 }
-
 #open_box .yachiyo_toho .txt_12 {
   background-color: #c7b2d6;
 }
-#open_box .yachiyo_toho {
+#main section#open_box .txt_box_sakura ul,
+#main section#open_box .txt_box_yachiyo ul {
+  margin: 0 auto;
+}
+
+/* 六本木本部 */
+@media (min-width: 481px) {
+  .txt_box_kakuin .line_right {
+    padding-top: 40px;
+  }
+}
+
+/* タブ設置 */
+.news_show .show {
+  display: none;
+}
+.news_show .show.active {
+  display: block;
+}
+#open_box .kukiin_toho {
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#open_box .photo_kitasenju,
-#open_box .photo_shinkoiwa,
-#open_box .photo_sakura,
-#open_box .photo_yachiyo {
-  margin: 13px auto !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#open_box .kukiin_toho .txt_08 {
+  display: inline-block;
+  width: 213px;
+  height: 30px;
+  border-radius: 14.5px / 14.5px;
+  background-color: #8bc33f;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  clear: both;
 }
-#open_box .photo_yachiyo {
+#open_box .photo_kukiin {
   padding: 5px;
   background: #fff;
   width: 213px;
   box-shadow: 0 0 4px #d4cdc4;
+  margin: 13px auto !important;
   height: 213px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#open_box .photo_yachiyo img {
+#open_box .photo_kukiin img {
   width: 203px;
   height: 203px;
 }
-#main section#open_box .txt_box_sakura ul,
-#main section#open_box .txt_box_yachiyo ul {
+#open_box .kukiin_box .txt_box_02 ul {
+  flex-wrap: wrap;
+  width: 280px;
   margin: 0 auto;
 }
-.txt_box_yachiyo ul li {
+#open_box .kukiin_box .txt_box_02 ul > li {
   width: 49px;
   height: 27px;
   text-align: center;
-  color: #c7b2d6;
+  color: #8bc33f;
   font-size: 13px;
   font-weight: bold;
   padding: 2px;
   margin: 3px;
-  border: 2px solid #c7b2d6;
+  border: 2px solid #8bc33f;
 }
-.txt_box_yachiyo ul li:nth-child(1) {
+#open_box .kukiin_box .txt_box_02 ul li:nth-child(4) {
   width: 61px;
 }
-#open_box .shiny-btn-yachiyo {
+#open_box .kukiin_box .txt_box_02 ul > li:last-child {
+  width: 61px;
+}
+#open_box .shiny-btn-kukiin {
   display: inline-block;
   width: 170px;
   height: 30px;
   border-radius: 5px / 5px;
-  background-color: #c7b2d6;
+  background-color: #8bc33f;
   text-align: center;
   line-height: 30px;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
+  position: relative;
+}
+a.shiny-btn-kukiin span:after {
+  content: "▶︎";
+  position: absolute;
+  right: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+@media (min-width: 481px) {
+  .tab_chiba {
+    display: inherit;
+  }
+  .txt_box_kakuin .txt_box_03,
+  .txt_box_kakuin .txt_box_sakura,
+  .txt_box_kakuin .txt_box_yachiyo {
+    width: 40%;
+  }
+  .txt_box_kakuin .line_right {
+    width: 40% !important;
+  }
+  .tab_chiba .txt_box_sakura {
+    margin-right: unset !important;
+    margin-top: 0 !important;
+  }
+  .txt_box_kakuin .kukiin_box {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .news_list {
+    margin: 15px 10px 0 !important;
+  }
+  .tab_area .tab {
+    font-size: 16px;
+  }
+  #kakuin_tab_area {
+    font-size: 16px;
+  }
+  .panel_area {
+    padding: 20px 0 !important;
+  }
+  #kakuin_tab_area {
+    margin: 10px 10px 0;
+  }
+  .tab_chiba .txt_box_yachiyo {
+    margin: 15px auto;
+  }
 }
 
+/* マップ */
+section#open_box .txt_box {
+  margin: 30px auto !important;
+}
+section#open_box .top_map {
+  margin: 0 25px;
+}
+section#open_box .top_map img {
+  max-width: 100%;
+}
 @media (max-width: 480px) {
-  .txt_box_01 .txt_box_yachiyo {
-    margin: 15px auto;
+  section#open_box .txt_box {
+    margin: 27px auto !important;
+  }
+  section#open_box .top_map {
+    margin: 0 10px;
   }
 }

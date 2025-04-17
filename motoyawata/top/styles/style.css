@@ -1,0 +1,358 @@
+@charset "UTF-8";
+#main section#sec_01 p:last-child a {
+  border-bottom: 1px solid #f48a9d;
+  border-bottom: 1px solid #f48a9d;
+  padding-bottom: 1px;
+  padding-bottom: 1px;
+  color: #f48a9d;
+  color: #f48a9d;
+  position: relative;
+}
+#main section#sec_01 p:last-child a::before {
+  content: "▶︎";
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#main section#sec_02 .lead {
+  margin: 30px 0 60px !important;
+  position: relative;
+}
+#main section#sec_02 .lead p:first-child {
+  background-color: rgba(88, 183, 238, 1);
+  border-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto 10px;
+  padding-top: 3px;
+  position: relative;
+  text-align: center;
+  width: 230px;
+}
+#main section#sec_02 p {
+  line-height: 1.8;
+}
+#main section#sec_02 div.pink {
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff0f3;
+  border: solid #f48a9d 1px;
+  margin-top: 10px;
+}
+#main section#sec_02 div.pink p + p {
+  margin-top: 10px;
+}
+#main section#open_box .txt_box_kuki .kuki_toho {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+#main section#open_box .txt_box_kuki .kuki_toho p {
+  background-color: #8bc33f;
+}
+#main section#open_box .txt_box_kuki .photo_kukiin {
+  padding: 5px;
+  background: #fff;
+  width: 213px;
+  -webkit-box-shadow: 0 0 4px #d4cdc4;
+  box-shadow: 0 0 4px #d4cdc4;
+  margin: 13px;
+  height: 213px;
+  text-align: center;
+}
+#main section#open_box .txt_box_kuki .photo_kukiin img {
+  width: 203px;
+  height: 203px;
+}
+#main section#open_box .txt_box_kuki ul {
+  flex-wrap: wrap;
+  width: 280px;
+  margin: 0 auto;
+}
+#main section#open_box .txt_box_kuki ul li {
+  width: 49px;
+  height: 27px;
+  text-align: center;
+  color: #8bc33f;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 2px;
+  margin: 3px;
+  border: 2px solid #8bc33f;
+}
+#main section#open_box .txt_box_kuki ul li:nth-child(4) {
+  width: 61px;
+}
+#main section#open_box .txt_box_kuki ul li:last-child {
+  width: 61px;
+}
+#main section#open_box .txt_box_kuki .shiny-btn-kuki {
+  display: inline-block;
+  width: 170px;
+  height: 30px;
+  border-radius: 5px / 5px;
+  background-color: #8bc33f;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+}
+#main section#open_box .txt_box_kuki a.shiny-btn-kuki span:after {
+  content: "▶︎";
+  position: absolute;
+  right: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+@media all and (min-width: 481px) {
+  #main section#sec_06 li {
+    display: inline-block;
+    width: 25em;
+    margin-bottom: 10px;
+  }
+  #main section#open_box .txt_box {
+    width: 500px;
+  }
+  #main section#open_box .txt_box .txt_03 {
+    width: 270px;
+  }
+  #main section#open_box .txt_box .sp {
+    display: none;
+  }
+  #main section#open_box .txt_04,
+  #main section#open_box .txt_05 {
+    position: relative;
+    padding-left: 48px;
+  }
+  #main section#open_box .txt_04:before,
+  #main section#open_box .txt_05:before {
+    left: 13px;
+  }
+  #main section#open_box .txt_box_01 {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  #main section#open_box .line_right {
+    border-right: none;
+    padding-right: 0;
+  }
+  #main section#open_box .txt_box_03 {
+    margin: 0 15px;
+  }
+  #main section#open_box .photo_kitasenju,
+  #main section#open_box .photo_shinkoiwa,
+  #main section#open_box .photo_kukiin {
+    margin: 13px auto;
+  }
+}
+@media all and (max-width: 480px) {
+  section#open_box .txt_box_00 {
+    margin: 0 10px;
+    padding: 2vw;
+  }
+  section#open_box .txt_box_00 p:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  section#open_box .txt_box .pc {
+    display: none;
+  }
+  section#open_box .line_right {
+    margin: 0 auto;
+  }
+  section#open_box .txt_box_02,
+  section#open_box .txt_box_03,
+  section#open_box .txt_box_kuki {
+    margin: 15px auto;
+  }
+  #main section#sec_02 div:nth-child(4) span {
+    display: block;
+    background-position: center 4px;
+  }
+
+  #main section#sec_02 div p {
+    text-align: left;
+  }
+  #main section#sec_06 ul {
+    overflow: hidden;
+    padding-left: 2em;
+    text-indent: -1em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  footer #footer_in_02 img {
+    width: 100%;
+  }
+  footer .address_01 {
+    white-space: nowrap;
+  }
+}
+@media all and (max-width: 414px) {
+  #main section#sec_02 .lead {
+    margin-bottom: 40px !important;
+  }
+  #main section#sec_02 .lead::before {
+    top: 5px;
+  }
+  #main section#sec_02 .lead p:first-child {
+    font-size: 16px;
+    width: 184px;
+  }
+  #main section#sec_02 div h3 span {
+    background-size: 24px auto;
+    font-size: 16px;
+  }
+}
+@media (max-width: 376px) {
+  header h1 .txt_00 span {
+    font-size: 10px !important;
+  }
+}
+@media (min-width: 481px) {
+  #main section#open_box .txt_box_03 {
+    margin: 0;
+  }
+  #main section#open_box .txt_box_03 .txt_13 {
+    line-height: 1.6;
+  }
+}
+#main section#open_box .txt_box_sakura .photo_sakura,
+#main section#open_box .txt_box_kuki .photo_kukiin,
+#main section#open_box .txt_box_kuki .photo_kitasenju,
+#main section#open_box .txt_box_kuki .photo_shinkoiwa {
+  margin: 13px auto;
+}
+#open_box .photo_shinkoiwa {
+  margin: 13px auto;
+}
+#main section#open_box .txt_box_01 ul {
+  margin: 0 auto;
+}
+#main section#open_box .txt_box_sakura ul,
+#main section#open_box .txt_box_sakura ul li:nth-child(2) {
+  width: auto;
+}
+#main section#open_box .txt_box_sakura ul li:nth-child(3),
+#main section#open_box .txt_box_sakura ul li:nth-child(4) {
+  width: 61px;
+}
+
+/* 六本木本部 */
+#open_box .txt_22 {
+  text-align: center;
+  margin-top: 10px;
+}
+#open_box .txt_box_sakura ul {
+  width: unset !important;
+}
+#open_box .yachiyo_toho {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#open_box .yachiyo_toho .txt_12 {
+  display: inline-block;
+  width: 213px;
+  height: 30px;
+  border-radius: 14.5px / 14.5px;
+  background-color: #c7b2d6;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  clear: both;
+}
+#open_box .photo_yachiyo {
+  padding: 5px;
+  background: #fff;
+  width: 213px;
+  box-shadow: 0 0 4px #d4cdc4;
+  height: 213px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 13px auto !important;
+}
+#open_box .photo_yachiyo img {
+  width: 203px;
+  height: 203px;
+}
+.txt_box_yachiyo ul li {
+  width: 49px;
+  height: 27px;
+  text-align: center;
+  color: #c7b2d6;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 2px;
+  margin: 3px;
+  border: 2px solid #c7b2d6;
+}
+.txt_box_yachiyo ul li:nth-child(1) {
+  width: 61px;
+}
+#open_box .txt_box_yachiyo .txt_13 {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+#open_box .shiny-btn-yachiyo {
+  display: inline-block;
+  width: 170px;
+  height: 30px;
+  border-radius: 5px / 5px;
+  background-color: #c7b2d6;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+}
+a.shiny-btn-yachiyo span:after {
+  content: "▶︎";
+  position: absolute;
+  right: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* タブ設置 */
+.news_show .show {
+  display: none;
+}
+.news_show .show.active {
+  display: block;
+}
+@media (min-width: 481px) {
+  .txt_box_kakuin .txt_box_03,
+  .txt_box_kakuin .txt_box_02 {
+    width: 40%;
+  }
+}

@@ -6,22 +6,19 @@
 	<title>先輩インタビュー 中野 留美 | 求人 | ふたば在宅クリニック - 久喜市、加須市、幸手市の訪問診療</title>
 	<meta name="description" content="ふたば在宅クリニック 埼玉院（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、伊奈町、五霞町）埼玉県・利根地域の訪問診療・往診・在宅医療">
 	<meta name="keywords" content="求人情報,ふたば在宅クリニック,在宅療養支援診療所,埼玉県,利根地域">
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 	<link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/kuki/recruit/styles/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/common/styles/recruit.css" media="all">
 	<link rel="SHORTCUT ICON" href="/icon.ico">
-	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />
-
+	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png">
 	<link rel="SHORTCUT ICON" href="/icon.ico">
-	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />
-
+	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png">
 	<style>
 		@media (max-width: 480px) {
 			#main .recruit p {
-			margin: 25px 20px 0;
-		}
+        margin: 25px 20px 0;
+      }
 		}
 		@media (max-width: 376px) {
 			header h1 .txt_00 span {
@@ -29,12 +26,10 @@
 			}
 		}
 	</style>
-
 	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header_tag.php'); ?>
 </head>
 
 <body id="recruit" class="preload drawer drawer--top">
-
 	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header.php'); ?>
 	<article>
     <div class="nakano">
@@ -70,8 +65,8 @@
               私はもともと看護師養成学校の教員として働いていました。<br>しかし、新型コロナウイルスの蔓延が転機となり、感染拡大に伴って患者様と触れ合える病院実習が減少しました。<br>人生も後半に差し掛かるなか、今後自分はどのような形で看護と関わりたいのかを改めて考えるきっかけとなりました。<br><br><br>
               自分を内省するなかで思い出したのが、10年以上前に一度だけ経験した訪問看護師という仕事でした。<br>当時の楽しさややりがいが蘇り、在宅医療に関わってみたいという思いから、ふたば在宅クリニックに応募しました。<br><br><br>
               ふたば在宅クリニックはお看取りの件数が多い点や訪問診療に特化している点、また「動く総合病院」として総合病院と変わらない医療を提供している点が魅力的でした。<br>応募する際は「自分の年齢で挑戦して大丈夫だろうか……」という不安もありましたが、「年齢は関係ない」と言っていただいたことが非常に嬉しかったです。
+            </p>
           </div>
-          </p>
           <img src="/common/images/interview/interview_nakano_02.jpg" class="pc" alt="中野留美 画像">
         </div>
         <div class="interview_03">

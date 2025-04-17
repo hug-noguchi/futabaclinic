@@ -6,22 +6,19 @@
 	<title>先輩インタビュー 石塚 理人 | 求人 | ふたば在宅クリニック - 久喜市、加須市、幸手市の訪問診療</title>
 	<meta name="description" content="ふたば在宅クリニック 埼玉院（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、伊奈町、五霞町）埼玉県・利根地域の訪問診療・往診・在宅医療">
 	<meta name="keywords" content="求人情報,ふたば在宅クリニック,在宅療養支援診療所,埼玉県,利根地域">
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 	<link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/kuki/recruit/styles/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/common/styles/recruit.css" media="all">
 	<link rel="SHORTCUT ICON" href="/icon.ico">
-	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />
-
+	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png">
 	<link rel="SHORTCUT ICON" href="/icon.ico">
-	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />
-
+	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png">
 	<style>
 		@media (max-width: 480px) {
 			#main .recruit p {
-			margin: 25px 20px 0;
-		}
+        margin: 25px 20px 0;
+      }
 		}
 		@media (max-width: 376px) {
 			header h1 .txt_00 span {
@@ -29,12 +26,10 @@
 			}
 		}
 	</style>
-
 	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header_tag.php'); ?>
 </head>
 
 <body id="recruit" class="preload drawer drawer--top">
-
 	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header.php'); ?>
 	<article>
 	<div class="ishiduka">
@@ -72,8 +67,8 @@
               そのため、 患者様一人ひとりの生活や思いに寄り添った医療を提供することが大事だと考えています。<br>ふたば在宅クリニックは地域に密着した訪問診療に特化しており、私の目指す医療ができる場だと感じています。<br><br>
               ふたば在宅クリニックでは、受け持ちの患者様が比較的少ない点が特徴です。<br>そのため、一人ひとりの患者様にじっくり向き合える環境だと感じています。<br><br>
               大変なこともありましたが、スタッフと協力しながら乗り越えてきました。<br>これまでの経験を糧に、自信を持って患者様と向き合い続けたいと思います。
+            </p>
           </div>
-          </p>
           <img src="/common/images/interview/interview_ishiduka_02.jpg" class="pc" alt="石塚理人 画像">
         </div>
         <div class="interview_03">

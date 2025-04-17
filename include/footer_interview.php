@@ -5,20 +5,20 @@
 	<div id="footer_in">
 		<div id="footer_in_02">
 			<div class="left">
-                <p class="logo">
-                        <a href="/"><img src="/common/images/logo_v2_02.svg" alt="医療法人社団 爽緑会・千葉爽緑会 ふたば在宅クリニック"></a>
-                </p>
+        <p class="logo">
+          <a href="/"><img src="/common/images/logo_v2_02.svg" alt="医療法人社団 爽緑会・千葉爽緑会 ふたば在宅クリニック"></a>
+        </p>
 			</div>
 			<div class="right">
 				<ul>
-                    <li><a href="/#bunin_box" class="navi">各院案内</a></li>
-                    <li><a href="/#sec_07" class="navi">お知らせ</a></li>
-                    <li><a href="/#message" class="navi">理事長挨拶</a></li>
-                    <li><a href="/#about" class="navi">訪問診療とは</a></li>
-                    <li><a href="/#sec_02" class="navi">ふたばの特色</a></li>
-                    <li><a href="/#sec_04" class="navi">診療内容・日程</a></li>
+          <li><a href="/#bunin_box" class="navi">各院案内</a></li>
+          <li><a href="/#sec_07" class="navi">お知らせ</a></li>
+          <li><a href="/#message" class="navi">理事長挨拶</a></li>
+          <li><a href="/#about" class="navi">訪問診療とは</a></li>
+          <li><a href="/#sec_02" class="navi">ふたばの特色</a></li>
+          <li><a href="/#sec_04" class="navi">診療内容・日程</a></li>
 					<li><a href="/#graf" class="navi">診療実績</a></li>
-                    <li><a href="/#ishi" class="navi">医師紹介</a></li>
+          <li><a href="/#ishi" class="navi">医師紹介</a></li>
 					<li><a href="/#kanren_sec02" class="navi">採用・求人</a></li>
 				</ul>
 			</div>
@@ -28,11 +28,10 @@
 </footer>
 
 <div class="fixed__cv">
-    <div class="fixed__cv__contact">
-        <a href="mailto:recruit@futabaclinic.jp" class="mail">
-        </a>
-        <a href="tel:03-5843-0151" class="tel"></a>
-    </div>
+  <div class="fixed__cv__contact">
+    <a href="mailto:recruit@futabaclinic.jp" class="mail"></a>
+    <a href="tel:03-5843-0151" class="tel"></a>
+  </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -41,15 +40,18 @@
 
 <script type="text/javascript">
     <?php
-        $url = $_SERVER['REQUEST_URI'];
-        if(strstr($url,'contact')==false):
+      $url = $_SERVER['REQUEST_URI'];
+      if(strstr($url,'contact')==false):
     ?>
-            $(document).ready(function() {
-                $('body').fadeIn(1500);
-                $(window).on("beforeunload",function(e){
-                    $('body').fadeOut(1500);
-                });
-            });
+    $(document).ready(function() {
+      $('body').fadeIn(1500);
+      $(window).on("beforeunload", function(e) {
+      if (e.target.activeElement.tagName === 'A' && e.target.activeElement.href.startsWith('mailto:')) {
+        return; // フェードアウトをスキップ
+        }
+        $('body').fadeOut(1500);
+      });
+    });
     <?php endif; ?>
 
     $(function() {

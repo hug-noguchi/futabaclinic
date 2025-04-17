@@ -79,19 +79,40 @@
 						<span class="drawer-hamburger-icon"></span>
 					</button>
 					<nav class="drawer-nav" role="navigation">
-						<ul class="drawer-menu">
-							<li><a href="#bunin_box" class="navi" >各院案内</a></li>
-							<li><a href="#sec_07" class="navi">お知らせ</a></li>
-							<li><a href="#message" class="navi">理事長挨拶</a></li>
-							<li><a href="#about" class="navi">訪問診療とは</a></li>
-							<li><a href="#sec_02" class="navi">ふたばの特色</a></li>
-							<li><a href="#sec_04" class="navi">診療内容・日程</a></li>
-							<li><a href="#graf" class="navi">診療実績</a></li>
-							<li><a href="#ishi" class="navi">医師紹介</a></li>
-							<li><a href="#kanren_sec02" class="navi">採用・求人</a></li>
-							<li><a href="#houjin" class="navi">法人概要</a></li>
-							<li class="fax"><span class="fax_txt">03-5843-0152</span></li>
-						</ul>
+						<?php
+							$url = $_SERVER['REQUEST_URI'];
+							if (strpos($url, 'history.php') !== false || strpos($url, 'organization.php') !== false) :
+						?>
+							<ul class="drawer-menu">
+								<li><a href="/#bunin_box" class="navi" >各院案内</a></li>
+								<li><a href="/#sec_07" class="navi">お知らせ</a></li>
+								<li><a href="/#message" class="navi">理事長挨拶</a></li>
+								<li><a href="/#about" class="navi">訪問診療とは</a></li>
+								<li><a href="/#sec_02" class="navi">ふたばの特色</a></li>
+								<li><a href="/#sec_04" class="navi">診療内容・日程</a></li>
+								<li><a href="/#graf" class="navi">診療実績</a></li>
+								<li><a href="/#ishi" class="navi">医師紹介</a></li>
+								<li><a href="/#kanren_sec02" class="navi">採用・求人</a></li>
+								<li><a href="/#houjin" class="navi">法人概要</a></li>
+								<li><a href="/history.php" class="navi" target="_blank">グループ沿革</a></li>
+								<li class="fax"><span class="fax_txt">03-5843-0152</span></li>
+							</ul>
+						<?php else : ?>
+							<ul class="drawer-menu">
+								<li><a href="#bunin_box" class="navi" >各院案内</a></li>
+								<li><a href="#sec_07" class="navi">お知らせ</a></li>
+								<li><a href="#message" class="navi">理事長挨拶</a></li>
+								<li><a href="#about" class="navi">訪問診療とは</a></li>
+								<li><a href="#sec_02" class="navi">ふたばの特色</a></li>
+								<li><a href="#sec_04" class="navi">診療内容・日程</a></li>
+								<li><a href="#graf" class="navi">診療実績</a></li>
+								<li><a href="#ishi" class="navi">医師紹介</a></li>
+								<li><a href="#kanren_sec02" class="navi">採用・求人</a></li>
+								<li><a href="#houjin" class="navi">法人概要</a></li>
+								<li><a href="/history.php" class="navi" target="_blank">グループ沿革</a></li>
+								<li class="fax"><span class="fax_txt">03-5843-0152</span></li>
+							</ul>
+						<?php endif; ?>
 					</nav>
 				</div>
 			</div>
@@ -109,17 +130,37 @@
 
 <div class="nav pc">
 	<nav>
-		<ul>
-			<li><a href="#bunin_box" class="navi">各院案内</a></li>
-			<li><a href="#sec_07" class="navi">お知らせ</a></li>
-			<li><a href="#message" class="navi">理事長挨拶</a></li>
-			<li><a href="#about" class="navi">訪問診療とは</a></li>
-			<li><a href="#sec_02" class="navi">ふたばの特色</a></li>
-			<li><a href="#sec_04" class="navi">診療内容・日程</a></li>
-			<li><a href="#graf" class="navi">診療実績</a></li>
-			<li><a href="#ishi" class="navi">医師紹介</a></li>
-			<li><a href="#kanren_sec02" class="navi">採用・求人</a></li>
-			<li><a href="#houjin" class="navi">法人概要</a></li>
-		</ul>
+		<?php
+			$url = $_SERVER['REQUEST_URI'];
+			if (strpos($url, 'history.php') !== false || strpos($url, 'organization.php') !== false) :
+		?>
+			<ul>
+				<li><a href="/#bunin_box" class="navi">各院案内</a></li>
+				<li><a href="/#sec_07" class="navi">お知らせ</a></li>
+				<li><a href="/#message" class="navi">理事長挨拶</a></li>
+				<li><a href="/#about" class="navi">訪問診療とは</a></li>
+				<li><a href="/#sec_02" class="navi">ふたばの特色</a></li>
+				<li><a href="/#sec_04" class="navi">診療内容・日程</a></li>
+				<li><a href="/#graf" class="navi">診療実績</a></li>
+				<li><a href="/#ishi" class="navi">医師紹介</a></li>
+				<li><a href="/#kanren_sec02" class="navi">採用・求人</a></li>
+				<li><a href="/#houjin" class="navi">法人概要</a></li>
+				<li><a href="/history.php" class="navi" target="_blank">グループ沿革</a></li>
+			</ul>
+		<?php else : ?>
+			<ul>
+				<li><a href="#bunin_box" class="navi">各院案内</a></li>
+				<li><a href="#sec_07" class="navi">お知らせ</a></li>
+				<li><a href="#message" class="navi">理事長挨拶</a></li>
+				<li><a href="#about" class="navi">訪問診療とは</a></li>
+				<li><a href="#sec_02" class="navi">ふたばの特色</a></li>
+				<li><a href="#sec_04" class="navi">診療内容・日程</a></li>
+				<li><a href="#graf" class="navi">診療実績</a></li>
+				<li><a href="#ishi" class="navi">医師紹介</a></li>
+				<li><a href="#kanren_sec02" class="navi">採用・求人</a></li>
+				<li><a href="#houjin" class="navi">法人概要</a></li>
+				<li><a href="/history.php" class="navi" target="_blank">グループ沿革</a></li>
+			</ul>
+		<?php endif; ?>
 	</nav>
 </div>

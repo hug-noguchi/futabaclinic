@@ -3,13 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta content="width=375,user-scalable=no" name="viewport">
-	<title>採用・求人 | ふたば在宅クリニック -  葛飾区、江戸川区、墨田区の訪問診療</title>
-	<meta name="description" content="ふたば在宅クリニック 新小岩院（葛飾区、江戸川区、墨田区、江東区など）東京都・城東エリアの訪問診療・往診・在宅医療">
-	<meta name="keywords" content="ふたば在宅クリニック 新小岩院,東京都,葛飾区,江戸川区,墨田区,江東区,在宅医療,訪問診療,往診">
+	<title>採用・求人 | ふたば在宅クリニック - 葛飾区、江戸川区</title>
+	<meta name="description" content="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 東京都・城東エリアの在宅療養支援診療所 在宅医療・訪問診療・訪問看護・往診（葛飾区 江戸川区など）の求人情報になります。">
+	<meta name="keywords" content="求人情報,医療法人社団 爽緑会 ふたば在宅クリニック 北千住院,東京都,葛飾区,江戸川区,在宅医療,訪問診療,訪問看護,往診,在宅療養支援診療所">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 	<link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
-	<link rel="stylesheet" type="text/css" href="/shinkoiwa/common/styles/base.css" media="all">
-	<link rel="stylesheet" type="text/css" href="/shinkoiwa/recruit/styles/style.css" media="all">
+	<link rel="stylesheet" type="text/css" href="/kitasenju/common/styles/base.css" media="all">
+	<link rel="stylesheet" type="text/css" href="/kitasenju/recruit/styles/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/common/styles/recruit.css" media="all">
 	<link rel="SHORTCUT ICON" href="/icon.ico">
 	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />
@@ -57,15 +57,7 @@
 			}
 		}
 	</style>
-	<!-- <PageMap>
-    <DataObject type="thumbnail">
-        <Attribute name="src" value="https://www.futabaclinic.jp/shinkoiwa/common/images/sp_thum.jpg"/>
-        <Attribute name="width" value="100"/>
-        <Attribute name="height" value="100"/>
-    </DataObject>
-</PageMap>  -->
-<meta name="thumbnail" content="https://www.futabaclinic.jp/shinkoiwa/common/images/sp_thum.jpg" />
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header_tag.php'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header_tag.php'); ?>
 </head>
 
 <body id="recruit" class="preload drawer drawer--top">
@@ -83,7 +75,7 @@
 		</div>
 		<div id="contents">
 			<div id="main">
-			<section id="kanren_sec02" class="kyuujin">
+				<section id="kanren_sec02" class="kyuujin">
 					<h2>求人情報</h2>
 					<p>
 						当院は、開院以来、心、肺、脳神経等の内科疾患、整形疾患、認知症などで通院困難な患者様を中心に在宅診療をしてまいりました。また、地域の中核病院とも医師同士が顔の見える連携を行い、 末期がん患者様等の在宅緩和ケアやご自宅でのお看取りに力を入れてきました。そのため、グループ全体の年間のお看取り患者数は500人を超える、<strong>全国有数の在宅診療所</strong>になったと自負しております。
@@ -110,8 +102,9 @@
 							</a>
 						</li>
 					</ul>
-					<p>紹介会社を介さず、直接採用に至った方には、<strong>お祝い金</strong>（基本給の1ヶ月分相当）を6カ月以上勤務後に賞与とあわせて贈呈致します。<br>
-					※看護師、医師に限る<br><br>
+					<p>紹介を介さず、直接採用に至った方には、<strong>お祝い金</strong>（基本給の1ヶ月分相当）を6カ月以上勤務後に賞与とあわせて贈呈致します。<br>
+					※賞与支給時期にご退職の場合は無効となります。<br>
+					※看護師、医師、経営企画室（管理職)、広報部に限る<br><br>
 					「ふたばで働きたい！」とご自身で直接応募していただいた方が優先採用になります。<br>
 					まずはお気軽にメール・お電話下さい。</p>
 				</section>
@@ -123,7 +116,7 @@
 					<div class="mv_interview sp wave-bg"></div>
 					<div class="interview_box">
 						<ul>
-							<li class="interview_list green_line">
+							<!-- <li class="interview_list green_line">
 								<a href="/shinkoiwa/recruit/interview_ishiduka/">
 									<div class="thum all img_ishiduka"></div>
 								</a>
@@ -134,7 +127,7 @@
 									</p>
 									<a href="/shinkoiwa/recruit/interview_ishiduka/"></a>
 								</div>
-							</li>
+							</li> -->
 							<li class="interview_list">
 								<a href="/shinkoiwa/recruit/interview_nakayama/">
 									<div class="thum all img_nakayama"></div>
@@ -147,7 +140,7 @@
 									<a href="/shinkoiwa/recruit/interview_nakayama/"></a>
 								</div>
 							</li>
-							<li class="interview_list">
+							<!-- <li class="interview_list">
 								<a href="/shinkoiwa/recruit/interview_enoki/">
 									<div class="thum all img_enoki"></div>
 								</a>
@@ -182,7 +175,7 @@
 									</p>
 									<a href="/shinkoiwa/recruit/interview_okutsu/"></a>
 								</div>
-							</li>
+							</li> -->
 							<li class="interview_list green_line">
 								<a href="/shinkoiwa/recruit/interview_akiya/">
 									<div class="thum all img_akiya"></div>

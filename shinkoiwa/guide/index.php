@@ -4,14 +4,13 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<meta content="width=375,user-scalable=no" name="viewport">
-	<title>当院について | ふたば在宅クリニック -  葛飾区、江戸川区、墨田区の訪問診療</title>
-	<meta name="description" content="ふたば在宅クリニック 新小岩院（葛飾区、江戸川区、墨田区、江東区など）東京都・城東エリアの訪問診療・往診・在宅医療">
-	<meta name="keywords" content="ふたば在宅クリニック 新小岩院,東京都,葛飾区,江戸川区,墨田区,江東区,在宅医療,訪問診療,往診">
+	<title>当院について | ふたば在宅クリニック -  葛飾区、江戸川区の訪問診療</title>
+	<meta name="description" content="ふたば在宅クリニック 新小岩院（葛飾区、江戸川区など）東京都・城東エリアの訪問診療・往診・在宅医療">
+	<meta name="keywords" content="ふたば在宅クリニック 新小岩院,東京都,葛飾区,江戸川区,在宅医療,訪問診療,往診">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 	<link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/shinkoiwa/common/styles/base.css" media="all">
-	<link rel="stylesheet" type="text/css" href="styles/style.css" media="all">
-	<link rel="stylesheet" type="text/css" href="/shinkoiwa/guide/styles/style.css" media="all">
+	<link rel="stylesheet" type="text/css" href="/common/styles/guide.css" media="all">
 	<link rel="SHORTCUT ICON" href="/icon.ico">
 	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />
 	<!--
@@ -80,8 +79,8 @@
 		</ul>
 		<div id="visual">
 			<p>
-				<img class="pc" src="/common/images/guide_key.jpg" srcset="/common/images/guide_key_2x.jpg 2x" alt="当院について,医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院,葛飾区 江戸川区 墨田区 江東区 在宅医療 訪問診療 訪問看護 往診">
-				<img class="sp" src="/common/images/guide_sp_key_2x.jpg" alt="当院について,医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院,葛飾区 江戸川区 墨田区 江東区 在宅医療 訪問診療 訪問看護 往診">
+				<img class="pc" src="/common/images/guide_key.jpg" srcset="/common/images/guide_key_2x.jpg 2x" alt="当院について,医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院,葛飾区 江戸川区 在宅医療 訪問診療 訪問看護 往診">
+				<img class="sp" src="/common/images/guide_sp_key_2x.jpg" alt="当院について,医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院,葛飾区 江戸川区 在宅医療 訪問診療 訪問看護 往診">
 			</p>
 		</div>
 		<div id="contents">
@@ -99,14 +98,18 @@
 						</tr>
 						<tr>
 							<th>施設名</th>
-							<td class="address">
+							<td class="address add_tokyo">
 								<div>
 									<p>新小岩</p>
-									<span>〒124-0024<br>東京都葛飾区新小岩1-49-10 第5デリカビル（メディカルタウン新小岩）2階</span>
+									<span>〒124-0024<br>東京都葛飾区新小岩1-49-10 第5デリカビル（メディカルタウン新小岩） 2階</span>
 								</div>
 								<div>
 									<p>北千住</p>
-									<span>〒120-0034<br>東京都足立区千住2-4オカバツインタワービル イースト8階</span>
+									<span>〒120-0034<br>東京都足立区千住2-4オカバツインタワービル イースト 8階</span>
+								</div>
+								<div>
+									<p>錦糸町</p>
+									<span>〒130-0013<br>東京都墨田区錦糸1-4-14 長嶋ビル 4階</span>
 								</div>
 							</td>
 						</tr>
@@ -147,10 +150,21 @@
 							<td>医療サービス（訪問診療）</td>
 						</tr>
 						<tr>
+							<th>グループ沿革</th>
+							<td><a href="/history.php" class="history_link" target="_blank">医療法人社団 爽緑会・千葉爽緑会　グループ沿革はこちら >></a></td>
+						</tr>
+						<tr>
+							<th>従業員数</th>
+							<td>
+								140名<br>
+								※グループ合計<br>
+								※2025年2月現在
+							</td>
+						</tr>
+						<tr>
 							<th>提携機関</th>
 							<td>
 								<p>TMI総合法律事務所</p>
-								<p>税理士法人TOTAL</p>
 							</td>
 						</tr>
 					</table>
@@ -158,16 +172,15 @@
 				<section>
 					<h2>当院の特色</h2>
 					<div class="lead">
-						<p>「ふたば式」在宅医療</p>
-						<p class="lead_txt pc">
-							年間看取り500人を超える全国有数の在宅医療専門クリニックに成長させた、<br>
+						<div class="futaba-style">
+							<div class="label">FUTABA STYLE</div>
+							<h3>「ふたば式」在宅医療</h3>
+						</div>
+						<p class="lead_txt">
+							年間看取り500人を超える全国有数の在宅医療専門クリニックに成長させた、<br class="pc">
 							独自のシステムを活かし、地域貢献を目指します。<br>
-							医師＋看護師のダブルオンコール体制、複数科体制、地域連携室の設置など、<br>
+							医師＋看護師のダブルオンコール体制、複数科のチーム医療、地域連携室の設置など、<br class="pc">
 							当院ならではのシステムがあります。
-						</p>
-						<p class="lead_txt sp">
-							年間看取り500人を超える全国有数の在宅医療専門クリニックに成長させた、独自のシステムを活かし、地域貢献を目指します。<br>
-							医師＋看護師のダブルオンコール体制、複数科体制、地域連携室の設置など、当院ならではのシステムがあります。
 						</p>
 					</div>
 					<div>
@@ -326,6 +339,12 @@
 						<li class="sec_06_list">・日本大学病院</li>
 						<li class="sec_06_list">・順天堂大学医学部付属順天堂医院</li>
 						<li class="sec_06_list">・順天堂大学医学部付属浦安病院</li>
+						<li class="sec_06_list">・かつしか江戸川病院</li>
+						<li class="sec_06_list">・京葉病院</li>
+						<li class="sec_06_list">・江戸川メディケア病院</li>
+						<li class="sec_06_list">・黒木整形外科内科クリニック</li>
+						<li class="sec_06_list">・社会福祉法人 仁生社 江戸川病院</li>
+						<li class="sec_06_list">・訪問診療わっしょいクリニック</li>
 					</ul>
 				</section>
 				<section class="graf">
@@ -333,25 +352,7 @@
 					<h3 class="wow scale" data-wow-duration="2s">「しっかりした医療」<br>を<br>「しっかりとした医師で」</h3>
 					<p class="txt">地域の医療をリードする存在として、丁寧かつ適切な在宅医療を提供しています。<br>一人ひとりの患者様と向き合えるような診療スケジュールを組んでいます。</p>
 					<ul>
-						<li>
-							<h3>患者累計 4,063人</h3>
-							<img src="/common/images/graf_1.png" alt="患者累計データ" loading="lazy">
-							<p class="small">グループ全体で、介入させて頂いた患者様の累計は4,000人を超えています。<br>複数医師によるチーム医療で、ご自宅での生活に寄り添いながら診療を行っています。</p>
-						</li>
-						</li>
-						<li>
-							<h3>看取り人数累計 1,515人</h3>
-							<img src="/common/images/graf_2.png" alt="総看取り数データ" loading="lazy">
-							<p class="small">お看取りにかかわった患者様の人数は、累計1,500人を超えています。<br>オンコール体制を整え、患者様、ご家族様の意向に沿ったターミナルケアを心掛けています。</p>
-						</li>
-						<li>
-							<img src="/common/images/graf_4.png" alt="居宅・施設割合データ" loading="lazy">
-							<p class="small">居宅患者様が80％以上を占めており、自宅療養患者様中心にじっくりと診療をしています。</p>
-						</li>
-						<li>
-							<img src="/common/images/graf_3.png" alt="疾患内訳データ" loading="lazy">
-							<p class="small">緩和ケア・終末期から認知症や内科・整形疾患まで幅広く多くの患者様を診ています。<br>皮膚科や精神科をはじめ、多くの専門医が在籍しており、チームで診療しています。</p>
-						</li>
+						<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/graf.php'); ?>
 					</ul>
 				</section>
 				<section id="gallery">
@@ -394,6 +395,25 @@
 							</li>
 						</ul>
 					</div>
+					<div class="gallery_kinshichou">
+						<p>錦糸町</p>
+						<ul>
+							<li>
+								<figure class="mr">
+									<img src="/common/images/gallery_kinshichou_1.jpg" alt="外観" loading="lazy">
+									<figcaption class="tal">外観</figcaption>
+								</figure>
+								<figure class="ml">
+									<img src="/common/images/gallery_kinshichou_4.jpg" alt="待合室" loading="lazy">
+									<figcaption class="tal">待合室</figcaption>
+								</figure>
+								<figure class="ml">
+									<img src="/common/images/gallery_kinshichou_3.jpg" alt="事務室" loading="lazy">
+									<figcaption class="tal">事務室</figcaption>
+								</figure>
+							</li>
+						</ul>
+					</div>
 					<div class="gallery_roppongi">
 						<p>六本木本部</p>
 						<ul>
@@ -418,6 +438,7 @@
 					<h2>アクセス</h2>
 					<p class="txt_01">新小岩院：新小岩駅徒歩1分です。</p>
 					<p class="txt_01">北千住院：北千住駅徒歩3分です。</p>
+					<p class="txt_01">錦糸町院：錦糸町駅北口徒歩2分です。</p>
 					<div class="map_box">
 						<p class="map_ttl">新小岩</p>
 						<p class="txt_02">〒124-0024 東京都葛飾区新小岩1-49-10 第5デリカビル（メディカルタウン新小岩）2階</p>
@@ -430,6 +451,13 @@
 						<p class="txt_02">〒120-0034 東京都足立区千住2-4オカバツインタワービル イースト8階</p>
 						<div id="gmap">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6476.175124360989!2d139.79886927986607!3d35.74865252071452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188e469a7c0001%3A0xbc00b3b3b1377eb7!2z44Kq44Kr44OQ44OE44Kk44Oz44K_44Ov44O844OT44OrIOOCpOODvOOCueODiA!5e0!3m2!1sja!2sjp!4v1614218097434!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						</div>
+					</div>
+					<div class="map_box">
+						<p class="map_ttl">錦糸町</p>
+						<p class="txt_02">〒130-0013 東京都墨田区錦糸1-4-14 長嶋ビル 4階</p>
+						<div id="gmap">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.1530599941916!2d139.8110714!3d35.6978509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018894eeb333ba5%3A0x5fd436eb763f93c0!2z44G144Gf44Gw5Zyo5a6F44Kv44Oq44OL44OD44KvIOmMpuezuOeUuiDoqKrllY_oqLrnmYI!5e0!3m2!1sja!2sjp!4v1733887016034!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 						</div>
 					</div>
 				</section>

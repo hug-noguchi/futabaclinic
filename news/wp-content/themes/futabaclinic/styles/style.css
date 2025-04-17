@@ -261,6 +261,12 @@ img.alignright {
   overflow: hidden;
 }
 
+@media only screen and (max-width: 480px) {
+  .navigation {
+    padding: 0 20px;
+  }
+}
+
 .navigation .previous {
   display: block;
   float: left;
@@ -331,7 +337,6 @@ img.alignright {
   #main .top table th,
   #main .top table td {
     display: block;
-    /* width: 100% !important; */
   }
   #main .top table th {
     border-bottom: none;
@@ -359,9 +364,6 @@ img.alignright {
     padding: 1px 5px 0;
     font-weight: normal;
   }
-}
-
-@media only screen and (max-width: 480px) {
   .pc {
     display: none;
   }
@@ -392,6 +394,9 @@ img.alignright {
   }
   .top .pc_new {
     display: none !important;
+  }
+  #main table td span.new {
+    margin-bottom: 5px;
   }
 }
 

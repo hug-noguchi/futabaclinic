@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<meta content="width=375,user-scalable=no" name="viewport">
-	<title>在宅診療とは | ふたば在宅クリニック -  葛飾区、江戸川区、墨田区の訪問診療</title>
-	<meta name="description" content="ふたば在宅クリニック 新小岩院（葛飾区、江戸川区、墨田区、江東区など）東京都・城東エリアの訪問診療・往診・在宅医療">
-	<meta name="keywords" content="ふたば在宅クリニック 新小岩院,東京都,葛飾区,江戸川区,墨田区,江東区,在宅医療,訪問診療,往診">
+	<title>在宅診療とは | ふたば在宅クリニック -  葛飾区、江戸川区の訪問診療</title>
+	<meta name="description" content="ふたば在宅クリニック 新小岩院（葛飾区、江戸川区など）東京都・城東エリアの訪問診療・往診・在宅医療">
+	<meta name="keywords" content="ふたば在宅クリニック 新小岩院,東京都,葛飾区,江戸川区,在宅医療,訪問診療,往診">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 	<link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/shinkoiwa/common/styles/base.css" media="all">
@@ -50,8 +50,8 @@
 		</ul>
 		<div id="visual">
 			<p>
-				<img class="pc" src="/common/images/about_key.jpg" srcset="/common/images/about_key_2x.jpg 2x" alt="在宅診療とは,医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院 葛飾区 江戸川区 墨田区 江東区 在宅医療 訪問診療 訪問看護 往診">
-				<img class="sp" src="/common/images/about_sp_key.jpg" srcset="/common/images/about_sp_key_2x.jpg 2x" alt="在宅診療とは,医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院 葛飾区 江戸川区 墨田区 江東区 在宅医療 訪問診療 訪問看護 往診">
+				<img class="pc" src="/common/images/about_key.jpg" srcset="/common/images/about_key_2x.jpg 2x" alt="在宅診療とは,医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院 葛飾区 江戸川区 在宅医療 訪問診療 訪問看護 往診">
+				<img class="sp" src="/common/images/about_sp_key.jpg" srcset="/common/images/about_sp_key_2x.jpg 2x" alt="在宅診療とは,医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院 葛飾区 江戸川区 在宅医療 訪問診療 訪問看護 往診">
 			</p>
 		</div>
 		<div id="contents">
@@ -71,7 +71,7 @@
 							</ul>
 						</div>
 						<div>
-							<img src="/common/images/about_image.jpg" alt="訪問診療とは">
+							<img src="/common/images/teacher_04.jpg" alt="訪問診療とは">
 						</div>
 					</div>
 				</section>

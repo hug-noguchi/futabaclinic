@@ -1,4 +1,4 @@
-/* Scss Document */
+@charset "UTF-8";
 #main section h3 {
   color: #f48a9d;
   margin-top: 15px;
@@ -72,7 +72,6 @@
 #main section div #area_txt ul li {
   float: left;
 }
-
 @media all and (max-width: 480px) {
   #main section div img {
     width: 100%;

@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-/* 個人情報保護方針 */
 #contents {
   margin: 11px 0 50px;
 }
@@ -31,10 +30,10 @@
 }
 
 .privacy_heading {
-  border-bottom: 1px solid #f48a9d;
+  font-size: 17px;
   color: #f8aacc;
-  font-size: 16px;
   font-weight: bold;
+  border-bottom: 1px solid #f48a9d;
   margin-bottom: 15px;
   padding: 4px 0 4px 1px;
 }
@@ -46,11 +45,12 @@
   padding-left: 5px;
 }
 
-.privacy_definition:not(:last-of-type) {
+.privacy_definition {
   margin-bottom: 5%;
 }
 
 .privacy_subheading {
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -153,7 +153,6 @@
 @media all and (min-width: 481px) {
   .privacy {
     width: 710px;
-    margin-left: 10px;
     float: left;
   }
 }
@@ -189,7 +188,7 @@
     padding: 0;
   }
 
-  .privacy_definition:not(:last-of-type) {
+  .privacy_definition {
     margin-bottom: 20px;
   }
 
@@ -227,11 +226,65 @@
 @media all and (min-width: 1130px) {
   .privacy_heading span,
   .purpose_heading span {
-    font-size: 18px;
+    font-size: 19px;
   }
 
   .privacyDetail_list--margin {
     margin-bottom: 15px;
     padding-left: 20px;
+  }
+}
+
+/* 施設基準 */
+.privacy2 {
+  margin-top: 60px;
+}
+
+.table_box {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.table_box th {
+  font-weight: normal;
+  padding: 5px 20px;
+  empty-cells: hide;
+  background-color: #f6fef0;
+  border: 1px solid #4b4b4b;
+}
+
+.table_box th.table_box_title1 {
+  width: 70%;
+}
+
+.table_box th.table_box_title2 {
+  width: 30%;
+}
+
+.table_box td {
+  padding: 10px 20px;
+  border: 1px solid #4b4b4b;
+}
+
+.table_box td.table_box_price {
+  text-align: right;
+}
+
+.privacy_price {
+  margin-bottom: 0;
+}
+
+@media all and (max-width: 468px) {
+  .privacy2 .privacy_lead,
+  .privacy2 .privacy_contents {
+    padding: 0;
+  }
+
+  .table_box th.table_box_title1 {
+    width: 60%;
+  }
+
+  .table_box th.table_box_title2 {
+    width: 40%;
   }
 }

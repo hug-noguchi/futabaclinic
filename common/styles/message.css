@@ -1,0 +1,417 @@
+@charset "UTF-8";
+
+#main section:nth-child(1) .box_wrap .box {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+#main section:nth-child(1) .box_wrap .box img {
+  float: left;
+  margin-right: 10px;
+  width: 250px;
+  border-radius: 5px;
+}
+#main section:nth-child(1) .box_wrap .box .txt_box {
+  float: left;
+  width: 360px;
+}
+#main section:nth-child(1) .box_wrap .box .txt_box dl:last-child {
+  margin-top: 20px;
+}
+#main section:nth-child(1) .box_wrap .box .txt_box h3 {
+  color: #4b4b4b;
+  padding-left: 0px;
+  margin-bottom: 10px;
+}
+#main section:nth-child(1) .box_wrap .box .txt_box h3 span {
+  background-image: none;
+  padding-top: 0;
+}
+#main section:nth-child(1) .box_wrap .box .txt_box h3 .border {
+  border-left: 5px solid #f48a9d;
+  padding: 3px 0 1px 7px;
+}
+#main section:nth-child(1) .box_wrap .box .txt_box h3 .txt_01 {
+  color: #f48a9d;
+}
+#main section:nth-child(1) .box_wrap .box .txt_box h3 .txt_02 {
+  font-size: 14px;
+}
+#main section:nth-child(1) .box_wrap .box .txt_box dl dt {
+  margin-bottom: 5px;
+}
+#main section:nth-child(1) .box_wrap .txt_box_02 {
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff0f3;
+  border: solid #f48a9d 1px;
+  margin-bottom: 30px;
+}
+#main section:nth-child(1) .box_wrap .txt_box_02 p:not(:first-child) {
+  margin-top: 15px;
+}
+
+#main section:nth-child(2) .docter-lists,
+#main section.staff h2 + ul {
+  margin-top: 15px;
+}
+#main section:nth-child(2) .docter-lists ul.txt,
+#main section.staff h2 + ul ul.txt {
+  float: right;
+  width: 208px;
+}
+#main section:nth-child(2) .docter-lists > li,
+#main section.staff h2 + ul > li {
+  border-radius: 10px;
+  padding: 5px 15px 10px;
+  border: solid #6eb92b 2px;
+  background: #f8fbf4;
+  margin-bottom: 15px;
+}
+#main section:nth-child(2) .docter-lists > li .img,
+#main section.staff h2 + ul > li .img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+#main section:nth-child(2) .docter-lists > li dt,
+#main section.staff h2 + ul > li dt {
+  border-bottom: 1px solid #6eb92b;
+  border-left: 5px solid #6eb92b;
+}
+#main section:nth-child(2) .docter-lists > li.pink,
+#main section.staff h2 + ul > li.pink {
+  border: solid #f48a9d 2px;
+  background: #fef9fa;
+}
+#main section:nth-child(2) .docter-lists > li.pink dt,
+#main section.staff h2 + ul > li.pink dt {
+  border-bottom: 1px solid #f48a9d;
+  border-left: 5px solid #f48a9d;
+}
+#main section:nth-child(2) .docter-lists img,
+#main section.staff h2 + ul img {
+  width: 126px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+}
+#main section:nth-child(2) .docter-lists dt,
+#main section.staff h2 + ul dt {
+  padding-left: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+#main section:nth-child(2) .docter-lists dd,
+#main section.staff h2 + ul dd {
+  overflow: hidden;
+}
+#main section.staff h2 + ul {
+  margin-top: 15px;
+}
+
+#main section:nth-child(2) .ishi_saiyou,
+:nth-child(3) .ishi_saiyou {
+  display: block;
+  float: right;
+}
+
+#main section:nth-child(2) .ishi_saiyou a,
+:nth-child(3) .ishi_saiyou a {
+  color: #f48a9d;
+}
+
+@media all and (min-width: 481px) {
+  #main section:nth-child(1) .box_wrap .box img {
+    height: auto;
+  }
+  #main section:nth-child(2) .docter-lists,
+  #main section.staff h2 + ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flexbox;
+    display: -moz-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #main section:nth-child(2) .docter-lists > li,
+  #main section.staff h2 + ul > li {
+    border-radius: 10px;
+    width: 350px;
+    padding: 5px 15px 10px;
+  }
+}
+@media all and (max-width: 480px) {
+  #side {
+    clear: both;
+  }
+
+  #main section:nth-child(1) .box_wrap .box img {
+    margin-right: 2%;
+    width: 100%;
+    float: none;
+  }
+  #main section:nth-child(1) .box_wrap .box .txt_box {
+    width: 100%;
+    float: none;
+    margin-top: 10px;
+  }
+
+  #main section:nth-child(2) .ishi_saiyou,
+  :nth-child(3) .ishi_saiyou {
+    margin-top: 15px;
+    margin-right: 25px;
+  }
+}
+
+#main section:nth-child(2) .docter-lists > li:not(:last-child) {
+  margin-bottom: 15px;
+}
+#main section:nth-child(2) .docter-lists > li .img,
+#main section.staff h2 + ul > li .img {
+  width: 30%;
+  height: auto;
+}
+#main section:nth-child(2) .docter-lists > li .txt,
+#main section.staff h2 + ul > li .txt {
+  width: 66%;
+}
+#main section.staff {
+  margin-top: 80px;
+}
+
+@media all and (max-width: 320px) {
+  #main section:nth-child(2) .docter-lists img {
+    width: 97px;
+  }
+}
+
+#main section .department {
+  background-color: #8bc33e;
+  border-radius: 10px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 15px !important;
+  padding: 2px 10px !important;
+}
+
+#main section h2 + .department {
+  margin-top: 20px !important;
+}
+
+@media all and (max-width: 480px) {
+  #main section .department {
+    margin-left: 20px;
+  }
+}
+
+/* 2021.12.29修正分 */
+
+#main section .kanren {
+  display: flex;
+  margin-top: 15px;
+}
+
+@media all and (max-width: 480px) {
+  #main section.kanren_sec {
+    margin-top: 80px;
+  }
+
+  #main section .kanren {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media all and (min-width: 481px) {
+  #main section .kanren > li:nth-child(1),
+  .kanren > li:nth-child(2) {
+    margin-right: 30px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  #main section .kanren li:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
+#main section .kanren li {
+  display: inline-block;
+  border-radius: 10px / 10px;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #f48a9d;
+  display: flex;
+  background: #fef9fa;
+  position: relative;
+}
+
+@media all and (max-width: 480px) {
+  #main section .kanren li {
+    width: 100%;
+    letter-spacing: -1px;
+  }
+}
+
+#main section .kanren li.kanren_01 {
+  line-height: 1.1;
+}
+
+#main section .kanren a {
+  font-weight: bold;
+  width: 254px;
+  height: 75px;
+}
+
+@media all and (max-width: 480px) {
+  #main section .kanren a {
+    width: 100%;
+    height: 70px;
+  }
+}
+
+#main section .kanren span {
+  color: #f48a9d;
+  position: absolute;
+  font-size: 13px;
+  width: 254px;
+  display: block;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media all and (max-width: 480px) {
+  #main section .kanren span {
+    font-size: 14px;
+    width: 280px;
+    left: 50%;
+    line-height: 1.2 !important;
+  }
+}
+
+#main section .kanren span:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  background-size: contain;
+  left: -10px;
+}
+
+@media all and (max-width: 480px) {
+  #main section .kanren span:before {
+    bottom: -2px;
+    width: 38px;
+    height: 38px;
+  }
+}
+
+#main section .kanren span:after {
+  content: ">";
+  position: absolute;
+  color: #f48a9d;
+  margin-left: 86px;
+}
+
+#main section .kanren .kanren_01 span:before {
+  background-image: url(/common/images/health.png);
+  bottom: 0;
+}
+
+#main section .kanren .kanren_01 span:after {
+  bottom: 10px;
+}
+
+#main section .kanren .kanren_02 span:before {
+  background-image: url(/common/images/kyujin.png);
+  top: -10px;
+}
+
+#main section .kanren .kanren_02 span:after {
+  bottom: 1px;
+}
+
+@media all and (max-width: 480px) {
+  #main section .kanren .kanren_03 span {
+    left: 51%;
+  }
+}
+
+#main section .kanren .kanren_03 span:before {
+  background-image: url(/common/images/handshake.png);
+  top: -10px;
+}
+
+#main section .kanren .kanren_03 span:after {
+  margin-left: 72px;
+  bottom: 1px;
+}
+
+@media all and (max-width: 480px) {
+  #main section .kanren .kanren span:after {
+    margin-left: 100px;
+  }
+  #main section .kanren .kanren_03 span:after {
+    margin-left: 69px;
+  }
+}
+
+@media (min-width: 481px) {
+  #main section.kanren_sec ul {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #main section .kanren li {
+    width: 48%;
+  }
+  #main section.kanren_sec li {
+    margin-bottom: 10px;
+    letter-spacing: -0.4px;
+  }
+  #main section.kanren_sec li:not(:last-child) {
+    margin-right: 0;
+  }
+}
+
+#main section .kanren .kanren_chiba span:before {
+  bottom: 10px;
+}
+#main section .kanren .kanren_chiba span:after {
+  bottom: 20px;
+}
+@media (max-width: 480px) {
+  #main section .kanren .kanren_chiba span:before {
+    bottom: 5px;
+  }
+  #main section .kanren .kanren_chiba span:after {
+    bottom: 18px;
+  }
+}
+
+/* 全院共通 */
+#main section .kanren span {
+  line-height: 1.4;
+}
+
+@media (max-width: 480px) {
+  .banner_article a img,
+  .top_banner_article img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

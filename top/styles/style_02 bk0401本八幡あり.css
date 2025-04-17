@@ -1,0 +1,3341 @@
+@charset "UTF-8";
+
+@media (max-width: 480px) {
+  #main section h2 {
+    margin: 0;
+  }
+  #main section h2 ~ div,
+  #main section h2 ~ p,
+  #main section h2 ~ ul {
+    padding: 0;
+  }
+  section {
+    padding: 0 20px;
+  }
+  #contents_wrap > section {
+    padding: 0;
+  }
+}
+
+#slideshow {
+  position: relative;
+  width: 1000px;
+  height: 300px;
+  margin-top: 15px;
+}
+#slideshow li {
+  width: 1000px;
+}
+
+#sp_slideshow {
+  position: relative;
+  width: 100%;
+}
+
+#slideshow li,
+#sp_slideshow li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#slideshow li.active,
+#sp_slideshow li.active {
+  z-index: 10;
+}
+
+#slideshow li.last-active,
+#sp_slideshow li.last-active {
+  z-index: 9;
+}
+
+#wrap video {
+  display: block;
+  max-width: 540px;
+  margin: 0 auto;
+  border: solid 1px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+@media (max-width: 480px) {
+  #wrap video {
+    margin: 0 auto 30px;
+    width: 80%;
+  }
+}
+
+#main .map_top {
+  margin: 0 auto 80px;
+}
+@media screen and (max-width: 480px) {
+  #main .map_top {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  #main .map_top {
+    width: 90%;
+  }
+}
+#main .map_top img {
+  width: 100%;
+}
+
+/* @media screen and (min-width: 813px) {
+  #main section {
+    margin: -100px auto 80px !important;
+    padding-top: 100px;
+  }
+} */
+
+#main section h2 + div,
+#main section h2 + table {
+  margin-top: 25px;
+}
+#main section h2 + p,
+#main section h2 + ul {
+  margin-top: 25px;
+}
+#main section#sec_01 div {
+  width: 80%;
+  margin: 0 auto;
+}
+#main section#sec_01 p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  background: #edf1ba;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 15px 8px;
+}
+#main section#sec_01 p:nth-child(3) {
+  font-size: 18px;
+  color: #705a36;
+  background: none;
+  padding: 0;
+}
+#main section#sec_01 p:last-child {
+  color: #f48a9d;
+  margin-bottom: 0;
+  border-left: none;
+  text-align: right;
+  background: none;
+  display: block;
+  padding: 0;
+}
+#main section#sec_01 p:last-child a {
+  border-bottom: 1px solid #f48a9d;
+  padding-bottom: 1px;
+  color: #f48a9d;
+  position: relative;
+}
+#main section#sec_01 p:last-child a::before {
+  content: "▶︎";
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  transform: translateY(-50%);
+}
+#main section#sec_01 p:last-child a:hover {
+  border-bottom: none;
+}
+#main section#bunin_box {
+  font-family: "小塚ゴシック Pro", "KozGoPro-Light", "小塚ゴシック Pro L", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+}
+/* @media screen and (max-width: 480px) {
+  #main section:not(:first-child) {
+    margin-top: -40px;
+    padding-top: 84px;
+  }
+} */
+#main section#bunin_box .txt_box_01 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-radius: 0;
+  border: none;
+  position: relative;
+}
+#main section#bunin_box .txt_box_01 .tit_01 {
+  font-weight: normal;
+  margin: 0 auto 10px;
+  padding-right: 20px;
+  line-height: 1.6;
+}
+#main section#bunin_box .txt_box_01 .tit_01::after {
+  content: "";
+  position: absolute;
+  top: 32%;
+  right: 35%;
+  width: 10px;
+  height: 10px;
+  border: 0px;
+  border-top: solid 2px;
+  border-right: solid 2px;
+  transform: rotate(135deg);
+}
+@media all and (max-width: 600px) {
+  #main section#bunin_box .txt_box_01 .tit_01 {
+    padding-right: 22px;
+  }
+  #main section#bunin_box .txt_box_01 .tit_01::after {
+    right: 6%;
+  }
+}
+#main section#bunin_box .txt_box_00 ul {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 320px;
+  margin: 0 auto;
+}
+#main section#bunin_box .txt_19 {
+  font-size: 15px;
+  line-height: 1.5;
+}
+#main section#bunin_box .txt_box_00 br {
+  display: block;
+}
+#main section#bunin_box .txt_20 {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 5px;
+}
+#main section#bunin_box .shiny-btn-roppongi span {
+  background: url(/top/images/icon_tel_white.svg) no-repeat 0 0/16px 18px;
+  font-weight: bold;
+  padding-left: 22px;
+}
+#main section#bunin_box .shiny-btn-roppongi span.btn_roppongi_box_txt {
+  background: url(/common/images/icon_mail_white.svg) no-repeat 0 center / 18px 18px;
+  font-weight: bold;
+  padding-left: 26px;
+  padding-right: 4px;
+}
+@media (max-width: 480px) {
+  #main section#bunin_box .shiny-btn-roppongi span.btn_roppongi_box_txt {
+    padding-left: 36px;
+    padding-right: 12px;
+    letter-spacing: 1px;
+  }
+}
+#main section#bunin_box .txt_08 > span,
+#main section#bunin_box .txt_12 > span,
+#main section#bunin_box .txt_15 > span,
+#main section#bunin_box .txt_18 > span {
+  background: url(/top/images/people_icon.svg) no-repeat left 0/10px 14px;
+  font-size: 12px;
+  padding-left: 18px;
+  position: relative;
+  top: -2px;
+}
+#main section#bunin_box .txt_box_04 p.clinic_contact,
+#main section#bunin_box .txt_box_02 p.clinic_contact,
+#main section#bunin_box .txt_box_03 p.clinic_contact,
+#main section#bunin_box .txt_box_sakura p.clinic_contact,
+#main section#bunin_box .txt_box_yachiyo p.clinic_contact,
+#main section#bunin_box .txt_box_05 .txt_22 {
+  text-align: center;
+  margin-top: 30px;
+}
+#main section#bunin_box .txt_box_04 p.clinic_contact a,
+#main section#bunin_box .txt_box_02 p.clinic_contact a,
+#main section#bunin_box .txt_box_03 p.clinic_contact a,
+#main section#bunin_box .txt_box_sakura p.clinic_contact a,
+#main section#bunin_box .txt_box_yachiyo p.clinic_contact a {
+  position: relative;
+  padding-bottom: 1px;
+  border-bottom: 1px solid;
+}
+#main section#bunin_box .txt_box_04 ul > li {
+  width: 68px;
+  height: 30px;
+  text-align: center;
+  color: #8bc33f;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 3px;
+  border: 2px solid #8bc33f;
+  line-height: 1.8;
+}
+#main section#bunin_box .txt_box_04 ul li:nth-child(4),
+#main section#bunin_box .txt_box_04 ul > li:last-child {
+  width: 80px;
+}
+#main section#bunin_box .txt_box_04 .clinic_contact a {
+  color: #8bc33f;
+}
+#main section#bunin_box .txt_09,
+#main section#bunin_box .txt_13,
+#main section#bunin_box .txt_16 {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+#main section#bunin_box .btn_roppongi_box {
+  margin-top: 6px;
+}
+#main section#bunin_box .txt_10,
+#main section#bunin_box .txt_17,
+#main section#bunin_box .txt_14,
+#main section#bunin_box .txt_21,
+#main section#bunin_box .btn_roppongi_box {
+  text-align: center;
+}
+#main section#bunin_box a.shiny-btn-kitasenju:hover,
+#main section#bunin_box .shiny-btn-edogawa:hover,
+#main section#bunin_box .shiny-btn-kukiin:hover,
+#main section#bunin_box .shiny-btn-roppongi:hover,
+#main section#bunin_box .shiny-btn-sakura:hover,
+#main section#bunin_box a.shiny-btn-yachiyo:hover {
+  opacity: 0.7;
+}
+#main section#bunin_box a.shiny-btn-kitasenju,
+#main section#bunin_box .shiny-btn-edogawa,
+#main section#bunin_box .shiny-btn-kukiin,
+#main section#bunin_box .shiny-btn-roppongi,
+#main section#bunin_box .shiny-btn-sakura,
+#main section#bunin_box a.shiny-btn-yachiyo {
+  position: relative;
+}
+#main section#bunin_box a.shiny-btn-kitasenju span:after,
+#main section#bunin_box .shiny-btn-edogawa span:after,
+#main section#bunin_box .shiny-btn-kukiin span:after,
+#main section#bunin_box .shiny-btn-roppongi:after,
+#main section#bunin_box .shiny-btn-sakura:after,
+#main section#bunin_box a.shiny-btn-yachiyo span:after {
+  content: "▶︎";
+  position: absolute;
+  right: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+#main section#bunin_box .tab_tokyo .panel_inner > div:nth-child(3),
+#main section#bunin_box .tab_tokyo .panel_inner > div:nth-child(4) {
+  padding-top: 63px;
+}
+@media (max-width: 480px) {
+  #main section#bunin_box .tab_tokyo .panel_inner > div:nth-child(2),
+  #main section#bunin_box .tab_tokyo .panel_inner > div:nth-child(3),
+  #main section#bunin_box .tab_tokyo .panel_inner > div:nth-child(4),
+  #main section#bunin_box .txt_box_yachiyo {
+    padding-top: 40px !important;
+  }
+}
+#main section#bunin_box .txt_box_sakura .txt_08 {
+  background-color: #58b7ed;
+}
+#main section#bunin_box .txt_box_sakura .sakura_pic {
+  color: #f48a9d;
+  font-size: 3em;
+  text-align: center;
+  margin-left: 0;
+  margin-top: 0;
+}
+#main section#bunin_box .txt_box_sakura ul li {
+  width: 68px;
+  height: 30px;
+  text-align: center;
+  color: #58b7ed;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 3px;
+  border: 2px solid #58b7ed;
+  line-height: 1.8;
+}
+#main section#bunin_box .txt_box_sakura ul li:nth-child(3),
+#main section#bunin_box .txt_box_sakura ul li:nth-child(4) {
+  width: 80px;
+}
+#main section#bunin_box .txt_box_sakura .clinic_contact a {
+  color: #58b7ed;
+}
+#main section#bunin_box .txt_box_02 .clinic_contact a {
+  color: #f48a9d;
+}
+#main section#bunin_box .txt_box_02 ul > li {
+  width: 68px;
+  height: 30px;
+  text-align: center;
+  color: #ff8599;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 3px;
+  border: 2px solid #ff8599;
+  line-height: 1.8;
+}
+#main section#bunin_box .kitasenju_toho,
+#main section#bunin_box .shinkoiwa_toho,
+#main section#bunin_box .kukiin_toho,
+#main section#bunin_box .roppongi_toho,
+#main section#bunin_box .sakura_toho,
+#main section#bunin_box .yachiyo_toho,
+#main section#bunin_box .kinshichou_toho {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main section#bunin_box .txt_box_03 .clinic_contact a {
+  color: #e7b055;
+}
+#main section#bunin_box .txt_box_03 ul > li {
+  width: 68px;
+  height: 30px;
+  text-align: center;
+  color: #e7b055;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 3px;
+  border: 2px solid #e7b055;
+  line-height: 1.8;
+}
+#main section#bunin_box .txt_box_03 ul > li:nth-child(2) {
+  width: 80px;
+}
+#main section#bunin_box .illust_3 {
+  margin: 5rem auto 0 auto;
+  width: 400px;
+}
+#main section#bunin_box .illust_3 img {
+  max-width: 400px;
+  width: 100%;
+}
+
+#main section#bunin_box .txt_box_yachiyo .txt_08 {
+  background-color: #c7b2d6;
+}
+#main section#bunin_box .txt_box_yachiyo ul li {
+  height: 30px;
+  text-align: center;
+  color: #c7b2d6;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 3px;
+  border: 2px solid #c7b2d6;
+  line-height: 1.8;
+}
+#main section#bunin_box .txt_box_yachiyo ul li:nth-child(1) {
+  width: 80px;
+}
+#main section#bunin_box .txt_box_yachiyo ul li:nth-child(2) {
+  width: 68px;
+}
+#main section#bunin_box .txt_box_yachiyo .clinic_contact a {
+  color: #c7b2d6;
+}
+
+@media all and (min-width: 961px) {
+  #main section#bunin_box .txt_18 {
+    display: inline-block;
+    width: 320px;
+    height: 30px;
+    border-radius: 14.5px/14.5px;
+    background-color: #b47b4b;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    clear: both;
+  }
+  #main section#bunin_box .roppongi_adress {
+    width: 280px;
+    text-align: center;
+    color: #b47b4b;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #b47b4b;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #main section#bunin_box .shiny-btn-roppongi {
+    display: inline-block;
+    width: 280px;
+    height: 30px;
+    border-radius: 5px/5px;
+    background-color: #b47b4b;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  #main section#bunin_box .txt_15 {
+    display: inline-block;
+    width: 320px;
+    height: 30px;
+    border-radius: 14.5px/14.5px;
+    background-color: #8bc33f;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    clear: both;
+  }
+  #main section#bunin_box .photo_kukiin,
+  #main section#bunin_box .photo_kitasenju,
+  #main section#bunin_box .photo_shinkoiwa,
+  #main section#bunin_box .photo_roppongi,
+  #main section#bunin_box .photo_sakura,
+  #main section#bunin_box .photo_yachiyo,
+  #main section#bunin_box .photo_kinshichou {
+    padding: 5px;
+    background: #fff;
+    width: 330px;
+    height: 330px;
+    box-shadow: 0 0 4px #d4cdc4;
+    margin: 13px auto;
+  }
+  #main section#bunin_box .photo_kukiin img,
+  #main section#bunin_box .photo_kitasenju img,
+  #main section#bunin_box .photo_shinkoiwa img,
+  #main section#bunin_box .photo_roppongi img,
+  #main section#bunin_box .photo_sakura img,
+  #main section#bunin_box .photo_yachiyo img,
+  #main section#bunin_box .photo_kinshichou img {
+    width: 320px;
+    height: 320px;
+  }
+  #main section#bunin_box .shiny-btn-kukiin {
+    display: inline-block;
+    width: 280px;
+    height: 30px;
+    border-radius: 5px/5px;
+    background-color: #8bc33f;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  #main section#bunin_box .txt_08 {
+    display: inline-block;
+    width: 320px;
+    height: 30px;
+    border-radius: 14.5px/14.5px;
+    background-color: #f48a9d;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    clear: both;
+  }
+  #main section#bunin_box .shiny-btn-kitasenju {
+    display: inline-block;
+    width: 280px;
+    height: 30px;
+    border-radius: 5px/5px;
+    background-color: #f48a9d;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  #main section#bunin_box .txt_12 {
+    display: inline-block;
+    width: 320px;
+    height: 30px;
+    border-radius: 14.5px/14.5px;
+    background-color: #e7b055;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    clear: both;
+  }
+  #main section#bunin_box .shiny-btn-edogawa {
+    display: inline-block;
+    width: 280px;
+    height: 30px;
+    border-radius: 5px/5px;
+    background-color: #e7b055;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  #main section#bunin_box .shiny-btn-sakura {
+    display: inline-block;
+    width: 280px;
+    height: 30px;
+    border-radius: 5px/5px;
+    background-color: #58b7ed;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  #main section#bunin_box .shiny-btn-yachiyo {
+    display: inline-block;
+    width: 280px;
+    height: 30px;
+    border-radius: 5px/5px;
+    background-color: #c7b2d6;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+}
+
+@media all and (max-width: 960px) {
+  #main section#bunin_box .title {
+    width: 80%;
+  }
+  #main section#bunin_box .txt_18 {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    border-radius: 14.5px/14.5px;
+    background-color: #b47b4b;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    clear: both;
+  }
+  #main section#bunin_box .roppongi_adress {
+    width: 85%;
+    text-align: center;
+    color: #b47b4b;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #b47b4b;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px !important;
+  }
+  #main section#bunin_box .shiny-btn-roppongi {
+    display: inline-block;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px/5px;
+    background-color: #b47b4b;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  #main section#bunin_box .txt_15 {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    border-radius: 14.5px/14.5px;
+    background-color: #8bc33f;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    clear: both;
+  }
+  #main section#bunin_box .photo_kukiin,
+  #main section#bunin_box .photo_kitasenju,
+  #main section#bunin_box .photo_shinkoiwa,
+  #main section#bunin_box .photo_roppongi,
+  #main section#bunin_box .photo_sakura,
+  #main section#bunin_box .photo_yachiyo,
+  #main section#bunin_box .photo_kinshichou {
+    padding: 5px;
+    background: #fff;
+    width: 90%;
+    box-shadow: 0 0 4px #d4cdc4;
+    margin: 13px auto;
+    padding-bottom: 0px;
+  }
+  #main section#bunin_box .photo_kukiin img,
+  #main section#bunin_box .photo_kitasenju img,
+  #main section#bunin_box .photo_shinkoiwa img,
+  #main section#bunin_box .photo_roppongi img,
+  #main section#bunin_box .photo_sakura img,
+  #main section#bunin_box .photo_yachiyo img,
+  #main section#bunin_box .photo_kinshichou img {
+    width: 100%;
+  }
+  #main section#bunin_box .shiny-btn-kukiin {
+    display: inline-block;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px/5px;
+    background-color: #8bc33f;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  #main section#bunin_box .txt_08 {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    border-radius: 14.5px/14.5px;
+    background-color: #f48a9d;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    clear: both;
+  }
+  #main section#bunin_box .shiny-btn-kitasenju {
+    display: inline-block;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px/5px;
+    background-color: #f48a9d;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  #main section#bunin_box .txt_12 {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    border-radius: 14.5px/14.5px;
+    background-color: #e7b055;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    clear: both;
+  }
+  #main section#bunin_box .shiny-btn-edogawa {
+    display: inline-block;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px/5px;
+    background-color: #e7b055;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  #main section#bunin_box .shiny-btn-sakura {
+    display: inline-block;
+    /* width: 70%; */
+    width: 80%;
+    height: 30px;
+    border-radius: 5px/5px;
+    background-color: #58b7ed;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  #main section#bunin_box .shiny-btn-yachiyo {
+    display: inline-block;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px/5px;
+    background-color: #c7b2d6;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+}
+/* @media screen and (min-width: 813px) {
+  #main section#bunin_box {
+    margin: -100px auto 100px !important;
+  }
+} */
+@media screen and (min-width: 813px) and (max-width: 960px) {
+  #main section#bunin_box {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #main section#bunin_box .txt_box_00 ul {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+  }
+  #main section#bunin_box .txt_box_04,
+  #main section#bunin_box .txt_box_03 {
+    padding-right: 80px;
+  }
+}
+@media all and (max-width: 600px) {
+  #main section#bunin_box .illust_3 {
+    margin-top: 2rem;
+    text-align: center;
+    width: auto;
+  }
+  #main section#bunin_box .illust_3 img {
+    max-width: 300px;
+  }
+}
+@media all and (max-width: 480px) {
+  #main section#bunin_box {
+    margin-bottom: 50px;
+  }
+  #main section#bunin_box .kitasenju_toho,
+  #main section#bunin_box .shinkoiwa_toho,
+  #main section#bunin_box .kukiin_toho,
+  #main section#bunin_box .roppongi_toho,
+  #main section#bunin_box .sakura_toho,
+  #main section#bunin_box .yachiyo_toho,
+  #main section#bunin_box .kinshichou_toho {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #main section#bunin_box .txt_box_yachiyo {
+    margin: 10px auto;
+  }
+}
+@media all and (max-width: 480px) {
+  #main section#bunin_box .txt_box_00 > div:not(:first-child) {
+    padding-top: 63px;
+  }
+}
+@media all and (min-width: 813px) {
+  #main section#bunin_box .txt_box_00 > .txt_box_05,
+  #main section#bunin_box .txt_box_04,
+  #main section#bunin_box .txt_box_02,
+  #main section#bunin_box .txt_box_03,
+  #main section#bunin_box .txt_box_sakura,
+  #main section#bunin_box .txt_box_yachiyo {
+    width: 50%;
+  }
+  #main section#bunin_box .txt_box_sakura {
+    margin-right: auto;
+  }
+}
+
+@media all and (min-width: 481px) {
+  .banner_article {
+    margin-bottom: 80px;
+  }
+  .banner_article .bnr_riji {
+    margin-bottom: 40px;
+  }
+}
+
+#main section#message .box_wrap .box {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+#main section#message .box_wrap .box img {
+  float: left;
+  margin-right: 10px;
+  width: 300px;
+  border-radius: 5px;
+}
+#main section#message .box_wrap .box .txt_box {
+  float: left;
+  width: 400px;
+}
+#main section#message .box_wrap .box .txt_box dl:last-child {
+  margin-top: 20px;
+}
+#main section#message .box_wrap .box .txt_box h3 {
+  color: #4b4b4b;
+  padding-left: 0px;
+  margin-bottom: 10px;
+}
+#main section#message .box_wrap .box .txt_box h3 span {
+  background-image: none;
+  padding-top: 0;
+}
+#main section#message .box_wrap .box .txt_box h3 .border {
+  border-left: 5px solid #f48a9d;
+  padding: 3px 0 1px 7px;
+}
+#main section#message .box_wrap .box .txt_box h3 .txt_01 {
+  color: #f48a9d;
+}
+#main section#message .box_wrap .box .txt_box h3 .txt_02 {
+  font-size: 14px;
+}
+#main section#message .box_wrap .box .txt_box dl dt {
+  margin-bottom: 5px;
+}
+#main section#message .box_wrap .txt_box_02 {
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff0f3;
+  border: solid #f48a9d 1px;
+  margin-bottom: 30px;
+}
+#main section#message .box_wrap .txt_box_02 p:not(:first-child) {
+  margin-top: 15px;
+}
+#main section#message .clinic_lists {
+  padding-top: 60px;
+}
+#main section .clinic_lists ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+#main section .clinic_lists a {
+  position: relative;
+  color: #f48a9d;
+}
+@media all and (min-width: 481px) {
+  #main section .clinic_lists ul li {
+    font-size: 13px;
+    text-align: left;
+    width: calc(100% / 4);
+    box-sizing: border-box;
+  }
+}
+@media all and (max-width: 480px) {
+  #main section#message .box_wrap .box img.sp {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  #main section#message .box_wrap .txt_box {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+  #main section#message .clinic_lists {
+    padding-top: 0px;
+  }
+  #main section#message .clinic_lists ul {
+    justify-content: space-between;
+  }
+  #main section .clinic_lists ul li {
+    text-align: left;
+    width: 48%;
+    letter-spacing: -0.8px;
+  }
+  #main section#message .clinic_lists ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  #main section#message .box_wrap .txt_box_02 p:last-child {
+    padding-left: 0 !important;
+    text-indent: 0 !important;
+  }
+}
+
+#main section#about p:nth-child(2),
+#main section#about p:nth-child(3),
+#main section#about p:nth-child(4) {
+  margin-bottom: 10px;
+}
+#main section#about p.about_pink {
+  color: #f48a9d;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+#main section#about p:nth-child(9) {
+  margin-bottom: 30px;
+}
+#main section#about .about_character {
+  background: url(/common/images/photo_01_v2.png) no-repeat 404px 2px;
+  background-size: 92px 214px;
+}
+#main section#about .about_character ul {
+  background: url(/common/images/fukidashi.svg) no-repeat 93px 26px/305px auto;
+  height: 204px;
+  padding: 68px 122px;
+}
+#main section#about .about_character ul li {
+  background: url(/common/images/icon_check.svg) no-repeat 0 4px/20px auto;
+  padding-left: 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
+#main section#about .about_image {
+  position: relative;
+}
+#main section#about .about_image img {
+  width: 380px;
+  position: absolute;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  bottom: 38px;
+  right: 4px;
+}
+#main section#about > ul {
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff0f3;
+  border: solid #f48a9d 1px;
+}
+#main section#about > ul li {
+  padding: 0 0 2px 0;
+  font-weight: bold;
+  position: relative;
+}
+#main section#about > ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+#main section#about > ul span.check {
+  color: #f48a9d;
+  padding: 0 6px 0 0;
+  vertical-align: middle;
+}
+#main section#about > ul span.check img {
+  width: 18px;
+  position: relative;
+  top: 3.5px;
+}
+#main section#about > ul span.border {
+  background: linear-gradient(transparent 70%, #ffc6cf 70%);
+}
+@media all and (min-width: 481px) {
+  #main section#about .about_character {
+    padding-bottom: 27px;
+  }
+  #main section#about .about_character ul {
+    margin: 50px 0;
+  }
+}
+@media all and (max-width: 480px) {
+  #main section#about p {
+    text-indent: 0;
+  }
+  #main section#about p:nth-child(7) {
+    margin-top: 0;
+  }
+  #main section#about .about_character {
+    background: url(/common/images/photo_01_v2.png) no-repeat 89% 12px;
+    background-size: 18% auto;
+  }
+  #main section#about .about_character ul {
+    background: url(/common/images/fukidashi.svg) no-repeat 0 26%/70% auto;
+    height: 179px;
+    padding: 42px 5%;
+  }
+  #main section#about .about_character ul li {
+    background: url(/common/images/icon_check.svg) no-repeat 0 4px/20px auto;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 25px;
+  }
+  #main section#about .about_image img {
+    width: 98%;
+    bottom: -250px;
+  }
+  #main section#about p.about_pink {
+    margin-top: 280px;
+  }
+  #main section#about > ul {
+    padding: 15px 3vw;
+  }
+  #main section#about > ul li {
+    padding-left: 2em;
+    text-indent: -1.7em;
+    text-align: left;
+  }
+}
+#main section#sec_02 div:not(:last-child) {
+  margin-bottom: 40px;
+}
+#main section#sec_02 div h3,
+#main section#sec_02 div p {
+  text-align: center;
+  background-position: 300px;
+}
+#main section#sec_02 div h3 {
+  background: url(/common/images/icon_run.svg) no-repeat center 1px/55px 55px;
+  border: none;
+  margin-bottom: 0;
+  font-weight: bold;
+  padding: 30px 0 0 0;
+}
+#main section#sec_02 div h3 span {
+  font-size: 20px;
+  background-position: center top;
+  background-image: none;
+  color: #f48a9d;
+}
+#main section#sec_02 div h3 .sp_375 {
+  font-size: 18px;
+}
+#main section#sec_02 div:nth-child(3) h3 {
+  background: url(/common/images/icon_map.svg) no-repeat center 1px/55px 55px;
+}
+#main section#sec_02 div:nth-child(4) h3 {
+  background: url(/common/images/icon_car.svg) no-repeat center 1px/55px 55px;
+}
+#main section#sec_02 div:nth-child(5) h3 {
+  background: url(/common/images/icon_hotyouki.svg) no-repeat center 1px/55px 55px;
+}
+#main section#sec_02 div:nth-child(6) h3 {
+  background: url(/common/images/icon_run.svg) no-repeat center 1px/55px 55px;
+}
+#main section#sec_02 div div.pink {
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff0f3;
+  border: solid #f48a9d 1px;
+  margin-top: 10px;
+}
+#main section#sec_02 div div.pink p + p {
+  margin-top: 10px;
+}
+#main section#sec_02 .clinic_lists {
+  padding-top: 30px;
+}
+@media all and (max-width: 480px) {
+  #main section#sec_02 .clinic_lists {
+    padding-top: 0;
+  }
+  #main section#sec_02 .clinic_lists ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+#main section#sec_04 {
+  position: relative;
+}
+#main section#sec_04 h3 {
+  color: #f48a9d;
+  font-size: 18px;
+  border-bottom: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+#main section#sec_04 h3 span {
+  border-left: 5px solid #f48a9d;
+  background-image: none;
+  padding: 3px 0 1px 7px;
+}
+#main section#sec_04 .kamoku ul {
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+#main section#sec_04 li {
+  display: inline-block;
+  padding-right: 2.5em;
+  width: 9em;
+}
+#main section#sec_04 img {
+  width: 380px;
+  position: absolute;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  bottom: 380px;
+  left: 0;
+}
+/* @media screen and (min-width: 813px) {
+  #main section#sec_04 {
+    padding-top: 80px;
+  }
+} */
+@media all and (max-width: 480px) {
+  #main section#sec_04 img {
+    width: 90%;
+    bottom: 466px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+  }
+}
+#main section#sec_04 p {
+  margin-top: 0;
+}
+#main section#sec_05 {
+  margin: 34px auto 0 !important;
+  padding-top: 0;
+}
+#main section#sec_05 table.cel_01 {
+  margin-top: 15px;
+  margin-bottom: 9px;
+}
+#main section#sec_05 p {
+  padding-left: 0.2em;
+}
+@media all and (max-width: 480px) {
+  #main section#sec_05 {
+    padding: 0;
+  }
+}
+#main section#shinryou {
+  overflow: hidden;
+  margin: 25px auto 380px !important;
+  padding-top: 0;
+}
+#main section#shinryou p {
+  position: absolute;
+  bottom: 373px;
+  left: 420px;
+}
+#main section#shinryou ul {
+  float: left;
+  width: 50%;
+}
+#main section#shinryou ul li {
+  font-size: 14px;
+  margin-bottom: 6px;
+  padding-right: 0 !important;
+  width: 100% !important;
+}
+#main section#shinryou table.cel_01 {
+  margin-bottom: 9px;
+}
+#main section#shinryou span {
+  padding: 0 3.5px;
+}
+@media all and (max-width: 480px) {
+  #main section#shinryou {
+    padding: 0;
+    margin: 30px auto 456px !important;
+  }
+  #main section#shinryou p {
+    position: absolute;
+    bottom: 456px;
+    left: 0;
+    padding: 0 20px;
+  }
+  #main section#sec_04 h3 span {
+    font-size: 16px;
+  }
+}
+#main section#graf {
+  background-image: url(/common/images/wr_circle.svg);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: 50% 200px;
+}
+#main section#graf h3 {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  font-weight: normal;
+  padding: 0 10px;
+  margin: 50px 0;
+  color: #4d4d4d;
+  border-bottom: none;
+  text-align: center;
+}
+#main section#graf .txt {
+  max-width: 540px;
+  text-align: left;
+  margin: auto;
+  padding: 0 10px;
+}
+#main section#graf .graf_list {
+  display: flex;
+  display: -ms-flexbox;
+  justify-content: space-around;
+  -ms-flex-pack: distribute;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+#main section#graf .graf_list li {
+  width: 45%;
+  margin-top: 0;
+}
+#main section#graf .graf_list li:nth-child(3),
+#main section#graf .graf_list li:nth-child(4) {
+  margin-top: 50px;
+}
+#main section#graf .graf_list li img {
+  width: 100%;
+}
+#main section#graf .graf_list li p {
+  line-height: 1.5;
+}
+#main section#graf .clinic_lists {
+  padding-top: 70px;
+}
+@media all and (max-width: 480px) {
+  #main section#graf {
+    background-position: 50% 100px;
+  }
+  #main section#graf .txt {
+    padding: 0;
+  }
+  #main section#graf .graf_list {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  #main section#graf .graf_list li {
+    width: 100%;
+  }
+  #main section#graf .clinic_lists {
+    padding-top: 0;
+  }
+  #main section#graf .clinic_lists ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+#main section#ishi .department {
+  background-color: #8bc33e;
+  border-radius: 10px;
+  color: #fff;
+  display: inline-block;
+  padding: 2px 10px !important;
+}
+#main section#ishi .department:not(:first-child) {
+  margin-top: 25px;
+}
+#main section#ishi .docter-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+#main section#ishi .docter-lists dt {
+  padding-left: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+#main section#ishi .docter-lists dd {
+  overflow: hidden;
+}
+#main section#ishi .docter-lists > li:not(:last-child) {
+  margin-bottom: 15px;
+}
+#main section#ishi .docter-lists > li {
+  border-radius: 10px;
+  padding: 5px 15px 10px;
+  border: solid #6eb92b 2px;
+  background: #f8fbf4;
+  margin-bottom: 15px;
+}
+#main section#ishi .docter-lists > li dt {
+  border-bottom: 1px solid #6eb92b;
+  border-left: 5px solid #6eb92b;
+}
+#main section#ishi .docter-lists > li .img {
+  width: 30%;
+  height: auto;
+  float: left;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+#main section#ishi .docter-lists img {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+}
+#main section#ishi .docter-lists > li .txt {
+  width: 66%;
+}
+#main section#ishi .docter-lists ul.txt {
+  float: right;
+  width: 300px;
+}
+#main section#ishi .docter-lists > li.pink {
+  border: solid #f48a9d 2px;
+  background: #fef9fa;
+}
+#main section#ishi .docter-lists > li.pink dt {
+  border-bottom: 1px solid #f48a9d;
+  border-left: 5px solid #f48a9d;
+}
+#main section#ishi .hijoukin li {
+  padding: 5px 15px 20px !important;
+}
+@media (min-width: 481px) {
+  #main section#ishi .hijoukin li {
+    margin-bottom: 0;
+  }
+}
+#main section#ishi .hijoukin li dt {
+  margin-bottom: 20px;
+}
+#main section#ishi .ishi_saiyou {
+  display: block;
+  float: right;
+}
+#main section#ishi .ishi_saiyou a {
+  color: #f48a9d;
+}
+@media (min-width: 481px) {
+  #main section#ishi .docter-lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #main section#ishi .docter-lists > li {
+    border-radius: 10px;
+    width: 490px;
+    padding: 5px 15px 10px;
+  }
+}
+@media (max-width: 480px) {
+  #main section#ishi li {
+    width: 100%;
+  }
+  #main section#ishi .ishi_saiyou {
+    margin-top: 15px;
+  }
+}
+#main section#staff .department {
+  background-color: #8bc33e;
+  border-radius: 10px;
+  color: #fff;
+  display: inline-block;
+  padding: 2px 10px !important;
+}
+#main section#staff .department:not(:first-child) {
+  margin-top: 25px;
+}
+#main section#staff .docter-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+#main section#staff .docter-lists dt {
+  padding-left: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+#main section#staff .docter-lists dd {
+  overflow: hidden;
+}
+#main section#staff .docter-lists > li:not(:last-child) {
+  margin-bottom: 15px;
+}
+#main section#staff .docter-lists > li {
+  border-radius: 10px;
+  padding: 5px 15px 10px;
+  border: solid #6eb92b 2px;
+  background: #f8fbf4;
+  margin-bottom: 15px;
+}
+#main section#staff .docter-lists > li dt {
+  border-bottom: 1px solid #6eb92b;
+  border-left: 5px solid #6eb92b;
+}
+#main section#staff .docter-lists > li .img {
+  width: 30%;
+  height: auto;
+  float: left;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+#main section#staff .docter-lists img {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+}
+#main section#staff .docter-lists > li .txt {
+  width: 66%;
+}
+#main section#staff .docter-lists ul.txt {
+  float: right;
+  width: 300px;
+}
+#main section#staff .docter-lists > li.pink {
+  border: solid #f48a9d 2px;
+  background: #fef9fa;
+}
+#main section#staff .docter-lists > li.pink dt {
+  border-bottom: 1px solid #f48a9d;
+  border-left: 5px solid #f48a9d;
+}
+#main section#staff h2 + ul {
+  margin-top: 30px;
+}
+#main section#staff h2 + ul > li {
+  border-radius: 10px;
+  width: 490px;
+  padding: 5px 15px 10px;
+  border: solid #6eb92b 2px;
+  background: #f8fbf4;
+  margin-bottom: 15px;
+}
+#main section#staff h2 + ul > li dt {
+  border-bottom: 1px solid #6eb92b;
+  border-left: 5px solid #6eb92b;
+}
+#main section#staff h2 + ul dt {
+  padding-left: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+#main section#staff h2 + ul dd {
+  overflow: hidden;
+}
+#main section#staff h2 + ul > li .img {
+  width: 30%;
+  height: auto;
+  float: left;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+#main section#staff h2 + ul img {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+}
+#main section#staff h2 + ul > li .txt {
+  width: 66%;
+}
+#main section#staff h2 + ul ul.txt {
+  float: right;
+  width: 208px;
+}
+#main section#staff h2 + ul > li.pink {
+  border: solid #f48a9d 2px;
+  background: #fef9fa;
+}
+#main section#staff h2 + ul > li.pink dt {
+  border-bottom: 1px solid #f48a9d;
+  border-left: 5px solid #f48a9d;
+}
+#main section#staff .ishi_saiyou {
+  display: block;
+  float: right;
+}
+#main section#staff .ishi_saiyou a {
+  color: #f48a9d;
+}
+@media (min-width: 481px) {
+  #main section#staff .docter-lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #main section#staff .docter-lists > li {
+    border-radius: 10px;
+    width: 490px;
+    padding: 5px 15px 10px;
+  }
+  #main section#staff h2 + ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 480px) {
+  /* #main section#staff {
+    margin-top: 90px !important;
+  } */
+  #main section#staff .ishi_saiyou {
+    margin-top: 15px;
+  }
+  #main section#staff .docter-lists .none_image {
+    width: 100%;
+  }
+}
+@media all and (max-width: 480px) {
+  /* #main section#kanren_sec,
+  #main section#kanren_sec02 {
+    margin-top: 60px;
+  } */
+  #main section#kanren_sec {
+    margin-top: 60px;
+  }
+}
+#main section#kanren_sec .kanren,
+#main section#kanren_sec02 .kanren {
+  display: flex;
+  margin-top: 15px;
+}
+#main section#kanren_sec .kanren li,
+#main section#kanren_sec02 .kanren li {
+  display: inline-block;
+  border-radius: 10px/10px;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #f48a9d;
+  display: flex;
+  background: #fef9fa;
+  position: relative;
+}
+#main section#kanren_sec .kanren .kanren_00,
+#main section#kanren_sec .kanren .kanren_01,
+#main section#kanren_sec02 .kanren .kanren_00,
+#main section#kanren_sec02 .kanren .kanren_01 {
+  line-height: 1.1;
+}
+#main section#kanren_sec .kanren .kanren_00 span:before,
+#main section#kanren_sec .kanren .kanren_01 span:before,
+#main section#kanren_sec02 .kanren .kanren_00 span:before,
+#main section#kanren_sec02 .kanren .kanren_01 span:before {
+  background-image: url(/top/images/health.png);
+  bottom: -5px;
+}
+#main section#kanren_sec .kanren .kanren_00 span:after,
+#main section#kanren_sec .kanren .kanren_01 span:after,
+#main section#kanren_sec02 .kanren .kanren_00 span:after,
+#main section#kanren_sec02 .kanren .kanren_01 span:after {
+  margin-left: 30px;
+  bottom: 10px;
+}
+#main section#kanren_sec .kanren .kanren_02 span:before,
+#main section#kanren_sec02 .kanren .kanren_02 span:before {
+  background-image: url(/top/images/kyujin.png);
+  top: -10px;
+}
+#main section#kanren_sec .kanren .kanren_02 span:before span:after,
+#main section#kanren_sec02 .kanren .kanren_02 span:before span:after {
+  margin-left: 20px;
+  bottom: 1px;
+}
+#main section#kanren_sec .kanren .kanren_03 span:before,
+#main section#kanren_sec02 .kanren .kanren_03 span:before {
+  background-image: url(/top/images/handshake.png);
+  top: -10px;
+}
+#main section#kanren_sec .kanren span:after,
+#main section#kanren_sec02 .kanren span:after {
+  margin-left: 15px;
+  bottom: 1px;
+}
+#main section#kanren_sec .kanren a,
+#main section#kanren_sec02 .kanren a {
+  font-weight: bold;
+  width: 214px;
+  height: 75px;
+}
+#main section#kanren_sec .kanren span {
+  line-height: 1.2;
+}
+#main section#kanren_sec .kanren span,
+#main section#kanren_sec02 .kanren span {
+  color: #f48a9d;
+  position: absolute;
+  font-size: 13px;
+  width: 214px;
+  display: block;
+  text-align: center;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+#main section#kanren_sec .kanren span:before,
+#main section#kanren_sec02 .kanren span:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  left: 0;
+}
+#main section#kanren_sec .kanren span:after,
+#main section#kanren_sec02 .kanren span:after {
+  content: ">";
+  position: absolute;
+  color: #f48a9d;
+}
+@media all and (min-width: 481px) {
+  #main section#kanren_sec .kanren li.kanren_02 span:before,
+  #main section#kanren_sec02 .kanren li.kanren_02 span:before {
+    left: 2%;
+  }
+}
+@media all and (max-width: 480px) {
+  #main section#kanren_sec .kanren,
+  #main section#kanren_sec02 .kanren {
+    flex-direction: column;
+  }
+  #main section#kanren_sec .kanren a,
+  #main section#kanren_sec02 .kanren a {
+    width: 100%;
+  }
+  #main section#kanren_sec .kanren span,
+  #main section#kanren_sec02 .kanren span {
+    font-size: 16px;
+    width: 300px;
+    left: 50%;
+  }
+  #main section#kanren_sec .kanren span:before,
+  #main section#kanren_sec02 .kanren span:before {
+    left: 6%;
+    width: 43px;
+    height: 43px;
+  }
+  #main section#kanren_sec .kanren .kanren_00 span:after,
+  #main section#kanren_sec .kanren .kanren_01 span:after,
+  #main section#kanren_sec02 .kanren .kanren_00 span:after,
+  #main section#kanren_sec02 .kanren .kanren_01 span:after {
+    margin-left: 55px;
+  }
+  #main section#kanren_sec .kanren .kanren_02 span:before,
+  #main section#kanren_sec02 .kanren .kanren_02 span:before {
+    top: -8px;
+  }
+  #main section#kanren_sec .kanren .kanren_02 span:after,
+  #main section#kanren_sec02 .kanren .kanren_02 span:after {
+    margin-left: 55px;
+  }
+  #main section#kanren_sec .kanren .kanren_03 span,
+  #main section#kanren_sec02 .kanren .kanren_03 span {
+    left: 51%;
+  }
+  #main section#kanren_sec .kanren .kanren_03 span:before,
+  #main section#kanren_sec02 .kanren .kanren_03 span:before {
+    top: -8px;
+    left: 5%;
+  }
+  #main section#kanren_sec .kanren .kanren_03 span:after,
+  #main section#kanren_sec02 .kanren .kanren_03 span:after {
+    margin-left: 36px;
+  }
+}
+
+#main section.ishi_shoukai h3,
+#main section#houjin h3 {
+  color: #f48a9d;
+  border-left: 5px solid #f48a9d;
+  padding: 3px 0 1px 7px;
+}
+
+/* @media all and (max-width: 480px) {
+  #main section.ishi_shoukai,
+  #main section#houjin {
+    padding: 100px 20px 0;
+    padding: 0 20px;
+  }
+} */
+
+#main section#kanren_sec .kanren .tmi,
+#main section#kanren_sec02 .kanren .tmi {
+  background-color: #fff;
+}
+#main section#kanren_sec .kanren .tmi span:before,
+#main section#kanren_sec02 .kanren .tmi span:before {
+  background-image: url(/top/images/logo_tmi.png);
+  top: -10px;
+}
+
+#main section.kyuujin p.kyuujin_txt {
+  margin-top: 30px;
+}
+#main section.kyuujin p span {
+  font-weight: bold;
+}
+#main section.kyuujin .name {
+  display: block;
+  text-align: right;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+td.off {
+  height: 30px;
+  width: 40px;
+  padding: 0 !important;
+}
+
+.diagonal {
+  height: 100%;
+  width: 100%;
+  border-top: solid gray 1px;
+}
+
+.rightUp {
+  transform: matrix(1, -0.925, 0, 1, 0, 14);
+}
+
+@media all and (min-width: 481px) {
+  #main {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+  nav {
+    width: 1340px;
+  }
+  .nav ul li a {
+    width: 110px;
+  }
+  .fixed nav {
+    width: 1172px;
+  }
+  .fixed nav ul {
+    justify-content: center;
+  }
+  .fixed nav ul li a {
+    font-size: 11px;
+    width: 95px;
+    padding: 16px 0 6px;
+  }
+  #top nav ul li:nth-child(1) a,
+  #message nav ul li:nth-child(2) a,
+  #guide nav ul li:nth-child(3) a,
+  #about nav ul li:nth-child(4) a,
+  #area nav ul li:nth-child(5) a,
+  #recruit nav ul li:nth-child(7) a,
+  #contact nav ul li:nth-child(8) a,
+  nav ul li a .active {
+    background: none;
+    color: #202020;
+  }
+  #top nav ul li:nth-child(1) a:hover,
+  #message nav ul li:nth-child(2) a:hover,
+  #guide nav ul li:nth-child(3) a:hover,
+  #about nav ul li:nth-child(4) a:hover,
+  #area nav ul li:nth-child(5) a:hover,
+  #recruit nav ul li:nth-child(7) a:hover,
+  #contact nav ul li:nth-child(8) a:hover,
+  nav ul li a .active {
+    background: #f48a9d;
+    border-radius: 5px;
+    opacity: 1;
+    color: #fff;
+  }
+  nav ul li:nth-child(2) a,
+  nav ul li:nth-child(6) a,
+  nav ul li:nth-child(7) a,
+  nav ul li:nth-child(8) a,
+  nav ul li:nth-child(9) a {
+    padding: 23px 0 6px !important;
+    line-height: 1 !important;
+  }
+  .fixed nav ul li:nth-child(2) a,
+  .fixed nav ul li:nth-child(6) a,
+  .fixed nav ul li:nth-child(7) a,
+  .fixed nav ul li:nth-child(8) a,
+  .fixed nav ul li:nth-child(9) a {
+    padding: 18px 0 6px !important;
+  }
+  #contents {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  #main section#shinryou ul {
+    width: 53%;
+  }
+  #main section#shinryou ul + ul {
+    width: 47%;
+  }
+  #main section#shinryou ul li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+  #main section#sec_06 li {
+    display: inline-block;
+    width: 18em;
+  }
+  #main section#sec_06 li:nth-child(1),
+  #main section#sec_06 li:nth-child(2),
+  #main section#sec_06 li:nth-child(3),
+  #main section#sec_06 li:nth-child(4),
+  #main section#sec_06 li:nth-child(5),
+  #main section#sec_06 li:nth-child(6),
+  #main section#sec_06 li:nth-child(7),
+  #main section#sec_06 li:nth-child(8),
+  #main section#sec_06 li:nth-child(9) {
+    margin-bottom: 10px;
+  }
+  #main section#sec_06 .saitama li {
+    display: inline-block;
+  }
+  #main section#sec_06 .saitama li:nth-child(1),
+  #main section#sec_06 .saitama li:nth-child(4),
+  #main section#sec_06 .saitama li:nth-child(7) {
+    width: 26.3em;
+  }
+  #main section#sec_06 .saitama li:nth-child(2),
+  #main section#sec_06 .saitama li:nth-child(5),
+  #main section#sec_06 .saitama li:nth-child(8) {
+    width: 24.3em;
+  }
+  #main section#sec_06 .tokyo li {
+    display: inline-block;
+  }
+  #main section#sec_06 .tokyo li:nth-child(1),
+  #main section#sec_06 .tokyo li:nth-child(4),
+  #main section#sec_06 .tokyo li:nth-child(7),
+  #main section#sec_06 .tokyo li:nth-child(10),
+  #main section#sec_06 .tokyo li:nth-child(13) {
+    width: 26.3em;
+  }
+  #main section#sec_06 .tokyo li:nth-child(2),
+  #main section#sec_06 .tokyo li:nth-child(5),
+  #main section#sec_06 .tokyo li:nth-child(8),
+  #main section#sec_06 .tokyo li:nth-child(11) {
+    width: 24.3em;
+  }
+  #main section#sec_06 .tokyo li:nth-child(12) {
+    width: 16em;
+  }
+  #main section#sec_07 p {
+    margin-top: 3px !important;
+  }
+}
+@media all and (max-width: 480px) {
+  #contents {
+    margin: 0;
+  }
+  #main section#sec_01 {
+    padding: 0 20px;
+  }
+  #main section#sec_01 div {
+    width: 100%;
+  }
+  #main section#sec_01 div p {
+    padding: 10px 10px 8px;
+  }
+  #main section#sec_02 div h3 {
+    background-size: 51px auto !important;
+    background-position: center 0 !important;
+    padding-top: 30px;
+  }
+  #main section#sec_02 div h3 span {
+    background-size: 24px auto;
+    font-size: 16px;
+    line-height: 1.2 !important;
+    display: block;
+    background-position: center 4px;
+  }
+  #main section#sec_02 div p {
+    text-align: left;
+  }
+  #main section#sec_02 div:nth-child(3) span {
+    line-height: 1.2 !important;
+    display: block;
+    background-position: center 4px;
+  }
+  #main section#sec_04 li {
+    width: 7em;
+    display: inline-block;
+    padding: 0;
+  }
+  #main section#sec_04 li:nth-child(6) {
+    white-space: nowrap;
+  }
+  #main section#sec_05 table {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #main section#sec_05 p {
+    width: 100%;
+    margin: 0px auto;
+  }
+  #main section#shinryou ul {
+    width: auto;
+    float: none;
+  }
+  #main section#shinryou ul li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+  #main section#shinryou ul li:nth-child(1) {
+    white-space: nowrap;
+    letter-spacing: -0.4px;
+  }
+  #main section#sec_06 ul {
+    overflow: hidden;
+    padding-left: 2em;
+    text-indent: -1em;
+  }
+  #main section#sec_06 ul li {
+    float: left;
+    width: 100%;
+  }
+  #main section#sec_06 ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  #main section span.new {
+    margin-bottom: 5px;
+  }
+  .rightUp {
+    transform: matrix(1, -2, 0, 1, 0, 14);
+  }
+}
+@media all and (max-width: 414px) {
+  #main section#sec_02 div h3 span {
+    background-size: 24px auto;
+    font-size: 16px;
+  }
+  #main section#sec_05 p {
+    padding-left: 1em !important;
+    text-indent: -0.9em !important;
+  }
+  #main section#sec_06 li:nth-child(3) {
+    display: block;
+  }
+}
+@media all and (max-width: 375px) {
+  #main section#sec_02 div h3 {
+    background-size: 49px auto !important;
+    background-position: center 0 !important;
+  }
+}
+@media all and (max-width: 360px) {
+  #main section#sec_02 div h3 {
+    background-size: 45px auto !important;
+  }
+  #main section#sec_06 li {
+    padding-right: 46px;
+  }
+}
+/**追加日20220521**/
+@media (min-width: 481px) {
+  header .logo_box {
+    margin-top: 18px;
+  }
+  header #header_logo {
+    width: 400px;
+  }
+  header #header_logo img {
+    width: 100%;
+  }
+  header .icon_box {
+    margin-top: 22px;
+  }
+  header .right {
+    right: -60px;
+    top: 78px;
+  }
+  header .right .contact_box {
+    margin-top: 10px !important;
+  }
+  header .right .contact_box .tel {
+    margin-top: 0 !important;
+  }
+  header .right .contact_box .tel span {
+    font-size: 27px !important;
+    padding-left: 6px;
+  }
+  header .right .contact_box .tel a {
+    background: url(/common/images/icon_honbu.svg) no-repeat 0 0/40px 40px !important;
+    font-size: 29px !important;
+    padding-left: 38px !important;
+    display: block;
+  }
+}
+
+#pic_box_00 .pic_box_pc {
+  display: none;
+}
+@media (max-width: 600px) {
+  #pic_box_00 {
+    display: inline-block;
+    width: auto;
+  }
+  #pic_box_00 img {
+    width: 100%;
+  }
+  #pic_box_00 .pic_box_pc {
+    display: block;
+  }
+}
+
+#pic_box {
+  display: block;
+  margin: 20px auto 40px;
+  position: relative;
+  background-size: cover;
+}
+#pic_box img {
+  width: 100%;
+}
+#pic_box .item {
+  animation: 0s fadeIn forwards;
+  animation-duration: 1.5s;
+  opacity: 0;
+  position: absolute;
+}
+#pic_box .item img {
+  width: 315px;
+}
+#pic_box .is-1 {
+  top: 16px;
+  left: 12px;
+  animation-delay: 2s;
+}
+#pic_box .is-2 {
+  top: 66px;
+  left: 11px;
+  animation-delay: 4s;
+}
+#pic_box .is-3 {
+  top: 116px;
+  left: 8px;
+  animation-delay: 6s;
+}
+#pic_box .is-4 {
+  top: 186px;
+  left: 7px;
+  animation-delay: 8s;
+}
+#pic_box .is-3 img {
+  width: 376px;
+}
+#pic_box .is-4 img {
+  width: 530px;
+}
+@media (max-width: 600px) {
+  #pic_box {
+    display: inline-block;
+    width: auto;
+  }
+  #pic_box img {
+    width: 80%;
+  }
+  #pic_box .item img {
+    width: 200px;
+  }
+  #pic_box .is-1 {
+    top: 5px;
+    left: 5px;
+    animation-delay: 2s;
+  }
+  #pic_box .is-2 {
+    top: 36px;
+    left: 5px;
+    animation-delay: 4s;
+  }
+  #pic_box .is-3 {
+    top: 68px;
+    left: 5px;
+    animation-delay: 6s;
+  }
+  #pic_box .is-3 img {
+    width: 240px;
+  }
+  #pic_box .is-4 {
+    top: 116px;
+    left: 3px;
+    animation-delay: 8s;
+  }
+  #pic_box .is-4 img {
+    width: 320px;
+  }
+}
+@media (max-width: 480px) {
+  #pic_box {
+    margin: 20px auto 18px;
+    text-align: center;
+  }
+  #pic_box img {
+    width: 100%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+section.sec_01 {
+  margin-top: 0px;
+  padding: 0 0 20px;
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+}
+section.sec_01 .txt_box_01 {
+  background: url(/top/images/photo_01_2x.jpg) no-repeat 632px 16px/97px 150px;
+  margin: 55px 25px 45px 25px;
+  display: block;
+}
+section.sec_01 .txt_box_01 .fukidashi {
+  position: relative;
+  background-image: url(/common/images/fukidashi_v2.svg);
+  background-size: 540px;
+  background-repeat: no-repeat;
+  background-position: 29% 0;
+  height: 184px;
+}
+section.sec_01 .txt_box_01 .tit_01 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f48a9d;
+  text-align: center;
+  padding-top: 84px;
+  padding-right: 130px;
+  line-height: 1;
+}
+section.sec_01 .txt_box_01 .character_clinictop {
+  width: 82px;
+  position: absolute;
+  top: 100px;
+  right: 4%;
+}
+@media all and (max-width: 600px) {
+  section.sec_01 .txt_box_01 {
+    background: url(/top/images/photo_01_2x.jpg) no-repeat 90% 2%/22% auto;
+    margin: 0;
+    height: 154px;
+  }
+  section.sec_01 .txt_box_01 .fukidashi {
+    background: url(/common/images/fukidashi.svg) no-repeat 44px 14%/54% auto;
+    height: 200px;
+    padding: 0;
+  }
+  section.sec_01 .txt_box_01 .tit_01 {
+    font-size: 15px;
+    text-align: left;
+    padding-top: 47px !important;
+    padding-left: 68px;
+    line-height: 1.4;
+  }
+  section.sec_01 .txt_box_01 .character_clinictop {
+    width: 50px;
+    top: 70px;
+    right: 4%;
+  }
+}
+section.sec_01 .txt_box_01 ul {
+  text-align: left;
+  width: 39%;
+  margin: 0 auto 20px;
+}
+@media all and (max-width: 600px) {
+  section.sec_01 .txt_box_01 ul {
+    width: 90%;
+  }
+}
+section.sec_01 .txt_box_01 ul li {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  font-weight: bold;
+  position: relative;
+  color: #f48a9d;
+  padding-left: 5px;
+}
+@media all and (max-width: 600px) {
+  section.sec_01 .txt_box_01 ul li {
+    font-size: 4.2vw;
+  }
+}
+section.sec_01 .txt_box_01 ul li + li {
+  margin-top: 8px;
+}
+section.sec_01 .txt_box_01 ul li:before {
+  background: url(/common/images/icon_check_02.svg) no-repeat 0 0;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 31px;
+  height: 27px;
+  left: -32px;
+  top: 1px;
+}
+section.sec_01 .txt_box_01 p {
+  width: auto;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+section.sec_01 .txt_box_01 p::before {
+  display: none;
+}
+@media all and (max-width: 600px) {
+  section.sec_01 .txt_box_01 p {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+}
+section.sec_01 .txt_box_01 .lead {
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #f48a9d;
+}
+@media all and (max-width: 600px) {
+  section.sec_01 .txt_box_01 .lead {
+    width: 97%;
+    font-size: 1.6rem;
+  }
+}
+section.sec_01 .txt_box_01 .tyusyaku {
+  font-size: 1.4rem;
+  margin-top: 10px;
+  line-height: 1.6;
+  color: #4d4d4d;
+  font-weight: normal;
+}
+@media all and (max-width: 600px) {
+  section.sec_01 .txt_box_01 .tyusyaku {
+    font-size: 1.4rem;
+    padding-left: 2em;
+    text-indent: -1em;
+  }
+}
+section.sec_01 .fluffy {
+  width: 15%;
+  left: -5%;
+  position: absolute;
+  top: 65%;
+}
+@media all and (max-width: 480px) {
+  section.sec_01 {
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+  }
+}
+
+#houjin table {
+  border-top: 1px solid #d1d1d1;
+  border-left: 1px solid #d1d1d1;
+  border-collapse: separate;
+  border-radius: 15px;
+  text-align: center;
+  margin: 20px 0 5px;
+}
+
+#houjin table tr th {
+  border-right: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 15px 10px;
+  vertical-align: middle;
+  font-size: 14px;
+  text-align: left;
+}
+
+#houjin table tr th {
+  background: #fff5f7;
+  font-weight: normal;
+  width: 24%;
+}
+
+#houjin table tr:first-child th {
+  border-radius: 13px 0 0 0;
+}
+
+#houjin table tr:last-child th {
+  border-radius: 0 0 0 13px;
+}
+
+#houjin table tr td {
+  border-right: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 15px 10px;
+  vertical-align: middle;
+  font-size: 14px;
+  text-align: left;
+  width: 76%;
+}
+
+#houjin table tr:first-child td {
+  border-radius: 0 13px 0 0;
+}
+
+#houjin table tr:last-child td {
+  border-radius: 0 0 13px 0;
+}
+
+#houjin table tr td.kyoninka {
+  padding: 0;
+}
+
+#houjin table tr td.kyoninka p {
+  padding: 15px 10px;
+}
+
+#houjin table tr td.kyoninka p + p {
+  border-top: 1px solid #ccc;
+}
+
+#houjin table tr td.teikei {
+  padding: 0;
+}
+
+#houjin table tr td.teikei p {
+  padding: 15px 10px;
+}
+
+#houjin table tr td.teikei p + p {
+  border-top: 1px solid #ccc;
+}
+@media all and (max-width: 480px) {
+  #houjin table {
+    margin: 25px 0 0 0 !important;
+  }
+}
+#houjin .top_gallery p {
+  margin-top: 20px;
+}
+#houjin .top_gallery ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#houjin .top_gallery ul > li {
+  display: flex;
+  justify-content: space-between;
+}
+#houjin .top_gallery ul > .kitasenju_gallery_list {
+  width: 100%;
+}
+#houjin .top_gallery ul > li figure {
+  width: 48%;
+}
+#houjin .top_gallery ul > li figure img {
+  width: 100%;
+}
+#houjin .top_gallery ul > li figure figcaption {
+  font-size: 80%;
+}
+#houjin .top_gallery ul > li figure .tar {
+  text-align: right;
+}
+
+#side li.tmi a {
+  background: url(/common/images/side_btn_tmi.jpg) no-repeat 0 0/240px auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@media all and (min-width: 481px) {
+  #side {
+    width: 100%;
+    float: none;
+    margin-top: 80px;
+  }
+  #side ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  #side li a {
+    width: 240px !important;
+  }
+  #side li:nth-child(1) a {
+    background: url(/common/images/side_btn_07.jpg) no-repeat 0 0/240px auto;
+  }
+  #side li:nth-child(2) a {
+    background: url(/common/images/side_btn_02.jpg) no-repeat 0 0/240px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #f48a9d;
+  }
+  #side li:nth-child(3) a {
+    background: url(/common/images/side_btn_05.jpg) no-repeat 0 0/240px auto;
+    color: #98cf36;
+  }
+}
+
+@media all and (max-width: 480px) {
+  #side li:nth-child(1) a {
+    background: url(/common/images/side_btn_07.jpg) no-repeat 0 0/260px auto;
+  }
+  #side li:nth-child(2) a {
+    background: url(/common/images/side_btn_02.jpg) no-repeat 0 0/260px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #f48a9d;
+  }
+  #side li:nth-child(3) a {
+    background: url(/common/images/side_btn_05.jpg) no-repeat 0 0/260px auto;
+    color: #98cf36;
+  }
+  #side li.tmi a {
+    background: url(/common/images/side_btn_tmi.jpg) no-repeat 0 0/260px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+footer .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+footer .right {
+  padding-top: 28px;
+}
+footer .right ul li {
+  width: 150px;
+}
+@media all and (max-width: 480px) {
+  footer {
+    margin-top: 50px;
+    padding-top: 0;
+  }
+  footer #footer_in_02 .left img {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 481px) {
+  #main section#kanren_sec .kanren,
+  #main section#kanren_sec02 .kanren {
+    flex-wrap: wrap;
+  }
+  #main section.ishi_shoukai ul {
+    justify-content: space-between;
+  }
+  #main section.ishi_shoukai li {
+    margin-bottom: 10px;
+  }
+  #main section.ishi_shoukai li:not(:last-child) {
+    margin-right: 0;
+  }
+  #main section#kanren_sec .kanren li {
+    width: 30%;
+  }
+  #main section.ishi_shoukai .kanren::after {
+    content: "";
+    display: block;
+    width: 30%;
+  }
+  #main section.kyuujin ul {
+    justify-content: flex-start !important;
+  }
+  #main section.kyuujin ul .kanren_02 {
+    margin-right: 30px;
+    /* margin-right: 50px; */
+  }
+  #main section.kyuujin ul .kanren_02,
+  #main section.kyuujin ul .kanren_03 {
+    width: 40%;
+  }
+}
+
+@media (max-width: 480px) {
+  #main section#kanren_sec .kanren li:not(:last-child),
+  #main section#kanren_sec02 .kanren li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+#main .top table th {
+  width: 120px !important;
+}
+
+#main .top table td.tag_title {
+  width: 120px !important;
+}
+
+#main .top table td.post_title {
+  vertical-align: middle;
+}
+
+#main table td.tag_title p {
+  background-color: #f48a9d;
+  color: #fff;
+  margin-bottom: 5px;
+  text-align: center;
+  position: unset !important;
+  padding: 4px 8px;
+  width: 86px;
+}
+
+#main table td.tag_title a {
+  border: none !important;
+  background: none !important;
+  border-radius: unset !important;
+  padding: 2px !important;
+  text-decoration: none !important;
+}
+
+/*お知らせ*/
+
+#main section#sec_07 p.ichiran {
+  line-height: 1;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+}
+
+#main table td.tag_title span {
+  color: #fff;
+  margin-right: 0;
+  padding: 0;
+  display: inline;
+}
+
+#main table td span {
+  padding: 0 5px;
+}
+
+#main .top table th {
+  font-weight: bold;
+}
+
+#main section#sec_07 table span.new {
+  font-weight: normal;
+}
+
+#main .top table span.new {
+  padding: 3px 5px;
+}
+
+@media only screen and (max-width: 480px) {
+  #main .top table {
+    width: 100%;
+    margin: 15px 0px 9px !important;
+  }
+  #main section#sec_07 p.ichiran {
+    padding: 0;
+    right: 30px;
+    top: -15px;
+  }
+  #main .top table th,
+  #main .top table td {
+    display: block;
+    width: 100% !important;
+  }
+  #main .top table th {
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom: none !important;
+  }
+  #main .top table .title {
+    background-color: #f48a9d;
+    color: #fff;
+    margin-bottom: 5px;
+    text-align: center;
+    position: unset !important;
+    padding: 3px 8px !important;
+    display: inline-block;
+    width: 82px !important;
+    font-weight: normal;
+  }
+  #main .top table td.post_title {
+    width: 100%;
+    /* width: 90%; */
+  }
+  #main .top table span.new {
+    border: 2px solid #f48a9d;
+    border-radius: 5px;
+    color: #f48a9d;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 1px 5px 0;
+    font-weight: normal;
+  }
+}
+
+/*スタッフの紹介　画像*/
+#main section#ishi .ishi_box img {
+  width: 100%;
+}
+
+/* 先輩インタビュー */
+#shain .shain_mv_box {
+  padding-top: 60px;
+}
+#shain .shain_title {
+  background: #8bc33e;
+  border-radius: 30px;
+  font-size: 18px;
+  width: 240px;
+  height: 38px;
+  text-align: center;
+  padding: 0;
+  line-height: 2.2;
+}
+#shain .wave-bg:after {
+  position: absolute;
+  content: "";
+  bottom: -60px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 160px;
+  background-image: url(/top/images/interview/wave-top.svg);
+  background-repeat: no-repeat;
+}
+#shain .interview_box {
+  margin: 0 auto;
+}
+
+#shain .interview_box ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#shain .interview_box ul li {
+  width: 32%;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #ffc7d2;
+}
+
+#shain .interview_box ul .jimubu {
+  width: 164px;
+}
+
+#shain .interview_box ul li a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 9px 9px 0 0;
+  color: #fff;
+}
+
+#shain .interview_box ul li .thum {
+  height: 200px;
+  background-size: cover;
+  display: block;
+  overflow: hidden;
+  border-radius: 9px 9px 0 0;
+}
+
+#shain .interview_box ul li .thum::before {
+  content: "";
+  width: 100%;
+  height: 200px;
+  display: block;
+  position: absolute;
+  background-image: url(/top/images/interview/thum_filter.png);
+  background-size: cover;
+  top: 0;
+  left: 0;
+}
+
+#shain .all {
+  transition: all 0.2s;
+}
+
+#shain .interview_box ul li .img_nakayama {
+  background-image: url(/top/images/interview/interview_nakayama_01.jpg);
+}
+#shain .interview_box ul li .img_ishiduka {
+  background-image: url(/top/images/interview/interview_ishiduka_01.jpg);
+  background-position-x: -16px;
+}
+#shain .interview_box ul li .img_enoki {
+  background-image: url(/top/images/interview/interview_enoki_01.jpg);
+  background-position-x: -6px;
+}
+#shain .interview_box ul li .img_nakano {
+  background-image: url(/top/images/interview/interview_nakano_01.jpg);
+  background-position-x: -20px;
+}
+#shain .interview_box ul li .img_okutsu {
+  background-image: url(/top/images/interview/interview_okutsu_01.jpg);
+}
+#shain .interview_box ul li .img_akiya {
+  background-image: url(/top/images/interview/interview_akiya_01.jpg);
+}
+#shain .interview_box .department {
+  font-size: 14px;
+  color: #202020;
+  background: #ffc7d2;
+  padding: 3px 10px;
+  width: 90px;
+  position: absolute;
+  top: 172px;
+  left: 0;
+  text-align: center;
+}
+
+#shain .interview_box .interview_name {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.6;
+  background: linear-gradient(45deg, #f48a9d 30%, #ffc7d2 100%);
+  letter-spacing: 2px;
+  border-radius: 0 0 9px 9px;
+  text-align: left;
+}
+#shain .interview_box .interview_name p {
+  padding-left: 0.7rem;
+  text-indent: -0.9rem;
+}
+#shain .interview_box .interview_name p:first-child {
+  color: #fff;
+  font-size: 0.8rem;
+}
+#shain .interview_box .interview_name a {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
+}
+#shain .interview_box .interview_name a:after {
+  content: "";
+  width: 22px;
+  height: 22px;
+  display: block;
+  position: absolute;
+  background-image: url(/common/images/btn_interview_pink.svg);
+  background-size: cover;
+}
+#shain .interview_box .green_name a:after {
+  content: "";
+  width: 22px;
+  height: 22px;
+  display: block;
+  position: absolute;
+  background-image: url(/common/images/btn_interview_green.svg);
+  background-size: cover;
+}
+#shain .interview_box .interview_name a:hover {
+  text-decoration: none !important;
+}
+
+#shain .interview_box .green_line {
+  border: 1px solid #c1dc9e;
+}
+
+#shain .interview_box .green {
+  background: #c1dc9e;
+}
+
+#shain .interview_box .green_name {
+  background: linear-gradient(45deg, #6eb92b 30%, #c1dc9e 100%);
+}
+
+#shain .all:hover {
+  transform: scale(1.3, 1.3);
+}
+
+@media (min-width: 481px) {
+  #shain .mv_interview {
+    background: url(/top/images/interview/mv_interview.jpg) no-repeat;
+    width: 100%;
+    height: 540px;
+    background-size: cover;
+    background-position: center;
+    margin: 50px auto 0;
+    position: relative;
+  }
+  #shain .interview_box {
+    width: 100%;
+  }
+  #shain .interview_box ul li:nth-child(1),
+  #shain .interview_box ul li:nth-child(2),
+  #shain .interview_box ul li:nth-child(4),
+  #shain .interview_box ul li:nth-child(5),
+  #shain .interview_box ul li:nth-child(7) {
+    margin-right: 18px;
+  }
+  #shain .interview_box ul li:nth-child(1),
+  #shain .interview_box ul li:nth-child(2),
+  #shain .interview_box ul li:nth-child(3) {
+    margin-bottom: 30px;
+  }
+  #shain .interview_box .interview_name {
+    padding: 14px 10px;
+  }
+  #shain .interview_box .interview_name p {
+    padding-left: 0.7rem;
+    text-indent: -0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #shain .shain_mv_box {
+    padding-top: 30px;
+  }
+  #shain .shain_title {
+    width: 46%;
+    font-size: 14px;
+    line-height: 2.8;
+  }
+  #shain .mv_interview {
+    background-image: url(/top/images/interview/mv_interview.jpg);
+    width: 100%;
+    height: 184px;
+    margin: 25px auto 20px;
+    background-size: cover;
+    position: relative;
+    background-position: top;
+  }
+  #shain .wave-bg:after {
+    bottom: -128px;
+  }
+  #shain .interview_box ul {
+    justify-content: space-between;
+  }
+  #shain .interview_box ul li {
+    width: 48%;
+  }
+  #shain .interview_box ul li {
+    margin-bottom: 20px;
+  }
+  #shain .interview_box .interview_name a {
+    bottom: 10px;
+  }
+  #shain .interview_box ul .jimubu {
+    width: 132px;
+  }
+  #shain .interview_box ul li .thum {
+    height: 100px;
+    background-size: cover;
+  }
+  #shain .interview_box ul li .thum::before {
+    height: 100px;
+  }
+  #shain .interview_box ul li .img_ishiduka {
+    background-position-x: -6px;
+  }
+  #shain .interview_box ul li .img_enoki {
+    background-position-x: -2px;
+  }
+  #shain .interview_box ul li .img_nakano {
+    background-position-x: -10px;
+  }
+  #shain .interview_box .department {
+    font-size: 10px;
+    width: 70px;
+    padding: 4px 0;
+    top: 76px;
+  }
+  #shain .interview_box .interview_name {
+    height: 80px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    letter-spacing: 1.2px;
+    position: relative;
+  }
+  #shain .interview_box .interview_name .btn_interview {
+    color: #f48a9d;
+    font-weight: bold;
+  }
+  #shain .interview_box .interview_name .btn_interview::after {
+    content: "▶︎";
+    position: absolute;
+    right: 5px;
+    color: #f48a9d;
+  }
+  #shain .interview_box .green_name .btn_interview {
+    color: #6eb92b !important;
+  }
+  #shain .interview_box .green_name .btn_interview::after {
+    color: #6eb92b !important;
+  }
+}
+
+@media all and (min-width: 481px) {
+  .message_box .name_sign::after {
+    width: 16%;
+  }
+}
+
+/* 0614追加 */
+#main section#sec_07 table .icon {
+  width: 13%;
+}
+#main section#sec_07 table .icon span {
+  background-color: #f48a9d;
+  color: #fff;
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 3px 10px;
+}
+#main section#sec_07 table .title {
+  width: 60%;
+}
+#main section#sec_07 table td a {
+  text-decoration: underline;
+}
+#main section#sec_07 table td a:hover {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 813px) {
+  #main #news section:last-child {
+    margin: -100px 0 80px !important;
+  }
+}
+
+@media all and (max-width: 480px) {
+  #main section#sec_07 table td a {
+    line-height: 1.4;
+  }
+  #main section#sec_07 p a {
+    padding: 3px 17px 2px 9px;
+  }
+  #main span.new {
+    margin-bottom: 5px;
+  }
+  #main section#sec_07 li {
+    padding-right: 16px;
+  }
+  #main .top table .tag_title a {
+    text-align: center;
+    color: #fff;
+    padding: 8px;
+    border: none !important;
+    padding: 2px 0 2px 9px !important;
+    background: none;
+  }
+  #main .top table td.post_title {
+    width: 100% !important;
+  }
+}
+
+@media all and (max-width: 375px) {
+  #main section#sec_07 p a {
+    padding: 4px 17px 2px 9px;
+  }
+}
+
+@media all and (max-width: 360px) {
+  #main section#sec_07 table th {
+    padding-left: 6px;
+    width: 158px;
+  }
+  #main section#sec_07 table span.new {
+    padding: 3px 8px 1px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  #main section#sec_07 table th {
+    padding-left: 0;
+    width: 153px;
+  }
+}
+
+/* 錦糸町院 */
+.kinshichou_box .txt_kinshichou {
+  background-color: #61c1be !important;
+}
+.kinshichou_box ul > li {
+  color: #61c1be !important;
+  border: 2px solid #61c1be !important;
+}
+#main section#bunin_box .kinshichou_box .clinic_contact a {
+  color: #61c1be;
+}
+@media (min-width: 961px) {
+  #main section#bunin_box .shiny-btn-kinshichou {
+    display: inline-block;
+    width: 280px;
+    height: 30px;
+    border-radius: 5px / 5px;
+    background-color: #61c1be;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+}
+@media (max-width: 960px) {
+  #main section#bunin_box .shiny-btn-kinshichou {
+    display: inline-block;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px / 5px;
+    background-color: #61c1be;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+}
+
+@media (min-width: 481px) {
+  #main section#bunin_box .kinshichou_box .txt_09 {
+    padding: 18px 0;
+  }
+}
+
+/* 「ふたば式」在宅医療 */
+.futaba-style {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto 30px !important;
+}
+.futaba-style .label {
+  display: inline-block;
+  background-color: #8bc33e;
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 2px 15px 0;
+  margin-bottom: 0 !important;
+  border-radius: 20px;
+  line-height: unset;
+  letter-spacing: 1.5px;
+  position: relative;
+  z-index: -1;
+}
+.futaba-style h3 {
+  background: unset !important;
+  font-size: 32px !important;
+  color: #28ac4b !important;
+  position: relative;
+  padding: 20px 0 15px !important;
+  line-height: 1;
+  letter-spacing: 4.5px;
+}
+.futaba-style h3::before,
+.futaba-style h3::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-image: radial-gradient(circle, #8bc33e 1.5px, transparent 1.5px), radial-gradient(circle, #8bc33e 1.5px, transparent 1.5px);
+  background-position: left top, left bottom;
+  background-repeat: repeat-x, repeat-x;
+  background-size: 10px 3px, 10px 3px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: -2;
+}
+.futaba-style h3::before {
+  top: -10px;
+}
+.futaba-style h3::after {
+  bottom: -10px;
+}
+
+@media (max-width: 480px) {
+  .futaba-style {
+    width: 100%;
+    padding: 0;
+  }
+  .futaba-style .label {
+    font-size: 11px;
+  }
+  .futaba-style h3 {
+    font-size: 22px !important;
+  }
+  .futaba-style h3::before,
+  .futaba-style h3::after {
+    background-size: 8px 3px, 8px 3px;
+  }
+}
+
+/* グループ沿革 */
+#houjin table {
+  margin: 0 0 5px;
+}
+a.history_link {
+  color: #f48a9d;
+}
+@media (max-width: 480px) {
+  #houjin table {
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  #main section:not(:first-child) {
+    margin-top: 24px;
+    margin-bottom: 44px;
+  }
+}
+
+/* グループ分院案内 北習志野院 */
+#main section#bunin_box .txt_box_kitanarashino {
+  padding-top: 40px;
+}
+#main section#bunin_box .kitanarashino_toho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#main section#bunin_box .kitanarashino_toho .txt_08 {
+  display: inline-block;
+  width: 320px;
+  height: 30px;
+  background-color: #b85e5e;
+  border-radius: 14.5px / 14.5px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+}
+#main section#bunin_box .photo_bunin {
+  padding: 5px;
+  background: #fff;
+  width: 330px;
+  height: 330px;
+  box-shadow: 0 0 4px #d4cdc4;
+  margin: 13px auto;
+}
+#main section#bunin_box .photo_bunin img {
+  width: 320px;
+  height: 320px;
+}
+#main section#bunin_box .txt_box_kitanarashino ul li {
+  width: 68px;
+  height: 30px;
+  text-align: center;
+  color: #b85e5e;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 2px;
+  margin: 3px;
+  border: 2px solid #b85e5e;
+}
+#main section#bunin_box .txt_box_kitanarashino ul li:nth-child(2) {
+  width: 80px;
+}
+#main section#bunin_box .txt_box_kitanarashino a.shiny-btn-kitanarashino {
+  display: inline-block;
+  width: 280px;
+  height: 30px;
+  border-radius: 5px / 5px;
+  background-color: #b85e5e;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+#main section#bunin_box .txt_box_kitanarashino a.shiny-btn-kitanarashino span:after {
+  content: "▶︎";
+  position: absolute;
+  right: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+#main section#bunin_box .txt_box_kitanarashino .clinic_contact {
+  text-align: center;
+  margin-top: 30px;
+}
+#main section#bunin_box .txt_box_kitanarashino .clinic_contact a {
+  color: #b85e5e;
+  position: relative;
+  padding-bottom: 1px;
+  border-bottom: 1px solid;
+}
+@media (min-width: 481px) {
+  #main section#bunin_box .txt_box_kitanarashino {
+    width: 40%;
+    /* margin-right: auto;
+    margin-left: calc((100% - (40% * 2 + 20px)) / 2); */
+  }
+}
+@media (max-width: 960px) {
+  #main section#bunin_box .kitanarashino_toho .txt_08 {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  #main section#bunin_box .kitanarashino_toho {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #main section#bunin_box .txt_box_kitanarashino .photo_bunin {
+    width: 90%;
+    padding: 5px 5px 0px;
+  }
+  #main section#bunin_box .txt_box_kitanarashino .photo_bunin img {
+    width: 100%;
+  }
+}
+
+/* 本八幡院 */
+.txt_box_motoyawata {
+  padding-top: 40px;
+}
+.motoyawata_toho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#main section#bunin_box .motoyawata_toho .txt_12 {
+  background-color: #ecac92;
+}
+.txt_box_motoyawata ul li {
+  width: 68px;
+  height: 30px;
+  text-align: center;
+  color: #ecac92;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 3px;
+  border: 2px solid #ecac92;
+  line-height: 1.8 !important;
+}
+.shiny-btn-motoyawata {
+  display: inline-block;
+  width: 280px;
+  height: 30px;
+  border-radius: 5px / 5px;
+  background-color: #ecac92;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+  position: relative;
+}
+.txt_box_motoyawata a.shiny-btn-motoyawata span:after {
+  content: "▶︎";
+  position: absolute;
+  right: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+.txt_box_motoyawata .clinic_contact {
+  text-align: center;
+  margin-top: 30px;
+}
+.txt_box_motoyawata .clinic_contact a {
+  position: relative;
+  padding-bottom: 1px;
+  border-bottom: 1px solid;
+  color: #ecac92;
+}
+@media (min-width: 481px) {
+  .txt_box_motoyawata {
+    width: 40%;
+  }
+}
+@media (max-width: 480px) {
+  .motoyawata_toho {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #main section#bunin_box .txt_box_motoyawata .photo_bunin {
+    width: 90%;
+    padding: 5px 5px 0px;
+  }
+  #main section#bunin_box .txt_box_motoyawata .photo_bunin img {
+    width: 100%;
+  }
+}

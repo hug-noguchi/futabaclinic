@@ -6,22 +6,19 @@
 	<title>先輩インタビュー 中山 恵美 | 求人 | ふたば在宅クリニック - 久喜市、加須市、幸手市の訪問診療</title>
 	<meta name="description" content="ふたば在宅クリニック 埼玉院（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、伊奈町、五霞町）埼玉県・利根地域の訪問診療・往診・在宅医療">
 	<meta name="keywords" content="求人情報,ふたば在宅クリニック,在宅療養支援診療所,埼玉県,利根地域">
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 	<link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/kuki/recruit/styles/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/common/styles/recruit.css" media="all">
 	<link rel="SHORTCUT ICON" href="/icon.ico">
-	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />
-
+	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png">
 	<link rel="SHORTCUT ICON" href="/icon.ico">
-	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />
-
+	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png">
 	<style>
 		@media (max-width: 480px) {
 			#main .recruit p {
-			margin: 25px 20px 0;
-		}
+        margin: 25px 20px 0;
+      }
 		}
 		@media (max-width: 376px) {
 			header h1 .txt_00 span {
@@ -29,12 +26,10 @@
 			}
 		}
 	</style>
-
 	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header_tag.php'); ?>
 </head>
 
 <body id="recruit" class="preload drawer drawer--top">
-
 	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header.php'); ?>
 	<article>
 	<div class="nakayama">
@@ -77,8 +72,8 @@
               患者様一人ひとり病状も家庭環境も異なり、一つひとつが初めての事例です。<br>
               それぞれに合わせた臨機応変な対応をしなければならないのは大変難しいです。<br><br>
               しかし、在宅医療によって病気を抱えている患者様が、ご家族と一緒に安心して過ごせるようになるとやりがいを感じますし、その助けになれることをうれしく思っています。
+            </p>
           </div>
-          </p>
           <img src="/common/images/interview/interview_nakayama_02.jpg" class="pc" alt="中山恵美 画像">
         </div>
         <div class="interview_03">

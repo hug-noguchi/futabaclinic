@@ -8,12 +8,12 @@
 <meta property="og:url" content="https://www.futabaclinic.jp/" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="ふたば在宅クリニック 北千住院" />
-<meta property="og:description" content="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 東京都・城東エリアの在宅療養支援診療所 在宅医療・訪問診療・訪問看護・往診（足立区、荒川区、台東区など）の個人情報保護方針になります。" />
+<meta property="og:description" content="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 東京都・城東エリアの在宅療養支援診療所 在宅医療・訪問診療・訪問看護・往診（足立区、荒川区など）のプライバシーポリシーになります。" />
 <meta property="og:site_name" content="ふたば在宅クリニック 北千住院" />
 <meta property="og:image" content="https://www.futabaclinic.jp/top/images/teacher_01.jpg" />
-<title>個人情報保護方針 | ふたば在宅クリニック - 足立区、荒川区、台東区の訪問診療</title>
-<meta name="description" content="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 東京都・城東エリアの在宅療養支援診療所 在宅医療・訪問診療・訪問看護・往診（足立区、荒川区、台東区など）の個人情報保護方針になります。">
-<meta name="keywords" content="個人情報保護方針,医療法人社団 爽緑会 ふたば在宅クリニック,北千住院,東京都,足立区,荒川区,台東区,在宅医療,訪問診療,訪問看護,往診,在宅療養支援診療所">
+<title>プライバシーポリシー | ふたば在宅クリニック - 足立区、荒川区の訪問診療</title>
+<meta name="description" content="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 東京都・城東エリアの在宅療養支援診療所 在宅医療・訪問診療・訪問看護・往診（足立区、荒川区など）のプライバシーポリシーになります。">
+<meta name="keywords" content="プライバシーポリシー,医療法人社団 爽緑会 ふたば在宅クリニック,北千住院,東京都,足立区,荒川区,在宅医療,訪問診療,訪問看護,往診,在宅療養支援診療所">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 <link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
 <link rel="stylesheet" type="text/css" href="/common/styles/privacy.css" media="all">
@@ -39,7 +39,7 @@
 	<article id="wrap">
 		<ul id="breadcrumb">
 			<li><a href="/kitasenju/">ホーム</a>&nbsp;&gt;&nbsp;</li>
-			<li>個人情報保護方針</li>
+			<li>プライバシーポリシー</li>
 		</ul>
 		<div id="contents_wrap">
 			<div id="contents">

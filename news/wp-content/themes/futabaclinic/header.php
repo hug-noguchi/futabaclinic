@@ -17,15 +17,6 @@
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/styles/style.css" media="all">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <?php if ( is_single() ): ?>
-	<style type="text/css">
-		@media only screen and ( max-width: 480px ) {
-			section h3,
-			section p{
-				margin: 0 auto;
-				width: 93%;
-			}
-		}
-	</style>
 <?php endif; ?>
 <link rel="SHORTCUT ICON" href="/icon.ico">
 <link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />

@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* 理事長 石井 英世 （いしい ひでよ） */
+#main section .riji {
+  margin-top: 80px;
+}
+#main section .riji h3 {
+  color: #4b4b4b;
+  padding-left: 0px;
+  margin-bottom: 10px;
+}
+#main section .riji h3 span {
+  background-image: none;
+  padding: 0;
+}
+#main section .riji .border {
+  border-left: 5px solid #f48a9d;
+  padding: 3px 0 1px 7px;
+}
+#main section .riji .border .txt_01 {
+  color: #f48a9d;
+  padding-right: 14px;
+}
+#main section .riji .border .txt_02 {
+  font-size: 14px;
+}
+#main section .riji_txt {
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff0f3;
+  border: solid #f48a9d 1px;
+}
+@media all and (max-width: 480px) {
+  #main section .riji {
+    margin-top: 30px;
+  }
+}
+#main section .riji .riji_box {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+#main section:nth-child(1) .riji .riji_box img {
+  height: auto;
+  float: left;
+  margin-right: 10px;
+  width: 250px;
+  border-radius: 5px;
+}
+#main section:nth-child(1) .riji .riji_box h3,
+#main section:nth-child(1) .riji .riji_box .riji_txt {
+  float: left;
+  width: 450px;
+}
+@media (min-width: 481px) {
+  #main section:nth-child(1) .riji .riji_box img {
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  #main section:nth-child(1) .riji {
+    padding: 0 20px;
+  }
+  #main section:nth-child(1) .riji .riji_box img {
+    margin-right: 2%;
+    width: 100%;
+    float: none;
+  }
+  #main section:nth-child(1) .riji .riji_box h3,
+  #main section:nth-child(1) .riji .riji_box .riji_txt {
+    width: 100%;
+    float: none;
+    margin-top: 10px;
+  }
+}

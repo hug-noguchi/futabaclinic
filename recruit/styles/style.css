@@ -1,8 +1,518 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+/*1rem = 10px*/
+body {
+  font-family: "小塚ゴシック Pro", "KozGoPro-Light", "小塚ゴシック Pro L", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+}
+
+h1,
+.maru {
+  color: #4d4d4d;
+  font-family: "M PLUS Rounded 1c", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO";
+}
+
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 2.4rem;
+  color: #4d4d4d;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+li {
+  font-size: 1.4rem;
+}
+
+.small {
+  font-size: 1.4rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cf:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #333;
+}
 
 a:hover {
+  text-decoration: underline;
+  color: #333;
   opacity: 0.7;
 }
+
+@media all and (min-width: 601px) {
+  .sp {
+    display: none;
+  }
+}
+@media all and (max-width: 600px) {
+  .pc {
+    display: none;
+  }
+}
+
+/* ヘッダー */
+.h_contact_link {
+  z-index: 500;
+  width: 67px;
+  position: fixed;
+  right: 67px;
+  top: 5px;
+  display: block;
+  cursor: pointer;
+}
+
+.head {
+  width: 100%;
+  height: 70px;
+  position: static;
+  display: flex;
+  display: -ms-flexbox;
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  align-items: center;
+}
+.head h1 {
+  vertical-align: middle;
+  font-size: 2rem;
+  line-height: 1;
+  padding-left: 20px;
+}
+@media all and (min-width: 1200px) {
+  .head h1 {
+    font-size: 2.4rem;
+  }
+}
+@media all and (max-width: 600px) {
+  .head h1 {
+    font-size: 3.2vw;
+    padding-left: 10px;
+  }
+}
+.head > a {
+  padding-right: 140px;
+  padding-top: 5px;
+}
+@media all and (max-width: 702px) {
+  .head > a {
+    display: none;
+  }
+}
+
+/* ハンバーガーメニュー */
+.l-drawer {
+  position: relative;
+}
+.l-drawer__checkbox {
+  display: none;
+}
+.l-drawer__icon {
+  cursor: pointer;
+  display: block;
+  width: 57px;
+  height: 57px;
+  position: fixed;
+  right: 5px;
+  top: 5px;
+  background: #d6ffb9;
+}
+.l-drawer__icon-parts,
+.l-drawer__icon-parts:before,
+.l-drawer__icon-parts:after {
+  background-color: #000;
+  display: block;
+  width: 26px;
+  height: 2px;
+  position: absolute;
+  top: -3px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+.l-drawer__icon-parts:before,
+.l-drawer__icon-parts:after {
+  content: " ";
+}
+.l-drawer__icon-parts:before {
+  top: 7px;
+}
+@-moz-document url-prefix() {
+  .l-drawer__icon-parts:before {
+    top: 8px;
+  }
+}
+.l-drawer__icon-parts:after {
+  top: -13px;
+}
+.l-drawer__icon p {
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  right: 0;
+  font-size: 1.1rem;
+  font-feature-settings: "palt";
+  text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  line-height: 1;
+}
+@media all and (-ms-high-contrast: none) {
+  .l-drawer__icon p {
+    bottom: -2px;
+  }
+}
+.l-drawer__overlay {
+  background: #000;
+  opacity: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.l-drawer__menu {
+  background: white;
+  max-width: 100%;
+  width: 320px;
+  height: 100vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  position: fixed;
+  top: 0;
+  right: -320px;
+}
+.l-drawer__menu ul {
+  margin-top: 100px;
+}
+.l-drawer__menu ul li {
+  padding: 10px 20px;
+  border-bottom: solid 1px #89c13f;
+}
+.l-drawer__menu ul li:last-child {
+  border-bottom: none;
+}
+.l-drawer__menu ul li:hover {
+  background-color: #89c138;
+}
+.l-drawer__menu ul li span {
+  padding-right: 5px;
+}
+.l-drawer__menu ul li span img {
+  width: 15px;
+}
+.l-drawer__menu ul li a {
+  display: block;
+}
+.l-drawer__menu ul li a:hover {
+  color: white;
+}
+@media all and (min-width: 702px) {
+  .l-drawer__menu ul li .button {
+    display: none;
+  }
+}
+@media all and (max-width: 702px) {
+  .l-drawer__menu ul li .button {
+    display: block;
+    text-align: center;
+  }
+  .l-drawer__icon-parts:before {
+    top: 13px;
+  }
+}
+.l-drawer__icon {
+  z-index: 4;
+}
+.l-drawer__menu {
+  z-index: 3;
+}
+.l-drawer__overlay {
+  z-index: 2;
+}
+.l-drawer__checkbox:checked ~ nav ul label {
+  pointer-events: auto;
+}
+.l-drawer__checkbox:checked ~ .l-drawer__icon .l-drawer__icon-parts {
+  background: transparent;
+}
+.l-drawer__checkbox:checked ~ .l-drawer__icon .l-drawer__icon-parts:before {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 0;
+}
+.l-drawer__checkbox:checked ~ .l-drawer__icon .l-drawer__icon-parts:after {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 0;
+}
+.l-drawer__checkbox:checked ~ .l-drawer__overlay {
+  opacity: 0.3;
+  pointer-events: auto;
+}
+.l-drawer__checkbox:checked ~ .l-drawer__menu {
+  right: 0;
+}
+.l-drawer__icon-parts,
+.l-drawer__icon-parts:after,
+.l-drawer__icon-parts:before,
+.l-drawer__overlay,
+.l-drawer__menu {
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+/* FV */
+.mainv {
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  height: 60vh;
+}
+@media all and (max-width: 600px) {
+  .mainv {
+    height: 40vh;
+  }
+}
+.mainv > div {
+  width: 50%;
+  max-width: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media all and (max-width: 600px) {
+  .mainv > div {
+    width: 90%;
+  }
+}
+.mainv > div > div > div {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.mainv > div > div > div > h1 img {
+  width: 90%;
+  margin-left: 5%;
+  padding: 20px 30px 0px 30px;
+}
+.mainv > div > div > div > p {
+  text-align: center;
+  color: #4d4d4d;
+  padding-bottom: 20px;
+  z-index: 100;
+}
+.mainv > img {
+  position: absolute;
+  width: 25%;
+  right: 50%;
+  margin-top: 40vh;
+  transform: translate(170%, -30px);
+}
+@media all and (min-width: 1200px) {
+  .mainv > img {
+    width: 300px;
+    right: 50%;
+    transform: translate(500px, -40px);
+  }
+}
+@media all and (max-width: 600px) {
+  .mainv > img {
+    display: none;
+  }
+}
+@media all and (max-width: 600px) {
+  .mainv {
+    margin-bottom: 0;
+  }
+}
+
+.fluffy {
+  animation: fluffy1 3s ease infinite;
+}
+@keyframes fluffy1 {
+  0% {
+    padding-top: 0px;
+  }
+  50% {
+    padding-top: 10px;
+  }
+  100% {
+    padding-top: 0px;
+  }
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+}
+main .link {
+  margin-top: 80px;
+  margin-bottom: 200px;
+}
+main .link a {
+  text-align: center;
+  width: 310px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  margin: 30px auto 20px;
+  background-color: #f48a9d;
+  display: block;
+  background: #f48a9d;
+  background: -moz-linear-gradient(top, #f48a9d 72%, #ffffff 100%);
+  background: -webkit-linear-gradient(top, #f48a9d 72%, #ffffff 100%);
+  background: linear-gradient(to bottom, #f48a9d 72%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f48a9d', endColorstr='#ffffff',GradientType=0 );
+  border-radius: 30px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  position: relative;
+  text-decoration: none;
+  transition: opacity 0.4s ease-out;
+}
+main .link a:hover {
+  opacity: 0.7;
+}
+main .link a:after {
+  content: "";
+  background: url(../../../../common/images/arrow_01.svg);
+  background-repeat: repeat;
+  width: 13px;
+  height: 16px;
+  position: absolute;
+  top: 21px;
+  right: 10px;
+  border: none;
+  background-repeat: no-repeat;
+}
+@media all and (max-width: 420px) {
+  main .link a {
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  main .link a:after {
+    width: 10px;
+    height: 10px;
+    top: 15px;
+    right: 8px;
+  }
+}
+main > .top_text {
+  width: 80%;
+  font-size: 3.8vw;
+  line-height: 1.2;
+  text-align: center;
+  background-color: #f0ffe5;
+  margin: 70px 10%;
+  padding: 20px 0;
+  border-radius: 15px;
+  box-shadow: #89c13f -12px 9px;
+}
+@media all and (min-width: 1250px) {
+  main > .top_text {
+    font-size: 4rem;
+  }
+}
+@media all and (max-width: 600px) {
+  main > .top_text {
+    width: 90%;
+    margin: 20px 5%;
+    padding: 10px 10px;
+    box-shadow: #89c13f -4px 3px;
+  }
+}
+main > a img {
+  width: 80%;
+  margin-left: 10%;
+}
+@media all and (max-width: 600px) {
+  main > a img {
+    width: 90%;
+    margin: 10px 5%;
+  }
+}
+
+/* 0814 */
+main a.bnr_recruit_riji {
+  display: block;
+  margin-bottom: 130px;
+}
+main section.support h2 {
+  padding-top: 200px;
+}
+
+main section {
+  text-align: center;
+  margin-top: -40px;
+  padding-top: 40px;
+  margin-bottom: 200px;
+}
+main section h2 {
+  width: 60%;
+  margin-left: 20%;
+  font-size: 4.6rem;
+  line-height: 1;
+  font-weight: 400;
+  border-bottom: 1px dotted #000;
+  padding-right: 50px;
+  padding-bottom: 23px;
+}
+@media all and (max-width: 900px) {
+  main section h2 {
+    font-size: 3.2rem;
+  }
+}
+@media all and (max-width: 710px) {
+  main section h2 {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 2.6rem;
+    padding-right: 10px;
+  }
+}
+@media all and (max-width: 600px) {
+  main section {
+    margin-bottom: 120px;
+  }
+  main section.greeting {
+    margin-bottom: 0;
+  }
+  main a.bnr_recruit_riji {
+    margin-bottom: 20px;
+  }
+}
+main section h2 img {
+  padding: 0 5px 0 10px;
+}
+
+/* ここまで統一 */
 
 #main section .mb_1em {
   margin-bottom: 1em;
@@ -176,17 +686,11 @@ a:hover {
   margin: 30px auto 20px;
   background-color: #f48a9d;
   display: block;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f48a9d+72,ffffff+100 */
   background: #f48a9d;
-  /* Old browsers */
   background: -moz-linear-gradient(top, #f48a9d 72%, #ffffff 100%);
-  /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #f48a9d 72%, #ffffff 100%);
-  /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #f48a9d 72%, #ffffff 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f48a9d', endColorstr='#ffffff',GradientType=0 );
-  /* IE6-9 */
   border-radius: 30px;
   font-size: 16px;
   border: 1px solid #ccc;
@@ -210,17 +714,11 @@ a:hover {
   padding-top: 7px;
 }
 #main section div.box div .btn_green a {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f48a9d+72,ffffff+100 */
   background: #98cf36;
-  /* Old browsers */
   background: -moz-linear-gradient(top, #98cf36 72%, #ffffff 100%);
-  /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #98cf36 72%, #ffffff 100%);
-  /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #98cf36 72%, #ffffff 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#98cf36', endColorstr='#ffffff',GradientType=0 );
-  /* IE6-9 */
 }
 
 .detail_02 .txt_01 {
@@ -624,5 +1122,124 @@ main video {
   main video {
     width: 80%;
     margin: 30px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  main .link {
+    margin-top: 0 !important;
+    padding-top: 40px;
+    margin-bottom: 50px;
+  }
+}
+
+/* LINEボタン */
+#btn_line_fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  width: 65px;
+}
+
+.btn_line {
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 15px;
+}
+
+.btn_line p {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #4d4d4d;
+  padding-bottom: 4px;
+}
+
+.btn_line p span {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.btn_line div {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.btn_line img {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  #btn_line_fixed {
+    display: none !important;
+  }
+
+  .btn_line {
+    width: 95%;
+    margin-top: 40px;
+    margin-left: 2.5%;
+  }
+
+  .btn_line div {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  #fixed__line {
+    background-color: #f2ffe7;
+    padding-top: 0.625rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    -webkit-transition: 0.5s linear;
+    transition: 0.5s linear;
+  }
+
+  #fixed__line a {
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px grey;
+  }
+
+  #fixed__line a:hover {
+    opacity: 0.9;
+  }
+
+  #fixed__line img {
+    width: 90%;
+  }
+}
+
+main .about {
+  margin-bottom: 40px !important;
+}
+footer {
+  margin-top: 0 !important;
+}
+
+a.history_link {
+  color: #f48a9d;
+}
+
+main section.conditions > div > div .serif_7 {
+  left: 356px;
+}
+@media (max-width: 950px) {
+  main section.conditions > div > div .serif_7 {
+    left: 150px !important;
+  }
+}
+
+/* 医師紹介 空欄 */
+@media (max-width: 480px) {
+  .sp_none {
+    display: none;
   }
 }

@@ -5,7 +5,6 @@
 #main section#sec_01 p:not(:nth-child(5)) {
   margin-bottom: 10px;
 }
-
 #main section:nth-child(2) p:nth-child(2) {
   margin-bottom: 10px;
   color: #f48a9d;
@@ -147,7 +146,6 @@
 #main section:nth-child(5) ul li dl dd p:not(:first-child) {
   margin-top: 0;
 }
-
 @media all and (min-width: 481px) {
   #main section:nth-child(2) ul li:nth-child(1) {
     margin: 0 auto 15px;
@@ -212,7 +210,6 @@
     margin-top: 1em;
   }
 }
-
 @media all and (max-width: 414px) {
   #main section:nth-child(2) ul {
     padding: 15px 3vw;
@@ -325,5 +322,3 @@
     padding: 12px 10px 5px 49px;
   }
 }
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */ /*# sourceMappingURL=style.css.map */

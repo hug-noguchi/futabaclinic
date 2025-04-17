@@ -1,5 +1,9 @@
 @charset "UTF-8";
-
+#main section .name {
+  display: block;
+  text-align: right;
+  margin-top: 15px;
+}
 #main section#kanren_sec02 .kanren {
   display: flex;
   margin-top: 48px;
@@ -359,9 +363,9 @@
   }
   #shain .mv_interview {
     background-image: url(/common/images/interview/mv_interview.jpg);
-    width: 100%;
+    width: 90%;
     height: 180px;
-    margin: 50px auto 20px;
+    margin: 10px auto;
     background-size: cover;
     position: relative;
     background-position: top;

@@ -6,22 +6,19 @@
 	<title>先輩インタビュー 奥津 良美 | 求人 | ふたば在宅クリニック - 久喜市、加須市、幸手市の訪問診療</title>
 	<meta name="description" content="ふたば在宅クリニック 埼玉院（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、伊奈町、五霞町）埼玉県・利根地域の訪問診療・往診・在宅医療">
 	<meta name="keywords" content="求人情報,ふたば在宅クリニック,在宅療養支援診療所,埼玉県,利根地域">
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 	<link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/kuki/recruit/styles/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/common/styles/recruit.css" media="all">
 	<link rel="SHORTCUT ICON" href="/icon.ico">
-	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />
-
+	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png">
 	<link rel="SHORTCUT ICON" href="/icon.ico">
-	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />
-
+	<link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png">
 	<style>
 		@media (max-width: 480px) {
 			#main .recruit p {
-			margin: 25px 20px 0;
-		}
+        margin: 25px 20px 0;
+      }
 		}
 		@media (max-width: 376px) {
 			header h1 .txt_00 span {
@@ -29,12 +26,10 @@
 			}
 		}
 	</style>
-
 	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header_tag.php'); ?>
 </head>
 
 <body id="recruit" class="preload drawer drawer--top">
-
 	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header.php'); ?>
 	<article>
 	<div class="okutsu">
@@ -68,11 +63,11 @@
             <h2>『迅速な対応ができるよう、日々学び続ける』</h2>
             <img src="/common/images/interview/interview_okutsu_02.jpg" class="sp" alt="奥津良美 画像">
             <p>
-            日々の業務では、スピーディーな対応ができるよう心掛けています。<br>特に、医師や看護師はその場で答えを知りたいケースがほとんどです。<br>対応が遅れてしまうと患者様にもご迷惑をお掛けしてしまうため、すぐ答えられることは迅速に対応し、分からないことは正確に調べてからお伝えしています。<br><br><br>
-            特に、保険に関わる知識については、ふたば在宅クリニックで働き始めてから初めて知ることが多くありました。<br>難しいながらも関心を持って勉強し、日々成長を目指しています。<br><br><br>
-            また、診療を行う医師や看護師と近い場所で働けるので、「こんな病状だからこういう処置をする」ということを学ぶ機会を得られます。<br>今まで“点”でしか理解していなかったことが“線”でつながっていくような感覚があります。
+              日々の業務では、スピーディーな対応ができるよう心掛けています。<br>特に、医師や看護師はその場で答えを知りたいケースがほとんどです。<br>対応が遅れてしまうと患者様にもご迷惑をお掛けしてしまうため、すぐ答えられることは迅速に対応し、分からないことは正確に調べてからお伝えしています。<br><br><br>
+              特に、保険に関わる知識については、ふたば在宅クリニックで働き始めてから初めて知ることが多くありました。<br>難しいながらも関心を持って勉強し、日々成長を目指しています。<br><br><br>
+              また、診療を行う医師や看護師と近い場所で働けるので、「こんな病状だからこういう処置をする」ということを学ぶ機会を得られます。<br>今まで“点”でしか理解していなかったことが“線”でつながっていくような感覚があります。
+            </p>
           </div>
-          </p>
           <img src="/common/images/interview/interview_okutsu_02.jpg" class="pc" alt="奥津良美 画像">
         </div>
         <div class="interview_03">

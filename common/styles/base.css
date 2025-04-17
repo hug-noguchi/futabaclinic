@@ -128,7 +128,6 @@ body {
   line-height: 1.4;
   color: #4b4b4b;
   font-size: 14px;
-  display: none;
 }
 
 body#contact {
@@ -200,8 +199,15 @@ a:hover {
 }
 
 ul#breadcrumb {
-  margin: 10px 0 0 10px;
+  margin-top: 10px;
 }
+
+@media all and (max-width: 480px) {
+  ul#breadcrumb {
+    margin: 10px 20px 0 20px;
+  }
+}
+
 ul#breadcrumb li {
   display: inline;
 }
@@ -982,7 +988,8 @@ footer #footer_in #footer_in_02 .right ul li {
     width: 300px;
   }
   #visual {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
   #visual img {
     width: 100%;
@@ -1007,6 +1014,10 @@ footer #footer_in #footer_in_02 .right ul li {
   }
   #main section h2 {
     font-size: 16px;
+    margin: 0 20px;
+  }
+  #main section h2.contact_title {
+    line-height: 1.2;
   }
   #main section table.cel_01 th,
   #main section table.cel_01 td {
@@ -1389,6 +1400,10 @@ footer #footer_in #footer_in_02 .right ul li {
     width: 90%;
     margin: 10px 5%;
   }
+  #recruit_docters {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 section#open_box video {
@@ -1399,7 +1414,7 @@ section#open_box video {
   border-radius: 10px;
 }
 section#open_box .title_box {
-  background: url(/top/images/photo_01_2x.jpg) no-repeat 584px 2px/97px 150px;
+  background: url(/top/images/photo_01_2x.png) no-repeat 570px -8px / 122px 172px;
 }
 section#open_box #open_box_title {
   position: relative;
@@ -1424,14 +1439,13 @@ section#open_box #open_box_title .character_clinictop {
   top: 80px;
   right: 3%;
 }
-
 @media all and (max-width: 600px) {
   section#open_box video {
     margin: 0 auto 30px;
     width: 94%;
   }
   section#open_box .title_box {
-    background: url(/top/images/photo_01_2x.jpg) no-repeat 89% 8%/22% auto;
+    background: url(/top/images/photo_01_2x.png) no-repeat 89% 8% / 25% auto;
   }
   section#open_box #open_box_title {
     background: url(/common/images/fukidashi.svg) no-repeat 24px 26%/60% auto;
@@ -1625,7 +1639,7 @@ section#shinryou_box #shinryou ul li {
 #about_box div:first-child ul {
   background: url(/common/images/fukidashi.svg) no-repeat 0 26px !important;
   background-size: 305px auto !important;
-  height: 191px !important;
+  height: 214px !important;
   margin-top: 15px !important;
   padding: 68px 32px !important;
 }
@@ -1648,7 +1662,7 @@ section#shinryou_box #shinryou ul li {
     padding-bottom: 7px;
   }
   #about_box div:last-child {
-    padding-top: 28px;
+    padding-top: 48px;
   }
 }
 
@@ -1675,3 +1689,122 @@ section#shinryou_box #shinryou ul li {
     width: 98%;
   }
 }
+
+.message_box {
+  position: relative;
+}
+.message_box .name_sign,
+.message_box .name_sign_02 {
+  text-align: right;
+  margin-top: 90px;
+}
+.message_box .name_sign::after {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  width: 24%;
+  height: 50px;
+  display: inline-block;
+  background-image: url(/common/images/name_masanobu.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.message_box .name_sign_02::after {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  width: 36%;
+  height: 50px;
+  display: inline-block;
+  background-image: url(/common/images/name_hideyo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 480px) {
+  .message_box .name_sign::after,
+  .message_box .name_sign_02::after {
+    width: 44%;
+  }
+}
+
+/* 連携事業所 */
+#renkei_jigyou p {
+  color: #f48a9d;
+  font-size: 16px;
+  font-weight: bold;
+}
+#renkei_jigyou ul li {
+  display: inline-block;
+  width: 25em;
+  margin-bottom: 10px;
+}
+#renkei_jigyou ul li span {
+  letter-spacing: -0.4px;
+}
+#renkei_jigyou p:not(:first-of-type) {
+  margin-top: 20px;
+}
+#renkei_jigyou ul {
+  margin-top: 10px;
+}
+#renkei_jigyou ul li.jigyou_long {
+  width: 100%;
+}
+@media (max-width: 480px) {
+  #renkei_jigyou ul {
+    padding-left: 2em !important;
+    text-indent: -1em;
+  }
+  #renkei_jigyou ul li:first-child {
+    padding-left: 15px;
+  }
+}
+
+/* LINEボタン */
+.btn_line {
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 80%;
+  margin-left: 10%;
+  background-color: #f2ffe7;
+  border-radius: 15px;
+  padding: 40px 0;
+}
+
+.btn_line p {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #4d4d4d;
+  padding-bottom: 4px;
+}
+
+.btn_line p span {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #00c300;
+}
+
+.btn_line div {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.btn_line img {
+  width: 100%;
+}
+
+#btn_line_fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  width: 65px;
+}
+
+/* @media all and (max-width: 480px) {
+  #btn_line_fixed {
+    bottom: 80px;
+  }
+} */

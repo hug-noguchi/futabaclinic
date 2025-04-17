@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /*ふたばクリニック*/
-/* Scss Document */
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -106,7 +105,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  /*font: inherit;*/
   vertical-align: baseline;
 }
 
@@ -127,8 +125,6 @@ section {
 
 body {
   font-family: Helvetica, "メイリオ", "Meiryo", "游ゴシック", "Yu Gothic", sans-serif;
-  /* font-family: "ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro", "Meiryo UI" , "メイリオ" , "Meiryo" , "游ゴシック体","YuGothic" , sans-serif;*/
-  /*font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro", "Meiryo UI" , "メイリオ" , "Meiryo" , "游ゴシック体","YuGothic" , sans-serif;*/
   line-height: 1.4;
   color: #4b4b4b;
   font-size: 14px;
@@ -205,26 +201,6 @@ a:hover {
   background-color: #fff;
   z-index: 1;
   padding: 10px 0;
-}
-
-ul#breadcrumb {
-  margin: 10px 0 0 10px;
-}
-ul#breadcrumb li {
-  display: inline;
-}
-
-#contents {
-  overflow: hidden;
-  margin: 20px 0 50px 0;
-}
-
-#visual {
-  padding-top: 10px;
-}
-
-#top #visual {
-  padding-top: 20px;
 }
 
 #main section:not(:first-child) {
@@ -383,9 +359,6 @@ ul#breadcrumb li {
 #side li:nth-child(7) a {
   background: url(/common/images/side_btn_06.jpg) no-repeat 0 0/260px auto;
 }
-#side li .faq a {
-  background: url(/common/images/side_btn_09.jpg) no-repeat 0 0/260px auto;
-}
 
 footer {
   margin-top: 100px;
@@ -429,6 +402,10 @@ footer #footer_in #footer_in_02 .right ul {
   flex-wrap: wrap;
 }
 
+header h1 .txt_00 span {
+  color: #f48a9d;
+}
+
 @media all and (min-width: 481px) {
   .sp,
   .sp_375 {
@@ -452,7 +429,6 @@ footer #footer_in #footer_in_02 .right ul {
     font-weight: bold;
   }
   header h1 .txt_00 span {
-    color: #f48a9d;
     font-size: 14px;
   }
   header h1 .txt_00 span.f_normal {
@@ -758,10 +734,6 @@ footer #footer_in #footer_in_02 .right ul {
     top: 15px;
   }
 
-  .drawer--top.drawer-open .drawer-nav {
-    overflow-y: scroll;
-  }
-
   .drawer-nav ul.drawer-menu {
     overflow-y: scroll;
     height: 750px;
@@ -829,10 +801,6 @@ footer #footer_in #footer_in_02 .right ul {
   .drawer-hamburger-icon::before {
     border-radius: 6px;
     height: 4px;
-  }
-
-  .drawer--top.drawer-open .drawer-nav {
-    top: 0;
   }
 
   .drawer--top.drawer-open .fixed .drawer-nav {
@@ -914,13 +882,6 @@ footer #footer_in #footer_in_02 .right ul {
     padding: 0;
     text-align: center;
     width: 300px;
-  }
-
-  #visual {
-    width: 100%;
-  }
-  #visual img {
-    width: 100%;
   }
 
   #top #visual {
@@ -1023,10 +984,6 @@ footer #footer_in #footer_in_02 .right ul {
     margin-left: 11%;
   }
 
-  .drawer--top.drawer-open .drawer-nav {
-    top: 0;
-  }
-
   .sp_nav button::after {
     padding-top: 17px;
   }
@@ -1056,10 +1013,6 @@ footer #footer_in #footer_in_02 .right ul {
 
   header h1 .txt_00 span {
     font-size: 10px;
-  }
-
-  .drawer--top.drawer-open .drawer-nav {
-    top: 0;
   }
 
   .sp_nav button::after {
@@ -1100,10 +1053,6 @@ footer #footer_in #footer_in_02 .right ul {
 
   header h1 .txt_01 {
     font-size: 7px;
-  }
-
-  .drawer--top.drawer-open .drawer-nav {
-    top: 0;
   }
 
   .sp_nav .tel span {
@@ -1232,10 +1181,6 @@ footer #footer_in #footer_in_02 .right ul {
 
   .drawer-open .drawer-hamburger-icon {
     margin-left: 4px;
-  }
-
-  .drawer--top.drawer-open .drawer-nav {
-    top: 0;
   }
 
   .sp_nav .tel span {
