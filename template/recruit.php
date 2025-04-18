@@ -10,7 +10,7 @@
     情熱にあふれるスタッフ同士が意見を出し合いながら、毎日、受け持ちの患者様について、しっかりとカンファレンスを行っており、切磋琢磨し、日々成長出来る環境です。在宅診療に興味のある先生方、 看護師の皆様をはじめ、もちろん未経験でも熱意と愛に溢れるスタッフは大歓迎です！是非一緒に日本の在宅医療を変えていきましょう！！
   </p>
   <p class="name">
-    本部長　<strong>秋谷　智広</strong>
+    統括部長　<strong>秋谷　智広</strong>
   </p>
   <ul class="kanren">
     <li class="kanren_02">
@@ -33,7 +33,7 @@
 </section>
 <section id="shain">
   <div class="shain_mv_box mv_box">
-    <h2><span><img src="./assets/images/hutaba.svg" alt=""></span>先輩インタビュー</h2>
+    <h2><span><img src="./assets/images/hutaba.svg" alt="先輩インタビュー"></span>先輩インタビュー</h2>
   </div>
   <div class="mv_interview pc wave-bg"></div>
   <div class="mv_interview sp wave-bg"></div>
@@ -54,23 +54,13 @@
         $base_path = '/sakura';
       } elseif (strpos($url, 'yachiyo') !== false) {
         $base_path = '/yachiyo';
+      } elseif (strpos($url, 'motoyawata') !== false) {
+        $base_path = '/motoyawata';
       } elseif (strpos($url, 'kuki') !== false) {
         $base_path = '/kuki';
       }
     ?>
     <ul>
-      <!-- <li class="interview_list green_line">
-        <a href="<?php echo $base_path; ?>/recruit/interview_ishiduka/">
-          <div class="thum all img_ishiduka"></div>
-        </a>
-        <p class="department green">医師</p>
-        <div class="interview_name green_name">
-          <p>
-            「患者様の暮らしに寄り添った医療を提供したい」
-          </p>
-          <a href="<?php echo $base_path; ?>/recruit/interview_ishiduka/"></a>
-        </div>
-      </li> -->
       <li class="interview_list">
         <a href="<?php echo $base_path; ?>/recruit/interview_nakayama/">
           <div class="thum all img_nakayama"></div>
@@ -83,42 +73,6 @@
           <a href="<?php echo $base_path; ?>/recruit/interview_nakayama/"></a>
         </div>
       </li>
-      <!-- <li class="interview_list">
-        <a href="<?php echo $base_path; ?>/recruit/interview_enoki/">
-          <div class="thum all img_enoki"></div>
-        </a>
-        <p class="department">看護部</p>
-        <div class="interview_name">
-          <p>
-          「患者様や職場の仲間に、より良い環境を作っていきたい」
-          </p>
-          <a href="<?php echo $base_path; ?>/recruit/interview_enoki/"></a>
-        </div>
-      </li>
-      <li class="interview_list">
-        <a href="<?php echo $base_path; ?>/recruit/interview_nakano">
-          <div class="thum all img_nakano"></div>
-        </a>
-        <p class="department">地域連携室</p>
-        <div class="interview_name">
-          <p>
-            「在宅医療は患者様の人生に向き合える素晴らしい仕事」
-          </p>
-          <a href="<?php echo $base_path; ?>/recruit/interview_nakano/"></a>
-        </div>
-      </li>
-      <li class="interview_list">
-        <a href="<?php echo $base_path; ?>/recruit/interview_okutsu">
-          <div class="thum all img_okutsu"></div>
-        </a>
-        <p class="department">医事課</p>
-        <div class="interview_name">
-          <p>
-            「訪問診療を支える“縁の下の力持ち”になりたい」
-          </p>
-          <a href="<?php echo $base_path; ?>/recruit/interview_okutsu/"></a>
-        </div>
-      </li> -->
       <li class="interview_list green_line">
         <a href="<?php echo $base_path; ?>/recruit/interview_akiya/">
           <div class="thum all img_akiya"></div>

@@ -140,6 +140,10 @@
 								<span>〒285-0837<br>千葉県佐倉市王子台1丁目22-13 海佑ビル 1階</span>
 							</div>
 							<div>
+								<p>本八幡</p>
+								<span>〒272-0021<br>千葉県市川市八幡3-3-2 グランドターミナルタワー1階 J107、J108号</span>
+							</div>
+							<div>
 								<p>北習志野</p>
 								<span>〒274-0063<br>千葉県船橋市習志野台2-6-1 小林ビル 3階-C</span>
 							</div>
@@ -164,6 +168,10 @@
 							<div>
 								<p>八千代</p>
 								<span>〒276-0020<br>千葉県八千代市勝田台北1-9-1 みかど第2ビル 104</span>
+							</div>
+							<div>
+								<p>本八幡</p>
+								<span>〒272-0021<br>千葉県市川市八幡3-3-2 グランドターミナルタワー1階 J107、J108号</span>
 							</div>
 							<div>
 								<p>北習志野</p>
@@ -192,12 +200,16 @@
 								<span>〒274-0063<br>千葉県船橋市習志野台2-6-1 小林ビル 3階-C</span>
 							</div>
 							<div>
-								<p>八千代</p>
-								<span>〒276-0020<br>千葉県八千代市勝田台北1-9-1 みかど第2ビル 104</span>
+								<p>本八幡</p>
+								<span>〒272-0021<br>千葉県市川市八幡3-3-2 グランドターミナルタワー1階 J107、J108号</span>
 							</div>
 							<div>
 								<p>佐倉</p>
 								<span>〒285-0837<br>千葉県佐倉市王子台1丁目22-13 海佑ビル 1階</span>
+							</div>
+							<div>
+								<p>八千代</p>
+								<span>〒276-0020<br>千葉県八千代市勝田台北1-9-1 みかど第2ビル 104</span>
 							</div>
 						</td>
 					</tr>
@@ -222,12 +234,12 @@
 								<span>〒274-0063<br>千葉県船橋市習志野台2-6-1 小林ビル 3階-C</span>
 							</div>
 							<div>
-								<p>八千代</p>
-								<span>〒276-0020<br>千葉県八千代市勝田台北1-9-1 みかど第2ビル 104</span>
-							</div>
-							<div>
 								<p>佐倉</p>
 								<span>〒285-0837<br>千葉県佐倉市王子台1丁目22-13 海佑ビル 1階</span>
+							</div>
+							<div>
+								<p>八千代</p>
+								<span>〒276-0020<br>千葉県八千代市勝田台北1-9-1 みかど第2ビル 104</span>
 							</div>
 						</td>
 					</tr>
@@ -597,15 +609,15 @@
 					<ul>
 						<li>
 							<figure class="mr">
-								<img src="/kitasenju/guide/images/gallery_kitasenju_1.jpg" loading=”lazy” alt="">
+								<img src="/kitasenju/guide/images/gallery_kitasenju_1.jpg" loading=”lazy” alt="外観">
 								<figcaption class="tal">外観</figcaption>
 							</figure>
 							<figure class="ml">
-								<img src="/kitasenju/guide/images/gallery_kitasenju_2.jpg" loading=”lazy” alt="">
+								<img src="/kitasenju/guide/images/gallery_kitasenju_2.jpg" loading=”lazy” alt="受付">
 								<figcaption class="tal">受付</figcaption>
 							</figure>
 							<figure class="ml">
-								<img src="/kitasenju/guide/images/gallery_kitasenju_3.jpg" loading=”lazy” alt="">
+								<img src="/kitasenju/guide/images/gallery_kitasenju_3.jpg" loading=”lazy” alt="医局">
 								<figcaption class="tal">医局</figcaption>
 							</figure>
 						</li>
@@ -616,15 +628,15 @@
 					<ul>
 						<li>
 							<figure class="mr">
-								<img src="/kitasenju/guide/images/gallery_shinkoiwa_v2.jpg" loading=”lazy” alt="">
+								<img src="/kitasenju/guide/images/gallery_shinkoiwa_v2.jpg" loading=”lazy” alt="外観">
 								<figcaption class="tal">外観</figcaption>
 							</figure>
 							<figure class="ml">
-								<img src="/kitasenju/guide/images/gallery_shinkoiwa_2.jpg" loading=”lazy” alt="">
+								<img src="/kitasenju/guide/images/gallery_shinkoiwa_2.jpg" loading=”lazy” alt="受付">
 								<figcaption class="tal">受付</figcaption>
 							</figure>
 							<figure class="ml">
-								<img src="/kitasenju/guide/images/gallery_shinkoiwa_3.jpg" loading=”lazy” alt="">
+								<img src="/kitasenju/guide/images/gallery_shinkoiwa_3.jpg" loading=”lazy” alt="医局">
 								<figcaption class="tal">医局</figcaption>
 							</figure>
 						</li>
@@ -665,6 +677,25 @@
 							<figure class="ml">
 								<img src="/sakura/guide/images/sakura_gallery_03.jpg" alt="ふたば在宅クリニック 佐倉院 待合室" loading=”lazy”>
 								<figcaption class="tal">待合室</figcaption>
+							</figure>
+						</li>
+					</ul>
+				</div>
+				<div class="gallery_box">
+					<p>本八幡</p>
+					<ul>
+						<li>
+							<figure class="mr">
+								<img src="/common/images/motoyawata_gallery_01.jpg" alt="ふたば在宅クリニック 本八幡院 外観" loading="lazy">
+								<figcaption class="tal">外観</figcaption>
+							</figure>
+							<figure class="ml pc">
+								<img src="/common/images/noimage.jpg" alt="noimage" loading="lazy">
+								<figcaption class="tal">受付</figcaption>
+							</figure>
+							<figure class="ml pc">
+								<img src="/common/images/noimage.jpg" alt="noimage" loading="lazy">
+								<figcaption class="tal">医局</figcaption>
 							</figure>
 						</li>
 					</ul>
@@ -723,6 +754,25 @@
 							<figure class="ml">
 								<img src="/sakura/guide/images/yachiyo_gallery_03.jpg" loading="”lazy”" alt="ふたば在宅クリニック 八千代院 エントランス">
 								<figcaption class="tal">エントランス</figcaption>
+							</figure>
+						</li>
+					</ul>
+				</div>
+				<div class="gallery_box">
+					<p>本八幡</p>
+					<ul>
+						<li>
+							<figure class="mr">
+								<img src="/common/images/motoyawata_gallery_01.jpg" alt="ふたば在宅クリニック 本八幡院 外観" loading="lazy">
+								<figcaption class="tal">外観</figcaption>
+							</figure>
+							<figure class="ml pc">
+								<img src="/common/images/noimage.jpg" alt="noimage" loading="lazy">
+								<figcaption class="tal">受付</figcaption>
+							</figure>
+							<figure class="ml pc">
+								<img src="/common/images/noimage.jpg" alt="noimage" loading="lazy">
+								<figcaption class="tal">医局</figcaption>
 							</figure>
 						</li>
 					</ul>
@@ -786,20 +836,20 @@
 					</ul>
 				</div>
 				<div class="gallery_box">
-					<p>八千代</p>
+					<p>本八幡</p>
 					<ul>
 						<li>
 							<figure class="mr">
-								<img src="/sakura/guide/images/yachiyo_gallery_01.jpg" loading=”lazy” alt="ふたば在宅クリニック 八千代院 外観">
+								<img src="/common/images/motoyawata_gallery_01.jpg" alt="ふたば在宅クリニック 本八幡院 外観" loading="lazy">
 								<figcaption class="tal">外観</figcaption>
 							</figure>
-							<figure class="ml">
-								<img src="/sakura/guide/images/yachiyo_gallery_02.jpg" loading="”lazy”" alt="ふたば在宅クリニック 八千代院 受付">
+							<figure class="ml pc">
+								<img src="/common/images/noimage.jpg" alt="noimage" loading="lazy">
 								<figcaption class="tal">受付</figcaption>
 							</figure>
-							<figure class="ml">
-								<img src="/sakura/guide/images/yachiyo_gallery_03.jpg" loading="”lazy”" alt="ふたば在宅クリニック 八千代院 エントランス">
-								<figcaption class="tal">エントランス</figcaption>
+							<figure class="ml pc">
+								<img src="/common/images/noimage.jpg" alt="noimage" loading="lazy">
+								<figcaption class="tal">医局</figcaption>
 							</figure>
 						</li>
 					</ul>
@@ -823,8 +873,27 @@
 						</li>
 					</ul>
 				</div>
+				<div class="gallery_box">
+					<p>八千代</p>
+					<ul>
+						<li>
+							<figure class="mr">
+								<img src="/sakura/guide/images/yachiyo_gallery_01.jpg" loading=”lazy” alt="ふたば在宅クリニック 八千代院 外観">
+								<figcaption class="tal">外観</figcaption>
+							</figure>
+							<figure class="ml">
+								<img src="/sakura/guide/images/yachiyo_gallery_02.jpg" loading="”lazy”" alt="ふたば在宅クリニック 八千代院 受付">
+								<figcaption class="tal">受付</figcaption>
+							</figure>
+							<figure class="ml">
+								<img src="/sakura/guide/images/yachiyo_gallery_03.jpg" loading="”lazy”" alt="ふたば在宅クリニック 八千代院 エントランス">
+								<figcaption class="tal">エントランス</figcaption>
+							</figure>
+						</li>
+					</ul>
+				</div>
 			<?php elseif (strpos($url, 'motoyawata') !== false) : ?>
-				<div class="gallery_kitanarashino">
+				<div class="gallery_box">
 					<p>本八幡</p>
 					<ul>
 						<li>
@@ -862,25 +931,6 @@
 						</li>
 					</ul>
 				</div>
-				<div class="gallery_box">
-					<p>八千代</p>
-					<ul>
-						<li>
-							<figure class="mr">
-								<img src="/sakura/guide/images/yachiyo_gallery_01.jpg" loading=”lazy” alt="ふたば在宅クリニック 八千代院 外観">
-								<figcaption class="tal">外観</figcaption>
-							</figure>
-							<figure class="ml">
-								<img src="/sakura/guide/images/yachiyo_gallery_02.jpg" loading="”lazy”" alt="ふたば在宅クリニック 八千代院 受付">
-								<figcaption class="tal">受付</figcaption>
-							</figure>
-							<figure class="ml">
-								<img src="/sakura/guide/images/yachiyo_gallery_03.jpg" loading="”lazy”" alt="ふたば在宅クリニック 八千代院 エントランス">
-								<figcaption class="tal">エントランス</figcaption>
-							</figure>
-						</li>
-					</ul>
-				</div>
 				<div>
 					<p>佐倉</p>
 					<ul>
@@ -896,6 +946,25 @@
 							<figure class="ml">
 								<img src="/yachiyo/guide/images/sakura_gallery_03.jpg" loading="”lazy”" alt="ふたば在宅クリニック 佐倉院 待合室">
 								<figcaption class="tal">待合室</figcaption>
+							</figure>
+						</li>
+					</ul>
+				</div>
+				<div class="gallery_box">
+					<p>八千代</p>
+					<ul>
+						<li>
+							<figure class="mr">
+								<img src="/sakura/guide/images/yachiyo_gallery_01.jpg" loading=”lazy” alt="ふたば在宅クリニック 八千代院 外観">
+								<figcaption class="tal">外観</figcaption>
+							</figure>
+							<figure class="ml">
+								<img src="/sakura/guide/images/yachiyo_gallery_02.jpg" loading="”lazy”" alt="ふたば在宅クリニック 八千代院 受付">
+								<figcaption class="tal">受付</figcaption>
+							</figure>
+							<figure class="ml">
+								<img src="/sakura/guide/images/yachiyo_gallery_03.jpg" loading="”lazy”" alt="ふたば在宅クリニック 八千代院 エントランス">
+								<figcaption class="tal">エントランス</figcaption>
 							</figure>
 						</li>
 					</ul>
@@ -926,15 +995,15 @@
 				<ul>
 					<li>
 						<figure class="mr">
-							<img src="/common/images/gallery_roppongi_1.jpg" loading="”lazy”" alt="">
+							<img src="/common/images/gallery_roppongi_1.jpg" loading="”lazy”" alt="外観">
 							<figcaption class="tal">外観</figcaption>
 						</figure>
 						<figure class="ml">
-							<img src="/common/images/gallery_roppongi_3.jpg" loading="”lazy”" alt="">
+							<img src="/common/images/gallery_roppongi_3.jpg" loading="”lazy”" alt="外観（六本木ヒルズ）">
 							<figcaption class="tal">外観（六本木ヒルズ）</figcaption>
 						</figure>
 						<figure class="ml">
-							<img src="/common/images/gallery_roppongi_4.jpg" loading="”lazy”" alt="">
+							<img src="/common/images/gallery_roppongi_4.jpg" loading="”lazy”" alt="外観（東京ミッドタウン）">
 							<figcaption class="tal">外観（東京ミッドタウン）</figcaption>
 						</figure>
 					</li>
@@ -1023,6 +1092,7 @@
 				</div>
 			<?php elseif (strpos($url, 'sakura') !== false) : ?>
 				<p class="txt_01">佐倉院：京成臼井駅前 南口徒歩30秒です。</p>
+				<p class="txt_01">本八幡院：本八幡駅前 徒歩3分です。</p>
 				<p class="txt_01">北習志野院：北習志野駅前 徒歩1分です。</p>
 				<p class="txt_01">八千代院：勝田台駅前 北口徒歩30秒です。</p>
 				<div class="map_box">
@@ -1030,6 +1100,13 @@
 					<p class="txt_02">〒285-0837 千葉県佐倉市王子台1丁目22-13 海佑ビル 1階</p>
 					<div id="gmap">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.8502708135566!2d140.17943431505626!3d35.729900734909066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60228627a47257af%3A0x676b752f3a1e3332!2z44CSMjg1LTA4Mzcg5Y2D6JGJ55yM5L2Q5YCJ5biC546L5a2Q5Y-w77yR5LiB55uu77yS77yS4oiS77yR77yTIOa1t-S9keODk-ODqyAx6ZqO!5e0!3m2!1sja!2sjp!4v1654851738574!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+				</div>
+				<div class="map_box">
+					<p class="map_ttl">本八幡</p>
+					<p class="txt_02">〒272-0021 千葉県市川市八幡3-3-2グランドターミナルタワー1階 J107、J108号</p>
+					<div id="gmap">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.135558286528!2d139.92489921101662!3d35.722884527570855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601886d01e498d73%3A0xf32b9d10da3eb4d5!2z44CSMjcyLTAwMjEg5Y2D6JGJ55yM5biC5bed5biC5YWr5bmh77yT5LiB55uu77yTIOOCsOODqeODs-ODieOCv-ODvOODn-ODiuODq-OCv-ODr-ODvOacrOWFq-W5oQ!5e0!3m2!1sja!2sjp!4v1741606192044!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 				</div>
 				<div class="map_box">
@@ -1048,6 +1125,7 @@
 				</div>
 			<?php elseif (strpos($url, 'yachiyo') !== false) : ?>
 				<p class="txt_01">八千代院：勝田台駅前 北口徒歩30秒です。</p>
+				<p class="txt_01">本八幡院：本八幡駅前 徒歩3分です。</p>
 				<p class="txt_01">北習志野院：北習志野駅前 徒歩1分です。</p>
 				<p class="txt_01">佐倉院：京成臼井駅前 南口徒歩30秒です。</p>
 				<div class="map_box">
@@ -1055,6 +1133,13 @@
 					<p class="txt_02">〒276-0020 千葉県八千代市勝田台北1-9-1 みかど第2ビル 104</p>
 					<div id="gmap">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.367715906896!2d140.122466065354!3d35.71717408560706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60228744e4b77bbb%3A0x4f357d567a1e83b4!2z44G_44GL44Gp56ysMuODk-ODqw!5e0!3m2!1sja!2sjp!4v1676940195400!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+				</div>
+				<div class="map_box">
+					<p class="map_ttl">本八幡</p>
+					<p class="txt_02">〒272-0021 千葉県市川市八幡3-3-2グランドターミナルタワー1階 J107、J108号</p>
+					<div id="gmap">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.135558286528!2d139.92489921101662!3d35.722884527570855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601886d01e498d73%3A0xf32b9d10da3eb4d5!2z44CSMjcyLTAwMjEg5Y2D6JGJ55yM5biC5bed5biC5YWr5bmh77yT5LiB55uu77yTIOOCsOODqeODs-ODieOCv-ODvOODn-ODiuODq-OCv-ODr-ODvOacrOWFq-W5oQ!5e0!3m2!1sja!2sjp!4v1741606192044!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 				</div>
 				<div class="map_box">
@@ -1073,13 +1158,21 @@
 				</div>
 			<?php elseif (strpos($url, 'kitanarashino') !== false) : ?>
 				<p class="txt_01">北習志野院：北習志野駅前 徒歩1分です。</p>
-				<p class="txt_01">八千代院：勝田台駅前 北口徒歩30秒です。</p>
+				<p class="txt_01">本八幡院：本八幡駅前 徒歩3分です。</p>
 				<p class="txt_01">佐倉院：京成臼井駅前 南口徒歩30秒です。</p>
+				<p class="txt_01">八千代院：勝田台駅前 北口徒歩30秒です。</p>
 				<div class="map_box">
 					<p class="map_ttl">北習志野</p>
 					<p class="txt_02">〒274-0063 千葉県船橋市習志野台2-6-1 小林ビル 3階-C</p>
 					<div id="gmap">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.1557865148407!2d140.0432634!3d35.722387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022816f58721529%3A0x1904f08181bcdb5!2z44G144Gf44Gw5Zyo5a6F44Kv44Oq44OL44OD44KvIOWMl-e_kuW_l-mHjiDoqKrllY_oqLrnmYI!5e0!3m2!1sja!2sjp!4v1740631826662!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+				<div class="map_box">
+					<p class="map_ttl">本八幡</p>
+					<p class="txt_02">〒272-0021 千葉県市川市八幡3-3-2グランドターミナルタワー1階 J107、J108号</p>
+					<div id="gmap">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.135558286528!2d139.92489921101662!3d35.722884527570855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601886d01e498d73%3A0xf32b9d10da3eb4d5!2z44CSMjcyLTAwMjEg5Y2D6JGJ55yM5biC5bed5biC5YWr5bmh77yT5LiB55uu77yTIOOCsOODqeODs-ODieOCv-ODvOODn-ODiuODq-OCv-ODr-ODvOacrOWFq-W5oQ!5e0!3m2!1sja!2sjp!4v1741606192044!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 				</div>
 				<div class="map_box">
@@ -1097,10 +1190,10 @@
 					</div>
 				</div>
 			<?php elseif (strpos($url, 'motoyawata') !== false) : ?>
-				<p class="txt_01">本八幡院：本八幡駅前 徒歩○分です。</p>
+				<p class="txt_01">本八幡院：本八幡駅前 徒歩3分です。</p>
 				<p class="txt_01">北習志野院：北習志野駅前 徒歩1分です。</p>
-				<p class="txt_01">八千代院：勝田台駅前 北口徒歩30秒です。</p>
 				<p class="txt_01">佐倉院：京成臼井駅前 南口徒歩30秒です。</p>
+				<p class="txt_01">八千代院：勝田台駅前 北口徒歩30秒です。</p>
 				<div class="map_box">
 					<p class="map_ttl">本八幡</p>
 					<p class="txt_02">〒272-0021 千葉県市川市八幡3-3-2グランドターミナルタワー1階 J107、J108号</p>

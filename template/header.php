@@ -24,6 +24,9 @@
       <?php elseif (strpos($url, 'kitanarashino') !== false) : ?>
 				<span class="txt_00">千葉県・北西部・印旛地域の  <span>訪問診療・往診・在宅医療</span></span><br>
 				<span class="txt_01">（船橋市、習志野市、八千代市、千葉市、印西市、佐倉市、四街道市、酒々井町）</span>
+      <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
+				<span class="txt_00">千葉県・北西部・印旛地域の  <span>訪問診療・往診・在宅医療</span></span><br>
+				<span class="txt_01">（市川市、浦安市、船橋市、習志野市、八千代市、千葉市、印西市、佐倉市、四街道市、酒々井町）</span>
       <?php else : ?>
 				<span class="txt_00">埼玉県・北東部の <span>訪問診療・往診・在宅医療</span></span><br>
 				<span class="txt_01">（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市など）</span>
@@ -99,6 +102,17 @@
             <li><img src="/common/images/header_icon_03.svg" alt="在宅医療(24時間365日),ふたば在宅クリニック 北習志野院,千葉県・北西部・印旛地域（船橋市、習志野市、八千代市、千葉市、印西市、佐倉市、四街道市、酒々井町）の訪問診療・往診・在宅医療"></li>
             <li><img src="/common/images/header_icon_02.svg" alt="内科 心・肺・脳,ふたば在宅クリニック 北習志野院,千葉県・北西部・印旛地域（船橋市、習志野市、八千代市、千葉市、印西市、佐倉市、四街道市、酒々井町）の訪問診療・往診・在宅医療"></li>
             <li><img src="/common/images/header_icon_01.svg" alt="がん・緩和ケア,ふたば在宅クリニック 北習志野院,千葉県・北西部・印旛地域（船橋市、習志野市、八千代市、千葉市、印西市、佐倉市、四街道市、酒々井町）の訪問診療・往診・在宅医療"></li>
+          </ul>
+        <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
+          <p id="header_logo">
+            <a href="/motoyawata/">
+              <img src="/common/images/logo_motoyawata.svg" alt="医療法人社団 千葉爽緑会 ふたば在宅クリニック 北習志野院,千葉県・北西部・印旛地域（市川市、浦安市、船橋市、習志野市、八千代市、千葉市、印西市、佐倉市、四街道市、酒々井町）の在宅医療 訪問診療 訪問看護 往診">
+            </a>
+          </p>
+          <ul class="icon_box pc">
+            <li><img src="/common/images/header_icon_03.svg" alt="在宅医療(24時間365日),ふたば在宅クリニック 北習志野院,千葉県・北西部・印旛地域（市川市、浦安市、船橋市、習志野市、八千代市、千葉市、印西市、佐倉市、四街道市、酒々井町）の訪問診療・往診・在宅医療"></li>
+            <li><img src="/common/images/header_icon_02.svg" alt="内科 心・肺・脳,ふたば在宅クリニック 北習志野院,千葉県・北西部・印旛地域（市川市、浦安市、船橋市、習志野市、八千代市、千葉市、印西市、佐倉市、四街道市、酒々井町）の訪問診療・往診・在宅医療"></li>
+            <li><img src="/common/images/header_icon_01.svg" alt="がん・緩和ケア,ふたば在宅クリニック 北習志野院,千葉県・北西部・印旛地域（市川市、浦安市、船橋市、習志野市、八千代市、千葉市、印西市、佐倉市、四街道市、酒々井町）の訪問診療・往診・在宅医療"></li>
           </ul>
         <?php else : ?>
         <p id="header_logo">
@@ -221,6 +235,19 @@
 						<li><a href="/news/kitanarashino/">お知らせ</a></li>
 						<li><a href="/kitanarashino/privacy/">プライバシーポリシー</a></li>
             <li class="fax"><span class="fax_txt">047-402-6537</span></li>
+          <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
+						<li><a href="/motoyawata/">ホーム</a></li>
+						<li><a href="/motoyawata/message/">代表挨拶・スタッフ紹介</a></li>
+						<li><a href="/motoyawata/guide/">当院について</a></li>
+						<li><a href="/motoyawata/about/">在宅診療とは</a></li>
+						<li><a href="/motoyawata/faq/">よくあるご質問</a></li>
+						<li><a href="/motoyawata/area/">訪問地域</a></li>
+						<li><a href="/">法人トップ・分院案内</a></li>
+						<li><a href="/motoyawata/recruit/">採用・求人</a></li>
+						<li><a href="/contact/input_motoyawata/">お問い合わせ・お申し込み</a></li>
+						<li><a href="/news/motoyawata/">お知らせ</a></li>
+						<li><a href="/motoyawata/privacy/">プライバシーポリシー</a></li>
+            <li class="fax"><span class="fax_txt">×××-×××-××××</span></li>
           <?php else : ?>
 						<li><a href="/kuki/">ホーム</a></li>
 						<li><a href="/kuki/message/">理事長挨拶・スタッフ紹介</a></li>
@@ -272,6 +299,9 @@
           <?php elseif (strpos($url, 'kitanarashino') !== false) : ?>
             <p class="tel"><a href="tel:0474026536">047-402-6536</a></p>
             <p class="mail"><a href="/contact/input_kitanarashino/#form"></a></p>
+          <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
+            <p class="tel"><a href="tel:">×××-×××-××××</a></p>
+            <p class="mail"><a href="/contact/input_motoyawata/#form"></a></p>
           <?php else : ?>
             <p class="tel"><a href="tel:0480-44-9178">0480-44-9178</a></p>
             <p class="mail"><a href="/contact/input/#form"></a></p>
@@ -348,6 +378,16 @@
         <li><a href="/">法人トップ<br>・<br>分院案内</a></li>
         <li><a href="/kitanarashino/recruit/">採用・求人</a></li>
         <li><a href="/contact/input_kitanarashino/">お問い合わせ<br>・<br>お申し込み</a></li>
+      <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
+        <li><a href="/motoyawata/">ホーム</a></li>
+        <li><a href="/motoyawata/message/">代表挨拶<br>・<br>スタッフ紹介</a></li>
+        <li><a href="/motoyawata/guide/">当院について</a></li>
+        <li><a href="/motoyawata/about/">在宅診療とは</a></li>
+        <li><a href="/motoyawata/faq/">よくあるご質問</a></li>
+        <li><a href="/motoyawata/area/">訪問地域</a></li>
+        <li><a href="/">法人トップ<br>・<br>分院案内</a></li>
+        <li><a href="/motoyawata/recruit/">採用・求人</a></li>
+        <li><a href="/contact/input_motoyawata/">お問い合わせ<br>・<br>お申し込み</a></li>
       <?php else : ?>
         <li><a href="/kuki/">ホーム</a></li>
         <li><a href="/kuki/message/">理事長挨拶<br>・<br>スタッフ紹介</a></li>

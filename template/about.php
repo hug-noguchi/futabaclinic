@@ -104,6 +104,8 @@
               href="/contact/input_sakura/"
             <?php elseif (strpos($url, 'yachiyo') !== false) : ?>
               href="/contact/input_yachiyo/"
+            <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
+              href="/contact/input_motoyawata/"
             <?php else : ?>
               href="/contact/input_kuki/"
             <?php endif; ?>
@@ -136,6 +138,8 @@
                   <a href="tel:0432909700" class="tel-link">043-290-9700</a>
                 <?php elseif (strpos($url, 'yachiyo') !== false) : ?>
                   <a href="tel:0474093677" class="tel-link">047-409-3677</a>
+                <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
+                  <a href="tel:" class="tel-link">×××-×××-××××</a>
                 <?php else : ?>
                   <a href="tel:0480449178" class="tel-link">0480-44-9178</a>
                 <?php endif; ?>
@@ -157,6 +161,8 @@
                   <a href="/contact/input_sakura/#form" class="text-link">
                 <?php elseif (strpos($url, 'yachiyo') !== false) : ?>
                   <a href="/contact/input_yachiyo/#form" class="text-link">
+                <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
+                  <a href="/contact/input_motoyawata/#form" class="text-link">
                 <?php else : ?>
                   <a href="/contact/input/#form" class="text-link">
                 <?php endif; ?>

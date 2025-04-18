@@ -1203,9 +1203,9 @@
 					<ul class="docter-lists">
 						<li>
 							<dl>
-								<dt>本部長 秋谷 智広</dt>
+								<dt>統括部長 秋谷 智広</dt>
 								<dd>
-									<img src="/top/images/person_04.jpg" alt="本部長 秋谷 智広,医療法人社団 爽緑会・千葉爽緑会 ふたば在宅クリニック 埼玉院（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、伊奈町、五霞町）、東京 北千住院（足立区、荒川区、台東区）、東京 新小岩院（葛飾区、江戸川区、墨田区、江東区）、千葉 佐倉院（佐倉市、印西市、四街道市、八千代市、千葉市、酒々井町、習志野市、船橋市）" class="img">
+									<img src="/top/images/person_04.jpg" alt="統括部長 秋谷 智広,医療法人社団 爽緑会・千葉爽緑会 ふたば在宅クリニック 埼玉院（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、伊奈町、五霞町）、東京 北千住院（足立区、荒川区、台東区）、東京 新小岩院（葛飾区、江戸川区、墨田区、江東区）、千葉 佐倉院（佐倉市、印西市、四街道市、八千代市、千葉市、酒々井町、習志野市、船橋市）" class="img">
 								</dd>
 							</dl>
 						</li>
@@ -1214,6 +1214,30 @@
 								<dt>事務次長 片寄 貴友</dt>
 								<dd>
 									<img src="/top/images/person_katayose.jpg" alt="ふたば在宅クリニック 事務次長 片寄 貴友" class="img">
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>事務次長 牧野 祥介</dt>
+								<dd>
+									<img src="/common/images/person_makino.jpg" alt="ふたば在宅クリニック 事務次長 牧野 祥介" class="img">
+								</dd>
+							</dl>
+						</li>
+						<li class="none_image">
+							<dl>
+								<dt>事務次長 上村 秀一</dt>
+								<dd>
+									<img src="/common/images/person_uemura.jpg" alt="ふたば在宅クリニック 事務次長 上村 秀一" class="img">
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>事務次長 千葉 光</dt>
+								<dd>
+									<img src="/common/images/person_chiba.jpg" alt="ふたば在宅クリニック 事務次長 千葉 光" class="img">
 								</dd>
 							</dl>
 						</li>
@@ -1230,14 +1254,6 @@
 								<dt>事務次長 北見 竜也</dt>
 								<dd>
 									<img src="/common/images/person_kitami.jpg" alt="ふたば在宅クリニック 事務次長 北見 竜也" class="img">
-								</dd>
-							</dl>
-						</li>
-						<li class="none_image">
-							<dl>
-								<dt>事務次長 上村 秀一</dt>
-								<dd>
-									<img src="/common/images/person_uemura.jpg" alt="ふたば在宅クリニック 事務次長 上村 秀一" class="img">
 								</dd>
 							</dl>
 						</li>
@@ -1320,7 +1336,7 @@
 						情熱にあふれるスタッフ同士が意見を出し合いながら、毎日、受け持ちの患者様について、しっかりとカンファレンスを行っており、切磋琢磨し、日々成長出来る環境です。在宅診療に興味のある先生方、 看護師の皆様をはじめ、もちろん未経験でも熱意と愛に溢れるスタッフは大歓迎です！是非一緒に日本の在宅医療を変えていきましょう！！
 					</p>
 					<p class="name">
-						本部長　<span>秋谷　智広</span>
+						統括部長　<span>秋谷　智広</span>
 					</p>
 					<ul class="kanren">
 						<li class="kanren_02">

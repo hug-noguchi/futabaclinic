@@ -844,9 +844,9 @@
 				<ul>
 					<li>
 						<dl>
-							<dt>事務長 秋谷 智広</dt>
+							<dt>統括部長 秋谷 智広</dt>
 							<dd>
-								<img src="/shinkoiwa/message/images/person_04.jpg" alt="事務長 秋谷 智広" class="img" loading="lazy">
+								<img src="/shinkoiwa/message/images/person_04.jpg" alt="統括部長 秋谷 智広" class="img" loading="lazy">
 							</dd>
 						</dl>
 					</li>
@@ -867,14 +867,23 @@
 						</dl>
 						</dl>
 					</li>
+					<li>
+						<dl>
+							<dt>事務次長 千葉 光</dt>
+							<dd>
+								<img src="/common/images/person_chiba.jpg" loading=”lazy” alt="ふたば在宅クリニック 事務次長 千葉 光" class="img" >
+							</dd>
+						</dl>
+						</dl>
+					</li>
 				</ul>
 			<?php elseif (strpos($url, 'sakura') !== false) : ?>
 				<ul>
 					<li>
 						<dl>
-							<dt>事務長 秋谷 智広</dt>
+							<dt>統括部長 秋谷 智広</dt>
 							<dd>
-								<img src="/sakura/message/images/person_04.jpg" loading=”lazy” alt="ふたば在宅クリニック 事務長 秋谷 智広" class="img" >
+								<img src="/sakura/message/images/person_04.jpg" loading=”lazy” alt="ふたば在宅クリニック 統括部長 秋谷 智広" class="img" >
 							</dd>
 						</dl>
 					</li>
@@ -914,9 +923,9 @@
 				<ul>
 					<li>
 						<dl>
-							<dt>事務長 秋谷 智広</dt>
+							<dt>統括部長 秋谷 智広</dt>
 							<dd>
-								<img src="/yachiyo/message/images/person_04.jpg" loading=”lazy” alt="ふたば在宅クリニック 事務長 秋谷 智広" class="img" >
+								<img src="/yachiyo/message/images/person_04.jpg" loading=”lazy” alt="ふたば在宅クリニック 統括部長 秋谷 智広" class="img" >
 							</dd>
 						</dl>
 					</li>
@@ -941,9 +950,9 @@
 				<ul>
 					<li>
 						<dl>
-							<dt>事務長 秋谷 智広</dt>
+							<dt>統括部長 秋谷 智広</dt>
 							<dd>
-								<img src="/kuki/message/images/person_04.jpg" alt="事務長 秋谷 智広,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
+								<img src="/kuki/message/images/person_04.jpg" alt="統括部長 秋谷 智広,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
 							</dd>
 						</dl>
 					</li>
@@ -960,6 +969,14 @@
 							<dt>事務次長 片寄 貴友</dt>
 							<dd>
 								<img src="/kuki/message/images/person_katayose.jpg" loading="lazy" alt="ふたば在宅クリニック 事務次長 片寄 貴友" class="img">
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>事務次長 牧野 祥介</dt>
+							<dd>
+								<img src="/common/images/person_makino.jpg" loading="lazy" alt="ふたば在宅クリニック 事務次長 牧野 祥介" class="img">
 							</dd>
 						</dl>
 					</li>
@@ -987,8 +1004,8 @@
 						</a>
 					</li>
 					<li class="kanren_01 kanren_chiba">
-						<a href="/kitanarashino/message/">
-							<span>北習志野院・佐倉院・八千代院<br>医師紹介ページ</span>
+						<a href="/motoyawata/message/">
+							<span>本八幡院・北習志野院<br>佐倉院・八千代院<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_02">
@@ -1015,8 +1032,8 @@
 						</a>
 					</li>
 					<li class="kanren_01 kanren_chiba">
-						<a href="/kitanarashino/message/">
-							<span>北習志野院・佐倉院・八千代院<br>医師紹介ページ</span>
+						<a href="/motoyawata/message/">
+							<span>本八幡院・北習志野院<br>佐倉院・八千代院<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_02">
@@ -1043,8 +1060,8 @@
 						</a>
 					</li>
 					<li class="kanren_01 kanren_chiba">
-						<a href="/kitanarashino/message/">
-							<span>北習志野院・佐倉院・八千代院<br>医師紹介ページ</span>
+						<a href="/motoyawata/message/">
+							<span>本八幡院・北習志野院<br>佐倉院・八千代院<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_02">
@@ -1061,8 +1078,8 @@
 			<?php elseif (strpos($url, 'kitanarashino') !== false) : ?>
 				<ul class="kanren">
 					<li class="kanren_01">
-						<a href="/sakura/message/">
-							<span>佐倉院・八千代院<br>医師紹介ページ</span>
+						<a href="/motoyawata/message/">
+							<span>本八幡院・佐倉院・八千代院<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_01">
@@ -1089,8 +1106,8 @@
 			<?php elseif (strpos($url, 'sakura') !== false) : ?>
 				<ul class="kanren">
 					<li class="kanren_01">
-						<a href="/kitanarashino/message/">
-							<span>北習志野院・八千代院<br>医師紹介ページ</span>
+						<a href="/motoyawata/message/">
+							<span>本八幡院・北習志野院・八千代院<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_01">
@@ -1117,8 +1134,36 @@
 			<?php elseif (strpos($url, 'yachiyo') !== false) : ?>
 				<ul class="kanren">
 					<li class="kanren_01 kanren_chiba">
+						<a href="/motoyawata/message/">
+							<span>本八幡院・北習志野院・佐倉院<br>医師紹介ページ</span>
+						</a>
+					</li>
+					<li class="kanren_01">
+						<a href="/message/">
+							<span>埼玉院<br>医師紹介ページ</span>
+						</a>
+					</li>
+					<li class="kanren_01">
+						<a href="/kinshichou/message/">
+							<span>錦糸町院・新小岩院・北千住院<br>医師紹介ページ</span>
+						</a>
+					</li>
+					<li class="kanren_02">
+						<a href="/recruit/02/">
+							<span>医師求人ページ</span>
+						</a>
+					</li>
+					<li class="kanren_03">
+						<a href="/recruit/03/">
+							<span>スタッフ求人ページ</span>
+						</a>
+					</li>
+				</ul>
+			<?php elseif (strpos($url, 'motoyawata') !== false) : ?>
+				<ul class="kanren">
+					<li class="kanren_01">
 						<a href="/kitanarashino/message/">
-							<span>北習志野院・佐倉院<br>医師紹介ページ</span>
+							<span>北習志野院・佐倉院・八千代院<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_01">

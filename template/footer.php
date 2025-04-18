@@ -12,8 +12,8 @@
         <p class="logo">
           <a href="/kinshichou/"><img src="/common/images/logo_tokyo_kin.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 錦糸町院（墨田区、江東区、台東区、葛飾区、江戸川区、足立区、荒川区など）東京都・城東エリアの在宅医療 訪問診療 往診" loading="lazy"></a>
         </p>
-        <p class="address address_02">〒130-0013 東京都墨田区錦糸1-4-14<br class="sp"> 長嶋ビル 4階</p>
-        <p class="address address_02">〒120-0034 東京都足立区千住2-4<br class="sp"> オカバツインタワービル イースト 8階</p>
+        <p class="address address_01">〒130-0013 東京都墨田区錦糸1-4-14<br class="sp"> 長嶋ビル 4階</p>
+        <p class="address address_01">〒120-0034 東京都足立区千住2-4<br class="sp"> オカバツインタワービル イースト 8階</p>
         <p class="address address_02">〒124-0024 東京都葛飾区新小岩1-49-10<br class="sp"> 第5デリカビル（メディカルタウン新小岩） 2階</p>
 			</div>
 			<div class="right">
@@ -49,9 +49,9 @@
         <p class="logo">
           <a href="/shinkoiwa/"><img src="/common/images/logo_tokyo_s.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院（葛飾区、江戸川区など）東京都・城東エリアの在宅医療 訪問診療 往診" loading="lazy"></a>
         </p>
-        <p class="address address_02">〒124-0024 東京都葛飾区新小岩1-49-10<br class="sp"> 第5デリカビル（メディカルタウン新小岩） 2階</p>
-        <p class="address address_02">〒120-0034 東京都足立区千住2-4<br class="sp"> オカバツインタワービル イースト 8階</p>
-        <p class="address address_01">〒130-0013 東京都墨田区錦糸1-4-14<br class="sp"> 長嶋ビル 4階</p>
+        <p class="address address_01">〒124-0024 東京都葛飾区新小岩1-49-10<br class="sp"> 第5デリカビル（メディカルタウン新小岩） 2階</p>
+        <p class="address address_01">〒120-0034 東京都足立区千住2-4<br class="sp"> オカバツインタワービル イースト 8階</p>
+        <p class="address address_02">〒130-0013 東京都墨田区錦糸1-4-14<br class="sp"> 長嶋ビル 4階</p>
 			</div>
 			<div class="right">
 				<ul>
@@ -88,9 +88,9 @@
             <img src="/common/images/logo_tokyo_kita.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 北千住,足立区 荒川区 在宅医療 訪問診療 訪問看護 往診">
           </a>
         </p>
-        <p class="address address_02">〒120-0034 東京都足立区千住2-4<br class="sp"> オカバツインタワービル イースト 8階</p>
-        <p class="address address_02">〒124-0024 東京都葛飾区新小岩1-49-10<br class="sp"> 第5デリカビル（メディカルタウン新小岩） 2階</p>
-        <p class="address address_01">〒130-0013 東京都墨田区錦糸1-4-14<br class="sp"> 長嶋ビル 4階</p>
+        <p class="address address_01">〒120-0034 東京都足立区千住2-4<br class="sp"> オカバツインタワービル イースト 8階</p>
+        <p class="address address_01">〒124-0024 東京都葛飾区新小岩1-49-10<br class="sp"> 第5デリカビル（メディカルタウン新小岩） 2階</p>
+        <p class="address address_02">〒130-0013 東京都墨田区錦糸1-4-14<br class="sp"> 長嶋ビル 4階</p>
 			</div>
 			<div class="right">
 				<ul>
@@ -124,12 +124,13 @@
 			<div class="left">
         <p class="logo">
           <a href="/sakura/">
-            <img src="/common/images/logo_sakura.svg" class="ft_logo_sakura" alt="医療法人社団 千葉爽緑会 ふたば在宅クリニック 佐倉院,千葉県・印旛地域（佐倉市、四街道市、八千代市、印西市、千葉市、酒々井町）の在宅医療 訪問診療 訪問看護 往診" loading="lazy">
+            <img src="/common/images/logo_sakura.svg" class="ft_logo_sakura" alt="医療法人社団 千葉爽緑会 ふたば在宅クリニック 佐倉院,千葉県・印旛地域（佐倉市、四街道市、八千代市、印西市、千葉市、酒々井町、市川市、浦安市）の在宅医療 訪問診療 訪問看護 往診" loading="lazy">
           </a>
         </p>
-        <p class="address address_01">〒276-0020 千葉県八千代市勝田台北1-9-1<br class="sp"> みかど第2ビル 104</p>
+        <p class="address address_01">〒285-0837 千葉県佐倉市王子台1丁目22-13<br class="sp"> 海佑ビル 1階</p>
+        <p class="address address_01">〒272-0021 千葉県市川市八幡3-3-2<br class="sp"> グランドターミナルタワー1階 J107、J108号</p>
         <p class="address address_01">〒274-0063 千葉県船橋市習志野台2-6-1<br class="sp"> 小林ビル 3階-C</p>
-        <p class="address address_02">〒285-0837 千葉県佐倉市王子台1丁目22-13<br class="sp"> 海佑ビル 1階</p>
+        <p class="address address_02">〒276-0020 千葉県八千代市勝田台北1-9-1<br class="sp"> みかど第2ビル 104</p>
 			</div>
 			<div class="right">
 				<ul>
@@ -163,10 +164,11 @@
 			<div class="left">
         <p class="logo">
           <a href="/yachiyo/">
-            <img src="/common/images/logo_yachiyo.svg" class="logo_yachiyo" alt="医療法人社団 千葉爽緑会 ふたば在宅クリニック 八千代院,千葉県・北西部・印旛地域（八千代市、千葉市、習志野市、船橋市、印西市、佐倉市、四街道市、酒々井町）の在宅医療 訪問診療 訪問看護 往診" loading="lazy">
+            <img src="/common/images/logo_yachiyo.svg" class="logo_yachiyo" alt="医療法人社団 千葉爽緑会 ふたば在宅クリニック 八千代院,千葉県・北西部・印旛地域（八千代市、千葉市、習志野市、船橋市、印西市、佐倉市、四街道市、酒々井町、市川市、浦安市）の在宅医療 訪問診療 訪問看護 往診" loading="lazy">
           </a>
         </p>
         <p class="address address_01">〒276-0020 千葉県八千代市勝田台北1-9-1<br class="sp"> みかど第2ビル 104</p>
+        <p class="address address_01">〒272-0021 千葉県市川市八幡3-3-2<br class="sp"> グランドターミナルタワー1階 J107、J108号</p>
         <p class="address address_01">〒274-0063 千葉県船橋市習志野台2-6-1<br class="sp"> 小林ビル 3階-C</p>
         <p class="address address_02">〒285-0837 千葉県佐倉市王子台1丁目22-13<br class="sp"> 海佑ビル 1階</p>
 			</div>
@@ -202,12 +204,13 @@
 			<div class="left">
         <p class="logo">
           <a href="/kitanarashino/">
-            <img src="/common/images/logo_kitanarashino.svg" class="logo_kitanarashino" alt="医療法人社団 千葉爽緑会 ふたば在宅クリニック 北習志野院,千葉県・北西部・印旛地域（船橋市、習志野市、八千代市、千葉市、習志野市、船橋市、印西市、佐倉市、四街道市、酒々井町）の在宅医療 訪問診療 訪問看護 往診" loading="lazy">
+            <img src="/common/images/logo_kitanarashino.svg" class="logo_kitanarashino" alt="医療法人社団 千葉爽緑会 ふたば在宅クリニック 北習志野院,千葉県・北西部・印旛地域（船橋市、習志野市、八千代市、千葉市、習志野市、船橋市、印西市、佐倉市、四街道市、酒々井町、市川市、浦安市）の在宅医療 訪問診療 訪問看護 往診" loading="lazy">
           </a>
         </p>
         <p class="address address_01">〒274-0063 千葉県船橋市習志野台2-6-1<br class="sp"> 小林ビル 3階-C</p>
-        <p class="address address_01">〒276-0020 千葉県八千代市勝田台北1-9-1<br class="sp"> みかど第2ビル 104</p>
-        <p class="address address_02">〒285-0837 千葉県佐倉市王子台1丁目22-13<br class="sp"> 海佑ビル 1階</p>
+        <p class="address address_01">〒272-0021 千葉県市川市八幡3-3-2<br class="sp"> グランドターミナルタワー1階 J107、J108号</p>
+        <p class="address address_01">〒285-0837 千葉県佐倉市王子台1丁目22-13<br class="sp"> 海佑ビル 1階</p>
+        <p class="address address_02">〒276-0020 千葉県八千代市勝田台北1-9-1<br class="sp"> みかど第2ビル 104</p>
 			</div>
 			<div class="right">
 				<ul>
@@ -232,6 +235,46 @@
   <div class="fixed__cv__contact">
     <a href="/contact/input_kitanarashino/#mw_wp_form_mw-wp-form-4" class="mail"></a>
     <a href="tel:0474026536" class="tel"></a>
+  </div>
+</div>
+<?php elseif (strpos($url, 'motoyawata') !== false) : ?>
+  <footer>
+	<div id="footer_in">
+		<div id="footer_in_02">
+			<div class="left">
+        <p class="logo">
+          <a href="/motoyawata/">
+            <img src="/common/images/logo_motoyawata.svg" class="logo_kitanarashino" alt="医療法人社団 千葉爽緑会 ふたば在宅クリニック 本八幡院,千葉県・北西部・印旛地域（市川市、浦安市、船橋市、習志野市、八千代市、千葉市、習志野市、船橋市、印西市、佐倉市、四街道市、酒々井町）の在宅医療 訪問診療 訪問看護 往診" loading="lazy">
+          </a>
+        </p>
+        <p class="address address_01">〒272-0021 千葉県市川市八幡3-3-2<br class="sp"> グランドターミナルタワー1階 J107、J108号</p>
+        <p class="address address_01">〒274-0063 千葉県船橋市習志野台2-6-1<br class="sp"> 小林ビル 3階-C</p>
+        <p class="address address_01">〒285-0837 千葉県佐倉市王子台1丁目22-13<br class="sp"> 海佑ビル 1階</p>
+        <p class="address address_02">〒276-0020 千葉県八千代市勝田台北1-9-1<br class="sp"> みかど第2ビル 104</p>
+			</div>
+			<div class="right">
+				<ul>
+          <li><a href="/motoyawata/">ホーム</a></li>
+					<li><a href="/motoyawata/message/">代表挨拶・スタッフ紹介</a></li>
+					<li><a href="/motoyawata/guide/">当院について</a></li>
+					<li><a href="/motoyawata/about/">在宅診療とは</a></li>
+					<li><a href="/motoyawata/area/">訪問地域</a></li>
+					<li><a href="/motoyawata/recruit/">採用・求人</a></li>
+					<li><a href="/contact/input_motoyawata/">お問い合わせ・お申し込み</a></li>
+          <li><a href="/news/motoyawata/">お知らせ</a></li>
+					<li><a href="/">法人トップ・分院案内</a></li>
+					<li><a href="/motoyawata/privacy/">プライバシーポリシー</a></li>
+          <li><a href="/motoyawata/faq/">よくあるご質問</a></li>
+				</ul>
+			</div>
+		</div>
+		<p class="copy_txt"><small>Copyright © <?php echo date("Y"); ?> ふたば在宅クリニック All Rights Reserved.</small></p>
+	</div>
+</footer>
+<div class="fixed__cv">
+  <div class="fixed__cv__contact">
+    <a href="/contact/input_motoyawata/#mw_wp_form_mw-wp-form-4" class="mail"></a>
+    <a href="tel:" class="tel"></a>
   </div>
 </div>
 <?php else : ?>

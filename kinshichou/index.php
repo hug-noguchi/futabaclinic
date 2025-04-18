@@ -256,6 +256,24 @@
                           </a>
                         </p>
                       </div>
+											<div class="txt_box_motoyawata">
+												<div class="toho">
+													<p class="txt_12">本八幡院｜<span>本八幡駅前 徒歩3分</span></p>
+												</div>
+												<div class="photo_box">
+													<img src="/common/images/top_motoyawata_picture.jpg" srcset="/common/images/top_motoyawata_picture_2x.jpg" alt="ふたば在宅クリニック 本八幡院" loading="lazy">
+												</div>
+												<ul>
+													<li>市川市</li>
+													<li>浦安市</li>
+												</ul>
+												<p class="txt_13">の患者様はこちら</p>
+												<p class="txt_14">
+													<a class="shiny-btn-motoyawata" href="/motoyawata/">
+														<span>本八幡院</span>
+													</a>
+												</p>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -557,7 +575,7 @@
 			</div>
 		</div>
 	</article>
-	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/footer_kinshichou.php'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/footer.php'); ?>
 	<script type="text/javascript" src="../top/fade.js"></script>
 </body>
 </html>
