@@ -492,6 +492,22 @@
 							</dd>
 						</dl>
 					</li>
+					<li>
+            <dl>
+              <dt>佐藤 昭寿</dt>
+              <dd>
+								<img src="/common/images/person_sato_a.jpg" loading=”lazy” alt="ふたば在宅クリニック 佐藤 昭寿" class="img">
+								<ul class="txt">
+                  <li>日本内科学会認定 総合内科専門医</li>
+                  <li>日本呼吸器学会認定 呼吸器専門医</li>
+                  <li>日本アレルギー学会認定 アレルギー専門医</li>
+                  <li>日本医師会認定 産業医</li>
+									<li>博士号（医学）</li>
+                  <li>がん緩和ケア研修会修了医</li>
+                </ul>
+              </dd>
+            </dl>
+          </li>
 				</ul>
 				<p class="department">循環器科</p>
 				<ul class="docter-lists">
@@ -564,22 +580,6 @@
 							</dd>
 						</dl>
 					</li>
-					<li>
-            <dl>
-              <dt>佐藤 昭寿</dt>
-              <dd>
-								<img src="/common/images/person_sato_a.jpg" loading=”lazy” alt="ふたば在宅クリニック 佐藤 昭寿" class="img">
-								<ul class="txt">
-                  <li>日本内科学会認定 総合内科専門医</li>
-                  <li>日本呼吸器学会認定 呼吸器専門医</li>
-                  <li>日本アレルギー学会認定 アレルギー専門医</li>
-                  <li>日本医師会認定 産業医</li>
-									<li>博士号（医学）</li>
-                  <li>がん緩和ケア研修会修了医</li>
-                </ul>
-              </dd>
-            </dl>
-          </li>
           <li>
             <dl>
               <dt>鈴木 瞭介</dt>
