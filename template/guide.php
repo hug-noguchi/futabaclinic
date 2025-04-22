@@ -141,7 +141,7 @@
 							</div>
 							<div>
 								<p>本八幡</p>
-								<span>〒272-0021<br>千葉県市川市八幡3-3-2 グランドターミナルタワー1階 J107、J108号</span>
+								<span>〒272-0021<br>千葉県市川市八幡3-3-2 グランドターミナルタワー1階 J108号</span>
 							</div>
 							<div>
 								<p>北習志野</p>
@@ -171,7 +171,7 @@
 							</div>
 							<div>
 								<p>本八幡</p>
-								<span>〒272-0021<br>千葉県市川市八幡3-3-2 グランドターミナルタワー1階 J107、J108号</span>
+								<span>〒272-0021<br>千葉県市川市八幡3-3-2 グランドターミナルタワー1階 J108号</span>
 							</div>
 							<div>
 								<p>北習志野</p>
@@ -201,7 +201,7 @@
 							</div>
 							<div>
 								<p>本八幡</p>
-								<span>〒272-0021<br>千葉県市川市八幡3-3-2 グランドターミナルタワー1階 J107、J108号</span>
+								<span>〒272-0021<br>千葉県市川市八幡3-3-2 グランドターミナルタワー1階 J108号</span>
 							</div>
 							<div>
 								<p>佐倉</p>
@@ -227,7 +227,7 @@
 						<td class="address">
 							<div>
 								<p>本八幡</p>
-								<span>〒272-0021<br>千葉県市川市八幡3-3-2グランドターミナルタワー1階 J107、J108号</span>
+								<span>〒272-0021<br>千葉県市川市八幡3-3-2グランドターミナルタワー1階 J108号</span>
 							</div>
 							<div>
 								<p>北習志野</p>
@@ -1104,7 +1104,7 @@
 				</div>
 				<div class="map_box">
 					<p class="map_ttl">本八幡</p>
-					<p class="txt_02">〒272-0021 千葉県市川市八幡3-3-2グランドターミナルタワー1階 J107、J108号</p>
+					<p class="txt_02">〒272-0021 千葉県市川市八幡3-3-2グランドターミナルタワー1階 J108号</p>
 					<div id="gmap">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.135558286528!2d139.92489921101662!3d35.722884527570855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601886d01e498d73%3A0xf32b9d10da3eb4d5!2z44CSMjcyLTAwMjEg5Y2D6JGJ55yM5biC5bed5biC5YWr5bmh77yT5LiB55uu77yTIOOCsOODqeODs-ODieOCv-ODvOODn-ODiuODq-OCv-ODr-ODvOacrOWFq-W5oQ!5e0!3m2!1sja!2sjp!4v1741606192044!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
@@ -1137,7 +1137,7 @@
 				</div>
 				<div class="map_box">
 					<p class="map_ttl">本八幡</p>
-					<p class="txt_02">〒272-0021 千葉県市川市八幡3-3-2グランドターミナルタワー1階 J107、J108号</p>
+					<p class="txt_02">〒272-0021 千葉県市川市八幡3-3-2グランドターミナルタワー1階 J108号</p>
 					<div id="gmap">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.135558286528!2d139.92489921101662!3d35.722884527570855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601886d01e498d73%3A0xf32b9d10da3eb4d5!2z44CSMjcyLTAwMjEg5Y2D6JGJ55yM5biC5bed5biC5YWr5bmh77yT5LiB55uu77yTIOOCsOODqeODs-ODieOCv-ODvOODn-ODiuODq-OCv-ODr-ODvOacrOWFq-W5oQ!5e0!3m2!1sja!2sjp!4v1741606192044!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
@@ -1170,7 +1170,7 @@
 				</div>
 				<div class="map_box">
 					<p class="map_ttl">本八幡</p>
-					<p class="txt_02">〒272-0021 千葉県市川市八幡3-3-2グランドターミナルタワー1階 J107、J108号</p>
+					<p class="txt_02">〒272-0021 千葉県市川市八幡3-3-2グランドターミナルタワー1階 J108号</p>
 					<div id="gmap">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.135558286528!2d139.92489921101662!3d35.722884527570855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601886d01e498d73%3A0xf32b9d10da3eb4d5!2z44CSMjcyLTAwMjEg5Y2D6JGJ55yM5biC5bed5biC5YWr5bmh77yT5LiB55uu77yTIOOCsOODqeODs-ODieOCv-ODvOODn-ODiuODq-OCv-ODr-ODvOacrOWFq-W5oQ!5e0!3m2!1sja!2sjp!4v1741606192044!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
@@ -1196,7 +1196,7 @@
 				<p class="txt_01">八千代院：勝田台駅前 北口徒歩30秒です。</p>
 				<div class="map_box">
 					<p class="map_ttl">本八幡</p>
-					<p class="txt_02">〒272-0021 千葉県市川市八幡3-3-2グランドターミナルタワー1階 J107、J108号</p>
+					<p class="txt_02">〒272-0021 千葉県市川市八幡3-3-2グランドターミナルタワー1階 J108号</p>
 					<div id="gmap">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.135558286528!2d139.92489921101662!3d35.722884527570855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601886d01e498d73%3A0xf32b9d10da3eb4d5!2z44CSMjcyLTAwMjEg5Y2D6JGJ55yM5biC5bed5biC5YWr5bmh77yT5LiB55uu77yTIOOCsOODqeODs-ODieOCv-ODvOODn-ODiuODq-OCv-ODr-ODvOacrOWFq-W5oQ!5e0!3m2!1sja!2sjp!4v1741606192044!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>

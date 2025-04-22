@@ -128,7 +128,7 @@
           </a>
         </p>
         <p class="address address_01">〒285-0837 千葉県佐倉市王子台1丁目22-13<br class="sp"> 海佑ビル 1階</p>
-        <p class="address address_01">〒272-0021 千葉県市川市八幡3-3-2<br class="sp"> グランドターミナルタワー1階 J107、J108号</p>
+        <p class="address address_01">〒272-0021 千葉県市川市八幡3-3-2<br class="sp"> グランドターミナルタワー1階 J108号</p>
         <p class="address address_01">〒274-0063 千葉県船橋市習志野台2-6-1<br class="sp"> 小林ビル 3階-C</p>
         <p class="address address_02">〒276-0020 千葉県八千代市勝田台北1-9-1<br class="sp"> みかど第2ビル 104</p>
 			</div>
@@ -168,7 +168,7 @@
           </a>
         </p>
         <p class="address address_01">〒276-0020 千葉県八千代市勝田台北1-9-1<br class="sp"> みかど第2ビル 104</p>
-        <p class="address address_01">〒272-0021 千葉県市川市八幡3-3-2<br class="sp"> グランドターミナルタワー1階 J107、J108号</p>
+        <p class="address address_01">〒272-0021 千葉県市川市八幡3-3-2<br class="sp"> グランドターミナルタワー1階 J108号</p>
         <p class="address address_01">〒274-0063 千葉県船橋市習志野台2-6-1<br class="sp"> 小林ビル 3階-C</p>
         <p class="address address_02">〒285-0837 千葉県佐倉市王子台1丁目22-13<br class="sp"> 海佑ビル 1階</p>
 			</div>
@@ -208,7 +208,7 @@
           </a>
         </p>
         <p class="address address_01">〒274-0063 千葉県船橋市習志野台2-6-1<br class="sp"> 小林ビル 3階-C</p>
-        <p class="address address_01">〒272-0021 千葉県市川市八幡3-3-2<br class="sp"> グランドターミナルタワー1階 J107、J108号</p>
+        <p class="address address_01">〒272-0021 千葉県市川市八幡3-3-2<br class="sp"> グランドターミナルタワー1階 J108号</p>
         <p class="address address_01">〒285-0837 千葉県佐倉市王子台1丁目22-13<br class="sp"> 海佑ビル 1階</p>
         <p class="address address_02">〒276-0020 千葉県八千代市勝田台北1-9-1<br class="sp"> みかど第2ビル 104</p>
 			</div>
@@ -247,7 +247,7 @@
             <img src="/common/images/logo_motoyawata.svg" class="logo_kitanarashino" alt="医療法人社団 千葉爽緑会 ふたば在宅クリニック 本八幡院,千葉県・北西部・印旛地域（市川市、浦安市、船橋市、習志野市、八千代市、千葉市、習志野市、船橋市、印西市、佐倉市、四街道市、酒々井町）の在宅医療 訪問診療 訪問看護 往診" loading="lazy">
           </a>
         </p>
-        <p class="address address_01">〒272-0021 千葉県市川市八幡3-3-2<br class="sp"> グランドターミナルタワー1階 J107、J108号</p>
+        <p class="address address_01">〒272-0021 千葉県市川市八幡3-3-2<br class="sp"> グランドターミナルタワー1階 J108号</p>
         <p class="address address_01">〒274-0063 千葉県船橋市習志野台2-6-1<br class="sp"> 小林ビル 3階-C</p>
         <p class="address address_01">〒285-0837 千葉県佐倉市王子台1丁目22-13<br class="sp"> 海佑ビル 1階</p>
         <p class="address address_02">〒276-0020 千葉県八千代市勝田台北1-9-1<br class="sp"> みかど第2ビル 104</p>
