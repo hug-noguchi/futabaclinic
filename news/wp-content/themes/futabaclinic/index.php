@@ -63,6 +63,38 @@
 	</body>
 	</html>
 
+
+	<?php elseif (strstr($url,'kinshichou') == true) : ?>
+
+	<?php get_header(6); ?>
+		<div id="contents">
+			<div id="main">
+				<section>
+					<h2>お知らせ</h2>
+					<table>
+						<?php
+							if (have_posts()) :
+								while (have_posts()) :
+								the_post();
+								get_template_part('content-archive');
+								endwhile;
+							endif;
+						?>
+					</table>
+				</section>
+				<!--ページネーション-->
+				<?php if (function_exists('responsive_pagination')) {
+					responsive_pagination($additional_loop->max_num_pages);
+				} ?>
+			</div>
+			<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/side_kinshichou.php'); ?>
+			</div>
+		</article>
+		<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/footer_kinshichou.php'); ?>
+		<?php wp_footer(); ?>
+	</body>
+	</html>
+
 	<?php elseif (strstr($url,'sakura') == true) : ?>
 
 		<?php get_header(3); ?>
@@ -86,10 +118,10 @@
 						responsive_pagination($additional_loop->max_num_pages);
 					} ?>
 				</div>
-				<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/side_sakura.php'); ?>
+				<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.php'); ?>
 				</div>
 			</article>
-			<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/footer_sakura.php'); ?>
+			<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/footer.php'); ?>
 			<?php wp_footer(); ?>
 		</body>
 		</html>
@@ -117,41 +149,10 @@
 						responsive_pagination($additional_loop->max_num_pages);
 					} ?>
 				</div>
-				<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/side_yachiyo.php'); ?>
+				<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.php'); ?>
 				</div>
 			</article>
-			<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/footer_yachiyo.php'); ?>
-			<?php wp_footer(); ?>
-		</body>
-		</html>
-
-		<?php elseif (strstr($url,'kinshichou') == true) : ?>
-
-		<?php get_header(6); ?>
-			<div id="contents">
-				<div id="main">
-					<section>
-						<h2>お知らせ</h2>
-						<table>
-							<?php
-								if (have_posts()) :
-									while (have_posts()) :
-									the_post();
-									get_template_part('content-archive');
-									endwhile;
-								endif;
-							?>
-						</table>
-					</section>
-					<!--ページネーション-->
-					<?php if (function_exists('responsive_pagination')) {
-						responsive_pagination($additional_loop->max_num_pages);
-					} ?>
-				</div>
-				<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/side_kinshichou.php'); ?>
-				</div>
-			</article>
-			<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/footer_kinshichou.php'); ?>
+			<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/footer.php'); ?>
 			<?php wp_footer(); ?>
 		</body>
 		</html>
