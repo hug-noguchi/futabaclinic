@@ -45,11 +45,11 @@ Template Name: header-3
         ?>
         <!-- </div> -->
       </section>
-      <?php include($_SERVER['DOCUMENT_ROOT'] . '/include/side_sakura.php'); ?>
-    </div>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.php'); ?>
   </div>
-  </article>
-	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/footer_sakura.php'); ?>
+</div>
+</article>
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/footer.php'); ?>
 	<?php wp_footer(); ?>
 </body>
 </html>
