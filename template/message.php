@@ -117,7 +117,7 @@
 								最後に、クリニック名の「ふたば」には、患者様、ご家族とわれわれ医療介護従事者の二つの葉を、少しずつ大きな樹になるように共に育んでいきたいという意味が込められています。<br>
 								対話を重視し、より良い療養生活を送れるように、地域の中核病院とも連携を取りながらサポートさせていただきます。
 							</p>
-						<?php elseif (strpos($url, 'kitanarashino') !== false || strpos($url, 'yachiyo') !== false || strpos($url, 'motoyawata') !== false) : ?>
+						<?php elseif (strpos($url, 'kitanarashino') !== false || strpos($url, 'yachiyo') !== false) : ?>
 							<p>
 								皆様、ふたば在宅クリニックのホームページをご覧いただきありがとうございます。<br>
 								統括院長の石井成伸と申します。
@@ -221,7 +221,7 @@
 					<?php endif; ?>
 				</div>
 				<?php $url = $_SERVER['REQUEST_URI'];
-					if (strpos($url, 'kitanarashino') !== false || strpos($url, 'sakura') !== false || strpos($url, 'yachiyo') !== false || strpos($url, 'motoyawata') !== false) :
+					if (strpos($url, 'kitanarashino') !== false || strpos($url, 'sakura') !== false || strpos($url, 'yachiyo') !== false) :
 				?>
 					<div class="riji">
 						<div class="riji_box">
@@ -476,7 +476,7 @@
 					</dl>
 				</li>
 			</ul>
-			<?php elseif (strpos($url, 'kitanarashino') !== false || strpos($url, 'yachiyo') !== false || strpos($url, 'sakura') !== false || strpos($url, 'motoyawata') !== false) : ?>
+			<?php elseif (strpos($url, 'kitanarashino') !== false || strpos($url, 'yachiyo') !== false || strpos($url, 'sakura') !== false) : ?>
 				<p class="department">呼吸器科</p>
 				<ul class="docter-lists">
 					<li>
@@ -679,7 +679,8 @@
 						<dl>
 							<dt>香川 景政</dt>
 							<dd>
-								<ul>
+								<img src="/kuki/message/images/person_kagawa.jpg" alt="香川 景政,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
+								<ul class="txt">
 									<li>ヘリコバクター・ピロリ感染症 認定医</li>
 									<li>がん緩和ケア研修会修了医</li>
 								</ul>
@@ -919,7 +920,7 @@
 						</dl>
 					</li>
 				</ul>
-			<?php elseif (strpos($url, 'kitanarashino') !== false || strpos($url, 'yachiyo') !== false || strpos($url, 'motoyawata') !== false) : ?>
+			<?php elseif (strpos($url, 'kitanarashino') !== false || strpos($url, 'yachiyo') !== false) : ?>
 				<ul>
 					<li>
 						<dl>
@@ -1004,8 +1005,8 @@
 						</a>
 					</li>
 					<li class="kanren_01 kanren_chiba">
-						<a href="/motoyawata/message/">
-							<span>本八幡院・北習志野院<br>佐倉院・八千代院<br>医師紹介ページ</span>
+						<a href="/kitanarashino/message/">
+							<span>北習志野院・佐倉院・八千代院<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_02">
@@ -1032,8 +1033,8 @@
 						</a>
 					</li>
 					<li class="kanren_01 kanren_chiba">
-						<a href="/motoyawata/message/">
-							<span>本八幡院・北習志野院<br>佐倉院・八千代院<br>医師紹介ページ</span>
+						<a href="/kitanarashino/message/">
+							<span>北習志野院・佐倉院・八千代院<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_02">
@@ -1060,8 +1061,8 @@
 						</a>
 					</li>
 					<li class="kanren_01 kanren_chiba">
-						<a href="/motoyawata/message/">
-							<span>本八幡院・北習志野院<br>佐倉院・八千代院<br>医師紹介ページ</span>
+						<a href="/kitanarashino/message/">
+							<span>北習志野院・佐倉院・八千代院<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_02">
@@ -1078,8 +1079,8 @@
 			<?php elseif (strpos($url, 'kitanarashino') !== false) : ?>
 				<ul class="kanren">
 					<li class="kanren_01">
-						<a href="/motoyawata/message/">
-							<span>本八幡院・佐倉院・八千代院<br>医師紹介ページ</span>
+						<a href="/sakura/message/">
+							<span>佐倉院・八千代院<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_01">
@@ -1106,8 +1107,8 @@
 			<?php elseif (strpos($url, 'sakura') !== false) : ?>
 				<ul class="kanren">
 					<li class="kanren_01">
-						<a href="/motoyawata/message/">
-							<span>本八幡院・北習志野院・八千代院<br>医師紹介ページ</span>
+						<a href="/kitanarashino/message/">
+							<span>北習志野院・八千代院<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_01">
@@ -1134,64 +1135,8 @@
 			<?php elseif (strpos($url, 'yachiyo') !== false) : ?>
 				<ul class="kanren">
 					<li class="kanren_01 kanren_chiba">
-						<a href="/motoyawata/message/">
-							<span>本八幡院・北習志野院・佐倉院<br>医師紹介ページ</span>
-						</a>
-					</li>
-					<li class="kanren_01">
-						<a href="/message/">
-							<span>埼玉院<br>医師紹介ページ</span>
-						</a>
-					</li>
-					<li class="kanren_01">
-						<a href="/kinshichou/message/">
-							<span>錦糸町院・新小岩院・北千住院<br>医師紹介ページ</span>
-						</a>
-					</li>
-					<li class="kanren_02">
-						<a href="/recruit/02/">
-							<span>医師求人ページ</span>
-						</a>
-					</li>
-					<li class="kanren_03">
-						<a href="/recruit/03/">
-							<span>スタッフ求人ページ</span>
-						</a>
-					</li>
-				</ul>
-			<?php elseif (strpos($url, 'motoyawata') !== false) : ?>
-				<ul class="kanren">
-					<li class="kanren_01">
 						<a href="/kitanarashino/message/">
-							<span>北習志野院・佐倉院・八千代院<br>医師紹介ページ</span>
-						</a>
-					</li>
-					<li class="kanren_01">
-						<a href="/message/">
-							<span>埼玉院<br>医師紹介ページ</span>
-						</a>
-					</li>
-					<li class="kanren_01">
-						<a href="/kinshichou/message/">
-							<span>錦糸町院・新小岩院・北千住院<br>医師紹介ページ</span>
-						</a>
-					</li>
-					<li class="kanren_02">
-						<a href="/recruit/02/">
-							<span>医師求人ページ</span>
-						</a>
-					</li>
-					<li class="kanren_03">
-						<a href="/recruit/03/">
-							<span>スタッフ求人ページ</span>
-						</a>
-					</li>
-				</ul>
-			<?php elseif (strpos($url, 'motoyawata') !== false) : ?>
-				<ul class="kanren">
-					<li class="kanren_01">
-						<a href="/kitanarashino/message/">
-							<span>北習志野院・佐倉院・八千代院<br>医師紹介ページ</span>
+							<span>北習志野院・佐倉院<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_01">
