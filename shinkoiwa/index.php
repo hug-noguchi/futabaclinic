@@ -68,10 +68,6 @@
 			<div id="contents">
 				<div id="main">
 					<section id="open_box">
-						<!-- <video controls poster="/common/images/video_thum.jpg">
-							<source src="/common/media/movie_shuukan.mp4" type="video/mp4">
-							<a href="/common/media/movie_shuukan.mp4">MP4</a>
-						</video> -->
 						<div class="title_box">
 							<div id="open_box_title">
 								<p class="txt_01">「動く総合病院」<br class="sp">を目指しています！！</p>
@@ -79,35 +75,27 @@
 						</div>
 						<div class="txt_box_00">
 							<p class="txt_04">呼吸器科・循環器科・総合内科専門医が在籍</p>
-							<p class="txt_05">泌尿器科・麻酔科・整形外科まで複数科の専門医が在籍</p>
+							<p class="txt_05">泌尿器科・脳神経科・整形外科まで複数科の専門医が在籍</p>
 							<p class="txt_05">精神科専門医による認知症、精神科往診</p>
 							<p class="txt_05">皮膚科・形成外科専門医による皮膚、褥瘡往診</p>
 							<p class="txt_05">全国9拠点展開中・安心のグループ組織力</p>
 						</div>
-
 						<div class="txt_box">
 							<p class="txt_03 pc"><img src="/common/images/logo_v2_top.svg" alt="ふたば在宅クリニック" loading="lazy"></p>
 							<p class="txt_03 sp"><img src="/common/images/logo_v2_top_sp.svg" alt="ふたば在宅クリニック" loading="lazy"></p>
 						</div>
-
-						<div class="top_map">
-							<img src="/common/images/recruit_map5.png" alt="医療法人社団 爽緑会・千葉爽緑会 ふたば在宅クリニック 六本木本部 埼玉院 北千住院 新小岩院 錦糸町院 佐倉院 八千代院 本八幡院 北習志野院 船橋院" class="pc">
-							<img src="/common/images/recruit_map5_sp.png" alt="医療法人社団 爽緑会・千葉爽緑会 ふたば在宅クリニック 六本木本部 埼玉院 北千住院 新小岩院 錦糸町院 佐倉院 八千代院 本八幡院 北習志野院 船橋院" class="sp">
-						</div>
-
+						<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/top_map.php'); ?>
 						<div class="buin">
 							<p class="txt_06">
 								<span>グループ分院案内</span>
 							</p>
 						</div>
-
 						<div class="news_list">
 							<ul class="tab tab_area">
 								<li class="active">東京</li>
 								<li class="">千葉</li>
 								<li class="">埼玉</li>
 							</ul>
-
 							<div class="news_show">
 								<div class="txt_box_kakuin tab_tokyo show active">
 									<div class="panel_area content_area">
@@ -254,6 +242,24 @@
 												<p class="txt_14">
 													<a class="shiny-btn-kitanarashino" href="/kitanarashino/">
 														<span>北習志野院</span>
+													</a>
+												</p>
+											</div>
+											<div class="txt_box_motoyawata">
+												<div class="toho">
+													<p class="txt_12">本八幡院｜<span>本八幡駅前 徒歩2分</span></p>
+												</div>
+												<div class="photo_box">
+													<img src="/common/images/top_motoyawata_picture.jpg" srcset="/common/images/top_motoyawata_picture_2x.jpg" alt="ふたば在宅クリニック 本八幡院" loading="lazy">
+												</div>
+												<ul>
+													<li>市川市</li>
+													<li>浦安市</li>
+												</ul>
+												<p class="txt_13">の患者様はこちら</p>
+												<p class="txt_14">
+													<a class="shiny-btn-motoyawata" href="/motoyawata/">
+														<span>本八幡院</span>
 													</a>
 												</p>
 											</div>
@@ -433,7 +439,7 @@
 								</ul>
 							</div>
 							<div>
-								<img src="/common/images/teacher_04.jpg" alt="訪問診療とは">
+								<img src="/common/images/about_image.jpg" alt="訪問診療とは">
 							</div>
 						</div>
 					</section>
