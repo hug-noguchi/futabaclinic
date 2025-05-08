@@ -23,13 +23,11 @@ Template Name: header-2
           endwhile;
         endif;
       ?>
-          <!-- </div> -->
-        <!-- </section>
-      </div> -->
-      <?php include($_SERVER['DOCUMENT_ROOT'] . '/include/side_edogawa.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.php'); ?>
     </div>
+  </div>
   </article>
-	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/footer_edogawa.php'); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'] . '/template/footer.php'); ?>
 	<?php wp_footer(); ?>
 </body>
 </html>
