@@ -12,7 +12,7 @@
         if (strpos($url, 'kinshichou') !== false || strpos($url, 'kitasenju') !== false || strpos($url, 'shinkoiwa') !== false) :
       ?>
         <h3><span class="border">東京城東エリア・千葉ベイエリア</h3>
-        <p class="txt_lead">城東エリアの訪問診療はお任せください！</p>
+        <p class="txt_00">城東エリアの訪問診療はお任せください！</p>
       <?php elseif (strpos($url, 'kitanarashino') !== false || strpos($url, 'sakura') !== false || strpos($url, 'yachiyo') !== false || strpos($url, 'motoyawata') !== false) : ?>
         <h3><span class="border">東京城東エリア・千葉ベイエリア</h3>
         <p class="txt_00">千葉ベイエリアの訪問診療はお任せ下さい！</p>
@@ -164,25 +164,16 @@
           </ul>
           <p class="txt_last">※周辺地域の方も気軽にご相談下さい。</p>
         <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
-          <p>
+          <p class="motoyawata_map01">
+            <img src="/common/images/area/map_tokyo.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院 葛飾区 江戸川区 訪問診療 往診 在宅医療" loading="lazy">
+          </p>
+          <p class="motoyawata_map02">
             <img src="/common/images/area/map_chiba_new.svg" loading="lazy" alt="医療法人社団 爽緑会 ふたば在宅クリニック 本八幡院 市川市 浦安市 訪問診療 往診 在宅医療">
           </p>
           <ul class="desc desc_chiba">
             <li class="desc_motoyawata">
               <h4 class="txt_01">本八幡</h4>
               <p class="txt_02">市川市、浦安市</p>
-            </li>
-            <li class="desc_kitanarashino">
-              <h4 class="txt_01">北習志野</h4>
-              <p class="txt_02">船橋市、習志野市</p>
-            </li>
-            <li class="desc_sakura">
-              <h4 class="txt_01">佐倉</h4>
-              <p class="txt_02">佐倉市、印西市、四街道市、酒々井町</p>
-            </li>
-            <li class="desc_yachiyo">
-              <h4 class="txt_01">八千代</h4>
-              <p class="txt_02">八千代市、千葉市</p>
             </li>
           </ul>
           <p class="txt_last">※周辺地域の方も気軽にご相談下さい。</p>

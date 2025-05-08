@@ -91,7 +91,7 @@
 #main section .desc li.desc_kinshichou h4 {
   border: 1px solid #90d4d1;
 }
-main section .desc li.desc_kinshichou h4::before {
+#main section .desc li.desc_kinshichou h4::before {
   background: url(/common/images/area/h_green.png) no-repeat;
   background-size: cover;
 }
@@ -189,5 +189,29 @@ main section .desc li.desc_kinshichou h4::before {
 @media (max-width: 376px) {
   header h1 .txt_00 span {
     font-size: 10px !important;
+  }
+}
+
+/* 本八幡院 */
+#main section div p:nth-child(1).motoyawata_map01 {
+  padding: 42px 19px 0;
+}
+.motoyawata_map02 {
+  border-radius: 10px;
+  padding: 0 19px 60px;
+  margin-bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  text-align: left;
+}
+@media (max-width: 480px) {
+  #main section div p:nth-child(1).motoyawata_map01 {
+    padding: 52px 19px 0 !important;
+    width: 95%;
+  }
+  .motoyawata_map02 {
+    padding: 12px 19px 52px !important;
+    width: 95%;
   }
 }
