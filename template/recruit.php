@@ -33,7 +33,7 @@
 </section>
 <section id="shain">
   <div class="shain_mv_box mv_box">
-    <h2><span><img src="./assets/images/hutaba.svg" alt="先輩インタビュー"></span>先輩インタビュー</h2>
+    <h2 style="line-height: 38px;">先輩インタビュー</h2>
   </div>
   <div class="mv_interview pc wave-bg"></div>
   <div class="mv_interview sp wave-bg"></div>
