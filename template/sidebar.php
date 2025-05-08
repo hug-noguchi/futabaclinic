@@ -27,7 +27,7 @@
     ?>
       <li><a href="/kinshichou/message/"><span class="txt">代表挨拶 <span class="arrow">&gt;</span></span></a></li>
       <li><a href="/kinshichou/about/"><span class="txt">在宅診療とは <span class="arrow">&gt;</span></span></a></li>
-      <li><a href="/kinshichou/input_yachiyo/"><span class="txt">お問い合わせ <span class="arrow">&gt;</span></span></a></li>
+      <li><a href="/contact/input_kinshichou/"><span class="txt">お問い合わせ <span class="arrow">&gt;</span></span></a></li>
       <li><a href="/entry_kinshichou.pdf" target="_blank"><span class="txt">お申し込み書 <span class="arrow">&gt;</span></span></a></li>
       <li><a href="/pamphlet_tokyo_2024.pdf" target="_blank"><span class="txt">パンフレット <span class="arrow">&gt;</span></span></a></li>
       <li class="faq"><a href="/kinshichou/faq/"><span class="txt">よくあるご質問 <span class="arrow">&gt;</span></span></a></li>
@@ -72,8 +72,8 @@
       <li><a href="/pamphlet_chiba_2025.pdf" target="_blank"><span class="txt">パンフレット <span class="arrow">&gt;</span></span></a></li>
       <li class="faq"><a href="/motoyawata/faq/"><span class="txt">よくあるご質問 <span class="arrow">&gt;</span></span></a></li>
     <?php else : ?>
-      <li><a href="/message/"><span class="txt">理事長挨拶 <span class="arrow">&gt;</span></span></a></li>
-      <li><a href="/about/"><span class="txt">在宅診療とは <span class="arrow">&gt;</span></span></a></li>
+      <li><a href="/kuki/message/"><span class="txt">理事長挨拶 <span class="arrow">&gt;</span></span></a></li>
+      <li><a href="/kuki/about/"><span class="txt">在宅診療とは <span class="arrow">&gt;</span></span></a></li>
       <li><a href="/contact/input/"><span class="txt">お問い合わせ <span class="arrow">&gt;</span></span></a></li>
       <li><a href="/entry.pdf" target="_blank"><span class="txt">お申し込み書 <span class="arrow">&gt;</span></span></a></li>
       <li><a href="/pamphlet_2024.pdf" target="_blank"><span class="txt">パンフレット <span class="arrow">&gt;</span></span></a></li>
