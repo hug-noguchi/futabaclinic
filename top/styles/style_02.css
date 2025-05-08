@@ -947,6 +947,9 @@
   #main section#message .clinic_lists ul {
     justify-content: space-between;
   }
+  #main section .clinic_lists ul {
+    justify-content: space-between;
+  }
   #main section .clinic_lists ul li {
     text-align: left;
     width: 48%;
@@ -3195,18 +3198,18 @@ a.history_link {
   height: 320px;
 }
 #main section#bunin_box .txt_box_kitanarashino ul li {
-  width: 49px;
-  height: 27px;
+  width: 68px;
+  height: 30px;
   text-align: center;
   color: #b85e5e;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
   padding: 2px;
   margin: 3px;
   border: 2px solid #b85e5e;
 }
 #main section#bunin_box .txt_box_kitanarashino ul li:nth-child(2) {
-  width: 61px;
+  width: 80px;
 }
 #main section#bunin_box .txt_box_kitanarashino a.shiny-btn-kitanarashino {
   display: inline-block;
@@ -3242,8 +3245,6 @@ a.history_link {
 @media (min-width: 481px) {
   #main section#bunin_box .txt_box_kitanarashino {
     width: 40%;
-    margin-right: auto;
-    margin-left: calc((100% - (40% * 2 + 20px)) / 2);
   }
 }
 @media (max-width: 960px) {
@@ -3273,5 +3274,80 @@ a.history_link {
 @media (max-width: 480px) {
   .sp_none {
     display: none;
+  }
+}
+
+/* 本八幡院 */
+.txt_box_motoyawata {
+  padding-top: 40px;
+}
+.motoyawata_toho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#main section#bunin_box .motoyawata_toho .txt_12 {
+  background-color: #ecac92;
+}
+.txt_box_motoyawata ul li {
+  width: 68px;
+  height: 30px;
+  text-align: center;
+  color: #ecac92;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 3px;
+  border: 2px solid #ecac92;
+  line-height: 1.8 !important;
+}
+.shiny-btn-motoyawata {
+  display: inline-block;
+  width: 280px;
+  height: 30px;
+  border-radius: 5px / 5px;
+  background-color: #ecac92;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+  position: relative;
+}
+.txt_box_motoyawata a.shiny-btn-motoyawata span:after {
+  content: "▶︎";
+  position: absolute;
+  right: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+.txt_box_motoyawata .clinic_contact {
+  text-align: center;
+  margin-top: 30px;
+}
+.txt_box_motoyawata .clinic_contact a {
+  position: relative;
+  padding-bottom: 1px;
+  border-bottom: 1px solid;
+  color: #ecac92;
+}
+@media (min-width: 481px) {
+  .txt_box_motoyawata {
+    width: 40%;
+  }
+}
+@media (max-width: 480px) {
+  .motoyawata_toho {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #main section#bunin_box .txt_box_motoyawata .photo_bunin {
+    width: 90%;
+    padding: 5px 5px 0px;
+  }
+  #main section#bunin_box .txt_box_motoyawata .photo_bunin img {
+    width: 100%;
   }
 }

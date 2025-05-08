@@ -270,11 +270,148 @@
 				</div>
 			</section>
 
+			<style>
+				.top_map {
+					position: relative;
+				}
+				.top_map .recruit-map-layout {
+					display: flex;
+					justify-content: flex-start;
+					align-items: flex-start;
+					gap: 34px;
+					flex-wrap: nowrap;
+				}
+				.top_map .area-column {
+					display: flex;
+					flex-direction: column;
+				}
+				.top_map .top_map_chiba {
+					margin-left: auto;
+				}
+				.top_map .map-center-wrapper {
+					max-width: 620px;
+					width: 61%;
+					position: absolute;
+					top: 44%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					-webkit-transform: translate(-50%, -50%);
+					-ms-transform: translate(-50%, -50%);
+					z-index: -1;
+				}
+				.top_map .bg-map {
+					width: 100%;
+					height: auto;
+				}
+				.top_map .area-title {
+					font-family: "Hiragino Maru Gothic ProN", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic Std", "ヒラギノ丸ゴ Std", sans-serif;
+					font-weight: 580;
+					font-size: 1.4em;
+					color: #f48a9d;
+					text-align: left;
+					margin-bottom: 8px;
+				}
+				.top_map .area-title::before {
+					content: '';
+					display: inline-block;
+					width: 12px;
+					height: 12px;
+					margin-right: 4px;
+					background-color: #f48a9d;
+					border-radius: 50%;
+				}
+				.top_map .area-column .clinic:not(:last-child) {
+					margin-bottom: 14px;
+				}
+				.top_map .clinic img {
+					width: 100%;
+					height: auto;
+					max-width: 200px;
+					border-radius: 4px;
+					box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+					transition: transform 0.3s ease;
+				}
+				/* .top_map .clinic img:hover {
+					transform: scale(1.05);
+				}
+				.top_map .top_honbu img:hover {
+					transform: unset;
+				}
+				.top_map .clinic:hover {
+					opacity: unset;
+				} */
+				@media screen and (max-width: 768px) {
+					.top_map {
+						padding: 0 20px;
+					}
+					.top_map .recruit-map-layout {
+						gap: 12px;
+					}
+					.top_map .area-title {
+						font-size: 13px;
+						font-weight: 700;
+					}
+					.top_map .area-title::before {
+						width: 8px;
+						height: 8px;
+						margin-right: 2px;
+					}
+					.top_map .area-column .clinic:not(:last-child) {
+						margin-bottom: 4px;
+					}
+					.top_map .clinic img {
+						max-width: 80px;
+					}
+					.top_map .map-center-wrapper {
+						max-width: 350px;
+						width: 49%;
+						top: 39%;
+					}
+				}
+			</style>
+
 			<div id="contents">
 				<div id="main">
-					<div class="map_top maru fadeIn" style="visibility: visible; animation-name: fadeIn;">
+					<!-- <div class="map_top maru fadeIn" style="visibility: visible; animation-name: fadeIn;">
 						<img src="/common/images/recruit_map5.png" alt="医療法人社団 爽緑会・千葉爽緑会 ふたば在宅クリニック 六本木本部 埼玉院 北千住院 新小岩院 錦糸町院 佐倉院 八千代院 本八幡院 北習志野院" class="pc">
 						<img src="/common/images/recruit_map5_sp.png" alt="医療法人社団 爽緑会・千葉爽緑会 ふたば在宅クリニック 六本木本部 埼玉院 北千住院 新小岩院 錦糸町院 佐倉院 八千代院 本八幡院 北習志野院" class="sp">
+					</div> -->
+
+					<!-- 全体MAP -->
+					<div class="top_map">
+						<div class="recruit-map-layout">
+							<div class="area-column">
+								<p class="area-title">東京エリア</p>
+								<a href="/kinshichou/" class="clinic pc"><img src="/common/images/top_map_kinshichou.jpg" alt="錦糸町院"></a>
+								<a href="/shinkoiwa/" class="clinic pc"><img src="/common/images/top_map_shinkoiwa.jpg" alt="新小岩院"></a>
+								<a href="/kitasenju/" class="clinic pc"><img src="/common/images/top_map_kitasenju.jpg" alt="北千住院"></a>
+								<div class="clinic top_honbu pc"><img src="/common/images/top_map_honbu.jpg" alt="六本木本部"></div>
+								<a href="/kinshichou/" class="clinic sp"><img src="/common/images/top_map_kinshichou_sp.jpg" alt="錦糸町院"></a>
+								<a href="/shinkoiwa/" class="clinic sp"><img src="/common/images/top_map_shinkoiwa_sp.jpg" alt="新小岩院"></a>
+								<a href="/kitasenju/" class="clinic sp"><img src="/common/images/top_map_kitasenju_sp.jpg" alt="北千住院"></a>
+								<div class="clinic top_honbu sp"><img src="/common/images/top_map_honbu_sp.jpg" alt="六本木本部"></div>
+							</div>
+							<div class="area-column">
+								<p class="area-title">埼玉エリア</p>
+								<a href="/kuki/" class="clinic pc"><img src="/common/images/top_map_kuki.jpg" alt="埼玉院"></a>
+								<a href="/kuki/" class="clinic sp"><img src="/common/images/top_map_kuki_sp.jpg" alt="埼玉院"></a>
+							</div>
+							<div class="area-column top_map_chiba">
+								<p class="area-title">千葉エリア</p>
+								<a href="/sakura/" class="clinic pc"><img src="/common/images/top_map_sakura.jpg" alt="佐倉院"></a>
+								<a href="/yachiyo/" class="clinic pc"><img src="/common/images/top_map_yachiyo.jpg" alt="八千代院"></a>
+								<a href="/kitanarashino/" class="clinic pc"><img src="/common/images/top_map_kitanarashino.jpg" alt="北習志野院"></a>
+								<a href="/motoyawata/" class="clinic pc"><img src="/common/images/top_map_motoyawata.jpg" alt="本八幡院"></a>
+								<a href="/sakura/" class="clinic sp"><img src="/common/images/top_map_sakura_sp.jpg" alt="佐倉院"></a>
+								<a href="/yachiyo/" class="clinic sp"><img src="/common/images/top_map_yachiyo_sp.jpg" alt="八千代院"></a>
+								<a href="/kitanarashino/" class="clinic sp"><img src="/common/images/top_map_kitanarashino_sp.jpg" alt="北習志野院"></a>
+								<a href="/motoyawata/" class="clinic sp"><img src="/common/images/top_map_motoyawata_sp.jpg" alt="本八幡院"></a>
+							</div>
+						</div>
+						<div class="map-center-wrapper">
+							<img src="/common/images/top_map.jpg" alt="マップ" class="bg-map pc">
+							<img src="/common/images/top_map_sp.jpg" alt="マップ" class="bg-map sp">
+						</div>
 					</div>
 
 					<section id="bunin_box">
@@ -452,6 +589,27 @@
 													</a>
 												</p>
 												<p class="clinic_contact"><a href="/contact/input_kitanarashino/">北習志野院お問い合わせはこちら</a></p>
+											</div>
+											<div class="txt_box_motoyawata">
+												<a class="title" href="/motoyawata/">
+													<div class="motoyawata_toho">
+															<p class="txt_12">本八幡院｜<span>本八幡駅前 徒歩2分</span></p>
+													</div>
+													<div class="photo_bunin">
+														<img src="/common/images/top_motoyawata_picture.jpg" srcset="/common/images/top_motoyawata_picture_2x.jpg" alt="医療法人社団 千葉爽緑会 ふたば在宅クリニック 本八幡院" />
+													</div>
+													<ul>
+														<li>市川市</li>
+														<li>浦安市</li>
+													</ul>
+												</a>
+												<p class="txt_09">の患者様はこちら</p>
+												<p class="txt_10">
+													<a class="shiny-btn-motoyawata" href="/motoyawata/">
+														<span>本八幡院 HP</span>
+													</a>
+												</p>
+												<p class="clinic_contact"><a href="/contact/input_motoyawata/">本八幡院お問い合わせはこちら</a></p>
 											</div>
 										</div>
 									</div>
@@ -675,6 +833,7 @@
 						<li><a href="/kinshichou/">錦糸町院 HPはこちら	&gt;	&gt;</a></li>
 						<li><a href="/shinkoiwa/">新小岩院 HPはこちら	&gt;	&gt;</a></li>
 						<li><a href="/kitasenju/">北千住院 HPはこちら	&gt;	&gt;</a></li>
+						<li><a href="/motoyawata/">本八幡院 HPはこちら	&gt;	&gt;</a></li>
 						<li><a href="/kitanarashino/">北習志野院 HPはこちら	&gt;	&gt;</a></li>
 						<li><a href="/sakura/">佐倉院 HPはこちら	&gt;	&gt;</a></li>
 						<li><a href="/yachiyo/">八千代院 HPはこちら	&gt;	&gt;</a></li>
@@ -845,6 +1004,7 @@
 						<li><a href="/kinshichou/">錦糸町院 HPはこちら	&gt;	&gt;</a></li>
 						<li><a href="/shinkoiwa/">新小岩院 HPはこちら	&gt;	&gt;</a></li>
 						<li><a href="/kitasenju/">北千住院 HPはこちら	&gt;	&gt;</a></li>
+						<li><a href="/motoyawata/">本八幡院 HPはこちら	&gt;	&gt;</a></li>
 						<li><a href="/kitanarashino/">北習志野院 HPはこちら	&gt;	&gt;</a></li>
 						<li><a href="/sakura/">佐倉院 HPはこちら	&gt;	&gt;</a></li>
 						<li><a href="/yachiyo/">八千代院 HPはこちら	&gt;	&gt;</a></li>
@@ -950,6 +1110,7 @@
 						<li><a href="/kinshichou/">錦糸町院 HPはこちら	&gt;	&gt;</a></li>
 						<li><a href="/shinkoiwa/">新小岩院 HPはこちら	&gt;	&gt;</a></li>
 						<li><a href="/kitasenju/">北千住院 HPはこちら	&gt;	&gt;</a></li>
+						<li><a href="/motoyawata/">本八幡院 HPはこちら	&gt;	&gt;</a></li>
 						<li><a href="/kitanarashino/">北習志野院 HPはこちら	&gt;	&gt;</a></li>
 						<li><a href="/sakura/">佐倉院 HPはこちら	&gt;	&gt;</a></li>
 						<li><a href="/yachiyo/">八千代院 HPはこちら	&gt;	&gt;</a></li>
@@ -1299,6 +1460,11 @@
 						<li class="kanren_01">
 							<a href="/kitasenju/message/">
 								<span>北千住院<br>医師紹介ページ</span>
+							</a>
+						</li>
+						<li class="kanren_01">
+							<a href="/motoyawata/message/">
+								<span>本八幡院<br>医師紹介ページ</span>
 							</a>
 						</li>
 						<li class="kanren_01">
@@ -1698,6 +1864,21 @@
 								</figure>
 								<figure class="ml">
 									<img src="/common/images/noimage.jpg" alt="北習志野院 受付">
+									<figcaption class="tar">受付</figcaption class="tal">
+								</figure>
+							</li>
+						</ul>
+					</div>
+					<div class="top_gallery">
+						<p>【本八幡院】</p>
+						<ul>
+							<li>
+								<figure class="mr">
+									<img src="/common/images/gallery_motoyawata.jpg" alt="本八幡院 外観">
+									<figcaption class="tal">外観</figcaption>
+								</figure>
+								<figure class="ml">
+									<img src="/common/images/noimage.jpg" alt="本八幡院 受付">
 									<figcaption class="tar">受付</figcaption class="tal">
 								</figure>
 							</li>
