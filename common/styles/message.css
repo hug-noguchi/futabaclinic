@@ -261,7 +261,6 @@
 @media all and (max-width: 480px) {
   #main section .kanren li {
     width: 100%;
-    letter-spacing: -1px;
   }
 }
 
