@@ -24,41 +24,41 @@
 					responsive_pagination($additional_loop->max_num_pages);
 				} ?>
 			</div>
-			<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/side_kitasenju.php'); ?>
+			<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.php'); ?>
 			</div>
 		</article>
-		<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/footer_kitasenju.php'); ?>
+		<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/footer.php'); ?>
 		<?php wp_footer(); ?>
 	</body>
 	</html>
 
-<?php elseif (strstr($url,'shinkoiwa') == true) : ?>
+	<?php elseif (strstr($url,'shinkoiwa') == true) : ?>
 
-	<?php get_header(2); ?>
-		<div id="contents">
-			<div id="main">
-				<section>
-					<h2>お知らせ</h2>
-					<table>
-						<?php
-							if (have_posts()) :
-								while (have_posts()) :
-								the_post();
-								get_template_part('content-archive');
-								endwhile;
-							endif;
-						?>
-					</table>
-				</section>
-				<!--ページネーション-->
-				<?php if (function_exists('responsive_pagination')) {
-					responsive_pagination($additional_loop->max_num_pages);
-				} ?>
-			</div>
-			<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/side_edogawa.php'); ?>
+		<?php get_header(2); ?>
+			<div id="contents">
+				<div id="main">
+					<section>
+						<h2>お知らせ</h2>
+						<table>
+							<?php
+								if (have_posts()) :
+									while (have_posts()) :
+									the_post();
+									get_template_part('content-archive');
+									endwhile;
+								endif;
+							?>
+						</table>
+					</section>
+					<!--ページネーション-->
+					<?php if (function_exists('responsive_pagination')) {
+						responsive_pagination($additional_loop->max_num_pages);
+					} ?>
+				</div>
+				<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.php'); ?>
 			</div>
 		</article>
-		<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/footer_edogawa.php'); ?>
+		<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/footer.php'); ?>
 		<?php wp_footer(); ?>
 	</body>
 	</html>
@@ -87,10 +87,10 @@
 					responsive_pagination($additional_loop->max_num_pages);
 				} ?>
 			</div>
-			<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/side_kinshichou.php'); ?>
-			</div>
-		</article>
-		<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/footer_kinshichou.php'); ?>
+			<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.php'); ?>
+				</div>
+			</article>
+			<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/footer.php'); ?>
 		<?php wp_footer(); ?>
 	</body>
 	</html>
