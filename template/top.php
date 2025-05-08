@@ -41,7 +41,7 @@
               if (strpos($url, 'kinshichou') !== false || strpos($url, 'kitasenju') !== false || strpos($url, 'shinkoiwa') !== false) :
             ?>
               <p class="txt_04">呼吸器科・循環器科・総合内科専門医が在籍</p>
-              <p class="txt_05">泌尿器科・麻酔科・整形外科まで複数科の専門医が在籍</p>
+              <p class="txt_05">泌尿器科・脳神経科・整形外科まで複数科の専門医が在籍</p>
               <p class="txt_05">精神科専門医による認知症、精神科往診</p>
               <p class="txt_05">皮膚科・形成外科専門医による皮膚、褥瘡往診</p>
               <p class="txt_05">全国9拠点展開中・安心のグループ組織力</p>
@@ -50,6 +50,12 @@
               <p class="txt_05">複数科の専門医が在籍</p>
               <p class="txt_05">精神科専門医による認知症、精神科往診</p>
               <p class="txt_05">皮膚科専門医による皮膚、褥瘡往診</p>
+              <p class="txt_05">全国9拠点展開中・安心のグループ組織力</p>
+            <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
+              <p class="txt_04">呼吸器科・循環器科・総合内科専門医が在籍</p>
+              <p class="txt_05">泌尿器科・脳神経科・整形外科まで複数科の専門医が在籍</p>
+              <p class="txt_05">精神科専門医による認知症、精神科往診</p>
+              <p class="txt_05">皮膚科・形成外科専門医による皮膚、褥瘡往診</p>
               <p class="txt_05">全国9拠点展開中・安心のグループ組織力</p>
             <?php else : ?>
 							<p class="txt_04">呼吸器科・循環器科・総合内科専門医が在籍</p>
@@ -70,7 +76,7 @@
             <?php elseif (strpos($url, 'yachiyo') !== false) : ?>
               <p class="txt_02">京成本線〈勝田台駅〉北口徒歩30秒</p>
             <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
-              <p class="txt_02">京成本線〈本八幡駅〉徒歩3分</p>
+              <p class="txt_02">京成本線〈本八幡駅〉徒歩2分</p>
             <?php endif; ?>
             <p class="txt_03 pc"><img src="/common/images/logo_v2_top.svg" alt="ふたば在宅クリニック"  loading="lazy"></p>
             <p class="txt_03 sp"><img src="/common/images/logo_v2_top_sp.svg" alt="ふたば在宅クリニック" loading="lazy"></p>
@@ -250,7 +256,7 @@
                     </div>
                     <div class="txt_box_motoyawata">
                       <div class="toho">
-                        <p class="txt_12">本八幡院｜<span>本八幡駅前 徒歩3分</span></p>
+                        <p class="txt_12">本八幡院｜<span>本八幡駅前 徒歩2分</span></p>
                       </div>
                       <div class="photo_box">
                         <img src="/common/images/top_motoyawata_picture.jpg" srcset="/common/images/top_motoyawata_picture_2x.jpg" alt="ふたば在宅クリニック 本八幡院" loading="lazy">
@@ -1084,9 +1090,6 @@
           <p>病状に応じて、連携病院への紹介、入院にも迅速に対応いたします。</p>
           <ul>
             <li>・千葉大学医学部付属病院</li>
-            <li>・東京女子医科大学八千代医療センター</li>
-            <li>・日本医科大学千葉北総病院病院</li>
-            <li>・東邦大学医療センター佐倉病院</li>
           </ul>
         </section>
 
