@@ -17,7 +17,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 <link rel="stylesheet" type="text/css" href="/common/styles/base.css" media="all">
 <link rel="stylesheet" type="text/css" href="/common/styles/privacy.css" media="all">
-<link rel="stylesheet" type="text/css" href="/kinshichou/common/styles/base.css" media="all">
 <link rel="SHORTCUT ICON" href="/icon.ico">
 <link rel="apple-touch-icon-precomposed" href="https://www.futabaclinic.jp/webclip.png" />
 <!--
@@ -34,8 +33,8 @@
 </head>
 
 <body id="" class="preload drawer drawer--top">
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/analyticstracking.php'); ?>
-	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header_kinshichou.php'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/analyticstracking.php'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/header.php'); ?>
 	<article id="wrap">
 		<ul id="breadcrumb">
 			<li><a href="/kinshichou/">ホーム</a>&nbsp;&gt;&nbsp;</li>
@@ -43,15 +42,11 @@
 		</ul>
 		<div id="contents_wrap">
 			<div id="contents">
-				<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/privacy.php'); ?>
-
-				<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/side_kinshichou.php'); ?>
+			<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/privacy.php'); ?>
+				<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.php'); ?>
 			</div>
 		</div>
 	</article>
-	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/footer_kinshichou.php'); ?>
-
-	<script type="text/javascript" src="/kuki/top/fade.js"></script>
-
+	<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/footer.php'); ?>
 </body>
 </html>

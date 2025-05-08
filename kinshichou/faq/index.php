@@ -34,13 +34,13 @@
 		</div>
     <div id="contents_wrap">
       <div id="contents">
-        <?php include($_SERVER['DOCUMENT_ROOT'] . '/include/faq.php'); ?>
+        <?php include($_SERVER['DOCUMENT_ROOT'] . '/template/faq.php'); ?>
         <div class="sp">
-          <?php include($_SERVER['DOCUMENT_ROOT'] . '/include/side_kinshichou.php'); ?>
+          <?php include($_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.php'); ?>
         </div>
+      </div>
     </div>
   </article>
-
-	<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/footer_kinshichou.php'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/footer.php'); ?>
 </body>
 </html>
