@@ -37,7 +37,7 @@
 </footer>
 <div class="fixed__cv">
   <div class="fixed__cv__contact">
-    <a href="/contact/input/#mw_wp_form_mw-wp-form-4" class="mail"></a>
+    <a href="/contact/input_kinshichou/#mw_wp_form_mw-wp-form-4" class="mail"></a>
     <a href="tel:0366588175" class="tel"></a>
   </div>
 </div>
@@ -248,9 +248,6 @@
           </a>
         </p>
         <p class="address address_01">〒272-0021 千葉県市川市八幡3-3-2<br class="sp"> グランドターミナルタワー1階 J108号</p>
-        <p class="address address_01">〒274-0063 千葉県船橋市習志野台2-6-1<br class="sp"> 小林ビル 3階-C</p>
-        <p class="address address_01">〒285-0837 千葉県佐倉市王子台1丁目22-13<br class="sp"> 海佑ビル 1階</p>
-        <p class="address address_02">〒276-0020 千葉県八千代市勝田台北1-9-1<br class="sp"> みかど第2ビル 104</p>
 			</div>
 			<div class="right">
 				<ul>
