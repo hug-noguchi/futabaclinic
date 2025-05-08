@@ -10,9 +10,9 @@
             <img src="/common/images/logo_tokyo_kita.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 北千住,足立区 荒川区 在宅医療 訪問診療 訪問看護 往診">
           </a>
         </p>
-        <p class="address address_02">〒120-0034 東京都足立区千住2-4<br class="sp"> オカバツインタワービル イースト 8階</p>
-        <p class="address address_02">〒124-0024 東京都葛飾区新小岩1-49-10<br class="sp"> 第5デリカビル（メディカルタウン新小岩） 2階</p>
-        <p class="address address_01">〒130-0013 東京都墨田区錦糸1-4-14<br class="sp"> 長嶋ビル 4階</p>
+        <p class="address address_01">〒120-0034 東京都足立区千住2-4<br class="sp"> オカバツインタワービル イースト 8階</p>
+        <p class="address address_01">〒124-0024 東京都葛飾区新小岩1-49-10<br class="sp"> 第5デリカビル（メディカルタウン新小岩） 2階</p>
+        <p class="address address_02">〒130-0013 東京都墨田区錦糸1-4-14<br class="sp"> 長嶋ビル 4階</p>
 			</div>
 			<div class="right">
 				<ul>
