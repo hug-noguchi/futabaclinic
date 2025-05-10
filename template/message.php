@@ -117,7 +117,7 @@
 								最後に、クリニック名の「ふたば」には、患者様、ご家族とわれわれ医療介護従事者の二つの葉を、少しずつ大きな樹になるように共に育んでいきたいという意味が込められています。<br>
 								対話を重視し、より良い療養生活を送れるように、地域の中核病院とも連携を取りながらサポートさせていただきます。
 							</p>
-						<?php elseif (strpos($url, 'kitanarashino') !== false || strpos($url, 'yachiyo') !== false) : ?>
+						<?php elseif (strpos($url, 'kitanarashino') !== false || strpos($url, 'yachiyo') !== false || strpos($url, 'motoyawata') !== false) : ?>
 							<p>
 								皆様、ふたば在宅クリニックのホームページをご覧いただきありがとうございます。<br>
 								統括院長の石井成伸と申します。
@@ -221,7 +221,7 @@
 					<?php endif; ?>
 				</div>
 				<?php $url = $_SERVER['REQUEST_URI'];
-					if (strpos($url, 'kitanarashino') !== false || strpos($url, 'sakura') !== false || strpos($url, 'yachiyo') !== false) :
+					if (strpos($url, 'kitanarashino') !== false || strpos($url, 'sakura') !== false || strpos($url, 'yachiyo') !== false || strpos($url, 'motoyawata') !== false) :
 				?>
 					<div class="riji">
 						<div class="riji_box">
@@ -249,7 +249,7 @@
 			<section>
 			<h2>医師の紹介</h2>
 			<?php $url = $_SERVER['REQUEST_URI'];
-				if (strpos($url, 'kinshichou') !== false || strpos($url, 'kitasenju') !== false || strpos($url, 'shinkoiwa') !== false) :
+				if (strpos($url, 'kinshichou') !== false || strpos($url, 'kitasenju') !== false || strpos($url, 'shinkoiwa') !== false || strpos($url, 'motoyawata') !== false) :
 			?>
 			<p class="department">呼吸器科</p>
 			<ul class="docter-lists">
@@ -395,7 +395,7 @@
 					<dl>
 						<dt>海野 陽介</dt>
 						<dd>
-							<img src="/common/images/person_umino.jpg" alt="海野 陽介,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
+							<img src="/common/images/person_umino.jpg" alt="海野 陽介,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
 							<ul class="txt">
 								<li>日本泌尿器科学会認定 泌尿器科専門医</li>
 								<li>がん緩和ケア研修修了医</li>
@@ -636,7 +636,7 @@
 						<dl>
 							<dt>石井 成伸</dt>
 							<dd>
-								<img src="/common/images/message_person_01.jpg" alt="石井 成伸,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
+								<img src="/common/images/message_person_01.jpg" alt="石井 成伸,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
 								<ul class="txt">
 									<li>日本内科学会認定 内科認定医</li>
 									<li>日本呼吸器学会認定 呼吸器専門医</li>
@@ -663,7 +663,7 @@
 						<dl>
 							<dt>伊藤 真輝</dt>
 							<dd>
-								<img src="/kuki/message/images/person_itou.jpg" alt="伊藤 真輝,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
+								<img src="/kuki/message/images/person_itou.jpg" alt="伊藤 真輝,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
 								<ul class="txt">
 									<li>日本循環器学会専門医</li>
 									<li>日本内科学会認定 総合内科専門医</li>
@@ -679,7 +679,7 @@
 						<dl>
 							<dt>香川 景政</dt>
 							<dd>
-								<img src="/kuki/message/images/person_kagawa.jpg" alt="香川 景政,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
+								<img src="/kuki/message/images/person_kagawa.jpg" alt="香川 景政,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
 								<ul class="txt">
 									<li>ヘリコバクター・ピロリ感染症 認定医</li>
 									<li>がん緩和ケア研修会修了医</li>
@@ -694,7 +694,7 @@
 						<dl>
 							<dt>土肥 光希</dt>
 							<dd>
-								<img src="/kuki/message/images/person_dohi.jpg" alt="土肥　光希,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
+								<img src="/kuki/message/images/person_dohi.jpg" alt="土肥　光希,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
 								<ul class="txt">
 									<li>泌尿器科専門医</li>
 									<li>がん緩和ケア研修修了医</li>
@@ -709,7 +709,7 @@
 						<dl>
 							<dt>赤坂 佳彦</dt>
 							<dd>
-								<img src="/kuki/message/images/person_akasaka.jpg" alt="赤坂 佳彦,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
+								<img src="/kuki/message/images/person_akasaka.jpg" alt="赤坂 佳彦,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
 								<ul class="txt">
 									<li>総合内科</li>
 									<li>がん緩和ケア研修修了医</li>
@@ -756,7 +756,7 @@
 						<dl>
 							<dt>本橋 正隆</dt>
 							<dd>
-								<img src="/common/images/person_motohashi.jpg" alt="本橋 正隆,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
+								<img src="/common/images/person_motohashi.jpg" alt="本橋 正隆,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
 								<ul class="txt">
 									<li>日本整形外科学会専門医</li>
 									<li>がん緩和ケア研修会修了医</li>
@@ -840,7 +840,7 @@
 		<section class="staff">
 			<h2>スタッフの紹介</h2>
 			<?php $url = $_SERVER['REQUEST_URI'];
-				if (strpos($url, 'kinshichou') !== false || strpos($url, 'kitasenju') !== false || strpos($url, 'shinkoiwa') !== false) :
+				if (strpos($url, 'kinshichou') !== false || strpos($url, 'kitasenju') !== false || strpos($url, 'shinkoiwa') !== false || strpos($url, 'motoyawata') !== false) :
 			?>
 				<ul>
 					<li>
@@ -953,7 +953,7 @@
 						<dl>
 							<dt>統括部長 秋谷 智広</dt>
 							<dd>
-								<img src="/kuki/message/images/person_04.jpg" alt="統括部長 秋谷 智広,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
+								<img src="/kuki/message/images/person_04.jpg" alt="統括部長 秋谷 智広,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
 							</dd>
 						</dl>
 					</li>
@@ -961,7 +961,7 @@
 						<dl>
 							<dt>地域連携室 室長 斉藤 恵介</dt>
 							<dd>
-								<img src="/kuki/message/images/person_saitou-k.jpg" alt="地域連携室 室長 斉藤 恵介,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
+								<img src="/kuki/message/images/person_saitou-k.jpg" alt="地域連携室 室長 斉藤 恵介,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
 							</dd>
 						</dl>
 					</li>
@@ -996,7 +996,7 @@
 				<ul class="kanren">
 					<li class="kanren_01">
 						<a href="/shinkoiwa/message/">
-							<span>新小岩院・北千住院<br>医師紹介ページ</span>
+							<span>東京エリア<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_01">
@@ -1005,8 +1005,8 @@
 						</a>
 					</li>
 					<li class="kanren_01 kanren_chiba">
-						<a href="/kitanarashino/message/">
-							<span>北習志野院・佐倉院・八千代院<br>医師紹介ページ</span>
+						<a href="/motoyawata/message/">
+							<span>千葉エリア<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_02">
@@ -1024,7 +1024,7 @@
 				<ul class="kanren">
 					<li class="kanren_01">
 						<a href="/kinshichou/message/">
-							<span>錦糸町院・北千住院<br>医師紹介ページ</span>
+							<span>東京エリア<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_01">
@@ -1033,8 +1033,8 @@
 						</a>
 					</li>
 					<li class="kanren_01 kanren_chiba">
-						<a href="/kitanarashino/message/">
-							<span>北習志野院・佐倉院・八千代院<br>医師紹介ページ</span>
+						<a href="/motoyawata/message/">
+							<span>千葉エリア<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_02">
@@ -1052,7 +1052,7 @@
 				<ul class="kanren">
 					<li class="kanren_01">
 						<a href="/kinshichou/message/">
-							<span>錦糸町院・新小岩院<br>医師紹介ページ</span>
+							<span>東京エリア<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_01">
@@ -1061,8 +1061,8 @@
 						</a>
 					</li>
 					<li class="kanren_01 kanren_chiba">
-						<a href="/kitanarashino/message/">
-							<span>北習志野院・佐倉院・八千代院<br>医師紹介ページ</span>
+						<a href="/motoyawata/message/">
+							<span>千葉エリア<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_02">
@@ -1079,8 +1079,8 @@
 			<?php elseif (strpos($url, 'kitanarashino') !== false) : ?>
 				<ul class="kanren">
 					<li class="kanren_01">
-						<a href="/sakura/message/">
-							<span>佐倉院・八千代院<br>医師紹介ページ</span>
+						<a href="/motoyawata/message/">
+							<span>千葉エリア<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_01">
@@ -1090,7 +1090,7 @@
 					</li>
 					<li class="kanren_01">
 						<a href="/kinshichou/message/">
-							<span>錦糸町院・新小岩院・北千住院<br>医師紹介ページ</span>
+							<span>東京エリア<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_02">
@@ -1107,8 +1107,8 @@
 			<?php elseif (strpos($url, 'sakura') !== false) : ?>
 				<ul class="kanren">
 					<li class="kanren_01">
-						<a href="/kitanarashino/message/">
-							<span>北習志野院・八千代院<br>医師紹介ページ</span>
+						<a href="/motoyawata/message/">
+							<span>千葉エリア<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_01">
@@ -1118,7 +1118,7 @@
 					</li>
 					<li class="kanren_01">
 						<a href="/kinshichou/message/">
-							<span>錦糸町院・新小岩院・北千住院<br>医師紹介ページ</span>
+							<span>東京エリア<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_02">
@@ -1135,8 +1135,8 @@
 			<?php elseif (strpos($url, 'yachiyo') !== false) : ?>
 				<ul class="kanren">
 					<li class="kanren_01 kanren_chiba">
-						<a href="/kitanarashino/message/">
-							<span>北習志野院・佐倉院<br>医師紹介ページ</span>
+						<a href="/motoyawata/message/">
+							<span>千葉エリア<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_01">
@@ -1146,7 +1146,35 @@
 					</li>
 					<li class="kanren_01">
 						<a href="/kinshichou/message/">
-							<span>錦糸町院・新小岩院・北千住院<br>医師紹介ページ</span>
+							<span>東京エリア<br>医師紹介ページ</span>
+						</a>
+					</li>
+					<li class="kanren_02">
+						<a href="/recruit/02/">
+							<span>医師求人ページ</span>
+						</a>
+					</li>
+					<li class="kanren_03">
+						<a href="/recruit/03/">
+							<span>スタッフ求人ページ</span>
+						</a>
+					</li>
+				</ul>
+			<?php elseif (strpos($url, 'motoyawata') !== false) : ?>
+				<ul class="kanren">
+					<li class="kanren_01">
+						<a href="/kitanarashino/message/">
+							<span>千葉エリア<br>医師紹介ページ</span>
+						</a>
+					</li>
+					<li class="kanren_01">
+						<a href="/message/">
+							<span>埼玉院<br>医師紹介ページ</span>
+						</a>
+					</li>
+					<li class="kanren_01">
+						<a href="/kinshichou/message/">
+							<span>東京エリア<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_02">
@@ -1164,12 +1192,12 @@
 				<ul class="kanren">
 					<li class="kanren_01">
 						<a href="/kinshichou/message/">
-							<span>錦糸町院・新小岩院・北千住院<br>医師紹介ページ</span>
+							<span>東京エリア<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_01 kanren_chiba">
-						<a href="/kitanarashino/message/">
-							<span>北習志野院・佐倉院・八千代院<br>医師紹介ページ</span>
+						<a href="/motoyawata/message/">
+							<span>千葉エリア<br>医師紹介ページ</span>
 						</a>
 					</li>
 					<li class="kanren_02">
