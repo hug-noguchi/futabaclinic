@@ -552,7 +552,7 @@ a.shiny-btn-edogawa span:after {
 }
 #open_box .kukiin_box .txt_box_02 ul {
   flex-wrap: wrap;
-  width: 280px;
+  width: 260px;
   margin: 0 auto;
 }
 #open_box .kukiin_box .txt_box_02 ul > li {
@@ -566,10 +566,7 @@ a.shiny-btn-edogawa span:after {
   margin: 3px;
   border: 2px solid #8bc33f;
 }
-#open_box .kukiin_box .txt_box_02 ul li:nth-child(4) {
-  width: 61px;
-}
-#open_box .kukiin_box .txt_box_02 ul > li:last-child {
+#open_box .kukiin_box .txt_box_02 ul > li {
   width: 61px;
 }
 #open_box .shiny-btn-kukiin {

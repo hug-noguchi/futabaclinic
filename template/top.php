@@ -295,6 +295,7 @@
                         <li>白岡市</li>
                         <li>蓮田市</li>
                         <li>春日部市</li>
+                        <li>五霞町</li>
                       </ul>
                       <p class="txt_13">の患者様はこちら</p>
                       <p class="txt_14">

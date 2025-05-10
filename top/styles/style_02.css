@@ -261,8 +261,7 @@
   border: 2px solid #8bc33f;
   line-height: 1.8;
 }
-#main section#bunin_box .txt_box_04 ul li:nth-child(4),
-#main section#bunin_box .txt_box_04 ul > li:last-child {
+#main section#bunin_box .txt_box_04 ul > li {
   width: 80px;
 }
 #main section#bunin_box .txt_box_04 .clinic_contact a {
