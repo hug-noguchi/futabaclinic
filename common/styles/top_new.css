@@ -78,7 +78,7 @@ section#open_box .txt_box_02 ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 280px;
+  width: 260px;
   margin: 0 auto;
 }
 section#open_box .txt_box_02 ul > li {
@@ -86,10 +86,7 @@ section#open_box .txt_box_02 ul > li {
   color: #8bc33f;
   border: 2px solid #8bc33f;
 }
-section#open_box .txt_box_02 ul li:nth-child(4) {
-  width: 61px;
-}
-section#open_box .txt_box_02 ul > li:last-child {
+section#open_box .txt_box_02 ul > li {
   width: 61px;
 }
 section#open_box .txt_box_02 .shiny-btn-kukiin {
@@ -1310,7 +1307,7 @@ section#open_box .top_map img {
 }
 #main section#open_box .txt_box_kuki ul {
   flex-wrap: wrap;
-  width: 280px;
+  width: 260px;
   margin: 0 auto;
 }
 #main section#open_box .txt_box_kuki ul li {
@@ -1324,8 +1321,7 @@ section#open_box .top_map img {
   margin: 3px;
   border: 2px solid #8bc33f;
 }
-#main section#open_box .txt_box_kuki ul li:nth-child(4),
-#main section#open_box .txt_box_kuki ul li:last-child {
+#main section#open_box .txt_box_kuki ul > li {
   width: 61px;
 }
 #main section#open_box .txt_box_kuki .shiny-btn-kuki {
