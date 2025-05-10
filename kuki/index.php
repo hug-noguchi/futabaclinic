@@ -39,21 +39,21 @@
 		<div id="contents_wrap">
 			<div id="visual">
 				<ul id="slideshow" class="pc">
-					<li><img id="image03" src="/top/images/key_03.png" srcset="/top/images/key_03_2x.png 2x" alt="ふたば在宅クリニック 埼玉院久喜市の訪問診療・往診・在宅医療,住み慣れたご自宅での療養をサポートいたします。埼玉県（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市など）"></li>
-					<li><img id="image02" src="/top/images/key_02.png" srcset="/top/images/key_02_2x.png 2x" alt="ふたば在宅クリニック 埼玉院久喜市の訪問診療・往診・在宅医療,当院は在宅医療に特化したクリニックです。,埼玉県（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市など）"></li>
+					<li><img id="image03" src="/top/images/key_03.png" srcset="/top/images/key_03_2x.png 2x" alt="ふたば在宅クリニック 埼玉院久喜市の訪問診療・往診・在宅医療,住み慣れたご自宅での療養をサポートいたします。埼玉県（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町など）"></li>
+					<li><img id="image02" src="/top/images/key_02.png" srcset="/top/images/key_02_2x.png 2x" alt="ふたば在宅クリニック 埼玉院久喜市の訪問診療・往診・在宅医療,当院は在宅医療に特化したクリニックです。,埼玉県（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町など）"></li>
 					<li>
-						<img id="image01" src="/top/images/key_01.png" srcset="/top/images/key_01_2x.png 2x" alt="ふたば在宅クリニック 埼玉院久喜市の訪問診療・往診・在宅医療,在宅医療 がん・緩和ケア 認知症・高齢者医療 内科・外科（心・肺・脳神経・糖尿病など） 24時間365日対応,埼玉県（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市など）">
+						<img id="image01" src="/top/images/key_01.png" srcset="/top/images/key_01_2x.png 2x" alt="ふたば在宅クリニック 埼玉院久喜市の訪問診療・往診・在宅医療,在宅医療 がん・緩和ケア 認知症・高齢者医療 内科・外科（心・肺・脳神経・糖尿病など） 24時間365日対応,埼玉県（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町など）">
 					</li>
 				</ul>
 				<ul id="sp_slideshow" class="sp">
 					<li>
-						<img id="sp_image03" src="/top/images/sp_key_03.png" srcset="/top/images/sp_key_03_2x.png 2x" alt="ふたば在宅クリニック 埼玉院久喜市の訪問診療・往診・在宅医療,住み慣れたご自宅での療養をサポートいたします。埼玉県（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市など）">
+						<img id="sp_image03" src="/top/images/sp_key_03.png" srcset="/top/images/sp_key_03_2x.png 2x" alt="ふたば在宅クリニック 埼玉院久喜市の訪問診療・往診・在宅医療,住み慣れたご自宅での療養をサポートいたします。埼玉県（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町など）">
 					</li>
 					<li>
-						<img id="sp_image02" src="/top/images/sp_key_02.png" srcset="/top/images/sp_key_02_2x.png 2x" alt="ふたば在宅クリニック 埼玉院久喜市の訪問診療・往診・在宅医療,当院は在宅医療に特化したクリニックです。,埼玉県（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市など）">
+						<img id="sp_image02" src="/top/images/sp_key_02.png" srcset="/top/images/sp_key_02_2x.png 2x" alt="ふたば在宅クリニック 埼玉院久喜市の訪問診療・往診・在宅医療,当院は在宅医療に特化したクリニックです。,埼玉県（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町など）">
 					</li>
 					<li>
-						<img id="sp_image01" src="/top/images/sp_key_01.png" srcset="/top/images/sp_key_01_2x.png 2x" alt="ふたば在宅クリニック 埼玉院久喜市の訪問診療・往診・在宅医療,在宅医療 がん・緩和ケア 認知症・高齢者医療 内科・外科（心・肺・脳神経・糖尿病など） 24時間365日対応,埼玉県（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市など）">
+						<img id="sp_image01" src="/top/images/sp_key_01.png" srcset="/top/images/sp_key_01_2x.png 2x" alt="ふたば在宅クリニック 埼玉院久喜市の訪問診療・往診・在宅医療,在宅医療 がん・緩和ケア 認知症・高齢者医療 内科・外科（心・肺・脳神経・糖尿病など） 24時間365日対応,埼玉県（久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町など）">
 					</li>
 				</ul>
 			</div>
@@ -239,13 +239,14 @@
 											</div>
 											<div class="txt_box_motoyawata">
 												<div class="toho">
-													<p class="txt_12">本八幡院｜<span>本八幡駅前 徒歩○分</span></p>
+													<p class="txt_12">本八幡院｜<span>本八幡駅前 徒歩2分</span></p>
 												</div>
 												<div class="photo_box">
 													<img src="/common/images/top_motoyawata_picture.jpg" srcset="/common/images/top_motoyawata_picture_2x.jpg" alt="ふたば在宅クリニック 本八幡院" loading="lazy">
 												</div>
 												<ul>
 													<li>市川市</li>
+													<li>浦安市</li>
 												</ul>
 												<p class="txt_13">の患者様はこちら</p>
 												<p class="txt_14">
@@ -277,6 +278,7 @@
 														<li>白岡市</li>
 														<li>蓮田市</li>
 														<li>春日部市</li>
+														<li>五霞町</li>
 													</ul>
 													<p class="txt_09">の患者様はこちら</p>
 													<p class="txt_10">

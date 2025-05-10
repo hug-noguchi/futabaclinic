@@ -284,6 +284,7 @@
 														<li>白岡市</li>
 														<li>蓮田市</li>
 														<li>春日部市</li>
+														<li>五霞町</li>
 													</ul>
 													<p class="txt_09">の患者様はこちら</p>
 													<p class="txt_10">
@@ -435,7 +436,7 @@
 								</ul>
 							</div>
 							<div>
-								<img src="/common/images/about_image.jpg" alt="訪問診療とは">
+								<img src="/common/images/teacher_04.jpg" alt="訪問診療とは">
 							</div>
 						</div>
 					</section>
