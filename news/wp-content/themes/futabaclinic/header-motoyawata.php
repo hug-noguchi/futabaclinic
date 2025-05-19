@@ -123,7 +123,7 @@
               <li><a href="/contact/input_motoyawata/">お問い合わせ・お申し込み</a></li>
               <li><a href="/news/motoyawata/">お知らせ</a></li>
               <li><a href="/motoyawata/privacy/">プライバシーポリシー</a></li>
-              <li class="fax"><span class="fax_txt">×××-×××-××××</span></li>
+              <li class="fax"><span class="fax_txt">047-316-2481</span></li>
             </ul>
           </nav>
         </div>
@@ -141,7 +141,7 @@
         </div>
         <div class="contact_box">
           <div class="contact_box_in">
-            <p class="tel"><a href="tel:" class="abled">×××-×××-××××</a></p>
+            <p class="tel"><a href="tel:0473162480" class="abled">047-316-2480</a></p>
             <p class="mail"><a href="/contact/input_motoyawata/#form"></a></p>
           </div>
         </div>

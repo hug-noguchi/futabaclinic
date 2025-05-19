@@ -271,7 +271,7 @@
 <div class="fixed__cv">
   <div class="fixed__cv__contact">
     <a href="/contact/input_motoyawata/#mw_wp_form_mw-wp-form-4" class="mail"></a>
-    <a href="tel:" class="tel"></a>
+    <a href="tel:0473162480" class="tel"></a>
   </div>
 </div>
 <?php else : ?>

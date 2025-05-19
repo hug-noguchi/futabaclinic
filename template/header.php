@@ -247,7 +247,7 @@
 						<li><a href="/contact/input_motoyawata/">お問い合わせ・お申し込み</a></li>
 						<li><a href="/news/motoyawata/">お知らせ</a></li>
 						<li><a href="/motoyawata/privacy/">プライバシーポリシー</a></li>
-            <li class="fax"><span class="fax_txt">×××-×××-××××</span></li>
+            <li class="fax"><span class="fax_txt">047-316-2481</span></li>
           <?php else : ?>
 						<li><a href="/kuki/">ホーム</a></li>
 						<li><a href="/kuki/message/">理事長挨拶・スタッフ紹介</a></li>
@@ -300,7 +300,7 @@
             <p class="tel"><a href="tel:0474026536">047-402-6536</a></p>
             <p class="mail"><a href="/contact/input_kitanarashino/#form"></a></p>
           <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
-            <p class="tel"><a href="tel:">×××-×××-××××</a></p>
+            <p class="tel"><a href="tel:0473162480">047-316-2480</a></p>
             <p class="mail"><a href="/contact/input_motoyawata/#form"></a></p>
           <?php else : ?>
             <p class="tel"><a href="tel:0480-44-9178">0480-44-9178</a></p>

@@ -139,7 +139,7 @@
                 <?php elseif (strpos($url, 'yachiyo') !== false) : ?>
                   <a href="tel:0474093677" class="tel-link">047-409-3677</a>
                 <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
-                  <a href="tel:" class="tel-link">×××-×××-××××</a>
+                  <a href="tel:0473162480" class="tel-link">047-316-2480</a>
                 <?php else : ?>
                   <a href="tel:0480449178" class="tel-link">0480-44-9178</a>
                 <?php endif; ?>
