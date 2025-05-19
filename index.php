@@ -268,7 +268,7 @@
 			<div id="contents">
 				<div id="main">
 					<div class="map_top top_map maru fadeIn" style="visibility: visible; animation-name: fadeIn;">
-						<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/top_map_v2.php'); ?>
+						<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/top_map.php'); ?>
 					</div>
 					<section id="bunin_box">
 						<div class="txt_box_01">
