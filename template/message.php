@@ -198,27 +198,7 @@
 					</div>
 				</div>
 				<div class="banner_article">
-					<?php
-						$url = $_SERVER['REQUEST_URI'];
-						if (strpos($url, 'shinkoiwa') !== false) :
-					?>
-						<a href="/link.html" target="_blank">
-							<img src="/recruit/images/banner_v3.gif" alt="理事長インタビュー記事バナー" class="bnr_riji" id="recruit_docters">
-						</a>
-						<a href="https://zaita9iryou.com/22780/" target="_blank">
-							<img src="/common/images/banner_v6.gif" alt="統括院長がおうちde医療に特集されました！">
-						</a>
-						<a href="https://clinic.mynavi.jp/article/edogawaku_house-call-medicine/" target="_blank">
-							<img src="/common/images/banner_v7.gif" alt="マイナビの「訪問診療クリニックおすすめ5選」に掲載されました！">
-						</a>
-					<?php else : ?>
-						<a href="/link.html" target="_blank">
-							<img src="/recruit/images/banner_v3.gif" alt="理事長インタビュー記事バナー" class="bnr_riji" id="recruit_docters">
-						</a>
-						<a href="https://zaita9iryou.com/22780/" target="_blank">
-							<img src="/common/images/banner_v6.gif" alt="統括院長がおうちde医療に特集されました！">
-						</a>
-					<?php endif; ?>
+					<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/banner.php'); ?>
 				</div>
 				<?php $url = $_SERVER['REQUEST_URI'];
 					if (strpos($url, 'kitanarashino') !== false || strpos($url, 'sakura') !== false || strpos($url, 'yachiyo') !== false || strpos($url, 'motoyawata') !== false) :
@@ -673,21 +653,6 @@
 						</dl>
 					</li>
 				</ul>
-				<p class="department">消化器科</p>
-				<ul class="docter-lists">
-					<li>
-						<dl>
-							<dt>香川 景政</dt>
-							<dd>
-								<img src="/kuki/message/images/person_kagawa.jpg" alt="香川 景政,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
-								<ul class="txt">
-									<li>ヘリコバクター・ピロリ感染症 認定医</li>
-									<li>がん緩和ケア研修会修了医</li>
-								</ul>
-							</dd>
-						</dl>
-					</li>
-				</ul>
 				<p class="department">腎臓・泌尿器科</p>
 				<ul class="docter-lists">
 					<li>
@@ -724,6 +689,19 @@
 								<img src="/common/images/person_sone.jpg" loading=”lazy” alt="ふたば在宅クリニック 曽根 健太" class="img">
 								<ul class="txt">
 									<li>総合内科</li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>香川 景政</dt>
+							<dd>
+								<img src="/kuki/message/images/person_kagawa.jpg" alt="香川 景政,医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院,久喜市、加須市、幸手市、杉戸町、宮代町、白岡市、蓮田市、春日部市、五霞町 在宅医療 訪問診療 訪問看護 往診" class="img" loading="lazy">
+								<ul class="txt">
+									<li>総合内科</li>
+									<li>ヘリコバクター・ピロリ感染症 認定医</li>
+									<li>がん緩和ケア研修会修了医</li>
 								</ul>
 							</dd>
 						</dl>
