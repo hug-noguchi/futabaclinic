@@ -27,10 +27,6 @@
     <div id="contents">
       <div id="main">
         <section id="open_box">
-          <!-- <video controls poster="/common/images/video_thum.jpg">
-            <source src="/common/media/movie_shuukan.mp4" type="video/mp4">
-            <a href="/common/media/movie_shuukan.mp4">MP4</a>
-          </video> -->
           <div class="title_box">
             <div id="open_box_title">
               <p class="txt_01">「動く総合病院」<br class="sp">を目指しています！！</p>
@@ -81,7 +77,9 @@
             <p class="txt_03 pc"><img src="/common/images/logo_v2_top.svg" alt="ふたば在宅クリニック"  loading="lazy"></p>
             <p class="txt_03 sp"><img src="/common/images/logo_v2_top_sp.svg" alt="ふたば在宅クリニック" loading="lazy"></p>
           </div>
-          <?php include($_SERVER['DOCUMENT_ROOT'] . '/include/top_map.php'); ?>
+          <div class="top_map">
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/include/top_map.php'); ?>
+          </div>
           <div class="buin">
             <p class="txt_06">
               <span>グループ分院案内</span>
@@ -336,21 +334,7 @@
         </section>
 
         <div class="banner_article">
-          <?php
-            $url = $_SERVER['REQUEST_URI'];
-            if (strpos($url, 'kuki') !== false) :
-          ?>
-            <a href="/link.html" target="_blank">
-              <img src="/common/images/banner_v3.gif" alt="理事長インタビュー記事バナー" class="bnr_riji">
-            </a>
-            <a href="https://dot.asahi.com/articles/-/206434?page=2" target="_blank">
-              <img src="/common/images/banner_v5.gif" alt="理事長AREA誌バナー">
-            </a>
-          <?php else : ?>
-            <a href="/link.html" target="_blank">
-              <img src="/common/images/banner_v3.gif" alt="理事長インタビュー記事バナー">
-            </a>
-          <?php endif; ?>
+          <?php include($_SERVER['DOCUMENT_ROOT'] . '/include/banner.php'); ?>
         </div>
 
         <?php

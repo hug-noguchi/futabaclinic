@@ -77,7 +77,9 @@
 							<p class="txt_03 pc"><img src="/common/images/logo_v2_top.svg" alt="ふたば在宅クリニック" loading="lazy"></p>
 							<p class="txt_03 sp"><img src="/common/images/logo_v2_top_sp.svg" alt="ふたば在宅クリニック" loading="lazy"></p>
 						</div>
-						<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/top_map.php'); ?>
+						<div class="top_map">
+							<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/top_map.php'); ?>
+						</div>
 						<div class="buin">
 							<p class="txt_06"><span>グループ分院案内</span></p>
 						</div>
@@ -306,15 +308,7 @@
 						</div>
 					</section>
 					<div class="banner_article">
-						<a href="/link.html" target="_blank">
-							<img src="/recruit/images/banner_v3.gif" alt="統括院長がリクルートドクターズキャリアに特集されました！リクルートドクターズキャリア">
-						</a>
-						<a href="https://dot.asahi.com/articles/-/206434?page=2" target="_blank">
-							<img src="/common/images/banner_v5.gif" alt="AREA誌の「在宅見取り件数が多い診療所」に掲載されました！">
-						</a>
-						<a href="https://zaita9iryou.com/22780/" target="_blank">
-							<img src="/common/images/banner_v6.gif" alt="統括院長がおうちde医療に特集されました！">
-						</a>
+						<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/banner.php'); ?>
 					</div>
 					<section id="sec_07">
 						<h2>お知らせ</h2>

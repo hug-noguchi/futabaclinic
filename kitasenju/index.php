@@ -81,7 +81,9 @@
 							<p class="txt_03 pc"><img src="/common/images/logo_v2_top.svg" alt="医療法人社団 千葉爽緑会 ふたば在宅クリニック"></p>
 							<p class="txt_03 sp"><img src="/common/images/logo_v2_top_sp.svg" alt="医療法人社団 千葉爽緑会 ふたば在宅クリニック"></p>
 						</div>
-						<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/top_map.php'); ?>
+						<div class="top_map">
+							<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/top_map.php'); ?>
+						</div>
 						<div class="buin">
 							<p class="txt_06">
 								<span>グループ分院案内</span>
@@ -313,12 +315,7 @@
 						</div>
 					</section>
 					<div class="banner_article">
-						<a href="/link.html" target="_blank">
-							<img src="/common/images/banner_v3.gif" alt="理事長インタビュー記事バナー" class="bnr_riji">
-						</a>
-						<a href="https://zaita9iryou.com/22780/" target="_blank">
-							<img src="/common/images/banner_v6.gif" alt="統括院長がおうちde医療に特集されました！">
-						</a>
+						<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/banner.php'); ?>
 					</div>
 					<?php
 						$posts = get_posts("numberposts=5&orderby=post_date&offset=0&post_type=kitasenju");
