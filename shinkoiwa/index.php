@@ -618,7 +618,7 @@
 						</ul>
 					</section>
 				</div>
-				<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/side_edogawa.php'); ?>
+				<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.php'); ?>
 			</div>
 		</div>
 	</article>
