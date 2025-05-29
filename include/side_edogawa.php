@@ -10,7 +10,7 @@
 		<li><a href="/shinkoiwa/about/"><span class="txt">在宅診療とは <span class="arrow">&gt;</span></span></a></li>
 		<li><a href="/contact/input_shinkoiwa/"><span class="txt">お問い合わせ <span class="arrow">&gt;</span></span></a></li>
 		<li><a href="/entry_shinnkoiwa.pdf" target="_blank"><span class="txt">お申し込み書 <span class="arrow">&gt;</span></span></a></li>
-		<li><a href="/pamphlet_tokyo_2024.pdf" target="_blank"><span class="txt">パンフレット <span class="arrow">&gt;</span></span></a></li>
+		<li><a href="/pamphlet_tokyo_2025.pdf" target="_blank"><span class="txt">パンフレット <span class="arrow">&gt;</span></span></a></li>
 		<li class="faq"><a href="/shinkoiwa/faq/"><span class="txt">よくあるご質問 <span class="arrow">&gt;</span></span></a></li>
 		<li class="tmi"><a href="https://www.tmi.gr.jp/" target="_blank"><span class="txt">TMI総合<br>法律事務所 </span><span class="arrow">&gt;</span></a></li>
 	</ul>
