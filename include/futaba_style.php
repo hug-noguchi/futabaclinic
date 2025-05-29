@@ -14,7 +14,7 @@
   <h3><span>地域密着</span></h3>
   <div class="pink">
     <?php $url = $_SERVER['REQUEST_URI'];
-      if (strpos($url, 'kinshichou') !== false || strpos($url, 'kitasenju') !== false || strpos($url, 'shinkoiwa') !== false || strpos($url, 'motoyawata') !== false) :
+      if (strpos($url, 'kinshichou') !== false || strpos($url, 'kitasenju') !== false || strpos($url, 'shinkoiwa') !== false) :
     ?>
       <p>
         当法人は、在宅医療を通じて「真の社会貢献」を目指しています。
@@ -27,7 +27,7 @@
         <br><br>
         専属の看護師、ソーシャルワーカーによる地域連携室を設置し、地域の中核病院と密な連携を取り、様々な医療介護従事者と協力し合い、地域の在宅医療の充実を目指します。
       </p>
-    <?php elseif (strpos($url, 'kitanarashino') !== false || strpos($url, 'yachiyo') !== false) : ?>
+    <?php elseif (strpos($url, 'kitanarashino') !== false || strpos($url, 'yachiyo') !== false || strpos($url, 'motoyawata') !== false) : ?>
       <p>
         当グループ代表は千葉で生まれ育ちました。<br>地域医療の充実のために地元千葉に念願の訪問診療専門クリニックを開院しました。
         <br><br>
