@@ -11,12 +11,9 @@
       <?php $url = $_SERVER['REQUEST_URI'];
         if (strpos($url, 'kinshichou') !== false || strpos($url, 'kitasenju') !== false || strpos($url, 'shinkoiwa') !== false) :
       ?>
-        <h3><span class="border">東京城東エリア・千葉ベイエリア</h3>
-        <p class="txt_00">城東エリアの訪問診療はお任せください！</p>
+        <p class="txt_00">東京・千葉の以下地域の訪問診療は当院にお任せください</p>
       <?php elseif (strpos($url, 'kitanarashino') !== false || strpos($url, 'sakura') !== false || strpos($url, 'yachiyo') !== false || strpos($url, 'motoyawata') !== false) : ?>
-        <h3><span class="border">東京城東エリア・千葉ベイエリア</h3>
-        <p class="txt_00">千葉ベイエリアの訪問診療はお任せ下さい！</p>
-        <!-- <p class="txt_00">千葉県北西部・印旛地域の訪問診療はお任せ下さい！</p> -->
+        <p class="txt_00">東京・千葉の以下地域の訪問診療は当院にお任せください</p>
       <?php else : ?>
         <h3><span class="border">埼玉県北東部・利根地域とその周辺地域</span></h3>
         <p class="txt_00">埼玉県北東部の訪問診療はお任せ下さい！</p>
@@ -27,7 +24,7 @@
           if (strpos($url, 'kinshichou') !== false) :
         ?>
           <p>
-            <img src="/common/images/area/map_tokyo.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 錦糸町院 墨田区 江東区 台東区 訪問診療 往診 在宅医療" loading="lazy">
+            <img src="/common/images/area/map_tokyo_chiba.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 錦糸町院 墨田区 江東区 台東区 訪問診療 往診 在宅医療" loading="lazy">
           </p>
           <ul class="desc">
             <li class="desc_kinshichou">
@@ -50,7 +47,7 @@
           <p class="txt_last">※周辺地域の方も気軽にご相談下さい。</p>
         <?php elseif (strpos($url, 'shinkoiwa') !== false) : ?>
           <p>
-            <img src="/common/images/area/map_tokyo.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院 葛飾区 江戸川区 訪問診療 往診 在宅医療" loading="lazy">
+            <img src="/common/images/area/map_tokyo_chiba.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院 葛飾区 江戸川区 訪問診療 往診 在宅医療" loading="lazy">
           </p>
           <ul class="desc">
             <li class="desc_shinkoiwa">
@@ -73,7 +70,7 @@
           <p class="txt_last">※周辺地域の方も気軽にご相談下さい。</p>
         <?php elseif (strpos($url, 'kitasenju') !== false) : ?>
           <p>
-            <img src="/common/images/area/map_tokyo.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 足立区 荒川区 訪問診療 往診 在宅医療">
+            <img src="/common/images/area/map_tokyo_chiba.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 北千住院 足立区 荒川区 訪問診療 往診 在宅医療">
           </p>
           <ul class="desc">
             <li class="desc_kitasenju">
@@ -96,7 +93,7 @@
           <p class="txt_last">※周辺地域の方も気軽にご相談下さい。</p>
         <?php elseif (strpos($url, 'kitanarashino') !== false) : ?>
           <p>
-            <img src="/common/images/area/map_chiba_new.svg" loading="lazy" alt="医療法人社団 爽緑会 ふたば在宅クリニック 北習志野院 船橋市 習志野市 訪問診療 往診 在宅医療">
+            <img src="/common/images/area/map_tokyo_chiba.svg" loading="lazy" alt="医療法人社団 爽緑会 ふたば在宅クリニック 北習志野院 船橋市 習志野市 訪問診療 往診 在宅医療">
           </p>
           <ul class="desc desc_chiba">
             <li class="desc_kitanarashino">
@@ -119,7 +116,7 @@
           <p class="txt_last">※周辺地域の方も気軽にご相談下さい。</p>
         <?php elseif (strpos($url, 'sakura') !== false) : ?>
           <p>
-            <img src="/common/images/area/map_chiba_new.svg" loading="”lazy”" alt="医療法人社団 爽緑会 ふたば在宅クリニック 佐倉院 佐倉市 印西市 四街道市 酒々井町 訪問診療 往診 在宅医療">
+            <img src="/common/images/area/map_tokyo_chiba.svg" loading="”lazy”" alt="医療法人社団 爽緑会 ふたば在宅クリニック 佐倉院 佐倉市 印西市 四街道市 酒々井町 訪問診療 往診 在宅医療">
           </p>
           <ul class="desc desc_chiba">
             <li class="desc_sakura">
@@ -142,7 +139,7 @@
           <p class="txt_last">※周辺地域の方も気軽にご相談下さい。</p>
         <?php elseif (strpos($url, 'yachiyo') !== false) : ?>
           <p>
-            <img src="/common/images/area/map_chiba_new.svg" loading=”lazy” alt="医療法人社団 爽緑会 ふたば在宅クリニック 八千代院 八千代市 千葉市 訪問診療 往診 在宅医療">
+            <img src="/common/images/area/map_tokyo_chiba.svg" loading=”lazy” alt="医療法人社団 爽緑会 ふたば在宅クリニック 八千代院 八千代市 千葉市 訪問診療 往診 在宅医療">
           </p>
           <ul class="desc desc_chiba">
             <li class="desc_yachiyo">
@@ -164,11 +161,8 @@
           </ul>
           <p class="txt_last">※周辺地域の方も気軽にご相談下さい。</p>
         <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
-          <p class="motoyawata_map01">
-            <img src="/common/images/area/map_tokyo.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院 葛飾区 江戸川区 訪問診療 往診 在宅医療" loading="lazy">
-          </p>
-          <p class="motoyawata_map02">
-            <img src="/common/images/area/map_chiba_new.svg" loading="lazy" alt="医療法人社団 爽緑会 ふたば在宅クリニック 本八幡院 市川市 浦安市 訪問診療 往診 在宅医療">
+          <p>
+            <img src="/common/images/area/map_tokyo_chiba.svg" alt="医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院 葛飾区 江戸川区 訪問診療 往診 在宅医療" loading="lazy">
           </p>
           <ul class="desc desc_chiba">
             <li class="desc_motoyawata">

@@ -25,12 +25,12 @@
 }
 #main section div p:nth-child(1) {
   border-radius: 10px;
-  padding: 42px 19px 60px;
+  padding: 42px 0 60px;
   margin-bottom: 0;
   width: 100%;
   text-align: center;
   display: inline-block;
-  text-align: left;
+  text-align: center;
 }
 #main section div .txt_01 {
   font-weight: bold;
@@ -41,8 +41,8 @@
   margin-bottom: 10px;
 }
 #main section div img {
-  width: 500px;
-  padding: 25px 15px 15px 15px;
+  width: 100%;
+  padding: 0;
 }
 #main section div #area_txt div {
   margin-bottom: 10px;
@@ -71,7 +71,7 @@
 #main section .desc,
 #main section .desc + p {
   color: #6c5834;
-  margin-left: 84px;
+  margin-left: auto;
 }
 #main section .desc li {
   align-items: center;
@@ -160,17 +160,15 @@
 
 @media all and (max-width: 480px) {
   #main section div p:nth-child(1) {
-    padding: 52px 19px !important;
-    width: 95%;
-  }
-  #main section div img {
+    padding: 52px 0 !important;
     width: 100%;
-    padding: 0;
   }
   #main section h3 {
     margin: 15px 20px;
   }
-  #main section .desc,
+  #main section .desc {
+    margin-left: 0;
+  }
   #main section .desc + p {
     margin-left: 5px;
   }
@@ -189,29 +187,5 @@
 @media (max-width: 376px) {
   header h1 .txt_00 span {
     font-size: 10px !important;
-  }
-}
-
-/* 本八幡院 */
-#main section div p:nth-child(1).motoyawata_map01 {
-  padding: 42px 19px 0;
-}
-.motoyawata_map02 {
-  border-radius: 10px;
-  padding: 0 19px 60px;
-  margin-bottom: 0;
-  width: 100%;
-  text-align: center;
-  display: inline-block;
-  text-align: left;
-}
-@media (max-width: 480px) {
-  #main section div p:nth-child(1).motoyawata_map01 {
-    padding: 52px 19px 0 !important;
-    width: 95%;
-  }
-  .motoyawata_map02 {
-    padding: 12px 19px 52px !important;
-    width: 95%;
   }
 }
