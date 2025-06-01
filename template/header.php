@@ -237,7 +237,7 @@
             <li class="fax"><span class="fax_txt">047-402-6537</span></li>
           <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
 						<li><a href="/motoyawata/">ホーム</a></li>
-						<li><a href="/motoyawata/message/">代表挨拶・スタッフ紹介</a></li>
+						<li><a href="/motoyawata/message/">理事長挨拶・スタッフ紹介</a></li>
 						<li><a href="/motoyawata/guide/">当院について</a></li>
 						<li><a href="/motoyawata/about/">在宅診療とは</a></li>
 						<li><a href="/motoyawata/faq/">よくあるご質問</a></li>
@@ -380,7 +380,7 @@
         <li><a href="/contact/input_kitanarashino/">お問い合わせ<br>・<br>お申し込み</a></li>
       <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
         <li><a href="/motoyawata/">ホーム</a></li>
-        <li><a href="/motoyawata/message/">代表挨拶<br>・<br>スタッフ紹介</a></li>
+        <li><a href="/motoyawata/message/">理事長挨拶<br>・<br>スタッフ紹介</a></li>
         <li><a href="/motoyawata/guide/">当院について</a></li>
         <li><a href="/motoyawata/about/">在宅診療とは</a></li>
         <li><a href="/motoyawata/faq/">よくあるご質問</a></li>

@@ -38,7 +38,7 @@
 	<article id="wrap">
 		<ul id="breadcrumb">
 			<li><a href="/motoyawata/">ホーム</a>&nbsp;&gt;&nbsp;</li>
-			<li>代表挨拶・スタッフ紹介</li>
+			<li>理事長挨拶・スタッフ紹介</li>
 		</ul>
 		<?php include($_SERVER['DOCUMENT_ROOT'] . '/template/message.php'); ?>
 	</article>

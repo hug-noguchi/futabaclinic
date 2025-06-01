@@ -126,7 +126,7 @@
           <nav class="drawer-nav" role="navigation">
             <ul class="drawer-menu">
               <li><a href="/motoyawata/">ホーム</a></li>
-              <li><a href="/motoyawata/message/">代表挨拶・スタッフ紹介</a></li>
+              <li><a href="/motoyawata/message/">理事長挨拶・スタッフ紹介</a></li>
               <li><a href="/motoyawata/guide/">当院について</a></li>
               <li><a href="/motoyawata/about/">在宅診療とは</a></li>
               <li><a href="/motoyawata/faq/">よくあるご質問</a></li>
@@ -165,7 +165,7 @@
     <nav>
       <ul>
         <li><a href="/motoyawata/">ホーム</a></li>
-        <li><a href="/motoyawata/message/">代表挨拶<br>・<br>スタッフ紹介</a></li>
+        <li><a href="/motoyawata/message/">理事長挨拶<br>・<br>スタッフ紹介</a></li>
         <li><a href="/motoyawata/guide/">当院について</a></li>
         <li><a href="/motoyawata/about/">在宅診療とは</a></li>
         <li><a href="/motoyawata/faq/">よくあるご質問</a></li>

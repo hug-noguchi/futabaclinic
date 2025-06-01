@@ -65,7 +65,7 @@
       <li><a href="/pamphlet_chiba_2025_v2.pdf" target="_blank"><span class="txt">パンフレット <span class="arrow">&gt;</span></span></a></li>
       <li class="faq"><a href="/kitanarashino/faq/"><span class="txt">よくあるご質問 <span class="arrow">&gt;</span></span></a></li>
     <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
-      <li><a href="/motoyawata/message/"><span class="txt">代表挨拶 <span class="arrow">&gt;</span></span></a></li>
+      <li><a href="/motoyawata/message/"><span class="txt">理事長挨拶 <span class="arrow">&gt;</span></span></a></li>
       <li><a href="/motoyawata/about/"><span class="txt">在宅診療とは <span class="arrow">&gt;</span></span></a></li>
       <li><a href="/contact/input_motoyawata/"><span class="txt">お問い合わせ <span class="arrow">&gt;</span></span></a></li>
       <li><a href="/entry_motoyawata.pdf" target="_blank"><span class="txt">お申し込み書 <span class="arrow">&gt;</span></span></a></li>
