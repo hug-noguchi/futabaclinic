@@ -300,9 +300,9 @@
 				<tr>
 					<th>従業員数</th>
 					<td>
-						140名<br>
+						150名<br>
 						※グループ合計<br>
-						※2025年2月現在
+						※2025年6月現在
 					</td>
 				</tr>
 				<tr>
@@ -1032,7 +1032,7 @@
 				</div>
 			<?php elseif (strpos($url, 'sakura') !== false) : ?>
 				<p class="txt_01">佐倉院：京成臼井駅前 南口徒歩30秒です。</p>
-				<p class="txt_01">本八幡院：本八幡駅前 徒歩2分です。</p>
+				<p class="txt_01">本八幡院：京成八幡・本八幡駅 徒歩1分です。</p>
 				<p class="txt_01">北習志野院：北習志野駅前 徒歩1分です。</p>
 				<p class="txt_01">八千代院：勝田台駅前 北口徒歩30秒です。</p>
 				<div class="map_box">
@@ -1065,7 +1065,7 @@
 				</div>
 			<?php elseif (strpos($url, 'yachiyo') !== false) : ?>
 				<p class="txt_01">八千代院：勝田台駅前 北口徒歩30秒です。</p>
-				<p class="txt_01">本八幡院：本八幡駅前 徒歩2分です。</p>
+				<p class="txt_01">本八幡院：京成八幡・本八幡駅 徒歩1分です。</p>
 				<p class="txt_01">北習志野院：北習志野駅前 徒歩1分です。</p>
 				<p class="txt_01">佐倉院：京成臼井駅前 南口徒歩30秒です。</p>
 				<div class="map_box">
@@ -1098,7 +1098,7 @@
 				</div>
 			<?php elseif (strpos($url, 'kitanarashino') !== false) : ?>
 				<p class="txt_01">北習志野院：北習志野駅前 徒歩1分です。</p>
-				<p class="txt_01">本八幡院：本八幡駅前 徒歩2分です。</p>
+				<p class="txt_01">本八幡院：京成八幡・本八幡駅 徒歩1分です。</p>
 				<p class="txt_01">佐倉院：京成臼井駅前 南口徒歩30秒です。</p>
 				<p class="txt_01">八千代院：勝田台駅前 北口徒歩30秒です。</p>
 				<div class="map_box">
@@ -1130,7 +1130,7 @@
 					</div>
 				</div>
 			<?php elseif (strpos($url, 'motoyawata') !== false) : ?>
-				<p class="txt_01">本八幡院：本八幡駅前 徒歩2分です。</p>
+				<p class="txt_01">京成八幡・本八幡駅 徒歩1分です。</p>
 				<div class="map_box">
 					<p class="map_ttl">本八幡</p>
 					<p class="txt_02">〒272-0021 千葉県市川市八幡3-3-2グランドターミナルタワー1階 J108号</p>
