@@ -1,22 +1,41 @@
 <div id="visual">
 	<p>
-		<img class="pc" src="/common/images/message_key_chiba.jpg" srcset="/common/images/message_key_chiba_2x.jpg 2x" loading=”lazy” alt="代表挨拶・スタッフ紹介">
-		<img class="sp" src="/common/images/message_sp_key_chiba.jpg" srcset="/common/images/message_sp_key_chiba_2x.jpg 2x" loading=”lazy” alt="代表挨拶・スタッフ紹介">
+		<?php $url = $_SERVER['REQUEST_URI'];
+			if (strpos($url, 'shinkoiwa') !== false || strpos($url, 'motoyawata') !== false) :
+		?>
+			<img class="pc" src="/common/images/message_key_riji.jpg" srcset="/common/images/message_key_riji_2x.jpg 2x" loading=”lazy” alt="理事長挨拶・スタッフ紹介">
+			<img class="sp" src="/common/images/message_sp_key_riji.jpg" srcset="/common/images/message_sp_key_riji_2x.jpg 2x" loading=”lazy” alt="理事長挨拶・スタッフ紹介">
+		<?php else : ?>
+			<img class="pc" src="/common/images/message_key_chiba.jpg" srcset="/common/images/message_key_chiba_2x.jpg 2x" loading=”lazy” alt="代表挨拶・スタッフ紹介">
+			<img class="sp" src="/common/images/message_sp_key_chiba.jpg" srcset="/common/images/message_sp_key_chiba_2x.jpg 2x" loading=”lazy” alt="代表挨拶・スタッフ紹介">
+		<?php endif; ?>
 	</p>
 </div>
 <div id="contents">
 	<div id="main">
 		<section>
-			<h2>代表挨拶</h2>
+			<?php $url = $_SERVER['REQUEST_URI'];
+				if (strpos($url, 'shinkoiwa') !== false || strpos($url, 'motoyawata') !== false) :
+			?>
+				<h2>理事長挨拶</h2>
+			<?php else : ?>
+				<h2>代表挨拶</h2>
+			<?php endif; ?>
 			<div class="box_wrap">
 				<div class="box">
-					<img class="pc" src="/common/images/message_photo_01.jpg" srcset="/common/images/message_photo_01_2x.jpg 2x" loading=”lazy” alt="ふたば在宅クリニック 代表・統括院長 石井 成伸">
-					<img class="sp" src="/common/images/message_sp_photo_01.jpg" srcset="/common/images/message_sp_photo_01_2x.jpg 2x" loading=”lazy” alt="ふたば在宅クリニック 代表・統括院長 石井 成伸">
+					<img class="pc" src="/common/images/message_photo_01.jpg" srcset="/common/images/message_photo_01_2x.jpg 2x" loading=”lazy” alt="ふたば在宅クリニック 理事長・代表・統括院長 石井 成伸">
+					<img class="sp" src="/common/images/message_sp_photo_01.jpg" srcset="/common/images/message_sp_photo_01_2x.jpg 2x" loading=”lazy” alt="ふたば在宅クリニック 理事長・代表・統括院長 石井 成伸">
 					<div class="txt_box">
 						<h3>
 							<span class="border">
-								<span class="txt_01">代表・統括院長</span> 石井 成伸
-								<span class="txt_02">（いしい まさのぶ）</span>
+								<?php $url = $_SERVER['REQUEST_URI'];
+									if (strpos($url, 'shinkoiwa') !== false || strpos($url, 'motoyawata') !== false) :
+								?>
+									<span class="txt_01">理事長</span>
+								<?php else : ?>
+									<span class="txt_01">代表・統括院長</span>
+								<?php endif; ?>
+								 石井 成伸<span class="txt_02">（いしい まさのぶ）</span>
 							</span>
 						</h3>
 						<dl>
@@ -44,6 +63,8 @@
 						<?php $url = $_SERVER['REQUEST_URI'];
 							if (strpos($url, 'kinshichou') !== false || strpos($url, 'kitasenju') !== false || strpos($url, 'shinkoiwa') !== false) :
 						?>
+							<p class="message_box_title pc">この国の未来のために、持続可能な在宅医療を</p>
+							<p class="message_box_title sp">この国の未来のために<br>持続可能な在宅医療を</p>
 							<p>
 								皆様、ふたば在宅クリニックのホームページをご覧いただきありがとうございます。<br>
 								理事長の石井成伸と申します。
@@ -80,6 +101,8 @@
 								対話を重視し、より良い療養生活を送れるように、地域の中核病院とも連携を取りながらサポートさせていただきます。
 							</p>
 						<?php elseif (strpos($url, 'sakura') !== false) : ?>
+							<p class="message_box_title pc">この国の未来のために、持続可能な在宅医療を</p>
+							<p class="message_box_title sp">この国の未来のために<br>持続可能な在宅医療を</p>
 							<p>
 								皆様、ふたば在宅クリニックのホームページをご覧いただきありがとうございます。<br>
 								統括院長の石井成伸と申します。
@@ -118,6 +141,8 @@
 								対話を重視し、より良い療養生活を送れるように、地域の中核病院とも連携を取りながらサポートさせていただきます。
 							</p>
 						<?php elseif (strpos($url, 'kitanarashino') !== false || strpos($url, 'yachiyo') !== false) : ?>
+							<p class="message_box_title pc">この国の未来のために、持続可能な在宅医療を</p>
+							<p class="message_box_title sp">この国の未来のために<br>持続可能な在宅医療を</p>
 							<p>
 								皆様、ふたば在宅クリニックのホームページをご覧いただきありがとうございます。<br>
 								統括院長の石井成伸と申します。
@@ -156,6 +181,8 @@
 								対話を重視し、より良い療養生活を送れるように、地域の中核病院とも連携を取りながらサポートさせていただきます。
 							</p>
 						<?php elseif (strpos($url, 'motoyawata') !== false) : ?>
+							<p class="message_box_title pc">この国の未来のために、持続可能な在宅医療を</p>
+							<p class="message_box_title sp">この国の未来のために<br>持続可能な在宅医療を</p>
 							<p>
 								皆様、ふたば在宅クリニックのホームページをご覧いただきありがとうございます。<br>
 								理事長の石井成伸と申します。
@@ -194,6 +221,8 @@
 								対話を重視し、より良い療養生活を送れるように、地域の中核病院とも連携を取りながらサポートさせていただきます。
 							</p>
 						<?php else : ?>
+							<p class="message_box_title pc">この国の未来のために、持続可能な在宅医療を</p>
+							<p class="message_box_title sp">この国の未来のために<br>持続可能な在宅医療を</p>
 							<p>
 								皆様、ふたば在宅クリニックのホームページをご覧いただきありがとうございます。<br>
 								理事長の石井成伸と申します。
@@ -394,7 +423,7 @@
 					</li>
 				</ul>
 			</p>
-			<p class="department">腎臓・泌尿器科</p>
+			<p class="department">腎臓内科・泌尿器科</p>
 			<ul class="docter-lists">
 				<li>
 					<dl>
@@ -691,7 +720,7 @@
 						</dl>
 					</li>
 				</ul>
-				<p class="department">腎臓・泌尿器科</p>
+				<p class="department">腎臓内科・泌尿器科</p>
 				<ul class="docter-lists">
 					<li>
 						<dl>

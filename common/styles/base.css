@@ -1693,6 +1693,12 @@ section#shinryou_box #shinryou ul li {
 .message_box {
   position: relative;
 }
+.message_box .message_box_title {
+  color: #f48a9d;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 27px 0 22px;
+}
 .message_box .name_sign,
 .message_box .name_sign_02 {
   text-align: right;
@@ -1727,6 +1733,9 @@ section#shinryou_box #shinryou ul li {
   .message_box .name_sign::after,
   .message_box .name_sign_02::after {
     width: 44%;
+  }
+  .message_box .message_box_title {
+    padding: 10px 0 18px;
   }
 }
 
