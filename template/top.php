@@ -72,7 +72,7 @@
             <?php elseif (strpos($url, 'yachiyo') !== false) : ?>
               <p class="txt_02">京成本線〈勝田台駅〉北口徒歩30秒</p>
             <?php elseif (strpos($url, 'motoyawata') !== false) : ?>
-              <p class="txt_02">京成本線〈本八幡駅〉徒歩2分</p>
+              <p class="txt_02">京成八幡・本八幡駅 徒歩1分</p>
             <?php endif; ?>
             <p class="txt_03 pc"><img src="/common/images/logo_v2_top.svg" alt="ふたば在宅クリニック"  loading="lazy"></p>
             <p class="txt_03 sp"><img src="/common/images/logo_v2_top_sp.svg" alt="ふたば在宅クリニック" loading="lazy"></p>
